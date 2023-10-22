@@ -4,6 +4,24 @@ import HeroImage from "./components/images/hero-cut.jpg";
 import "./styles.css";
 import "./font/font.css";
 
+/*
+#TODO
+ footer
+ impressum
+ create all sections
+ fill with content (wait for autumn, better images)
+
+ journey:
+   include google maps
+
+ contact:
+  easiest way: <a href="mailto:contact@cityofseekers.eu>contact@cityofseekers.eu</a>"
+
+  FAQ:
+    ask commmunity what infos they would like on the faq site
+
+*/
+
 function WelcomeSection() {
   return (
     <div className="relative w-full h-screen">
