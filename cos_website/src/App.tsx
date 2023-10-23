@@ -13,7 +13,6 @@ import Footer from "./components/Footer";
  fill with content (wait for autumn, better images)
 
  General:
-  I would like the headings in the funny font and the default text in
 
  journey:
    include google maps
@@ -22,7 +21,11 @@ import Footer from "./components/Footer";
   easiest way: <a href="mailto:contact@cityofseekers.eu>contact@cityofseekers.eu</a>"
 
   FAQ:
-    ask commmunity what infos they would like on the faq site
+    *ask commmunity what infos they would like on the faq site
+    Make it ausklappable 
+      frage groß mit nem ausklapp pfeil nach unten
+      soll bitte smooth sein xD
+
 
 */
 
@@ -58,7 +61,7 @@ function Program() {
       />
       <div className="absolute top-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
         <div className="text-white text-center">
-          <h1 className="text-4xl font-bold">Program for 2024</h1>
+          <h1 className="text-4xl font-bold font-omnes">Program for 2024</h1>
         </div>
       </div>
     </div>
@@ -75,7 +78,9 @@ function Faq() {
       />
       <div className="absolute top-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
         <div className="text-white text-center">
-          <h1 className="text-4xl font-bold">Frequently asked questions</h1>
+          <h1 className="text-4xl font-bold font-omnes">
+            Frequently asked questions
+          </h1>
         </div>
       </div>
     </div>

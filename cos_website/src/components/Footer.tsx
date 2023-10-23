@@ -1,11 +1,10 @@
-import { Link } from "react-scroll";
-import "../font/font.css";
-
 /**#TODO
  *
  * center items in footer,
  * link to impressum etc
  */
+
+import "../font/font.css";
 import footer_transition from "../components/images/footer_transition.png";
 
 function Footer() {
@@ -16,20 +15,20 @@ function Footer() {
         className="w-full h-full object-cover"
         alt="Festival"
       />
-      <div className="pb-14 flex px-8 space-x-4 sm:w-full md:w-10/12 ">
-        <div className="w-2/3">
+      <div className="flex flex-col sm:flex-row space-y-8 sm:space-y-0 px-8 sm:space-x-4 w-10/12 mx-auto pb-14 pt-7">
+        <div className="w-full sm:w-1/3">
           <p className="text-xl pb-5 font-omnes">City Of Seekers</p>
-          <p className="">
+          <p>
             City of Seekers is a space for people to make new connections and
             deepen existing ones, all in an open and fun setting where it is
             easy to get into contact with strangers / new friends.
           </p>
         </div>
-        <div className="">
+        <div className="w-full sm:w-1/3">
           <div className="pb-5 font-omnes">Location</div>
           <div>Pferdeweg 2, 31787 Hameln, Germany</div>
         </div>
-        <div>
+        <div className="w-full sm:w-1/3">
           <div className="pb-5 font-omnes">Legal Stuff</div>
           <div>
             Impressum,
@@ -39,10 +38,8 @@ function Footer() {
         </div>
       </div>
       <div className="text-xs text-center">
-        <div className="">6, 7, 8 & 9. June 2025 - Hamelin, Germany</div>
-        <div className="">
-          @2023 City Of Seekers Festival. All rights reserved.
-        </div>
+        <div>6, 7, 8 & 9. June 2025 - Hamelin, Germany</div>
+        <div>@2023 City Of Seekers Festival. All rights reserved.</div>
       </div>
     </div>
   );
