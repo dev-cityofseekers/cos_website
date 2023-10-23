@@ -10,7 +10,7 @@ stick to bottom until the scroll position reaches a normal navbar position
 */
 function Header() {
   return (
-    <nav className="fixed top-0 w-full bg-cos-yellow  text-black p-4 z-10">
+    <nav className="fixed top-0 w-full bg-cos-yellow text-black font-omnes p-4 z-10">
       <ul className="flex justify-center space-x-3">
         <li>
           <Link

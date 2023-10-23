@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import HeroImage from "./components/images/hero-cut.jpg";
 import "./styles.css";
 import "./font/font.css";
+import Footer from "./components/Footer";
 
 /*
 #TODO
@@ -10,6 +11,9 @@ import "./font/font.css";
  impressum
  create all sections
  fill with content (wait for autumn, better images)
+
+ General:
+  I would like the headings in the funny font and the default text in
 
  journey:
    include google maps
@@ -32,7 +36,7 @@ function WelcomeSection() {
       />
       <div className="absolute top-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
         <div className="text-white text-center">
-          <h1 className="text-4xl font-bold">City of Seekers</h1>
+          <h1 className="text-4xl font-bold font-omnes">City of Seekers</h1>
           <p className="text-xl mt-4">Come as a stranger, leave as a friend</p>
           <div>
             <div className="text-2xl mt-4">6.-9. June 2024,</div>
@@ -78,9 +82,13 @@ function Faq() {
   );
 }
 
+function Last() {
+  return <div className="h-12 "></div>;
+}
+
 function App() {
   return (
-    <div className="w-full">
+    <div className="w-full bg-cos-yellow">
       <Header />
       <div id="welcome" className="h-screen">
         <WelcomeSection />
@@ -91,6 +99,8 @@ function App() {
       <div id="faq" className="h-screen">
         <Faq />
       </div>
+      <Last />
+      <Footer />
     </div>
   );
 }
