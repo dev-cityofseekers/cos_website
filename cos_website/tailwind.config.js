@@ -20,6 +20,7 @@ module.exports = {
     },
     backgroundImage: {
       'gradient-background-image': "url('./components/images/gradient.png')",
+      'gradient-background-image-vertical': "url('./components/images/gradient_vert.png')",
     },
   
   },
