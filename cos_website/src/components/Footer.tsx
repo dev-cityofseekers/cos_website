@@ -1,11 +1,13 @@
+import "../font/font.css";
+import footer_transition from "../components/images/footer_transition.png";
+import { FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 /**#TODO
  *
  * center items in footer,
- * link to impressum etc
+ *
  */
-
-import "../font/font.css";
-import footer_transition from "../components/images/footer_transition.png";
 
 function Footer() {
   return (
@@ -31,13 +33,15 @@ function Footer() {
         <div className="w-full sm:w-1/3">
           <div className="pb-5 font-omnes">Legal Stuff</div>
           <div>
-            Impressum,
-            <br /> Data-protection,
-            <br /> T & C
+            <Link to="/imprint">Imprint</Link>,
+            <br /> <Link to="/privacy-policy">Privacy-policy</Link>
+            <a href="https://instagram.com/cityofseekers" className="mt-8">
+              <FaInstagram className="text-2xl pt-2" />
+            </a>
           </div>
         </div>
       </div>
-      <div className="text-xs text-center">
+      <div className="text-xs text-center pb-7">
         <div>6, 7, 8 & 9. June 2025 - Hamelin, Germany</div>
         <div>@2023 City Of Seekers Festival. All rights reserved.</div>
       </div>
