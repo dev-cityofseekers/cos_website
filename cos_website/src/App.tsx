@@ -1,9 +1,19 @@
 import React from "react";
-import Header from "./components/Header";
-import HeroImage from "./components/images/hero-cut.jpg";
+
+//css
 import "./styles.css";
 import "./font/font.css";
-import Footer from "./components/Footer";
+
+//components
+
+//icons & images
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+import HeroImage from "./components/images/hero-cut.jpg";
+import FAQ from "./components/sections/FAQ";
+import Welcome from "./components/sections/Welcome";
+import aboveFaqSvg from "./components/images/FAQ_border.svg";
+import Where from "./components/sections/Where";
+import Header from "./components/Header";
 
 /*
 #TODO
@@ -29,61 +39,22 @@ import Footer from "./components/Footer";
 
 */
 
-function WelcomeSection() {
+function Program() {
   return (
-    <div className="relative w-full h-screen">
-      <img
-        src={HeroImage}
-        className="w-full h-full object-cover"
-        alt="Festival"
-      />
-      <div className="absolute top-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
-        <div className="text-white text-center">
-          <h1 className="text-4xl font-bold font-omnes">City of Seekers</h1>
-          <p className="text-xl mt-4">Come as a stranger, leave as a friend</p>
-          <div>
-            <div className="text-2xl mt-4">6.-9. June 2024,</div>
-            <div className="text-xl mt-4 font-sans">Hamelin Germany</div>
+    <>
+      <div className="relative w-full h-screen">
+        <img
+          src={HeroImage}
+          className="w-full h-full object-cover"
+          alt="Festival"
+        />
+        <div className="absolute top-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
+          <div className="text-white text-center">
+            <h1 className="text-4xl font-bold font-omnes">Program for 2024</h1>
           </div>
         </div>
       </div>
-    </div>
-  );
-}
-
-function Program() {
-  return (
-    <div className="relative w-full h-screen">
-      <img
-        src={HeroImage}
-        className="w-full h-full object-cover"
-        alt="Festival"
-      />
-      <div className="absolute top-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
-        <div className="text-white text-center">
-          <h1 className="text-4xl font-bold font-omnes">Program for 2024</h1>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Faq() {
-  return (
-    <div className="relative w-full h-screen">
-      <img
-        src={HeroImage}
-        className="w-full h-full object-cover"
-        alt="Festival"
-      />
-      <div className="absolute top-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
-        <div className="text-white text-center">
-          <h1 className="text-4xl font-bold font-omnes">
-            Frequently asked questions
-          </h1>
-        </div>
-      </div>
-    </div>
+    </>
   );
 }
 
@@ -93,19 +64,21 @@ function Last() {
 
 function App() {
   return (
-    <div className="w-full bg-cos-yellow">
+    <div className="w-full bg-cos-main-orange">
       <Header />
       <div id="welcome" className="h-screen">
-        <WelcomeSection />
+        <Welcome />
       </div>
       <div id="program" className="h-screen">
         <Program />
       </div>
-      <div id="faq" className="h-screen">
-        <Faq />
+      <div id="where" className="">
+        <Where />
+      </div>
+      <div id="faq" className="">
+        <FAQ />
       </div>
       <Last />
-      <Footer />
     </div>
   );
 }
