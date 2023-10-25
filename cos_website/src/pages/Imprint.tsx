@@ -6,7 +6,7 @@ function Imprint() {
       <div className="w-full flex justify-center">
         <a
           href="/"
-          className="fixed w-4/12 mt-7 bg-gradient-background-image text-cos-off-black p-4 px-10 z-10 hidden sm:flex justify-center rounded-full"
+          className="fixed w-4/12 mt-7 bg-gradient-background-image text-white p-4 px-10 z-10  justify-center rounded-full"
         >
           Home
         </a>
