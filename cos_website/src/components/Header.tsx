@@ -65,16 +65,16 @@ function Header() {
       </div>
 
       {/* Mobile Version */}
-      <nav className="sm:hidden fixed top-0 w-10/12 bg-gradient-background-image ml-10 mt-7 text-cos-off-black p-4 px-10 z-10 flex justify-between items-center rounded-full">
+      <nav className="sm:hidden fixed top-0 w-10/12 bg-gradient-background-image-vertical-short ml-10 mt-7 text-cos-off-black p-4 px-10 z-10 flex justify-between items-center rounded-full">
         <img src={logo_small} alt="logo" className="w-7" />
         <FaBars onClick={() => setIsMenuOpen(true)} />
       </nav>
 
       {isMenuOpen && (
-        <div className="fixed top-0 w-full h-full bg-gradient-background-image-vertical text-white z-20 p-8">
+        <div className="fixed  w-full h-full bg-gradient-background-image-vertical text-white z-20 p-8">
           <div className="w-full pb-24">
             <FaTimes
-              className="text-2xl mb-8 cursor-pointer float-right"
+              className="text-2xl mb-8 cursor-pointer float-right "
               onClick={() => setIsMenuOpen(false)}
             />
           </div>
