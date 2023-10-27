@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import yourLogo from "../images/logo_small.png";
 import sunsetImage from "../images/hero-cut.jpg";
+import otherIMage from "../images/freedyi_mic.png";
 
 function Welcome2() {
   return (

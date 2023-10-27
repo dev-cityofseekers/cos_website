@@ -14,6 +14,7 @@ import Welcome from "./components/sections/Welcome";
 import aboveFaqSvg from "./components/images/FAQ_border.svg";
 import Where from "./components/sections/Where";
 import Header from "./components/Header";
+import Wallpaper from "./components/sections/Wallpaper";
 
 /*
 #TODO
@@ -68,6 +69,9 @@ function App() {
       <Header />
       <div id="welcome" className="h-screen">
         <Welcome />
+      </div>
+      <div id="wallpaper" className="h-screen">
+        <Wallpaper />
       </div>
       <div id="program" className="h-screen">
         <Program />
