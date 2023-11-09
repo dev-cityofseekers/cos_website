@@ -93,7 +93,8 @@ const Wallpaper: React.FC = () => {
   useEffect(() => {
     const numberOfImages = 14;
     const randomIndex = Math.floor(Math.random() * numberOfImages) + 1;
-    setBgClassName(`bg-image-wallpaper-src-${randomIndex}`);
+    //setBgClassName(`bg-image-wallpaper-src-${randomIndex}`);
+    setBgClassName(`bg-image-wallpaper-src-6`);
   }, []); // Empty dependency array means this effect will only run once, similar to componentDidMount
 
   if (!bgClassName) return null; // or return a loader/spinner

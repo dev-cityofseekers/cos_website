@@ -8,13 +8,41 @@ const FAQ = () => {
 
   const questions = [
     {
-      question: "What is XYZ?",
-      answer: "XYZ is a product that helps you do ABC.",
+      question: "Who is running City Of Seekers?",
+      answer:
+        "We are a young and motivated team that came together through the global YesFam community, which was originally created by the successful Youtube channel Yes Theory. Even though our festival is not directly connected to the community or the channel, we share the same vision: Create connections, learn new things by seeking discomfort.",
     },
     {
-      question: "How do I use XYZ?",
-      answer: "You can use XYZ by following these steps...",
+      question: "Who is it for?",
+      answer:
+        "City of Seekers is a festival to welcome people of all ages, genders, races & religions. A place to create new friendships, constructively seek discomfort and challenge yourself among a group of like-minded people.",
     },
+    {
+      question: "When is it happening?",
+      answer: "6. - 9. June 2024",
+    },
+    {
+      question: "Arrival & Depature",
+      answer: "",
+    },
+    {
+      question: "Is there a schedule",
+      answer:
+        "The schedule will be released closer to the date of the festival, follow our Instagram to keep up to date with the latest news.",
+    },
+    {
+      question: "",
+      answer: "",
+    },
+    {
+      question: "",
+      answer: "",
+    },
+    {
+      question: "",
+      answer: "",
+    },
+
     // ... more questions
   ];
 
@@ -35,7 +63,7 @@ const FAQ = () => {
         </h2>
         <div>
           {questions.map((item, index) => (
-            <div key={index} className="mb-4 rounded-md">
+            <div key={index} className="mb-4 rounded-md select-none text-lg">
               <div
                 className="flex justify-between items-center p-4 cursor-pointer"
                 onClick={() => toggleAnswer(index)}

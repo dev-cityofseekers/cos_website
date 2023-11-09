@@ -1,8 +1,8 @@
 import "../font/font.css";
-import footer_transition from "../components/images/footer_transition.png";
+//import footer_transition from "../components/images/footer_transition.png";
 import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import logo_white from "./images/logo_white_transparent.png";
+//import logo_white from "../images/logo_white_transparent.png";
 
 /**#TODO
  *
@@ -14,7 +14,7 @@ function Footer() {
   return (
     <div className="bg-cos-off-black text-white">
       <img
-        src={footer_transition}
+        src="/images/footer_transition.png"
         className="w-full h-full object-cover"
         alt="Festival"
       />
@@ -30,7 +30,11 @@ function Footer() {
         <div className="w-full sm:w-1/3">
           <div className="pb-5 font-omnes">Location</div>
           <div>Pferdeweg 2, 31787 Hameln, Germany</div>
-          <img src={logo_white} alt="logo" className="w-24  sm:mx-auto  pt-6" />
+          <img
+            src="/images/logo_white_transparent.png"
+            alt="logo"
+            className="w-24  sm:mx-auto  pt-6"
+          />
         </div>
         <div className="w-full sm:w-1/3">
           <div className="pb-5 font-omnes">Legal Stuff</div>

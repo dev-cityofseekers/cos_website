@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 import { FaInstagram, FaBars, FaTimes } from "react-icons/fa";
 import { useActiveSection } from "../hooks/findActiveSection";
 import "../font/font.css";
-import logo_white from "./images/logo_white_transparent.png";
+//import logo_white from "./images/logo_white_transparent.png";
 import "../styles/gradientAnimation.css";
 
 var cookie = 0;
@@ -64,7 +64,11 @@ function Header() {
       {/* Mobile Version */}
       <nav className="sm:hidden fixed top-0 w-10/12 bg-gradient-background-image-vertical-short ml-10 mt-7 text-white p-4 px-10 z-10 flex justify-between items-center rounded-full">
         <a href="/">
-          <img src={logo_white} alt="logo" className="w-14" />
+          <img
+            src="/images/logo_white_transparent.png"
+            alt="logo"
+            className="w-14"
+          />
         </a>
         <FaBars onClick={() => setIsMenuOpen(true)} />
       </nav>

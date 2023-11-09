@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-scroll";
 import yourLogo from "../images/logo_small.png";
-import sunsetImage from "../images/hero-cut.jpg";
-import otherIMage from "../images/freedyi_mic.png";
+import sunsetImage from "/images/hero-cut.jpg";
 
+/*
 function Welcome2() {
   return (
     <section
@@ -24,7 +24,7 @@ function Welcome2() {
               FAQ
             </Link>
           </li>
-          {/* ... other menu items ... */}
+       
         </ul>
       </nav>
 
@@ -36,23 +36,23 @@ function Welcome2() {
       </div>
     </section>
   );
-}
+}*/
 
 function Welcome() {
   return (
     <div className="relative w-full h-screen">
       <img
-        src={sunsetImage}
+        src="/images/hero-cut.jpg"
+        alt="Hero"
         className="w-full h-full object-cover"
-        alt="Festival"
       />
-      <div className="absolute top-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
-        <div className="text-white text-center">
-          <h1 className="text-4xl font-bold font-omnes">City of Seekers</h1>
-          <p className="text-xl mt-4">Come as a stranger, leave as a friend</p>
-          <div>
-            <div className="text-2xl mt-4">6.-9. June 2024,</div>
-            <div className="text-xl mt-4 font-sans">Hamelin Germany</div>
+      <div className="absolute top-0 w-full h-full flex items-center justify-center">
+        <div className="text-cos-off-black font-omnes text-center text-8xl">
+          Come as a stranger,
+          <br /> leave as a friend.
+          <div className="text-cos-off-black font-omnes text-center text-4xl">
+            June 6-9 2024 <br />
+            Hameln, Germany
           </div>
         </div>
       </div>
