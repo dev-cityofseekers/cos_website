@@ -22,9 +22,14 @@ module.exports = {
       'gradient-background-image': "url('./components/images/gradient.png')",
       'gradient-background-image-vertical': "url('./components/images/gradient_vert.png')",
       'gradient-background-image-vertical-short': "url('./components/images/gradient_vert_short.png')",
-    },
-  
+
+
+
+    }, 
   },
-  
 }
 
+/*
+
+      'what-cos-is': "url('../public/wallpapers/what_img.JPG')",
+*/

@@ -14,72 +14,62 @@ import Welcome from "./components/sections/Welcome";
 import aboveFaqSvg from "./components/images/FAQ_border.svg";
 import Where from "./components/sections/Where";
 import Header from "./components/Header";
+import Wallpaper from "./components/sections/Wallpaper";
+import Footer from "./components/Footer";
+import What from "./components/sections/What";
+import Team from "./components/sections/Team";
+import Contact from "./components/sections/Contact";
 
 /*
 #TODO
- footer
- impressum
  create all sections
  fill with content (wait for autumn, better images)
 
  General:
 
  journey:
-   include google maps
 
  contact:
   easiest way: <a href="mailto:contact@cityofseekers.eu>contact@cityofseekers.eu</a>"
 
   FAQ:
-    *ask commmunity what infos they would like on the faq site
-    Make it ausklappable 
-      frage groß mit nem ausklapp pfeil nach unten
-      soll bitte smooth sein xD
+fragen von alter seite
 
 
+
+classname="overflow-y-scroll snap-y snap-mandatory scroll-smooth"
 */
 
-function Program() {
+function App() {
   return (
     <>
-      <div className="relative w-full h-screen">
-        <img
-          src={HeroImage}
-          className="w-full h-full object-cover"
-          alt="Festival"
-        />
-        <div className="absolute top-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
-          <div className="text-white text-center">
-            <h1 className="text-4xl font-bold font-omnes">Program for 2024</h1>
+      <Header />
+      <div className=" h-screen">
+        <div className="w-full bg-cos-main-orange">
+          <div id="welcome" className="h-screen snap-start">
+            <Welcome />
+          </div>
+          <div id="COS?" className="h-screen overflow-hidden snap-center">
+            <What />
+          </div>
+          <div id="where" className=" overflow-hidden snap-center">
+            <Where />
+          </div>
+          <div id="faq" className="h-screen overflow-hidden snap-center">
+            <FAQ />
+          </div>
+          <div id="team" className="h-screen overflow-hidden snap-center">
+            <Team />
+          </div>
+          <div id="contact" className="h-screen overflow-hidden snap-center">
+            <Contact />
+          </div>
+          <div className="bg-cos-off-black  snap-end">
+            <Footer />
           </div>
         </div>
       </div>
     </>
-  );
-}
-
-function Last() {
-  return <div className="h-12 "></div>;
-}
-
-function App() {
-  return (
-    <div className="w-full bg-cos-main-orange">
-      <Header />
-      <div id="welcome" className="h-screen">
-        <Welcome />
-      </div>
-      <div id="program" className="h-screen">
-        <Program />
-      </div>
-      <div id="where" className="">
-        <Where />
-      </div>
-      <div id="faq" className="">
-        <FAQ />
-      </div>
-      <Last />
-    </div>
   );
 }
 
