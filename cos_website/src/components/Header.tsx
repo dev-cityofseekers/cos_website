@@ -31,7 +31,7 @@ function ClickerPlusOne() {
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const sections = ["welcome", "program", "where", "faq", "team", "contact"];
+  const sections = ["welcome", "COS?", "where", "faq", "team", "contact"];
   const activeSection = useActiveSection(sections);
 
   return (

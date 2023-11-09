@@ -17,6 +17,8 @@ import Header from "./components/Header";
 import Wallpaper from "./components/sections/Wallpaper";
 import Footer from "./components/Footer";
 import What from "./components/sections/What";
+import Team from "./components/sections/Team";
+import Contact from "./components/sections/Contact";
 
 /*
 #TODO
@@ -47,11 +49,20 @@ function App() {
           <div id="welcome" className="h-screen snap-start">
             <Welcome />
           </div>
-          <div id="what" className="h-screen snap-center">
+          <div id="COS?" className="h-screen overflow-hidden snap-center">
             <What />
           </div>
-          <div id="where" className="h-screen snap-center">
+          <div id="where" className=" overflow-hidden snap-center">
             <Where />
+          </div>
+          <div id="faq" className="h-screen overflow-hidden snap-center">
+            <FAQ />
+          </div>
+          <div id="team" className="h-screen overflow-hidden snap-center">
+            <Team />
+          </div>
+          <div id="contact" className="h-screen overflow-hidden snap-center">
+            <Contact />
           </div>
           <div className="bg-cos-off-black  snap-end">
             <Footer />

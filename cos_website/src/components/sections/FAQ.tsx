@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 //images
-import aboveFaqSvg from "../images/FAQ_border.svg";
+//import aboveFaqSvg from "../images/FAQ_border.svg";
 
 const FAQ = () => {
   const [openQuestions, setOpenQuestions] = useState<number[]>([]);
@@ -54,9 +54,11 @@ const FAQ = () => {
     }
   };
 
+//<img src="/images/FAQ_border.svg" className="w-full" alt="FAQ border" />
+
   return (
     <div>
-      <img src={aboveFaqSvg} className="w-full" alt="FAQ border" />
+      
       <div className="max-w-2xl mx-auto my-8 p-6">
         <h2 className="text-2xl font-semibold mb-4 font-omnes">
           Frequently Asked Questions
