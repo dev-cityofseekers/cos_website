@@ -31,8 +31,8 @@ const FAQ = () => {
         "The schedule will be released closer to the date of the festival, follow our Instagram to keep up to date with the latest news.",
     },
     {
-      question: "",
-      answer: "",
+      question: "Will there be food and drinks?",
+      answer: "We have got you covered for sweets and drinks. For everything else make sure to bring enough supplies.",
     },
     {
       question: "",
