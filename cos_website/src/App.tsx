@@ -53,7 +53,7 @@ function App() {
           <div id="faq" className="h-screen overflow-hidden snap-center">
             <FAQ />
           </div>
-          <div id="team" className="h-screen overflow-hidden snap-center">
+          <div id="team" className="  snap-center">
             <Team />
           </div>
           <div id="contact" className="h-screen overflow-hidden snap-center">
