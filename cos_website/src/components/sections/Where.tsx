@@ -3,9 +3,7 @@ function Where() {
   return (
     <div className="w-full">
 
-      <div className="font-omnes text-center text-4xl pb-14 pt-10">
-        Where is the Festival?
-      </div>
+     
 
       <div className="flex flex-col md:flex-row">
         {/* Left Half: Google Maps (iframe) */}
