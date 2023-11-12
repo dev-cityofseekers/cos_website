@@ -47,10 +47,12 @@ function Welcome() {
         className="w-full h-full object-cover"
       />
       <div className="absolute top-0 w-full h-full flex items-center justify-center">
-        <div className="text-cos-off-black font-omnes text-center text-8xl">
-          Come as a stranger,
-          <br /> leave as a friend.
-          <div className="text-cos-off-black font-omnes text-center text-4xl">
+        <div>
+          <div className="text-cos-off-black font-omnes text-center text-6xl lg:text-8xl">
+            Come as a stranger,
+            <br /> leave as a friend.
+          </div>
+          <div className="text-cos-off-black font-omnes text-center text-4xl lg:text-6xl">
             June 6-9 2024 <br />
             Hameln, Germany
           </div>
@@ -59,5 +61,8 @@ function Welcome() {
     </div>
   );
 }
+
+
+
 
 export default Welcome;

@@ -1,4 +1,3 @@
-import React from "react";
 
 //css
 import "./styles.css";
@@ -7,14 +6,10 @@ import "./font/font.css";
 //components
 
 //icons & images
-import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-import HeroImage from "./components/images/hero-cut.jpg";
 import FAQ from "./components/sections/FAQ";
 import Welcome from "./components/sections/Welcome";
-import aboveFaqSvg from "./components/images/FAQ_border.svg";
 import Where from "./components/sections/Where";
 import Header from "./components/Header";
-import Wallpaper from "./components/sections/Wallpaper";
 import Footer from "./components/Footer";
 import What from "./components/sections/What";
 import Team from "./components/sections/Team";
