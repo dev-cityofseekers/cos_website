@@ -9,24 +9,24 @@ function Team() {
       },
       {
         name: 'Alice Smith',
-        role: 'Marketing Manager',
+        role: 'Marketing ',
         description:
           'Alice is responsible for promoting the festival and ensuring that the word gets out to as many people as possible.',
         image: '/images/alice.jpg',
       },
       {
-        name: 'Alice Smith',
-        role: 'Marketing Manager',
+        name: 'Sören Andresen',
+        role: 'Marketing ',
         description:
-          'Alice is responsible for promoting the festival and ensuring that the word gets out to as many people as possible.',
-        image: '/images/alice.jpg',
+          'I make sure to get the best people in front of- and on stage.',
+        image: '/images/team/soeren_cut.jpg',
       },
       
       // Add more team members as needed
     ];
   
     return (
-      <div className="md:w-full lg:w-9/12 mx-auto">
+      <div className="md:w-full lg:w-9/12 mx-auto pb-10">
         {/* Introduction */}
         <div className="text-center mb-8 mx-8">
           <h2 className="font-omnes text-4xl pb-4">Meet Our Team</h2>

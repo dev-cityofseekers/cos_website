@@ -50,13 +50,13 @@ function App() {
           <div id="where" className=" overflow-hidden snap-center">
             <Where />
           </div>
-          <div id="faq" className="h-screen overflow-hidden snap-center">
+          <div id="faq" className=" overflow-hidden snap-center">
             <FAQ />
           </div>
           <div id="team" className="  snap-center">
             <Team />
           </div>
-          <div id="contact" className="h-screen overflow-hidden snap-center">
+          <div id="contact" className="snap-center">
             <Contact />
           </div>
           <div className="bg-cos-off-black  snap-end">
