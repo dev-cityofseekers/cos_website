@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 function DataPolicy() {
   return (
@@ -96,6 +97,7 @@ function DataPolicy() {
           .
         </p>
       </div>
+      <Footer />
     </div>
   );
 }

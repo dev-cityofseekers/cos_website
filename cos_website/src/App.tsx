@@ -1,4 +1,3 @@
-
 //css
 import "./styles.css";
 import "./font/font.css";
@@ -44,7 +43,7 @@ function App() {
           <div id="welcome" className="h-screen snap-start">
             <Welcome />
           </div>
-          <div id="COS?" className="h-screen overflow-hidden snap-center">
+          <div id="COS?" className=" overflow-hidden snap-center">
             <What />
           </div>
           <div id="where" className=" overflow-hidden snap-center">
