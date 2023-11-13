@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 function Imprint() {
   return (
@@ -78,6 +79,7 @@ function Imprint() {
           altered, or made available to third parties for commercial purposes.
         </p>
       </div>
+      <Footer />
     </div>
   );
 }
