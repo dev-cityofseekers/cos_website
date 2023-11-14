@@ -8,7 +8,7 @@ import { FaInstagram, FaBars, FaTimes } from "react-icons/fa";
 import { useActiveSection } from "../hooks/findActiveSection";
 import "../font/font.css";
 import "../styles/gradientAnimation.css";
-import gradientSVG from "./images/gradient_vert.svg"; 
+//import gradientSVG from "./images/gradient_vert.svg"; 
 
 
 function Header() {
@@ -18,7 +18,7 @@ function Header() {
 
 
   const headerStyle = {
-    backgroundImage: `url(${gradientSVG})`,
+    //backgroundImage: `url(${gradientSVG})`,
     backgroundSize: 'cover', // under construction, verusche hier das bg image vom mobile header zu einem svg umzuwandeln, das file existiert aber ist schwierig gerade haha
     backgroundPosition: 'center', 
   
