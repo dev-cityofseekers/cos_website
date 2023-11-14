@@ -24,7 +24,6 @@ module.exports = {
       'gradient-background-image-vertical-short': "url('./components/images/gradient_vert_short.png')",
 
 
-
     }, 
   },
 }

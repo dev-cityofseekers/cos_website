@@ -34,7 +34,7 @@ function Team() {
             We are a passionate group of individuals who came together to make this festival a reality.
           </p>
           <img
-            src="/images/team_cut.jpg"
+            src="/images/team/team_cut.jpg"
             alt="Group Photo"
             className="mt-4 rounded-lg shadow-lg w-full h-auto mx-auto"
           />

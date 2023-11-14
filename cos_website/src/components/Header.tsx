@@ -2,37 +2,27 @@
  make bg-transparent and wehen scrolling fade in the background, like in figma design
  */
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FaInstagram, FaBars, FaTimes } from "react-icons/fa";
 import { useActiveSection } from "../hooks/findActiveSection";
 import "../font/font.css";
-//import logo_white from "./images/logo_white_transparent.png";
 import "../styles/gradientAnimation.css";
+import gradientSVG from "./images/gradient_vert.svg"; 
 
-var cookie = 0;
-var showCookie = false;
-var showW = true;
-
-function ClickerPlusOne() {
-  if (cookie == 3) {
-    showCookie = true;
-  } else if (cookie == 20) {
-    console.log("bro, what do you want??");
-  } else if (cookie == 50) {
-    console.log("OK, thats enough, one more and i'll punch you!!!!");
-  } else if (cookie == 51) {
-    console.log("you wanted it");
-    showW = false;
-  }
-
-  cookie++;
-}
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const sections = ["welcome", "COS?", "where", "faq", "team", "contact"];
   const activeSection = useActiveSection(sections);
+
+
+  const headerStyle = {
+    backgroundImage: `url(${gradientSVG})`,
+    backgroundSize: 'cover', // under construction, verusche hier das bg image vom mobile header zu einem svg umzuwandeln, das file existiert aber ist schwierig gerade haha
+    backgroundPosition: 'center', 
+  
+  };
 
   return (
     <div>
@@ -62,24 +52,25 @@ function Header() {
       </div>
 
       {/* Mobile Version */}
-      <nav className="sm:hidden fixed top-0 w-10/12 bg-gradient-background-image-vertical-short ml-10 mt-7 text-white p-4 px-10 z-10 flex justify-between items-center rounded-full">
-        <a href="/">
+      <nav className="sm:hidden fixed top-0 w-10/12 bg-gradient-background-image-vertical-short ml-10 mt-7 text-white p-4 px-10 z-10 flex justify-between items-center rounded-full" onClick={() => setIsMenuOpen(true)}>
+        
           <img
             src="/images/logo_white_transparent.png"
             alt="logo"
             className="w-14"
           />
-        </a>
-        <FaBars onClick={() => setIsMenuOpen(true)} />
+        
+        <FaBars  />
       </nav>
 
       {isMenuOpen && (
-        <div className="fixed  w-full h-full bg-gradient-background-image-vertical text-white z-20 p-8">
-          <div className="w-full pb-24" onClick={ClickerPlusOne}>
-            <div className="invisible">{cookie}</div>
+        <div className="fixed  w-full h-full bg-gradient-background-image-vertical text-white z-20 p-8" onClick={() => setIsMenuOpen(false)} /*style={headerStyle}*/
+        >
+          
+          <div className="w-full pb-24">
+            
             <FaTimes
               className="text-2xl mb-8 cursor-pointer float-right "
-              onClick={() => setIsMenuOpen(false)}
             />
           </div>
           <div className="flex flex-col items-center ">
