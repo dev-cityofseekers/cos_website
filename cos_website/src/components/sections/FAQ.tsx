@@ -32,16 +32,38 @@ const FAQ = () => {
     },
     {
       question: "Will there be food and drinks?",
-      answer: "We have got you covered for sweets and drinks. For everything else make sure to bring enough supplies.",
+      answer: "We have got you covered for snacks and drinks. For everything else make sure to bring enough supplies.",
     },
     {
-      question: "",
-      answer: "",
+      question: "What does the ticket price cover?",
+      answer: "The price covers the entry to the location , all infrastructure as well as all workshops. For our guests the evening program is free. Food, drinks, and transportation are not included in the ticket price. The ticket price is calculated to cover all expenses of the festival without making any profit. ",
     },
     {
-      question: "",
-      answer: "",
+      question: "What about food?",
+      answer: "Please bring everything you need to cook/prepare your own meals. There will be a campfire for BBQ. Last year we had a pizza night where we ordered from a local restaurant. There'll be a bar with a variety of snacks, beer and, wine for purchase at a fair price.",
     },
+    {
+      question: "Do you need volunteers?",
+      answer: "Not per se. But, if you are interested in helping or hosting a workshop please feel free to reach out to us.",
+    },
+    {
+      question: "Animals",
+      answer: "Festivals are not the preferred environment for animals. We trust that you are aware of the responsibility for your animal and leave the decision up to you whether your animals can handle it to be in a festival environment.",
+    },
+    {
+      question: "Cancellation Policy",
+      answer: "Tickets that have already been paid for will not be refunded.  If you are no longer able to attend and would like to sell your ticket to a friend, please let us know that person's new name and information.  Tickets are only valid with the correct name on them.  If you can't find anyone for your ticket, please email us.  If we have people on the waiting list, we can help you sell them.",
+    },
+    {
+      question: "Liablility and Theft",
+      answer: "City of Seekers is not responsible for damage and theft of personal property of attendees.  While we will do our best to promote a safe environment we can not guarantee that nothing will be damaged or stolen. Ty for not stealing <3.",
+    },
+    {
+      question: "Nature",
+      answer: "With our festival, we try to burden the environment as little as possible.  For this, we need your help.  Please respect nature and the environment on the campsite and in the surrounding area.  That means: Please throw rubbish (bottles, cigarettes, etc.) in the trashcan and not in nature.  Cigarettes and glass in particular are not only pollution, but they also increase the risk of forest fires.",
+    },
+  
+
 
     // ... more questions
   ];

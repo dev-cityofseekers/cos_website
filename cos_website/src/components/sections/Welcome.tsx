@@ -1,7 +1,3 @@
-import React from "react";
-import { Link } from "react-scroll";
-import yourLogo from "../images/logo_small.png";
-import sunsetImage from "/images/hero-cut.jpg";
 
 /*
 function Welcome2() {
@@ -45,9 +41,10 @@ function Welcome2() {
 
 }*/
 
-function Welcome() {
+function Welcome2() {
   return (
     <div className="relative w-full h-screen">
+      
       <img
         src="/images/hero-cut.jpg"
         alt="Hero"
@@ -68,6 +65,23 @@ function Welcome() {
         </div>
       </div>
     </div>
+  );
+}
+
+function Welcome() {
+  return (
+    <div className="relative w-full h-screen">
+      
+      <img
+        src="/images/hero-cut.jpg"
+        alt="Hero"
+        className="w-full h-full object-cover"
+      />
+<div className="absolute top-0 w-full h-full flex items-center justify-center">
+  <div className="w-1/6">
+      <img src="/images/logo_white_transparent.png" className="shadow-lg"/>
+      </div>
+    </div></div>
   );
 }
 
