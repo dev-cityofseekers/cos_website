@@ -23,7 +23,7 @@ module.exports = {
       'gradient-background-image-vertical': "url('./components/images/gradient_vert.png')",
       'gradient-background-image-vertical-short': "url('./components/images/gradient_vert_short.png')",
 
-
+      'gradient-background-image-vertical-svg': "url('./components/images/gradient_vert.svg')",
     }, 
   },
 }

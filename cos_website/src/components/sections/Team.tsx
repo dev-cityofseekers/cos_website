@@ -1,10 +1,12 @@
+import { stringify } from "querystring";
+
 function Team() {
     const teamMembers = [
       {
-        name: 'John Doe',
-        role: 'Founder & Organizer',
+        name: 'Luke',
+        role: 'Vibe control, Developer & Founder',
         description:
-          'John is the visionary behind the festival, with years of experience in event planning and a passion for bringing people together.',
+          'Hi, Im Luke',
         image: '/images/john.jpg',
       },
       {
@@ -21,6 +23,12 @@ function Team() {
           'I make sure to get the best people in front of- and on stage.',
         image: '/images/team/soeren_cut.jpg',
       },
+      {
+        name: 'ELIPSØ',
+        role: 'DJ',
+        description: '3LIPSØ is responsible for providing quality music, throughout the evenings.\r\n Keeping energy at an all time high, this DJ knows what the crowd wants and delivers without fail.',
+        image: '',
+      },
       
       // Add more team members as needed
     ];
@@ -34,7 +42,7 @@ function Team() {
             We are a passionate group of individuals who came together to make this festival a reality.
           </p>
           <img
-            src="/images/team/team_cut.jpg"
+            src="/images/team/team_cut-2.jpg"
             alt="Group Photo"
             className="mt-4 rounded-lg shadow-lg w-full h-auto mx-auto"
           />
