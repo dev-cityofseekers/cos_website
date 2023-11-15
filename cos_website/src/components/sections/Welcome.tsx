@@ -78,11 +78,11 @@ function Welcome() {
         className="w-full h-full object-cover"
       />
 <div className="absolute top-0 w-full h-full flex items-center justify-center">
-  <div className="w-1/6">
-      <img src="/images/logo_white_transparent.png" className="shadow-lg"/>
+  <div className="w-4/12 ">
+      <img src="/images/logo_black.png" className="mx-auto"/>
       </div>
     </div></div>
   );
 }
 
-export default Welcome2;
+export default Welcome;

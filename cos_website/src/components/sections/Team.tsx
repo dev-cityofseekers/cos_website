@@ -35,6 +35,24 @@ function Team() {
         description:
           'I make sure to get the best people in front of- and on stage.',
         image: '/images/team/soeren_cut.jpg',
+      }, 
+      {
+        name: "Didi",
+        role: "Team management & Artists",
+        description: "Rule number one: no one is allowed to leave my house with an empty stomach. So basically I'm the 25-year-old Grandma to all of my friends.",
+        image: '/images/team/didi.jpg',
+      },
+      {
+        name: "Johar",
+        role: "Founder",
+        description: "Idealistic neurodivergent teacher/coach, content creator, musician & budding techie. In my free time... well, I'm asleep. All over Germany. Let's have coffee outside our comfort zones!",
+        image: '/images/team/johar.jpg',
+      },
+      {
+        name: "Autumn",
+        role: "Designer & Marketing",
+        description: "Just your local Canadian living and working in Germany. Also an avid musician and painter, just trying to make cool things for a living.",
+        image: '/images/team/autumn.jpg',
       },
       {
         name: 'ELIPSØ',
@@ -42,18 +60,11 @@ function Team() {
         description: '3LIPSØ is responsible for providing quality music, throughout the evenings.\r\n Keeping energy at an all time high, this DJ knows what the crowd wants and delivers without fail.',
         image: '/images/team/jordan.jpg',
       },
-      
       {
-        name: "",
-        role: "Founder",
-        description: "",
-        image: '/images/team/__.jpg',
-      },
-      {
-        name: "",
-        role: "Founder",
-        description: "",
-        image: '/images/team/__.jpg',
+        name: "Elias",
+        role: "Tech & Safety Management",
+        description: "25, a carpenter and an event technician from Germany. Currently living in Wiesbaden.",
+        image: '/images/team/elias.png',
       },
       
       // Add more team members as needed
@@ -68,7 +79,7 @@ function Team() {
             We are a passionate group of individuals who came together to make this festival a reality.
           </p>
           <img
-            src="/images/team/team_cut-2.jpg"
+            src="/images/team/luke.jpg"
             alt="Group Photo"
             className="mt-4 rounded-lg shadow-lg w-full h-auto mx-auto"
           />
