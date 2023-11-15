@@ -18,7 +18,7 @@ function Team() {
       },
       {
         name: "Ela",
-        role: "Founder",
+        role: "Workshops & Marketing",
         description: "28 years old who loves to be outside, especially in the mountains, hiking in summer and skiing in winter. Favorite quote: 'If I could choose where I was born I would choose a place that knows no fear But since this change is mine to live it would be nowhere else but here' - Bukahara",
         image: '/images/team/ela.jpg',
       },
@@ -44,7 +44,7 @@ function Team() {
       },
       {
         name: "Johar",
-        role: "Founder",
+        role: "Marketing & Social Media",
         description: "Idealistic neurodivergent teacher/coach, content creator, musician & budding techie. In my free time... well, I'm asleep. All over Germany. Let's have coffee outside our comfort zones!",
         image: '/images/team/johar.jpg',
       },

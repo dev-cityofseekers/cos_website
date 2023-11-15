@@ -80,6 +80,9 @@ function Welcome() {
 <div className="absolute top-0 w-full h-full flex items-center justify-center">
   <div className="w-4/12 ">
       <img src="/images/logo_black.png" className="mx-auto"/>
+      <div className="text-cos-off-black font-omnes text-center text-4xl lg:text-6xl">
+            June 6-9 2024 
+          </div>
       </div>
     </div></div>
   );
