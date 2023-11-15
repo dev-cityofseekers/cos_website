@@ -79,7 +79,7 @@ function Team() {
             We are a passionate group of individuals who came together to make this festival a reality.
           </p>
           <img
-            src="/images/team/luke.jpg"
+            src="/images/team/teamfoto.png"
             alt="Group Photo"
             className="mt-4 rounded-lg shadow-lg w-full h-auto mx-auto"
           />
