@@ -13,7 +13,7 @@ import "../styles/gradientAnimation.css";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const sections = ["welcome", "COS?", "where", "faq", "team", "contact"];
+  const sections = ["welcome", "COS?", "where", "FAQ", "team", "contact"];
   const activeSection = useActiveSection(sections);
 
 

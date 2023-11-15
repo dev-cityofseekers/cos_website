@@ -44,6 +44,30 @@ function DataPolicy() {
           </li>
         </ul>
 
+
+<h2 className="text-xl font-semibold mb-2">Google Maps</h2>
+<p className="mb-4">
+  Our website uses Google Maps to provide location-based services and
+  interactive maps. When you interact with Google Maps on our website,
+  Google may collect information about your device and interaction with
+  the map, including your IP address and location data. This information
+  is collected and used by Google in accordance with their 
+  <a href="https://policies.google.com/privacy" className="text-blue-500">
+  Privacy Policy
+  </a>. We do not have control over and are not responsible for Google's data
+  collection and usage practices. We encourage you to review Google's
+  Privacy Policy to understand how your information is being used.
+</p>
+
+<p className="mb-4">
+  Please note that your use of Google Maps on our website is subject to
+  your consent to allow cookies and other tracking technologies that
+  Google may use. If you prefer not to have your data collected through
+  Google Maps, we advise not to use this feature on our website.
+</p>
+
+
+
         <h2 className="text-xl font-semibold mb-2">
           How We Use Your Information
         </h2>

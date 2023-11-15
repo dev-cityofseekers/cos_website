@@ -3,31 +3,68 @@ import { stringify } from "querystring";
 function Team() {
     const teamMembers = [
       {
-        name: 'Luke',
-        role: 'Vibe control, Developer & Founder',
+        name: 'Luke/Liiav',
+        role: 'Vibe control & Website Developer',
         description:
-          'Hi, Im Luke',
-        image: '/images/john.jpg',
+          "Hi, I'm Luke, Spiritual seeker, Musician, Visionary, UX Designer/Frontend Dev, Event Organizer from Vienna. In COS 23 I felt a calling to unite and nourish a community that chooses love over fear, yeah baby. Im super excited for COS24.",
+        image: '/images/team/luke.jpg',
       },
       {
-        name: 'Alice Smith',
-        role: 'Marketing ',
+        name: 'Freddyi',
+        role: 'Finance & Legal',
         description:
-          'Alice is responsible for promoting the festival and ensuring that the word gets out to as many people as possible.',
-        image: '/images/alice.jpg',
+          '21 years old and I’m in my second year of studying nursing. Most of my spare time is used for traveling, exploring new places, or meeting people. I can’t wait to get to know more people at and through the festival and create lifelong memories.',
+        image: '/images/team/freddyi.png',
       },
       {
-        name: 'Sören Andresen',
+        name: "Ela",
+        role: "Founder",
+        description: "28 years old who loves to be outside, especially in the mountains, hiking in summer and skiing in winter. Favorite quote: 'If I could choose where I was born I would choose a place that knows no fear But since this change is mine to live it would be nowhere else but here' - Bukahara",
+        image: '/images/team/ela.jpg',
+      },
+      {
+        name: 'Adalbert',
+        role: 'Tech & Infrastructure',
+        description:
+          "21 year old tech guy and crazy person that you probably will find running around, solving problems. Let's connect, deeptalk, party and create amazing memories :)",
+        image: '/images/team/adel.jpg',
+      },
+      {
+        name: 'Sören',
         role: 'Marketing ',
         description:
           'I make sure to get the best people in front of- and on stage.',
         image: '/images/team/soeren_cut.jpg',
+      }, 
+      {
+        name: "Didi",
+        role: "Team management & Artists",
+        description: "Rule number one: no one is allowed to leave my house with an empty stomach. So basically I'm the 25-year-old Grandma to all of my friends.",
+        image: '/images/team/didi.jpg',
+      },
+      {
+        name: "Johar",
+        role: "Founder",
+        description: "Idealistic neurodivergent teacher/coach, content creator, musician & budding techie. In my free time... well, I'm asleep. All over Germany. Let's have coffee outside our comfort zones!",
+        image: '/images/team/johar.jpg',
+      },
+      {
+        name: "Autumn",
+        role: "Designer & Marketing",
+        description: "Just your local Canadian living and working in Germany. Also an avid musician and painter, just trying to make cool things for a living.",
+        image: '/images/team/autumn.jpg',
       },
       {
         name: 'ELIPSØ',
         role: 'DJ',
         description: '3LIPSØ is responsible for providing quality music, throughout the evenings.\r\n Keeping energy at an all time high, this DJ knows what the crowd wants and delivers without fail.',
-        image: '',
+        image: '/images/team/jordan.jpg',
+      },
+      {
+        name: "Elias",
+        role: "Tech & Safety Management",
+        description: "25, a carpenter and an event technician from Germany. Currently living in Wiesbaden.",
+        image: '/images/team/elias.png',
       },
       
       // Add more team members as needed
@@ -42,7 +79,7 @@ function Team() {
             We are a passionate group of individuals who came together to make this festival a reality.
           </p>
           <img
-            src="/images/team/team_cut-2.jpg"
+            src="/images/team/luke.jpg"
             alt="Group Photo"
             className="mt-4 rounded-lg shadow-lg w-full h-auto mx-auto"
           />
