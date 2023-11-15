@@ -3,21 +3,34 @@ import { stringify } from "querystring";
 function Team() {
     const teamMembers = [
       {
-        name: 'Luke',
-        role: 'Vibe control, Developer & Founder',
+        name: 'Luke/Liiav',
+        role: 'Vibe control & Website Developer',
         description:
-          'Hi, Im Luke',
-        image: '/images/john.jpg',
+          "Hi, I'm Luke, Spiritual seeker, Musician, Visionary, UX Designer/Frontend Dev, Event Organizer from Vienna. In COS 23 I felt a calling to unite and nourish a community that chooses love over fear, yeah baby. Im super excited for COS24.",
+        image: '/images/team/luke.jpg',
       },
       {
-        name: 'Alice Smith',
-        role: 'Marketing ',
+        name: 'Freddyi',
+        role: 'Finance & Legal',
         description:
-          'Alice is responsible for promoting the festival and ensuring that the word gets out to as many people as possible.',
-        image: '/images/alice.jpg',
+          '21 years old and I’m in my second year of studying nursing. Most of my spare time is used for traveling, exploring new places, or meeting people. I can’t wait to get to know more people at and through the festival and create lifelong memories.',
+        image: '/images/team/freddyi.png',
       },
       {
-        name: 'Sören Andresen',
+        name: "Ela",
+        role: "Founder",
+        description: "28 years old who loves to be outside, especially in the mountains, hiking in summer and skiing in winter. Favorite quote: 'If I could choose where I was born I would choose a place that knows no fear But since this change is mine to live it would be nowhere else but here' - Bukahara",
+        image: '/images/team/ela.jpg',
+      },
+      {
+        name: 'Adalbert',
+        role: 'Tech & Infrastructure',
+        description:
+          "21 year old tech guy and crazy person that you probably will find running around, solving problems. Let's connect, deeptalk, party and create amazing memories :)",
+        image: '/images/team/adel.jpg',
+      },
+      {
+        name: 'Sören',
         role: 'Marketing ',
         description:
           'I make sure to get the best people in front of- and on stage.',
@@ -27,7 +40,20 @@ function Team() {
         name: 'ELIPSØ',
         role: 'DJ',
         description: '3LIPSØ is responsible for providing quality music, throughout the evenings.\r\n Keeping energy at an all time high, this DJ knows what the crowd wants and delivers without fail.',
-        image: '',
+        image: '/images/team/jordan.jpg',
+      },
+      
+      {
+        name: "",
+        role: "Founder",
+        description: "",
+        image: '/images/team/__.jpg',
+      },
+      {
+        name: "",
+        role: "Founder",
+        description: "",
+        image: '/images/team/__.jpg',
       },
       
       // Add more team members as needed

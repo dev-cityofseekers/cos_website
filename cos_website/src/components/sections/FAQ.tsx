@@ -8,60 +8,63 @@ const FAQ = () => {
 
   const questions = [
     {
+      question: "What about tickets?",
+      answer: "We are currently in the organizational phase. All necessary information about tickets will be provided on our Instagram and this website.",
+    },
+    {
       question: "Who is running City Of Seekers?",
-      answer:
-        "We are a young and motivated team that came together through the global YesFam community, which was originally created by the successful Youtube channel Yes Theory. Even though our festival is not directly connected to the community or the channel, we share the same vision: Create connections, learn new things by seeking discomfort.",
+      answer: "City Of Seekers is run by a young, motivated team united through the global YesFam community, originally inspired by the YouTube channel Yes Theory. This community believes in challenging comfort zones to fully experience life. While our festival is not directly connected to the YesFam community or Yes Theory, we share the same vision: to create connections and learn new things by seeking discomfort.",
     },
     {
       question: "Who is it for?",
-      answer:
-        "City of Seekers is a festival to welcome people of all ages, genders, races & religions. A place to create new friendships, constructively seek discomfort and challenge yourself among a group of like-minded people.",
+      answer: "City of Seekers is a festival to welcome people of all ages, genders, races & religions. A place to create new friendships, constructively seek discomfort and challenge yourself among a group of like-minded people.",
     },
     {
       question: "When is it happening?",
-      answer: "6. - 9. June 2024",
+      answer: "City of Seekers 24 will happen for the second time from June 6th to 9th of 2024",
     },
     {
-      question: "Arrival & Depature",
-      answer: "",
-    },
+      question: "Arrival & departure",
+      answer: "More details will be announced closer to the event. Arrival will start in the afternoon of the 6th of June. You can come by car, train, bike or whatever you feel like. We’d ask you to departure around noon on the 9th of June.",
+       },
+      
     {
       question: "Is there a schedule",
-      answer:
-        "The schedule will be released closer to the date of the festival, follow our Instagram to keep up to date with the latest news.",
+      answer: "The detailed schedule will be released closer to the festival date. Keep an eye on our Instagram for the latest updates.",
     },
     {
       question: "Will there be food and drinks?",
-      answer: "We have got you covered for snacks and drinks. For everything else make sure to bring enough supplies.",
+      answer: "We will sell a selection of snacks like chips, sweets or nuts as well as water, sodas and beers. We will have a BYOF BBQ (bring your own food) and a pizza night on one evening each. Please bring your own food for the rest of the days. More details will follow.",
     },
     {
       question: "What does the ticket price cover?",
-      answer: "The price covers the entry to the location , all infrastructure as well as all workshops. For our guests the evening program is free. Food, drinks, and transportation are not included in the ticket price. The ticket price is calculated to cover all expenses of the festival without making any profit. ",
+      answer: "The ticket price includes entry, access to all infrastructure and workshops, and free evening programs. It does not cover food, drinks, and transportation. The ticket price is set to cover festival expenses without profit.",
     },
     {
       question: "What about food?",
-      answer: "Please bring everything you need to cook/prepare your own meals. There will be a campfire for BBQ. Last year we had a pizza night where we ordered from a local restaurant. There'll be a bar with a variety of snacks, beer and, wine for purchase at a fair price.",
+      answer: "Please bring your own cooking supplies for meal preparation. A campfire will be available for BBQ. Last year, we also organized a pizza night with orders from a local restaurant.",
     },
     {
       question: "Do you need volunteers?",
-      answer: "Not per se. But, if you are interested in helping or hosting a workshop please feel free to reach out to us.",
+      answer: "We don't specifically require volunteers. However, if you're interested in helping or hosting a workshop, feel free to reach out to us.",
     },
     {
       question: "Animals",
-      answer: "Festivals are not the preferred environment for animals. We trust that you are aware of the responsibility for your animal and leave the decision up to you whether your animals can handle it to be in a festival environment.",
+      answer: "While animals are not typically suited for festival environments, we leave the decision to bring them to your discretion. Please be mindful of your responsibility for their well-being.",
     },
     {
       question: "Cancellation Policy",
-      answer: "Tickets that have already been paid for will not be refunded.  If you are no longer able to attend and would like to sell your ticket to a friend, please let us know that person's new name and information.  Tickets are only valid with the correct name on them.  If you can't find anyone for your ticket, please email us.  If we have people on the waiting list, we can help you sell them.",
+      answer: "Paid tickets are non-refundable. If you need to transfer your ticket to someone else, please inform us with their details for validation. If you're unable to attend and can't find a replacement, contact us. We may assist if there's a waiting list.",
     },
     {
-      question: "Liablility and Theft",
-      answer: "City of Seekers is not responsible for damage and theft of personal property of attendees.  While we will do our best to promote a safe environment we can not guarantee that nothing will be damaged or stolen. Ty for not stealing <3.",
+      question: "Liability and Theft",
+      answer: "City of Seekers is not liable for damage or theft of personal belongings. We strive for a safe environment but cannot guarantee the security of personal items. Please take care of your belongings.",
     },
     {
       question: "Nature",
-      answer: "With our festival, we try to burden the environment as little as possible.  For this, we need your help.  Please respect nature and the environment on the campsite and in the surrounding area.  That means: Please throw rubbish (bottles, cigarettes, etc.) in the trashcan and not in nature.  Cigarettes and glass in particular are not only pollution, but they also increase the risk of forest fires.",
+      answer: "With our festival, we try to burden the environment as little as possible. For this, we need your help. Please respect nature and the environment on the campsite and in the surrounding area. That means: Please throw rubbish (bottles, cigarettes, etc.) in the trashcan and not in nature. Cigarettes and glass in particular are not only pollution, but they also increase the risk of forest fires.",
     },
+    
   
 
 
