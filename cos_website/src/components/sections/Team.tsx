@@ -33,7 +33,7 @@ function Team() {
         name: 'Sören',
         role: 'Marketing ',
         description:
-          'I make sure to get the best people in front of- and on stage.',
+          "Farmgrown Marketing student, that aspires to do some good and pet some alpacas. I'm making sure to get only the best people on- and in front of the stage.",
         image: '/images/team/soeren_cut.jpg',
       }, 
       {
@@ -50,7 +50,7 @@ function Team() {
       },
       {
         name: "Autumn",
-        role: "Designer & Marketing",
+        role: "Designer",
         description: "Just your local Canadian living and working in Germany. Also an avid musician and painter, just trying to make cool things for a living.",
         image: '/images/team/autumn.jpg',
       },

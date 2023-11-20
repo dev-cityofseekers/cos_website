@@ -45,12 +45,12 @@ const FAQ = () => {
       answer: "Please bring your own cooking supplies for meal preparation. A campfire will be available for BBQ. Last year, we also organized a pizza night with orders from a local restaurant.",
     },
     {
-      question: "Do you need volunteers?",
-      answer: "We don't specifically require volunteers. However, if you're interested in helping or hosting a workshop, feel free to reach out to us.",
+      question: "Do we need volunteers?",
+      answer: "We don't specifically require volunteers. However, if you're interested in helping or hosting a workshop, feel free to reach out to us. If we need volunteers we will communicate that over our instagram/website.",
     },
     {
       question: "Animals",
-      answer: "While animals are not typically suited for festival environments, we leave the decision to bring them to your discretion. Please be mindful of your responsibility for their well-being.",
+      answer: "While animals are not typically suited for festival environments, we leave the decision to bring them to your discretion. Please be mindful of your responsibility for their well-being. If your Animal puts other guests/animals at risk you will have to leash it.",
     },
     {
       question: "Cancellation Policy",

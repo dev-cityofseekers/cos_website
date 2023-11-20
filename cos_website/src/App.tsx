@@ -49,7 +49,7 @@ function App() {
           <div id="where" className=" overflow-hidden snap-center">
             <Where />
           </div>
-          <div id="faq" className=" overflow-hidden snap-center">
+          <div id="FAQ" className=" overflow-hidden snap-center">
             <FAQ />
           </div>
           <div id="team" className="  snap-center">
