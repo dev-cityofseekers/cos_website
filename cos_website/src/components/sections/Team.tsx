@@ -57,8 +57,8 @@ function Team() {
       {
         name: 'ELIPSØ',
         role: 'DJ',
-        description: '3LIPSØ is responsible for providing quality music, throughout the evenings.\r\n Keeping energy at an all time high, this DJ knows what the crowd wants and delivers without fail.',
-        image: '/images/team/jordan.jpg',
+        description: 'ELIPSØ is responsible for providing quality music, throughout the evenings.\r\n Keeping energy at an all time high, this DJ knows what the crowd wants and delivers without fail.',
+        image: '/images/team/jordan.jpeg',
       },
       {
         name: "Elias",
