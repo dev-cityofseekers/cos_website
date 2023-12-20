@@ -88,7 +88,7 @@ function Header() {
                   section.slice(1).replace(/&/g, "& ")}
               </Link>
             ))}
-            <a href="https://instagram.com/cityofseekers" className="mt-8" target="_blank" >
+            <a href="https://instagram.com/cityofseekers" className="mt-8">
               <FaInstagram className="text-2xl" />
             </a>
           </div>
