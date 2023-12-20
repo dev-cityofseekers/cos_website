@@ -41,7 +41,7 @@ function Footer() {
           <div>
             <Link to="/imprint">Imprint</Link>,
             <br /> <Link to="/privacy-policy">Privacy-policy</Link>
-            <a href="https://instagram.com/cityofseekers" className="mt-8">
+            <a href="https://instagram.com/cityofseekers" className="mt-8" target="_blank" >
               <FaInstagram className="text-2xl pt-2" />
             </a>
           </div>

@@ -14,7 +14,8 @@ function Contact() {
           Have questions or feedback?<br/>
           Join the Whatsapp group, text us on{" "} <a
             className="text-cos-blue hover:underline"
-            href="https://instagram.com/cityofseekers"
+            href="https://instagram.com/cityofseekers" 
+            target="_blank" 
           >Instagram</a> or send us an email{' '}
           <a
             className="text-cos-blue hover:underline"
