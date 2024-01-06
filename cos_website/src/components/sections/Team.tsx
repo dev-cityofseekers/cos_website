@@ -66,6 +66,12 @@ function Team() {
         description: "25, a carpenter and an event technician from Germany. Currently living in Wiesbaden.",
         image: '/images/team/elias.png',
       },
+      {
+        name: "Áron",
+        role: "Media production",
+        description: "Your everyday creative with a physics degree. Chasing a dream in art and media. With a deep passion towards jazz, photography, and storytelling, I'm here to document our journey through the festival.",
+        image: '/images/team/Áron.jpg',
+      },
       
       // Add more team members as needed
     ];
