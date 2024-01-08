@@ -1,46 +1,26 @@
 /* Ep.css */
-/*
 
 .scrolling-container {
-    width: 200%;
-    animation: scrolling 30s linear infinite; 
-  }
-  .scrolling-image {
-    background-image: url('bg.png');
-    background-repeat: repeat-x;
-    background-size: contain; 
-    width: 50%; 
-    height: 100%;
-  }
+  width: 200%;
+  animation: scrolling 40s linear infinite;
+}
 
-*/
+.scrolling-image {
+  flex: 1;
+  height: 100vh;
+  background-image: url('bg.png');
+  background-size: auto 100%; 
+  background-position: top left; 
+}
 
-body {
-    overflow: hidden;
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
   }
-
- /* Define styles for the scrolling container */
-.scrolling-container {
-    width: 200%; /* Adjust the width as needed for the desired scroll effect */
-    animation: scrolling 30s linear infinite; /* Adjust animation properties as needed */
+  50% {
+    transform: translateX(-50%); 
   }
-  
-  /* Define styles for the scrolling image */
-  .scrolling-image {
-    background-image: url('bg.png'); /* Replace 'your-image.png' with the path to your background image */
-    background-repeat: repeat-x;
-    background-size: contain; /* Adjust background size as needed */
-    width: 50%; /* Adjust the initial position */
-    height: 100%;
+  100% {
+    transform: translateX(0%); 
   }
-  
-  /* Define the scrolling animation */
-  @keyframes scrolling {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-  
+}

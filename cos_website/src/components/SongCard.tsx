@@ -1,17 +1,25 @@
-import React from 'react';
+import React from "react";
 
-function SongCard() {
+interface SongCardProps {
+  name: string;
+  link: string;
+  imagePath: string;
+  alt: string;
+  artist: string;
+}
+
+function SongCard({ name, link, imagePath, alt, artist }: SongCardProps) {
   return (
-    <a href='https://open.spotify.com/track/161FZ87jdUK4nMSGayiM2w?si=d1031290ced34fd7' target='blank'>
+    <a href={link} target="_blank" rel="noopener noreferrer">
       <div className="bg-white rounded-lg shadow-lg p-4 w-64">
         <img
-          src="/images/3012/allein.JPG"
-          alt="Allein"
-          className="w-full h-40 object-cover rounded-t-lg"
+          src={imagePath}
+          alt={alt}
+          className="w-full h-40 object-cover rounded-lg"
         />
         <div className="mt-4">
-          <p className="text-lg font-bold">Allein</p>
-          <p className="text-gray-600">3012 COMPANY</p>
+          <p className="text-lg font-bold">{name}</p>
+          <p className="text-gray-600">{artist}</p>
         </div>
       </div>
     </a>
