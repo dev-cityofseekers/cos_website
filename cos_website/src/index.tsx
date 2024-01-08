@@ -7,6 +7,7 @@ import "./index.css";
 import Imprint from "./pages/Imprint";
 import Layout from "./components/layouts/Layout";
 import DataPolicy from "./pages/DataPolicy";
+import Ep from "./pages/Ep";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -25,6 +26,14 @@ ReactDOM.render(
           element={
             <Layout>
               <DataPolicy />
+            </Layout>
+          }
+        />
+        <Route
+          path="/3012"
+          element={
+            <Layout>
+             <Ep/>
             </Layout>
           }
         />
