@@ -24,3 +24,11 @@
     transform: translateX(0%); 
   }
 }
+
+.schabernack{
+  top: 10%;
+}
+
+.baddy{
+  overflow: hidden;
+}
