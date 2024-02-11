@@ -41,15 +41,19 @@ function Footer() {
           <div>
             <Link to="/imprint">Imprint</Link>,
             <br /> <Link to="/privacy-policy">Privacy-policy</Link>
-            <a href="https://instagram.com/cityofseekers" className="mt-8" target="_blank" >
+            <a
+              href="https://instagram.com/cityofseekers"
+              className="mt-8"
+              target="_blank"
+            >
               <FaInstagram className="text-2xl pt-2" />
             </a>
           </div>
         </div>
       </div>
       <div className="text-xs text-center pb-7">
-        <div>6, 7, 8 & 9. June 2025 - Hamelin, Germany</div>
-        <div>@2023 City Of Seekers Festival. All rights reserved.</div>
+        <div>6, 7, 8 & 9. June 2024 - Hamelin, Germany</div>
+        <div>@2024 City Of Seekers. All rights reserved.</div>
       </div>
     </div>
   );

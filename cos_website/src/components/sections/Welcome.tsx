@@ -6,7 +6,9 @@ function Welcome() {
         alt="Hero"
         className="w-full h-full object-cover"
       />
-      <div className="absolute top-0 w-full h-full flex items-center justify-center">
+      
+      <div className="absolute top-0 w-full h-full flex items-center justify-center drop-shadow-lg">
+
         <div className="w-4/12 ">
           <img
             src="/images/logo_white_transparent.png"
