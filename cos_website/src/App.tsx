@@ -2,7 +2,6 @@
 import "./styles.css";
 import "./font/font.css";
 
-//components
 
 //icons & images
 import FAQ from "./components/sections/FAQ";
@@ -13,6 +12,7 @@ import Footer from "./components/Footer";
 import What from "./components/sections/What";
 import Team from "./components/sections/Team";
 import Contact from "./components/sections/Contact";
+import TicketsSection from "./components/sections/TicketsSection";
 
 /*
 #TODO
@@ -48,6 +48,9 @@ function App() {
           </div>
           <div id="where" className=" overflow-hidden snap-center">
             <Where />
+          </div>
+          <div id="Tickets" className=" overflow-hidden snap-center">
+            <TicketsSection />
           </div>
           <div id="FAQ" className=" overflow-hidden snap-center">
             <FAQ />
