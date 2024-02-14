@@ -7,11 +7,7 @@ const FAQ = () => {
   const [openQuestions, setOpenQuestions] = useState<number[]>([]);
 
   const questions = [
-    {
-      question: "What about tickets?",
-      answer:
-        "We are currently in the organizational phase. All necessary information about tickets will be provided on our Instagram and this website.",
-    },
+    
     {
       question: "Who is running City Of Seekers?",
       answer:

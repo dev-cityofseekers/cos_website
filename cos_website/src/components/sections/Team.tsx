@@ -41,7 +41,7 @@ function Team() {
       name: "Didi",
       role: "Team management & Artists",
       description:
-        "Rule number one: no one is allowed to leave my house with an empty stomach. So basically I'm the 25-year-old Grandma to all of my friends.",
+        "Rule number one: no one is allowed to leave my house with an empty stomach. So basically I'm a Grandma to all of my friends. Let's find some four-leaf clovers together and share some strawberries. See you soon!!!",
       image: "/images/team/didi.jpg",
     },
     {
