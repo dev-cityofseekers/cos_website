@@ -40,7 +40,7 @@ ReactDOM.render(
           }
         />
         <Route
-          path="/codeofconduct"
+          path="/code"
           element={
             <Layout>
               <CodeOfConduct/>

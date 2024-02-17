@@ -82,7 +82,7 @@ const FAQ = () => {
           <a href="/codeofconduct" className="text-blue-500 underline">
             here
           </a>
-          {" "}or under <a href="https://cityofseekers.eu/codeofconduct" className="text-blue-500 underline">cityofseekers.eu/codeofconduct</a>.
+          {" "}or under <a href="https://cityofseekers.eu/code" className="text-blue-500 underline">cityofseekers.eu/code</a>.
         </span>
       ),
     },
