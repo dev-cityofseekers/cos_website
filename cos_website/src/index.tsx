@@ -9,6 +9,7 @@ import Layout from "./components/layouts/Layout";
 import DataPolicy from "./pages/DataPolicy";
 import Ep from "./pages/Ep";
 import Tickets from "./pages/Tickets";
+import CodeOfConduct from "./pages/CodeOfConduct";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -35,6 +36,14 @@ ReactDOM.render(
           element={
             <Layout>
               <Ep />
+            </Layout>
+          }
+        />
+        <Route
+          path="/codeofconduct"
+          element={
+            <Layout>
+              <CodeOfConduct/>
             </Layout>
           }
         />

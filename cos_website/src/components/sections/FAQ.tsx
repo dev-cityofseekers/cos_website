@@ -74,8 +74,18 @@ const FAQ = () => {
       answer:
         "With our event, we try to burden the environment as little as possible. For this, we need your help. Please respect nature and the environment on the campsite and in the surrounding area. That means: Please throw rubbish (bottles, cigarettes, etc.) in the trashcan and not in nature. Cigarettes and glass in particular are not only pollution, but they also increase the risk of forest fires.",
     },
-
-    // ... more questions
+    {
+      question: "Do we have Rules?",
+      answer: (
+        <span>
+          Yes, we have a Ruleset or Code of Conduct to clarify how we want to treat each other, find it{" "}
+          <a href="/codeofconduct" className="text-blue-500 underline">
+            here
+          </a>
+          {" "}or under <a href="https://cityofseekers.eu/codeofconduct" className="text-blue-500 underline">cityofseekers.eu/codeofconduct</a>.
+        </span>
+      ),
+    },
   ];
 
   const toggleAnswer = (currentIndex: number) => {
@@ -85,8 +95,6 @@ const FAQ = () => {
       setOpenQuestions([...openQuestions, currentIndex]);
     }
   };
-
-  //<img src="/images/FAQ_border.svg" className="w-full" alt="FAQ border" />
 
   return (
     <div>
@@ -109,7 +117,9 @@ const FAQ = () => {
                 )}
               </div>
               {openQuestions.includes(index) && (
-                <div className="p-4">{item.answer}</div>
+                <div className="p-4">
+                  {typeof item.answer === "string" ? item.answer : item.answer}
+                </div>
               )}
             </div>
           ))}
