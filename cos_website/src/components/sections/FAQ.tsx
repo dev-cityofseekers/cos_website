@@ -19,6 +19,18 @@ const FAQ = () => {
         "City of Seekers is an event to welcome people of all ages, genders, races & religions. A place to create new friendships, constructively seek discomfort and challenge yourself among a group of like-minded people.",
     },
     {
+      question: "Do we have Rules?",
+      answer: (
+        <span>
+          Yes, we have a Ruleset or Code of Conduct to clarify how we want to treat each other, find it{" "}
+          <a href="/code" className="text-blue-500 underline">
+            here
+          </a>
+          {" "}or under <a href="https://cityofseekers.eu/code" className="text-blue-500 underline">cityofseekers.eu/code</a>.
+        </span>
+      ),
+    },
+    {
       question: "When is it happening?",
       answer:
         "City of Seekers 24 will happen for the second time from June 6th to 9th of 2024",
@@ -74,18 +86,7 @@ const FAQ = () => {
       answer:
         "With our event, we try to burden the environment as little as possible. For this, we need your help. Please respect nature and the environment on the campsite and in the surrounding area. That means: Please throw rubbish (bottles, cigarettes, etc.) in the trashcan and not in nature. Cigarettes and glass in particular are not only pollution, but they also increase the risk of forest fires.",
     },
-    {
-      question: "Do we have Rules?",
-      answer: (
-        <span>
-          Yes, we have a Ruleset or Code of Conduct to clarify how we want to treat each other, find it{" "}
-          <a href="/codeofconduct" className="text-blue-500 underline">
-            here
-          </a>
-          {" "}or under <a href="https://cityofseekers.eu/code" className="text-blue-500 underline">cityofseekers.eu/code</a>.
-        </span>
-      ),
-    },
+    
   ];
 
   const toggleAnswer = (currentIndex: number) => {
