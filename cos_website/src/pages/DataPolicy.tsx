@@ -9,7 +9,8 @@ function DataPolicy() {
           href="/"
           className="fixed w-4/12 mt-7 bg-gradient-background-image text-white p-4 px-10 z-10  justify-center rounded-full"
         >
-          Home
+          <div className=" text-center" >
+          Home</div>
         </a>
       </div>
       <div className="max-w-4xl mx-auto p-4 pt-28">
