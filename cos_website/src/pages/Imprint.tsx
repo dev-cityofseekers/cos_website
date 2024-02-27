@@ -35,7 +35,7 @@ function Imprint() {
         <p className="mb-4">VAT ID: Coming soon</p>
 
         <h2 className="text-2xl font-semibold mb-2">Representative</h2>
-        <p className="mb-4">Adalber Köcher</p>
+        <p className="mb-4">Adalbert Köcher</p>
 
         <h2 className="text-2xl font-semibold mb-2">Responsible for Content</h2>
         <p className="mb-4">Luke Ziegler</p>

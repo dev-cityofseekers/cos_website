@@ -26,7 +26,7 @@ const FAQ = () => {
           <a href="/code" className="text-blue-500 underline">
             here
           </a>
-          {" "}or under <a href="https://cityofseekers.eu/code" className="text-blue-500 underline">cityofseekers.eu/code</a>.
+          {" "}or under <a href="/code" className="text-blue-500 underline">cityofseekers.eu/code</a>.
         </span>
       ),
     },
