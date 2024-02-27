@@ -41,7 +41,7 @@ function Footer() {
           <div>
             <Link to="/imprint">Imprint</Link>,
             <br /> <Link to="/privacy-policy">Privacy-policy</Link>
-            <br /> <Link to="/codeofconduct">Code Of Conduct</Link>
+            <br /> <Link to="/code">Code Of Conduct</Link>
             <a
               href="https://instagram.com/cityofseekers"
               className="mt-8"
