@@ -18,12 +18,12 @@ function Imprint() {
         <h1 className="text-3xl font-bold mb-4">Imprint</h1>
 
         <h2 className="text-2xl font-semibold mb-2">Company Information</h2>
-        <p className="mb-2">Company Name: City Of Seekers</p>
+        <p className="mb-2">City Of Seekers e.V.</p>
         <p className="mb-2">Address: Luxemburger str. 202, 50937 Köln</p>
         <p className="mb-2">
           Phone:{" "}
           <a href="tel:" className="text-blue-500">
-            +** *** ******{" "}
+            +49 178 1561859{" "}
           </a>
         </p>
         <p className="mb-2">
@@ -32,10 +32,10 @@ function Imprint() {
             info@cityofseekers.eu
           </a>
         </p>
-        <p className="mb-4">VAT ID: DE123456789</p>
+        <p className="mb-4">VAT ID: Coming soon</p>
 
         <h2 className="text-2xl font-semibold mb-2">Representative</h2>
-        <p className="mb-4">Frederike Claus</p>
+        <p className="mb-4">Adalber Köcher</p>
 
         <h2 className="text-2xl font-semibold mb-2">Responsible for Content</h2>
         <p className="mb-4">Luke Ziegler</p>

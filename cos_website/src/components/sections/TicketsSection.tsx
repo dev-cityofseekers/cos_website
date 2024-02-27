@@ -32,7 +32,7 @@ function TicketsSection() {
           <TicketItem
             title="Support a Friend Ticket"
             price=">150€"
-            description="If you'd like to support our project financially and pay more than the anticipated amount, this is your ticket!"
+            description="If you wanna go above and beyond the normal price, choose this ticket to support people with limited financial resources to attend as well as help the team to improve the festival!"
           />
         </div>
 
