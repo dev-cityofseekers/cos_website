@@ -7,9 +7,34 @@ function TicketsSection() {
       <div className="max-w-3xl mx-auto px-4">
         <h2 className="text-3xl font-omnes font-bold text-center mb-8">Get Your Tickets</h2>
 
-        {/* Normal Tickets */}
+        {/* Single Day Tickets */}
         <div className="mb-8 flex flex-wrap sm:space-x-6 lg:space-x-6 justify-center">
-          <h3 className="text-xl font-omnes font-semibold mb-4 w-full">Normal Tickets</h3>
+          <h3 className="text-xl font-omnes font-semibold mb-4 w-full">Single Day Tickets</h3>
+          <TicketItem
+            title="Single Day: Thursday | Sunday"
+            price="25€"
+            date="06.or 09.06.2024"
+          />
+          <TicketItem
+             title="Single Day: Friady | Saturday"
+             price="40€"
+             date="07.or 08.06.2024"
+          />
+        </div>
+
+        {/* Two Day Tickets */}
+        <div className="mb-8 flex flex-wrap sm:space-x-6 lg:space-x-6 justify-center">
+          <h3 className="text-xl font-omnes font-semibold mb-4 w-full">Two Day Ticket</h3>
+          <TicketItem
+            title="Two Day Adventure"
+            price="70€"
+            date="You can choose when you arrive"
+          />
+        </div>
+
+        {/* Full Tickets */}
+        <div className="mb-8 flex flex-wrap sm:space-x-6 lg:space-x-6 justify-center">
+          <h3 className="text-xl font-omnes font-semibold mb-4 w-full">Full Tickets</h3>
           <TicketItem
             title="4 days | Become a Friend Ticket"
             price="120€"
@@ -18,7 +43,7 @@ function TicketsSection() {
           <TicketItem
             title="3 Days | Become a Friend Ticket"
             price="110€"
-            date="07.-09.06.2024"
+            date="You can choose when you arrive"
           />
         </div>
 
@@ -27,7 +52,7 @@ function TicketsSection() {
           <h3 className="text-xl font-omnes font-semibold mb-4 w-full">Special Tickets</h3>
           <TicketItem
             title="Find a Friend Ticket"
-            description="We'd like to ensure everybody can join, regardless of your financial situation. If you can't afford the full price, this is your ticket!"
+            description="We'd like to ensure everybody can join, regardless of your financial situation. If you can't afford the full price, get in touch with our team and we will figure something out!"
           />
           <TicketItem
             title="Support a Friend Ticket"
