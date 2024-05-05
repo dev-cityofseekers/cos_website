@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.image-gallery-icon {
+  color: white; /* Example to change icon color */
+}
+
+.image-gallery-slide-wrapper .image-gallery-slide {
+  transition: transform 450ms ease-out; /* Ensures smooth sliding */
+}
