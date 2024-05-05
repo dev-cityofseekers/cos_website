@@ -24,6 +24,7 @@ module.exports = {
       'gradient-background-image-vertical-short': "url('./components/images/gradient_vert_short.png')",
 
       'gradient-background-image-vertical-svg': "url('./components/images/gradient_vert.svg')",
+      'back-button-image': "url('./components/images/back_button.png')",
     }, 
     boxShadow: {
       white: '0 0 10px rgba(255, 255, 255, 0.5)', 

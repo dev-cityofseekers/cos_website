@@ -59,13 +59,6 @@ function Team() {
       image: "/images/team/autumn.jpg",
     },
     {
-      name: "ELIPSØ",
-      role: "DJ",
-      description:
-        "ELIPSØ is responsible for providing quality music, throughout the evenings.\r\n Keeping energy at an all time high, this DJ knows what the crowd wants and delivers without fail.",
-      image: "/images/team/jordan.jpeg",
-    },
-    {
       name: "Elias",
       role: "Tech & Safety Management",
       description:
@@ -78,6 +71,13 @@ function Team() {
       description:
         "Your everyday creative with a physics degree. Chasing a dream in art and media. With a deep passion towards jazz, photography, and storytelling, I'm here to document our journey through COS.",
       image: "/images/team/Áron.jpg",
+    },
+    {
+      name: "Anja",
+      role: "First Aid & Comfort person",
+      description:
+        "",
+      image: "",
     },
 
     // Add more team members as needed
