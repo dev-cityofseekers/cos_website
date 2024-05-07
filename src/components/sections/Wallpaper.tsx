@@ -10,11 +10,6 @@ const images = [
     original: '/wallpapers/Martin01.JPG',
     thumbnail: '/wallpapers/Martin01.JPG', // If you have separate thumbnails, replace the URLs here
   },
-
-  {
-    original: '/wallpapers/Martin03.JPG',
-    thumbnail: '/wallpapers/Martin03.JPG',
-  },
   {
     original: '/wallpapers/Martin04.JPG',
     thumbnail: '/wallpapers/Martin04.JPG',

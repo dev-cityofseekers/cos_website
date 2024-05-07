@@ -76,11 +76,10 @@ function Team() {
       name: "Anja",
       role: "First Aid & Comfort person",
       description:
-        "",
-      image: "",
+        "I'm a 21 year old dog mom, who loves to travel with my furry friend. Ready to implement your crazy ideas, or have a deep talk at the campfire. Super excited to meet all of you at CoS 24.",
+      image: "/images/team/Anja.jpg",
     },
 
-    // Add more team members as needed
   ];
 
   return (

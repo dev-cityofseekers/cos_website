@@ -10,7 +10,7 @@ function TicketPage() {
       <iframe
         className="flex-grow responsive-iframe mx-auto w-full"
         src="https://docs.google.com/forms/d/e/1FAIpQLSddrwFYzIrBQgd_hifLTc0HnmS8KYniKvJz8_vEFO_xLpuu6Q/viewform?embedded=true"
-        loading="lazy" // verbesserte Ladeleistung mit lazy loading
+        loading="lazy"
       >
         Loading…
       </iframe>
