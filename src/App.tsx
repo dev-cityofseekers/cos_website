@@ -13,6 +13,7 @@ import What from "./components/sections/What";
 import Team from "./components/sections/Team";
 import Contact from "./components/sections/Contact";
 import TicketsSection from "./components/sections/TicketsSection";
+import Wallpaper from "./components/sections/Wallpaper";
 
 /*
 #TODO
@@ -45,6 +46,9 @@ function App() {
           </div>
           <div id="COS?" className=" overflow-hidden snap-center">
             <What />
+          </div>
+          <div id="Gallery" className=" overflow-hidden snap-center">
+            <Wallpaper />
           </div>
           <div id="where" className=" overflow-hidden snap-center">
             <Where />

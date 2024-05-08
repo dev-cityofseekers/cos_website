@@ -16,7 +16,7 @@ function TicketsSection() {
             date="06.or 09.06.2024"
           />
           <TicketItem
-             title="Single Day: Friady | Saturday"
+             title="Single Day: Friday | Saturday"
              price="40€"
              date="07.or 08.06.2024"
           />
