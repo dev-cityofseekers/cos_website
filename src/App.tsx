@@ -53,9 +53,7 @@ function App() {
           <div id="where" className=" overflow-hidden snap-center">
             <Where />
           </div>
-          <div id="Tickets" className=" overflow-hidden snap-center">
-            <TicketsSection />
-          </div>
+
           <div id="FAQ" className=" overflow-hidden snap-center">
             <FAQ />
           </div>

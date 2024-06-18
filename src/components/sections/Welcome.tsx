@@ -16,13 +16,9 @@ function Welcome() {
             alt="Logo_black"
           />
           <div className="text-white font-omnes text-center text-4xl lg:text-6xl">
-            June 6-9 2024
+            June 19-22 2025
           </div>
-          <a href="/tickets" className="flex justify-center items-center pt-3">
-            <div className="bg-cos-main-orange text-cos-off-black text-xl font-bold py-5 px-10 rounded-full hover:bg-primary-dark hover:scale-105 transition duration-300 ease-in-out shadow-white">
-              Buy Tickets
-            </div>
-          </a>
+          
         </div>
       </div>
     </div>
@@ -30,3 +26,11 @@ function Welcome() {
 }
 
 export default Welcome;
+
+/**
+ * <a href="/tickets" className="flex justify-center items-center pt-3">
+            <div className="bg-cos-main-orange text-cos-off-black text-xl font-bold py-5 px-10 rounded-full hover:bg-primary-dark hover:scale-105 transition duration-300 ease-in-out shadow-white">
+              Buy Tickets
+            </div>
+          </a>
+*/
