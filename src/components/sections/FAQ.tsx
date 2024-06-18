@@ -33,7 +33,7 @@ const FAQ = () => {
     {
       question: "When is it happening?",
       answer:
-        "City of Seekers 24 will happen for the second time from June 6th to 9th of 2024",
+        "City of Seekers 25 will happen for the third time from June 19th to 22th of 2025",
     },
     {
       question: "Arrival & departure",

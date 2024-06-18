@@ -66,13 +66,6 @@ function Team() {
       image: "/images/team/elias.png",
     },
     {
-      name: "Áron",
-      role: "Media production",
-      description:
-        "Your everyday creative with a physics degree. Chasing a dream in art and media. With a deep passion towards jazz, photography, and storytelling, I'm here to document our journey through COS.",
-      image: "/images/team/Áron.jpg",
-    },
-    {
       name: "Anja",
       role: "First Aid & Comfort person",
       description:

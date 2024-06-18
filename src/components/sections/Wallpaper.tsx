@@ -54,7 +54,7 @@ const images = [
  bg-gradient-background-image
  */
 const Wallpaper = () => {
-  return <div className="bg-gradient-background-image">
+  return <div className="bg-gradient-background-image h-full">
           <ImageGallery
             items={images}
             showPlayButton={true}
