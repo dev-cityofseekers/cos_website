@@ -72,6 +72,14 @@ function Team() {
         "I'm a 21 year old dog mom, who loves to travel with my furry friend. Ready to implement your crazy ideas, or have a deep talk at the campfire. Super excited to meet all of you at CoS 24.",
       image: "/images/team/Anja.jpg",
     },
+    {
+      name: "Ness",
+      role: "Financing & Fund Raising",
+      description:
+          "Hi I'm Ness, a 22 year old seeker, always curious and a farm enthusiast. Making dreams come true is my passion, COS 24 made me realise it's actually possible!!",
+      image: "/images/team/Ness.jpg",
+    },
+
 
   ];
 
