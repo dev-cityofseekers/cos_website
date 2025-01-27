@@ -12,28 +12,11 @@ import Footer from "./components/Footer";
 import What from "./components/sections/What";
 import Team from "./components/sections/Team";
 import Contact from "./components/sections/Contact";
-import TicketsSection from "./components/sections/TicketsSection";
+//import TicketsSection from "./components/sections/TicketsSection";
 import Wallpaper from "./components/sections/Wallpaper";
+import FestivalCountdown from "./components/FestivalCountdown";
+//import './i18n';
 
-/*
-#TODO
- create all sections
- fill with content (wait for autumn, better images)
-
- General:
-
- journey:
-
- contact:
-  easiest way: <a href="mailto:contact@cityofseekers.eu>contact@cityofseekers.eu</a>"
-
-  FAQ:
-fragen von alter seite
-
-
-
-classname="overflow-y-scroll snap-y snap-mandatory scroll-smooth"
-*/
 
 function App() {
   return (
@@ -43,6 +26,12 @@ function App() {
         <div className="w-full bg-cos-main-orange">
           <div id="welcome" className="h-screen snap-start">
             <Welcome />
+          </div>
+          {/*<div id="tickets" className="snap-center">
+                <TicketsSection />
+            </div>*/}
+          <div className="w-11/12 md:w-3/4 lg:w-1/2 mx-auto">
+            <FestivalCountdown/>
           </div>
           <div id="COS?" className=" overflow-hidden snap-center">
             <What />

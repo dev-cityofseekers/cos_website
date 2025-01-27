@@ -1,0 +1,492 @@
+{
+  "en": {
+    "welcome": {
+      "eventDate": "June 19-22 2025",
+      "buyTickets": "Buy Tickets",
+      "logoAlt": "Logo black",
+      "heroAlt": "Hero"
+    },
+    "countdown": {
+      "title": "COS Countdown",
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
+    },
+    "what": {
+      "title": "City of Seekers",
+      "leftImageAlt": "guy",
+      "rightImageAlt": "guy",
+      "description1": "City of Seekers is a space for people to make new connections and deepen existing ones, all in an open and fun surrounding where it is easy to get into contact with strangers / new friends.",
+      "description2": "Over four days, you can enjoy great workshops during the day, live music and amazing DJ's who will make you dance the night away, a fun challenge which will get you out of your comfort zone and relaxed moments at the campfires or on our cozy sofas."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "Who is running City Of Seekers?",
+        "answer": "City Of Seekers is run by a young, motivated team united through the global YesFam community, originally inspired by the YouTube channel Yes Theory. This community believes in challenging comfort zones to fully experience life. While our event is not directly connected to the YesFam community or Yes Theory, we share the same vision: to create connections and learn new things by seeking discomfort."
+      },
+      "q2": {
+        "question": "Who is it for?",
+        "answer": "City of Seekers is an event to welcome people of all ages, genders, races & religions. A place to create new friendships, constructively seek discomfort and challenge yourself among a group of like-minded people."
+      },
+      "q3": {
+        "question": "Do we have Rules?",
+        "answer": "Yes, we have a Ruleset or Code of Conduct to clarify how we want to treat each other, find it <1>here</1> or under <3>cityofseekers.eu/code</3>."
+      },
+      "q4": {
+        "question": "When is it happening?",
+        "answer": "City of Seekers 25 will happen for the third time from June 19th to 22th of 2025"
+      },
+      "q5": {
+        "question": "Arrival & departure",
+        "answer": "More details will be announced closer to the event. Arrival will start in the afternoon of the 6th of June. You can come by car, train, bike or whatever you feel like. We'd ask you to departure around noon on the 9th of June."
+      },
+      "q6": {
+        "question": "Is there a schedule",
+        "answer": "The detailed schedule will be released closer to the event date. Keep an eye on our Instagram for the latest updates."
+      },
+      "q7": {
+        "question": "Will there be food and drinks?",
+        "answer": "We will sell a selection of snacks like chips, sweets or nuts as well as water, sodas and beers. We will have a BYOF BBQ (bring your own food) and a pizza night on one evening each. Please bring your own food for the rest of the days. More details will follow."
+      },
+      "q8": {
+        "question": "What does the ticket price cover?",
+        "answer": "The ticket price includes entry, access to all infrastructure and workshops, and free evening programs. It does not cover food, drinks, and transportation. The ticket price is set to cover our expenses for COS without taking profit."
+      },
+      "q9": {
+        "question": "What about food?",
+        "answer": "Please bring your own cooking supplies for meal preparation. A campfire will be available for BBQ. Last year, we also organized a pizza night with orders from a local restaurant."
+      },
+      "q10": {
+        "question": "Do we need volunteers?",
+        "answer": "We don't specifically require volunteers. However, if you're interested in helping or hosting a workshop, feel free to reach out to us. If we need volunteers we will communicate that over our instagram/website."
+      },
+      "q11": {
+        "question": "Animals",
+        "answer": "While animals are not typically suited for such environments, we leave the decision to bring them to your discretion. Please be mindful of your responsibility for their well-being. If your Animal puts other guests/animals at risk you will have to leash it."
+      },
+      "q12": {
+        "question": "Cancellation Policy",
+        "answer": "Paid tickets are non-refundable. If you need to transfer your ticket to someone else, please inform us with their details for validation. If you're unable to attend and can't find a replacement, contact us. We may assist if there's a waiting list."
+      },
+      "q13": {
+        "question": "Liability and Theft",
+        "answer": "City of Seekers is not liable for damage or theft of personal belongings. We strive for a safe environment but cannot guarantee the security of personal items. Please take care of your belongings."
+      },
+      "q14": {
+        "question": "Nature",
+        "answer": "With our event, we try to burden the environment as little as possible. For this, we need your help. Please respect nature and the environment on the campsite and in the surrounding area. That means: Please throw rubbish (bottles, cigarettes, etc.) in the trashcan and not in nature. Cigarettes and glass in particular are not only pollution, but they also increase the risk of forest fires."
+      }
+    },
+    "contact": {
+      "title": "Welcome to City of Seekers",
+      "intro": "Get ready for an amazing experience at City of Seekers!",
+      "inGroup": "Join our WhatsApp group to:",
+      "tentRenting": {
+        "emoji": "⛺",
+        "title": "Rent or Share Tents",
+        "description": "Find tent sharing opportunities or rental options"
+      },
+      "carSharing": {
+        "emoji": "🚗",
+        "title": "Organize Car Sharing",
+        "description": "Connect with others for shared transportation"
+      },
+      "questions": {
+        "emoji": "❓",
+        "title": "Ask Questions",
+        "description": "Check our",
+        "faqLink": "FAQ section",
+        "askHere": "or ask in the group"
+      },
+      "joinMessage": "Don't miss out on important updates and connections!",
+      "joinButton": "Join WhatsApp Group",
+      "qrText": "Or scan this QR code to join:",
+      "qrAlt": "WhatsApp group QR code",
+      "farewell": "See you at City of Seekers!",
+      "heading": "Contact Us",
+      "questionsFeedback": "Have questions or feedback?",
+      "joinText": "Join the Whatsapp group, text us on",
+      "instagram": "Instagram",
+      "emailText": "or send us an email",
+      "email": "info@cityofseekers.eu"
+    },
+    "imprint": {
+      "title": "Legal Notice",
+      "home": "Back to Home",
+      "companyInfo": {
+        "title": "Company Information",
+        "name": "City Of Seekers e.V.",
+        "address": "Address: Luxemburger str. 202, 50937 Köln",
+        "phone": "Phone",
+        "email": "Email",
+        "vat": "VAT ID: Coming soon"
+      },
+      "representative": {
+        "title": "Representative",
+        "name": "Adalbert Köcher"
+      },
+      "content": {
+        "title": "Responsible for Content",
+        "name": "Luke Ziegler"
+      },
+      "webDev": {
+        "title": "Web Design and Development",
+        "name": "Luke Ziegler"
+      },
+      "disclaimer": {
+        "title": "Disclaimer",
+        "text": "The information provided on this website has been carefully checked and is regularly updated. However, no guarantee can be given that all information is complete, correct, and up-to-date at all times. This applies in particular to all connections (\"links\") to other websites that are referred to directly or indirectly. All information can be added, removed, or changed without prior notice."
+      },
+      "privacy": {
+        "title": "Privacy Policy",
+        "text": "For information on how user data is collected and processed, please refer to our",
+        "link": "privacy policy"
+      },
+      "copyright": {
+        "title": "Copyright",
+        "text": "All rights reserved. Text, images, graphics, sound, animations, and videos on this website are protected by copyright and other protective laws. The content of this website may not be copied, distributed, altered, or made available to third parties for commercial purposes."
+      }
+    },
+    "datapolicy": {
+      "title": "Data Policy",
+      "intro": {
+        "title": "Introduction",
+        "text": "Welcome to City Of Seekers! Your privacy is important to us, and we are committed to protecting the personal information you choose to share with us. This Data Policy explains the types of information we collect, how we use it, and the measures we take to keep your information safe."
+      },
+      "collection": {
+        "title": "Information We Collect",
+        "text": "We only collect information that you voluntarily provide to us. This may include:",
+        "items": {
+          "contact": "Contact Information: When you get in touch with us via our contact form or sign up for our newsletter, we may collect your name, email address, and any other information you choose to provide.",
+          "transaction": "Transaction Information: If you purchase a ticket to our festival, we will collect necessary information to process the transaction, such as your name, email address, and payment details."
+        }
+      },
+      "maps": {
+        "title": "Google Maps",
+        "text1": "Our website uses Google Maps to provide location-based services and interactive maps. When you interact with Google Maps on our website, Google may collect information about your device and interaction with the map, including your IP address and location data. This information is collected and used by Google in accordance with their",
+        "privacy": "Privacy Policy",
+        "text2": "We do not have control over and are not responsible for Google's data collection and usage practices. We encourage you to review Google's Privacy Policy to understand how your information is being used.",
+        "consent": "Please note that your use of Google Maps on our website is subject to your consent to allow cookies and other tracking technologies that Google may use. If you prefer not to have your data collected through Google Maps, we advise not to use this feature on our website."
+      },
+      "usage": {
+        "title": "How We Use Your Information",
+        "text": "We use the information you provide to:",
+        "items": [
+          "Respond to your inquiries and provide customer support.",
+          "Process transactions and send you related information, including confirmations and receipts.",
+          "Keep you updated about the festival, including announcements, updates, and any changes to the event."
+        ]
+      },
+      "security": {
+        "title": "Data Security",
+        "text": "We take the security of your personal information seriously and implement a variety of security measures to help protect it. However, no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security."
+      },
+      "rights": {
+        "title": "Your Rights",
+        "text": "You have the right to access, correct, or delete your personal information at any time. If you wish to exercise these rights, please contact us at:"
+      },
+      "changes": {
+        "title": "Changes to This Policy",
+        "text": "We may update this Data Policy from time to time. We will notify you of any changes by posting the new policy on our website. You are advised to review this Data Policy periodically for any changes."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "text": "If you have any questions about this Data Policy, please contact us at:"
+      }
+    },
+    "privacy": {
+      "title": "Data Policy",
+      "intro": {
+        "title": "Introduction",
+        "text": "Welcome to City Of Seekers! Your privacy is important to us, and we are committed to protecting the personal information you choose to share with us. This Data Policy explains the types of information we collect, how we use it, and the measures we take to keep your information safe."
+      },
+      "collection": {
+        "title": "Information We Collect",
+        "intro": "We only collect information that you voluntarily provide to us. This may include:",
+        "contact": {
+          "title": "Contact Information",
+          "text": "When you get in touch with us via our contact form or sign up for our newsletter, we may collect your name, email address, and any other information you choose to provide."
+        },
+        "transaction": {
+          "title": "Transaction Information",
+          "text": "If you purchase a ticket to our festival, we will collect necessary information to process the transaction, such as your name, email address, and payment details."
+        }
+      },
+      "maps": {
+        "title": "Google Maps",
+        "text1": "Our website uses Google Maps to provide location-based services and interactive maps. When you interact with Google Maps on our website, Google may collect information about your device and interaction with the map, including your IP address and location data. This information is collected and used by Google in accordance with their",
+        "policy": "Privacy Policy",
+        "text2": "Please note that your use of Google Maps on our website is subject to your consent to allow cookies and other tracking technologies that Google may use. If you prefer not to have your data collected through Google Maps, we advise not to use this feature on our website."
+      },
+      "usage": {
+        "title": "How We Use Your Information",
+        "support": "Respond to your inquiries and provide customer support.",
+        "transactions": "Process transactions and send you related information, including confirmations and receipts.",
+        "updates": "Keep you updated about the festival, including announcements, updates, and any changes to the event."
+      },
+      "security": {
+        "title": "Data Security",
+        "text": "We take the security of your personal information seriously and implement a variety of security measures to help protect it. However, no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security."
+      },
+      "rights": {
+        "title": "Your Rights",
+        "text": "You have the right to access, correct, or delete your personal information at any time. If you wish to exercise these rights, please contact us at"
+      },
+      "changes": {
+        "title": "Changes to This Policy",
+        "text": "We may update this Data Policy from time to time. We will notify you of any changes by posting the new policy on our website. You are advised to review this Data Policy periodically for any changes."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "text": "If you have any questions about this Data Policy, please contact us at"
+      }
+    }
+  },
+  "de": {
+    "welcome": {
+      "eventDate": "19.-22. Juni 2025",
+      "buyTickets": "Tickets kaufen",
+      "logoAlt": "Logo schwarz",
+      "heroAlt": "Titelbild"
+    },
+    "countdown": {
+      "title": "COS Countdown",
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Minuten",
+      "seconds": "Sekunden"
+    },
+    "what": {
+      "title": "City of Seekers",
+      "leftImageAlt": "Person",
+      "rightImageAlt": "Person",
+      "description1": "City of Seekers ist ein Ort, an dem Menschen neue Verbindungen knüpfen und bestehende vertiefen können, in einer offenen und entspannten Atmosphäre, in der es leicht fällt, mit Fremden / neuen Freunden in Kontakt zu kommen.",
+      "description2": "Über vier Tage hinweg kannst du tagsüber tolle Workshops genießen, live Musik und großartige DJs erleben, die dich die ganze Nacht tanzen lassen, dich einer spannenden Challenge stellen, die dich aus deiner Komfortzone bringt, und entspannte Momente am Lagerfeuer oder auf unseren gemütlichen Sofas verbringen."
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "q1": {
+        "question": "Wer organisiert City Of Seekers?",
+        "answer": "City Of Seekers wird von einem jungen, motivierten Team organisiert, das sich durch die globale YesFam-Community zusammengefunden hat, inspiriert vom YouTube-Kanal Yes Theory. Diese Community glaubt daran, Komfortzonen herauszufordern, um das Leben voll zu erleben. Auch wenn unsere Veranstaltung nicht direkt mit der YesFam-Community oder Yes Theory verbunden ist, teilen wir dieselbe Vision: Verbindungen schaffen und Neues lernen durch das Suchen von Diskomfort."
+      },
+      "q2": {
+        "question": "Für wen ist es gedacht?",
+        "answer": "City of Seekers ist eine Veranstaltung, die Menschen aller Altersgruppen, Geschlechter, Rassen und Religionen willkommen heißt. Ein Ort, um neue Freundschaften zu knüpfen, konstruktiv Diskomfort zu suchen und sich selbst in einer Gruppe Gleichgesinnter herauszufordern."
+      },
+      "q3": {
+        "question": "Gibt es Regeln?",
+        "answer": "Ja, wir haben ein Regelwerk oder einen Verhaltenskodex, der klärt, wie wir miteinander umgehen möchten. Du findest ihn <1>hier</1> oder unter <3>cityofseekers.eu/code</3>."
+      },
+      "q4": {
+        "question": "Wann findet es statt?",
+        "answer": "City of Seekers 25 findet zum dritten Mal vom 19. bis 22. Juni 2025 statt"
+      },
+      "q5": {
+        "question": "An- und Abreise",
+        "answer": "Weitere Details werden kurz vor der Veranstaltung bekannt gegeben. Die Anreise beginnt am Nachmittag des 6. Juni. Du kannst mit dem Auto, Zug, Fahrrad oder wie auch immer du möchtest anreisen. Wir bitten um Abreise gegen Mittag am 9. Juni."
+      },
+      "q6": {
+        "question": "Gibt es einen Zeitplan?",
+        "answer": "Der detaillierte Zeitplan wird kurz vor der Veranstaltung veröffentlicht. Verfolge unseren Instagram-Account für die neuesten Updates."
+      },
+      "q7": {
+        "question": "Wird es Essen und Getränke geben?",
+        "answer": "Wir verkaufen eine Auswahl an Snacks wie Chips, Süßigkeiten oder Nüsse sowie Wasser, Softdrinks und Bier. Wir werden einen BYOF BBQ (Bring dein eigenes Essen) und einen Pizzaabend an je einem Abend haben. Bitte bring dein eigenes Essen für die restlichen Tage mit. Weitere Details folgen."
+      },
+      "q8": {
+        "question": "Was ist im Ticketpreis enthalten?",
+        "answer": "Der Ticketpreis beinhaltet den Eintritt, Zugang zu allen Einrichtungen und Workshops sowie kostenlose Abendprogramme. Er deckt keine Verpflegung, Getränke und Transport. Der Ticketpreis ist so kalkuliert, dass er unsere Kosten für COS deckt, ohne Gewinn zu machen."
+      },
+      "q9": {
+        "question": "Was ist mit dem Essen?",
+        "answer": "Bitte bring deine eigenen Kochutensilien zur Essenszubereitung mit. Ein Lagerfeuer wird für Grillen zur Verfügung stehen. Letztes Jahr haben wir auch einen Pizzaabend mit Bestellungen von einem lokalen Restaurant organisiert."
+      },
+      "q10": {
+        "question": "Brauchen wir Freiwillige?",
+        "answer": "Wir benötigen keine speziellen Freiwilligen. Wenn du jedoch Interesse hast zu helfen oder einen Workshop anzubieten, melde dich gerne bei uns. Falls wir Freiwillige brauchen, werden wir das über unseren Instagram-Account/Website kommunizieren."
+      },
+      "q11": {
+        "question": "Tiere",
+        "answer": "Obwohl Tiere für solche Umgebungen normalerweise nicht geeignet sind, überlassen wir die Entscheidung, sie mitzubringen, deinem Ermessen. Bitte sei dir deiner Verantwortung für ihr Wohlbefinden bewusst. Wenn dein Tier andere Gäste/Tiere gefährdet, musst du es anleinen."
+      },
+      "q12": {
+        "question": "Stornierungsbedingungen",
+        "answer": "Bezahlte Tickets sind nicht erstattungsfähig. Wenn du dein Ticket an jemand anderen übertragen möchtest, informiere uns bitte mit deren Daten zur Validierung. Wenn du nicht teilnehmen kannst und keinen Ersatz findest, kontaktiere uns. Wir können möglicherweise helfen, wenn es eine Warteliste gibt."
+      },
+      "q13": {
+        "question": "Haftung und Diebstahl",
+        "answer": "City of Seekers haftet nicht für Beschädigung oder Diebstahl von persönlichem Eigentum. Wir bemühen uns um eine sichere Umgebung, können aber die Sicherheit persönlicher Gegenstände nicht garantieren. Bitte achte auf deine Sachen."
+      },
+      "q14": {
+        "question": "Natur",
+        "answer": "Mit unserer Veranstaltung versuchen wir, die Umwelt so wenig wie möglich zu belasten. Dafür brauchen wir deine Hilfe. Bitte respektiere die Natur und Umwelt auf dem Campingplatz und in der Umgebung. Das bedeutet: Bitte wirf Müll (Flaschen, Zigaretten etc.) in den Mülleimer und nicht in die Natur. Besonders Zigaretten und Glas sind nicht nur Umweltverschmutzung, sondern erhöhen auch die Waldbrandgefahr."
+      }
+    },
+    "contact": {
+      "title": "Willkommen bei City of Seekers",
+      "intro": "Mach dich bereit für ein außergewöhnliches Erlebnis bei City of Seekers!",
+      "inGroup": "Tritt unserer WhatsApp-Gruppe bei für:",
+      "tentRenting": {
+        "emoji": "⛺",
+        "title": "Zelte Mieten oder Teilen",
+        "description": "Finde Möglichkeiten zum Zelten oder Zelte zu mieten"
+      },
+      "carSharing": {
+        "emoji": "🚗",
+        "title": "Fahrgemeinschaften",
+        "description": "Verbinde dich mit anderen für gemeinsame Anreise"
+      },
+      "questions": {
+        "emoji": "❓",
+        "title": "Fragen Stellen",
+        "description": "Schau in unsere",
+        "faqLink": "FAQ-Sektion",
+        "askHere": "oder frag in der Gruppe"
+      },
+      "joinMessage": "Verpasse keine wichtigen Updates und Verbindungen!",
+      "joinButton": "WhatsApp-Gruppe Beitreten",
+      "qrText": "Oder scanne diesen QR-Code zum Beitreten:",
+      "qrAlt": "WhatsApp-Gruppe QR-Code",
+      "farewell": "Wir sehen uns bei City of Seekers!",
+      "heading": "Kontakt",
+      "questionsFeedback": "Hast du Fragen oder Feedback?",
+      "joinText": "Tritt der WhatsApp-Gruppe bei, schreib uns auf",
+      "instagram": "Instagram",
+      "emailText": "oder sende uns eine E-Mail an",
+      "email": "info@cityofseekers.eu"
+    },
+    "imprint": {
+      "title": "Impressum",
+      "home": "Zurück zur Startseite",
+      "companyInfo": {
+        "title": "Unternehmensinfo",
+        "name": "City Of Seekers e.V.",
+        "address": "Adresse: Luxemburger str. 202, 50937 Köln",
+        "phone": "Telefon",
+        "email": "E-Mail",
+        "vat": "USt-ID: In Kürze verfügbar"
+      },
+      "representative": {
+        "title": "Vertreter",
+        "name": "Adalbert Köcher"
+      },
+      "content": {
+        "title": "Inhaltlich Verantwortlicher",
+        "name": "Luke Ziegler"
+      },
+      "webDev": {
+        "title": "Webdesign und Entwicklung",
+        "name": "Luke Ziegler"
+      },
+      "disclaimer": {
+        "title": "Haftungsausschluss",
+        "text": "Die Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Es kann jedoch keine Gewähr dafür übernommen werden, dass alle Angaben zu jeder Zeit vollständig, richtig und aktuell sind. Dies gilt insbesondere für alle Verbindungen (\"Links\") zu anderen Websites, auf die direkt oder indirekt verwiesen wird. Alle Angaben können ohne vorherige Ankündigung ergänzt, entfernt oder geändert werden."
+      },
+      "privacy": {
+        "title": "Datenschutz",
+        "text": "Informationen zur Erhebung und Verarbeitung von Nutzerdaten finden Sie in unserer",
+        "link": "Datenschutzerklärung"
+      },
+      "copyright": {
+        "title": "Urheberrecht",
+        "text": "Alle Rechte vorbehalten. Text, Bilder, Grafiken, Ton, Animationen und Videos auf dieser Website sind urheberrechtlich und durch andere Schutzgesetze geschützt. Der Inhalt dieser Website darf nicht für kommerzielle Zwecke kopiert, verbreitet, verändert oder Dritten zugänglich gemacht werden."
+      }
+    },
+    "datapolicy": {
+      "title": "Datenschutzerklärung",
+      "intro": {
+        "title": "Einführung",
+        "text": "Willkommen bei City Of Seekers! Ihre Privatsphäre ist uns wichtig, und wir verpflichten uns, die persönlichen Informationen zu schützen, die Sie mit uns teilen. Diese Datenschutzerklärung erläutert, welche Arten von Informationen wir sammeln, wie wir sie verwenden und welche Maßnahmen wir ergreifen, um Ihre Informationen zu schützen."
+      },
+      "collection": {
+        "title": "Informationen, die wir sammeln",
+        "text": "Wir erfassen nur Informationen, die Sie uns freiwillig zur Verfügung stellen. Dazu gehören:",
+        "items": {
+          "contact": "Kontaktinformationen: Wenn Sie uns über unser Kontaktformular kontaktieren oder sich für unseren Newsletter anmelden, können wir Ihren Namen, Ihre E-Mail-Adresse und andere Informationen erfassen, die Sie uns mitteilen möchten.",
+          "transaction": "Transaktionsdaten: Wenn Sie ein Ticket für unser Festival kaufen, erheben wir die notwendigen Informationen zur Abwicklung der Transaktion, wie Ihren Namen, Ihre E-Mail-Adresse und Zahlungsdetails."
+        }
+      },
+      "maps": {
+        "title": "Google Maps",
+        "text1": "Unsere Website verwendet Google Maps für standortbezogene Dienste und interaktive Karten. Wenn Sie mit Google Maps auf unserer Website interagieren, kann Google Informationen über Ihr Gerät und Ihre Interaktion mit der Karte sammeln, einschließlich Ihrer IP-Adresse und Standortdaten. Diese Informationen werden von Google gemäß ihrer",
+        "privacy": "Datenschutzerklärung",
+        "text2": "erhoben und verwendet. Wir haben keine Kontrolle über die Datenerhebungs- und Nutzungspraktiken von Google und sind dafür nicht verantwortlich. Wir empfehlen Ihnen, die Datenschutzerklärung von Google zu lesen, um zu verstehen, wie Ihre Informationen verwendet werden.",
+        "consent": "Bitte beachten Sie, dass Ihre Nutzung von Google Maps auf unserer Website Ihrer Einwilligung zur Verwendung von Cookies und anderen Tracking-Technologien von Google unterliegt. Wenn Sie nicht möchten, dass Ihre Daten über Google Maps erfasst werden, raten wir Ihnen, diese Funktion auf unserer Website nicht zu nutzen."
+      },
+      "usage": {
+        "title": "Wie wir Ihre Informationen verwenden",
+        "text": "Wir verwenden die von Ihnen bereitgestellten Informationen für:",
+        "items": [
+          "Beantwortung Ihrer Anfragen und Kundenbetreuung.",
+          "Abwicklung von Transaktionen und Zusendung entsprechender Informationen, einschließlich Bestätigungen und Quittungen.",
+          "Aktualisierungen über das Festival, einschließlich Ankündigungen, Updates und eventuelle Änderungen der Veranstaltung."
+        ]
+      },
+      "security": {
+        "title": "Datensicherheit",
+        "text": "Wir nehmen die Sicherheit Ihrer persönlichen Daten sehr ernst und setzen verschiedene Sicherheitsmaßnahmen zu ihrem Schutz ein. Allerdings ist keine Methode der Übertragung über das Internet oder der elektronischen Speicherung 100% sicher. Während wir uns bemühen, kommerziell akzeptable Mittel zum Schutz Ihrer persönlichen Daten einzusetzen, können wir deren absolute Sicherheit nicht garantieren."
+      },
+      "rights": {
+        "title": "Ihre Rechte",
+        "text": "Sie haben das Recht, jederzeit auf Ihre persönlichen Daten zuzugreifen, sie zu korrigieren oder zu löschen. Wenn Sie diese Rechte ausüben möchten, kontaktieren Sie uns bitte unter:"
+      },
+      "changes": {
+        "title": "Änderungen dieser Richtlinie",
+        "text": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Richtlinie auf unserer Website veröffentlichen. Wir empfehlen Ihnen, diese Datenschutzerklärung regelmäßig auf Änderungen zu überprüfen."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter:"
+      }
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "intro": {
+        "title": "Einführung",
+        "text": "Willkommen bei City Of Seekers! Ihre Privatsphäre ist uns wichtig, und wir setzen uns dafür ein, die persönlichen Informationen zu schützen, die Sie mit uns teilen. Diese Datenschutzerklärung erläutert, welche Arten von Informationen wir sammeln, wie wir sie verwenden und welche Maßnahmen wir ergreifen, um Ihre Informationen zu schützen."
+      },
+      "collection": {
+        "title": "Informationen, die wir sammeln",
+        "intro": "Wir sammeln nur Informationen, die Sie uns freiwillig zur Verfügung stellen. Dazu gehören:",
+        "contact": {
+          "title": "Kontaktinformationen",
+          "text": "Wenn Sie uns über unser Kontaktformular kontaktieren oder sich für unseren Newsletter anmelden, können wir Ihren Namen, Ihre E-Mail-Adresse und andere Informationen sammeln, die Sie angeben möchten."
+        },
+        "transaction": {
+          "title": "Transaktionsinformationen",
+          "text": "Wenn Sie ein Ticket für unser Festival kaufen, sammeln wir die notwendigen Informationen zur Abwicklung der Transaktion, wie Ihren Namen, Ihre E-Mail-Adresse und Zahlungsdetails."
+        }
+      },
+      "maps": {
+        "title": "Google Maps",
+        "text1": "Unsere Website verwendet Google Maps, um standortbasierte Dienste und interaktive Karten bereitzustellen. Wenn Sie mit Google Maps auf unserer Website interagieren, kann Google Informationen über Ihr Gerät und Ihre Interaktion mit der Karte sammeln, einschließlich Ihrer IP-Adresse und Standortdaten. Diese Informationen werden von Google gemäß deren",
+        "policy": "Datenschutzerklärung",
+        "text2": "Bitte beachten Sie, dass Ihre Nutzung von Google Maps auf unserer Website Ihrer Zustimmung zur Verwendung von Cookies und anderen Tracking-Technologien durch Google unterliegt. Wenn Sie nicht möchten, dass Ihre Daten über Google Maps gesammelt werden, empfehlen wir, diese Funktion auf unserer Website nicht zu nutzen."
+      },
+      "usage": {
+        "title": "Wie wir Ihre Informationen verwenden",
+        "support": "Beantwortung Ihrer Anfragen und Bereitstellung von Kundenservice.",
+        "transactions": "Verarbeitung von Transaktionen und Zusendung zugehöriger Informationen, einschließlich Bestätigungen und Quittungen.",
+        "updates": "Aktualisierungen über das Festival, einschließlich Ankündigungen, Updates und Änderungen der Veranstaltung."
+      },
+      "security": {
+        "title": "Datensicherheit",
+        "text": "Wir nehmen die Sicherheit Ihrer persönlichen Daten ernst und setzen verschiedene Sicherheitsmaßnahmen zu ihrem Schutz ein. Allerdings ist keine Methode der Übertragung über das Internet oder der elektronischen Speicherung 100% sicher. Während wir uns bemühen, kommerziell akzeptable Mittel zum Schutz Ihrer persönlichen Daten einzusetzen, können wir deren absolute Sicherheit nicht garantieren."
+      },
+      "rights": {
+        "title": "Ihre Rechte",
+        "text": "Sie haben das Recht, Ihre persönlichen Daten jederzeit einzusehen, zu korrigieren oder zu löschen. Wenn Sie diese Rechte ausüben möchten, kontaktieren Sie uns bitte unter"
+      },
+      "changes": {
+        "title": "Änderungen dieser Richtlinie",
+        "text": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Richtlinie auf unserer Website veröffentlichen. Wir empfehlen Ihnen, diese Datenschutzerklärung regelmäßig auf Änderungen zu überprüfen."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter"
+      }
+    }
+  }
+}

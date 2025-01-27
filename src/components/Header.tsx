@@ -8,6 +8,7 @@ import { FaInstagram, FaBars, FaTimes } from "react-icons/fa";
 import { useActiveSection } from "../hooks/findActiveSection";
 import "../font/font.css";
 import "../styles/gradientAnimation.css";
+import LanguageSwitcher from "./LanguageSwitcher";
 //import gradientSVG from "./images/gradient_vert.svg"; 
 
 
@@ -48,6 +49,9 @@ function Header() {
               </li>
             ))}
           </ul>
+            <div className="pl-5">
+            <LanguageSwitcher />
+            </div>
         </nav>
       </div>
 

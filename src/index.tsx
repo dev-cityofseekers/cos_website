@@ -9,6 +9,7 @@ import Layout from "./components/layouts/Layout";
 import DataPolicy from "./pages/DataPolicy";
 import Tickets from "./pages/Tickets";
 import CodeOfConduct from "./pages/CodeOfConduct";
+import './i18n.ts';
 
 ReactDOM.render(
   <React.StrictMode>
