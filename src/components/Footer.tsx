@@ -2,13 +2,7 @@ import "../font/font.css";
 //import footer_transition from "../components/images/footer_transition.png";
 import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
-//import logo_white from "../images/logo_white_transparent.png";
 
-/**#TODO
- *
- * center items in footer,
- *
- */
 
 function Footer() {
   return (

@@ -1,105 +1,143 @@
-/* #TODO
- make bg-transparent and wehen scrolling fade in the background, like in figma design
- */
-
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { FaInstagram, FaBars, FaTimes } from "react-icons/fa";
 import { useActiveSection } from "../hooks/findActiveSection";
 import "../font/font.css";
 import "../styles/gradientAnimation.css";
 import LanguageSwitcher from "./LanguageSwitcher";
-//import gradientSVG from "./images/gradient_vert.svg"; 
-
 
 function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const sections = ["welcome", "COS?", "Gallery", "where", "FAQ", "team", "contact"];
-  const activeSection = useActiveSection(sections);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+    const sections = ["welcome", "COS?", "Gallery", "where", "FAQ", "team", "contact"];
+    const activeSection = useActiveSection(sections);
 
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 50);
+        };
 
-  const headerStyle = {
-    //backgroundImage: `url(${gradientSVG})`,
-    backgroundSize: 'cover', // under construction, verusche hier das bg image vom mobile header zu einem svg umzuwandeln, das file existiert aber ist schwierig gerade haha
-    backgroundPosition: 'center', 
-  
-  };
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
-  return (
-    <div>
-      {/* Desktop Version       */}
-      <div className="w-full flex justify-center">
-        <nav className="fixed top-0 w-auto mt-7 bg-gradient-background-image text-cos-off-black p-4 px-10 z-10 hidden sm:flex justify-center rounded-full">
-          <ul className="flex space-x-3">
-            {sections.map((section) => (
-              <li key={section}>
-                <Link
-                  activeClass="active"
-                  to={section}
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                  className={`cursor-pointer font-omnes ${
-                    activeSection === section ? "border-b-2 border-black" : ""
-                  }`}
+    const handleMenuToggle = (e: { stopPropagation: () => void; }) => {
+        e.stopPropagation();
+        setIsMenuOpen(!isMenuOpen);
+    };
+
+    const handleMenuClose = () => {
+        setIsMenuOpen(false);
+    };
+
+    return (
+        <div>
+            {/* Desktop Navigation */}
+            <div className="w-full flex justify-center">
+                <nav
+                    className={`fixed top-0 w-auto mt-7 p-4 px-10 z-10 hidden sm:flex justify-center rounded-full transition-all duration-300 ${
+                        isScrolled
+                            ? "bg-gradient-background-image"
+                            : "bg-gradient-background-image"
+                    }`}
                 >
-                  {section.charAt(0).toUpperCase() +
-                    section.slice(1).replace(/&/g, "& ")}
-                </Link>
-              </li>
-            ))}
-          </ul>
-            <div className="pl-5">
-            <LanguageSwitcher />
+                    <ul className="flex space-x-6">
+                        {sections.map((section) => (
+                            <li key={section}>
+                                <Link
+                                    activeClass="active"
+                                    to={section}
+                                    spy={true}
+                                    smooth={true}
+                                    duration={500}
+                                    className={`cursor-pointer font-omnes hover:text-white transition-colors duration-200 ${
+                                        activeSection === section
+                                            ? "border-b-2 border-cos-orange text-white"
+                                            : "text-cos-off-black"
+                                    }`}
+                                >
+                                    {section.charAt(0).toUpperCase() + section.slice(1).replace(/&/g, "& ")}
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
+                    <div className="pl-6 border-l ml-6 border-cos-off-black/20">
+                        <LanguageSwitcher />
+                    </div>
+                </nav>
             </div>
-        </nav>
-      </div>
 
-      {/* Mobile Version */}
-      <nav className="sm:hidden fixed top-0 w-10/12 bg-gradient-background-image-vertical-short ml-10 mt-7 text-white p-4 px-10 z-10 flex justify-between items-center rounded-full" onClick={() => setIsMenuOpen(true)}>
-        
-          <img
-            src="/images/logo_white_transparent.png"
-            alt="logo"
-            className="w-14"
-          />
-        
-        <FaBars  />
-      </nav>
+            {/* Mobile Navigation */}
+            <nav
+                className="sm:hidden fixed top-0 left-1/2 -translate-x-1/2 w-10/12 mt-7 p-4 z-10 rounded-full bg-gradient-background-image-vertical-short">
+                <div className="flex items-center justify-between">
+                    <div className="flex-1">
+                        <img
+                            src="/images/logo_white_transparent.png"
+                            alt="logo"
+                            className="w-14 transition-transform duration-200 hover:scale-105"
+                            onClick={handleMenuToggle}
+                        />
+                    </div>
 
-      {isMenuOpen && (
-        <div className="fixed  w-full h-full bg-gradient-background-image-vertical text-white z-20 p-8" onClick={() => setIsMenuOpen(false)} /*style={headerStyle}*/
-        >
-          
-          <div className="w-full pb-24">
-            
-            <FaTimes
-              className="text-2xl mb-8 cursor-pointer float-right "
-            />
-          </div>
-          <div className="flex flex-col items-center ">
-            {sections.map((section) => (
-              <Link
-                key={section}
-                to={section}
-                spy={true}
-                smooth={true}
-                duration={500}
-                className="cursor-pointer mb-4"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {section.charAt(0).toUpperCase() +
-                  section.slice(1).replace(/&/g, "& ")}
-              </Link>
-            ))}
-            <a href="https://instagram.com/cityofseekers" className="mt-8">
-              <FaInstagram className="text-2xl" />
-            </a>
-          </div>
+                    <div className="flex-1 flex justify-center">
+                        <LanguageSwitcher/>
+                    </div>
+
+                    <div className="flex-1 flex justify-end">
+                        <button
+                            onClick={handleMenuToggle}
+                            className="p-2 hover:bg-white/10 rounded-full transition-colors duration-200"
+                        >
+                            <FaBars className="text-xl text-white"/>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+
+            {/* Mobile Menu Overlay */}
+            {isMenuOpen && (
+                <div
+                    className="fixed inset-0 bg-gradient-background-image-vertical text-white z-20 p-8"
+                    onClick={handleMenuClose}
+                >
+
+                    <div className="w-full flex justify-end pb-24">
+                        <button
+                            onClick={handleMenuClose}
+                            className="p-2 hover:bg-white/10 rounded-full transition-colors duration-200"
+                        >
+                            <FaTimes className="text-2xl"/>
+                        </button>
+                    </div>
+
+                    <div className="flex flex-col items-center space-y-6">
+                        {sections.map((section) => (
+                            <Link
+                                key={section}
+                                to={section}
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                className="cursor-pointer text-lg hover:text-cos-orange transition-colors duration-200"
+                                onClick={handleMenuClose}
+                            >
+                                {section.charAt(0).toUpperCase() + section.slice(1).replace(/&/g, "& ")}
+                            </Link>
+                        ))}
+                        <a
+                            href="https://instagram.com/cityofseekers"
+                            className="mt-8 p-3 hover:bg-white/10 rounded-full transition-colors duration-200"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaInstagram className="text-2xl" />
+                        </a>
+                    </div>
+                </div>
+            )}
         </div>
-      )}
-    </div>
-  );
+    );
 }
 
 export default Header;
