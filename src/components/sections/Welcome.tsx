@@ -16,11 +16,19 @@ function Welcome() {
                         src="/images/logo_white_transparent.png"
                         className="mx-auto pt-8"
                         alt={t('welcome.logoAlt')}
-                    />
-                    <div className="text-white font-omnes text-center text-4xl lg:text-6xl">
-                        {t('welcome.eventDate')}
+                    /></div>
+                <div className="shadow-black">
+                    <div className="text-black font-omnes text-center text-4xl lg:text-6xl">
+                        {t('welcome.slogan1')}
+                    </div>
+                    <div className="text-black font-omnes text-center text-4xl lg:text-6xl">
+                        {t('welcome.slogan2')}
                     </div>
                 </div>
+                <div className="shadow-black text-white font-omnes text-center text-4xl lg:text-6xl">
+                    {t('welcome.eventDate')}
+                </div>
+
             </div>
             <div className="absolute bottom-20 left-0 right-0 flex justify-center">
                 <a href="https://app.tickettailor.com/events/cityofseekers/1550140">
