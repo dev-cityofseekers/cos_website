@@ -1,22 +1,29 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Footer from "../components/Footer";
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from "../components/LanguageSwitcher";
 
+
+
 function DataPolicy() {
     const { t } = useTranslation();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className="min-h-screen bg-cos-main-orange">
             <div className="w-full flex justify-center">
                 <div className="flex space-x-3 fixed mt-7 bg-gradient-background-image text-white p-4 px-10 z-10 justify-center rounded-full">
                     <a href="/" className="">
-                        <div className="text-center">
-                            Home
-                        </div>
+                        <img
+                            src="/images/logo_white_transparent.png"
+                            alt="logo"
+                            className="w-14 transition-transform duration-200 hover:scale-105"
+                        />
                     </a>
                     <div className="">
-                        <LanguageSwitcher />
+                        <LanguageSwitcher/>
                     </div>
                 </div>
             </div>

@@ -33,7 +33,7 @@ const FestivalCountdown = () => {
     }, []);
 
     return (
-        <div className="bg-gradient-to-r from-cos-sea-blue to-cos-pink p-4 md:p-8 rounded-lg w-full max-w-4xl mx-auto my-8">
+        <div className="bg-gradient-to-r from-cos-sea-blue to-cos-pink p-4  rounded-lg w-full max-w-4xl mx-auto pb-8">
             <h2 className="text-2xl md:text-3xl font-omnes font-bold text-center mb-4 md:mb-6 text-cos-off-black">{t('countdown.title')}</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4 text-center">
                 <div className="bg-white/80 backdrop-blur-sm p-2 md:p-4 rounded-lg shadow-white bg-white shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
