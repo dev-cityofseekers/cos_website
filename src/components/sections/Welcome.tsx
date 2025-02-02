@@ -34,6 +34,7 @@ function Welcome() {
                     {t('welcome.eventDate')}
                 </div>
             </div>
+            {/* Buy Tickets button
             <div className="absolute bottom-20 left-0 right-0 flex justify-center">
                 <a href="https://app.tickettailor.com/events/cityofseekers/1550140">
                     <div
@@ -41,7 +42,7 @@ function Welcome() {
                         {t('welcome.buyTickets')}
                     </div>
                 </a>
-            </div>
+            </div> */}
         </div>
     );
 }
