@@ -34,15 +34,15 @@ function Welcome() {
                     {t('welcome.eventDate')}
                 </div>
             </div>
-            {/* Buy Tickets button
+            {/* Buy Tickets button*/}
             <div className="absolute bottom-20 left-0 right-0 flex justify-center">
-                <a href="https://app.tickettailor.com/events/cityofseekers/1550140">
+                <a href="https://buytickets.at/cityofseekers/1550140">
                     <div
-                        className="bg-cos-main-orange text-cos-off-black text-xl font-bold py-5 px-10 rounded-full hover:bg-primary-dark hover:scale-105 transition duration-300 ease-in-out shadow-white">
+                        className="bg-cos-main-orange text-cos-off-black text-xl font-omnes py-5 px-10 rounded-full hover:bg-primary-dark hover:scale-105 transition duration-300 ease-in-out shadow-white">
                         {t('welcome.buyTickets')}
                     </div>
                 </a>
-            </div> */}
+            </div>
         </div>
     );
 }

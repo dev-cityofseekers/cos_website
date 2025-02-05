@@ -11,6 +11,7 @@ function TicketPage() {
         className="flex-grow responsive-iframe mx-auto w-full"
         src="https://docs.google.com/forms/d/e/1FAIpQLSddrwFYzIrBQgd_hifLTc0HnmS8KYniKvJz8_vEFO_xLpuu6Q/viewform?embedded=true"
         loading="lazy"
+        title={"Ticket"}
       >
         Loading…
       </iframe>

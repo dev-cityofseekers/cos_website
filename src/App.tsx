@@ -17,6 +17,7 @@ import Contact from "./components/sections/Contact";
 //import TicketsSection from "./components/sections/TicketsSection";
 import Wallpaper from "./components/sections/Wallpaper";
 import FestivalCountdown from "./components/FestivalCountdown";
+import Partners from "./components/sections/Partners";
 //import './i18n';
 
 
@@ -26,37 +27,38 @@ function App() {
       <Header />
       <div className=" h-screen">
         <div className="w-full bg-cos-main-orange">
-          <SpeedInsights />
+          <SpeedInsights/>
           <div id="welcome" className="h-screen snap-start">
-            <Welcome />
+            <Welcome/>
           </div>
           {/*<div id="tickets" className="snap-center">
                 <TicketsSection />
             </div>*/}
+          <div id="COS?" className=" overflow-hidden snap-center">
+            <What/>
+          </div>
           <div className="w-11/12 md:w-3/4 lg:w-1/2 mx-auto">
             <FestivalCountdown/>
           </div>
-          <div id="COS?" className=" overflow-hidden snap-center">
-            <What />
-          </div>
           <div id="Gallery" className=" overflow-hidden snap-center">
-            <Wallpaper />
+            <Wallpaper/>
           </div>
           <div id="where" className=" overflow-hidden snap-center">
-            <Where />
+            <Where/>
           </div>
 
           <div id="FAQ" className=" overflow-hidden snap-center">
-            <FAQ />
+            <FAQ/>
           </div>
           <div id="team" className="  snap-center">
-            <Team />
+            <Team/>
           </div>
+          <Partners/>
           <div id="contact" className="snap-center">
-            <Contact />
+            <Contact/>
           </div>
           <div className="bg-cos-off-black  snap-end">
-            <Footer />
+            <Footer/>
           </div>
         </div>
       </div>
