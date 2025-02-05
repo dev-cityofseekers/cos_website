@@ -1,4 +1,3 @@
-import { stringify } from "querystring";
 
 function Team() {
   const teamMembers = [
@@ -72,7 +71,7 @@ function Team() {
     {
       name: "This could be you!",
       role: "Your Role Here",
-      description: "Have skills that could improve the COS experience? We're always looking for passionate people to join our team. Whether it's tech, art, organization, or any other talent - reach out and let's create something amazing together!",
+      description: "Have skills that could enhance the COS experience? Our event wouldn't be be the same without our incredible guests - you're part of what makes it special! We're always happy to welcome passionate helpers or workshop hosts who want to contribute. If you'd like to get involved, reach out and let's create something amazing together!",
       image: "/images/team/group.JPG",
     }
 
@@ -90,7 +89,7 @@ function Team() {
           </p>
           <img
               src="/images/team/teamfoto.png"
-              alt="Group Photo"
+              alt="Group pic"
               className="mt-4 rounded-lg shadow-lg w-full h-auto mx-auto"
           />
         </div>

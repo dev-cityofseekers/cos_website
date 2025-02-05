@@ -16,11 +16,37 @@
       "seconds": "Seconds"
     },
     "what": {
-      "title": "City of Seekers",
-      "leftImageAlt": "guy",
-      "rightImageAlt": "guy",
-      "description1": "City of Seekers is a space for people to make new connections and deepen existing ones, all in an open and fun surrounding where it is easy to get into contact with strangers / new friends.",
-      "description2": "Over four days, you can enjoy great workshops during the day, live music and amazing DJ's who will make you dance the night away, a fun challenge which will get you out of your comfort zone and relaxed moments at the campfires or on our cozy sofas."
+      "title": "More Than A Festival",
+      "subtitle": "It's where strangers become friends and moments become memories",
+      "heroImageAlt": "Festival atmosphere",
+      "card1": {
+        "title": "Dawn to Dusk Magic",
+        "description": "From morning workshops to evening campfires, every moment is crafted for connection"
+      },
+      "card2": {
+        "title": "Rhythm of Connection",
+        "description": "Dance, laugh, and celebrate with live music, DJs, and spontaneous jam sessions"
+      },
+      "card3": {
+        "title": "Beyond Comfort Zones",
+        "description": "Challenge yourself, try something new, and discover what happens when you say \"yes\""
+      },
+      "connection": {
+        "title": "It's All About Connection",
+        "item1": {
+          "title": "Be Yourself",
+          "description": "A judgment-free zone where authenticity thrives"
+        },
+        "item2": {
+          "title": "Find Your People",
+          "description": "Connect with souls who get your vibe"
+        },
+        "item3": {
+          "title": "Grow Together",
+          "description": "Share skills, stories, and spontaneous adventures"
+        }
+      },
+      "joinButton": "Join the Adventure 🌟"
     },
     "faq": {
       "title": "Frequently Asked Questions",
@@ -244,6 +270,9 @@
         "title": "Contact Us",
         "text": "If you have any questions about this Data Policy, please contact us at"
       }
+    },
+    "sponsors": {
+      "thankYou": "Thank you to our supporting Partners:"
     }
   },
   "de": {
@@ -263,11 +292,37 @@
       "seconds": "Sekunden"
     },
     "what": {
-      "title": "City of Seekers",
-      "leftImageAlt": "Person",
-      "rightImageAlt": "Person",
-      "description1": "City of Seekers ist ein Ort, an dem Menschen neue Verbindungen knüpfen und bestehende vertiefen können, in einer offenen und entspannten Atmosphäre, in der es leicht fällt, mit Fremden / neuen Freunden in Kontakt zu kommen.",
-      "description2": "Über vier Tage hinweg kannst du tagsüber tolle Workshops genießen, live Musik und großartige DJs erleben, die dich die ganze Nacht tanzen lassen, dich einer spannenden Challenge stellen, die dich aus deiner Komfortzone bringt, und entspannte Momente am Lagerfeuer oder auf unseren gemütlichen Sofas verbringen."
+      "title": "Mehr als ein Festival",
+      "subtitle": "Hier werden aus Fremden Freunde und aus Momenten Erinnerungen",
+      "heroImageAlt": "Festival-Atmosphäre",
+      "card1": {
+        "title": "Magie von Morgen bis Abend",
+        "description": "Von Morgenworkshops bis zu abendlichen Lagerfeuern ist jeder Moment für Verbindung geschaffen"
+      },
+      "card2": {
+        "title": "Rhythmus der Verbindung",
+        "description": "Tanze, lache und feiere mit Live-Musik, DJs und spontanen Jam-Sessions"
+      },
+      "card3": {
+        "title": "Jenseits der Komfortzone",
+        "description": "Fordere dich selbst heraus, probiere Neues aus und entdecke, was passiert, wenn du \"Ja\" sagst"
+      },
+      "connection": {
+        "title": "Es geht um Connection",
+        "item1": {
+          "title": "Sei du selbst",
+          "description": "Ein Ort ohne Vorurteile, wo Authentizität gedeiht"
+        },
+        "item2": {
+          "title": "Finde deine Leute",
+          "description": "Verbinde dich mit Menschen, die deine Energie teilen"
+        },
+        "item3": {
+          "title": "Wachse gemeinsam",
+          "description": "Teile Fähigkeiten, Geschichten und spontane Abenteuer"
+        }
+      },
+      "joinButton": "Sei dabei 🌟"
     },
     "faq": {
       "title": "Häufig gestellte Fragen",
@@ -491,6 +546,9 @@
         "title": "Kontakt",
         "text": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter"
       }
+    },
+    "sponsors": {
+      "thankYou": "Wir danken unseren Förderpartnern:"
     }
   }
 }
