@@ -1,5 +1,10 @@
 {
   "en": {
+    "general": {
+      "header": {
+        "tickets": "Tickets"
+      }
+    },
     "welcome": {
       "eventDate": "June 19-22 2025",
       "buyTickets": "Buy Tickets",
@@ -71,7 +76,7 @@
         "answer": "More details will be announced closer to the event. Arrival will start in the afternoon of the 6th of June. You can come by car, train, bike or whatever you feel like. We'd ask you to departure around noon on the 9th of June."
       },
       "q6": {
-        "question": "Is there a schedule",
+        "question": "Is there a schedule?",
         "answer": "The detailed schedule will be released closer to the event date. Keep an eye on our Instagram for the latest updates."
       },
       "q7": {
@@ -273,9 +278,82 @@
     },
     "sponsors": {
       "thankYou": "Thank you to our supporting Partners:"
+    },
+    "code": {
+      "title": "Code of Conduct",
+      "kindness": {
+        "title": "Be kind to one another",
+        "items": {
+          "0": "Treat others the way you want to be treated.",
+          "1": "Keep conversations respectful to all involved.",
+          "2": "Personal attacks by an individual or group against an attendee of City of Seekers are not allowed.",
+          "3": "Bullying attendees is not allowed.",
+          "4": "Offensive language used towards any group or individual will not be tolerated.",
+          "5": "Sexist, discriminatory and violent verbal or non-verbal behavior will not be tolerated.",
+          "6": "Actions and interactions between persons without prior mutual consent are forbidden. (This includes unwanted physical contact and unwanted sexual attention)"
+        }
+      },
+      "equality": {
+        "title": "Equality for all",
+        "items": {
+          "0": "Racism is forbidden.",
+          "1": "Sexism against a person or group is not allowed.",
+          "2": "Political or religious extremism must be kept off the festival site.",
+          "3": "Other discriminatory behavior will not be tolerated.",
+          "4": "All announcements by the organizers will be held in English."
+        }
+      },
+      "privacy": {
+        "title": "Privacy and Consent",
+        "items": {
+          "0": "Every individual's privacy must be respected. This includes not sharing personal information, photos, or recordings without explicit consent.",
+          "1": "Consent is paramount. Ensure all interactions, whether physical or digital, are mutually agreed upon.",
+          "2": "Unsolicited sharing of someone else's information or media is strictly prohibited."
+        }
+      },
+      "rules": {
+        "title": "Laws and Rules",
+        "items": {
+          "0": "Compliance with all applicable laws and festival rules is mandatory.",
+          "1": "Follow the organizers' instructions to ensure a safe and enjoyable environment for everyone."
+        }
+      },
+      "property": {
+        "title": "Theft and Property Damage",
+        "items": {
+          "0": "Respect others' property. Theft or intentional damage will lead to immediate action and possible legal consequences.",
+          "1": "Report any damage to property immediately to the organizers."
+        }
+      },
+      "environment": {
+        "title": "Environmental Respect",
+        "items": {
+          "0": "Leave no trace. Dispose of trash properly and respect natural habitats.",
+          "1": "Maintain cleanliness, especially in communal areas like sanitary facilities."
+        }
+      },
+      "conduct": {
+        "title": "Conduct and Nuisances",
+        "items": {
+          "0": "Disruptive behavior will not be tolerated. Repeated complaints may lead to removal from the festival without a refund.",
+          "1": "In serious cases, the festival reserves the right to involve law enforcement."
+        }
+      },
+      "contact": {
+        "title": "Contact and Assistance",
+        "items": {
+          "0": "If you're experiencing harassment or see someone else in distress, contact an organizer immediately.",
+          "1": "Our team is here to help ensure your safety and enjoyment throughout the festival."
+        }
+      }
     }
   },
   "de": {
+    "general": {
+      "header": {
+        "tickets": "Tickets"
+      }
+    },
     "welcome": {
       "eventDate": "19.-22. Juni 2025",
       "buyTickets": "Tickets kaufen",
@@ -296,7 +374,7 @@
       "subtitle": "Hier werden aus Fremden Freunde und aus Momenten Erinnerungen",
       "heroImageAlt": "Festival-Atmosphäre",
       "card1": {
-        "title": "Magie von Morgen bis Abend",
+        "title": "Magie von Morgens bis Abends",
         "description": "Von Morgenworkshops bis zu abendlichen Lagerfeuern ist jeder Moment für Verbindung geschaffen"
       },
       "card2": {
@@ -549,6 +627,74 @@
     },
     "sponsors": {
       "thankYou": "Wir danken unseren Förderpartnern:"
+    },
+    "code": {
+      "title": "Verhaltenskodex",
+      "kindness": {
+        "title": "Seid freundlich zueinander",
+        "items": {
+          "0": "Behandle andere so, wie du selbst behandelt werden möchtest.",
+          "1": "Führe respektvolle Gespräche mit allen Beteiligten.",
+          "2": "Persönliche Angriffe von Einzelpersonen oder Gruppen gegen Teilnehmende der City of Seekers sind nicht erlaubt.",
+          "3": "Mobbing von Teilnehmenden ist nicht erlaubt.",
+          "4": "Beleidigende Sprache gegenüber Gruppen oder Einzelpersonen wird nicht toleriert.",
+          "5": "Sexistisches, diskriminierendes und gewalttätiges verbales oder nonverbales Verhalten wird nicht toleriert.",
+          "6": "Handlungen und Interaktionen zwischen Personen ohne vorherige gegenseitige Einwilligung sind verboten. (Dies schließt unerwünschten körperlichen Kontakt und unerwünschte sexuelle Aufmerksamkeit ein)"
+        }
+      },
+      "equality": {
+        "title": "Gleichberechtigung für alle",
+        "items": {
+          "0": "Rassismus ist verboten.",
+          "1": "Sexismus gegenüber Personen oder Gruppen ist nicht erlaubt.",
+          "2": "Politischer oder religiöser Extremismus muss vom Festivalgelände ferngehalten werden.",
+          "3": "Andere diskriminierende Verhaltensweisen werden nicht toleriert.",
+          "4": "Alle Ankündigungen der Organisatoren werden auf Englisch gehalten."
+        }
+      },
+      "privacy": {
+        "title": "Privatsphäre und Einwilligung",
+        "items": {
+          "0": "Die Privatsphäre jeder Person muss respektiert werden. Dies schließt ein, dass keine persönlichen Informationen, Fotos oder Aufnahmen ohne ausdrückliche Zustimmung geteilt werden dürfen.",
+          "1": "Einverständnis ist von höchster Bedeutung. Stelle sicher, dass alle Interaktionen, ob physisch oder digital, im gegenseitigen Einvernehmen erfolgen.",
+          "2": "Unaufgefordertes Teilen von Informationen oder Medien anderer Personen ist streng verboten."
+        }
+      },
+      "rules": {
+        "title": "Gesetze und Regeln",
+        "items": {
+          "0": "Die Einhaltung aller geltenden Gesetze und Festivalregeln ist obligatorisch.",
+          "1": "Befolge die Anweisungen der Organisatoren, um eine sichere und angenehme Umgebung für alle zu gewährleisten."
+        }
+      },
+      "property": {
+        "title": "Diebstahl und Sachbeschädigung",
+        "items": {
+          "0": "Respektiere das Eigentum anderer. Diebstahl oder vorsätzliche Beschädigung führt zu sofortigen Maßnahmen und möglichen rechtlichen Konsequenzen.",
+          "1": "Melde Sachschäden sofort den Organisatoren."
+        }
+      },
+      "environment": {
+        "title": "Umweltschutz",
+        "items": {
+          "0": "Hinterlasse keine Spuren. Entsorge Müll ordnungsgemäß und respektiere natürliche Lebensräume.",
+          "1": "Halte besonders die Gemeinschaftsbereiche wie sanitäre Anlagen sauber."
+        }
+      },
+      "conduct": {
+        "title": "Verhalten und Störungen",
+        "items": {
+          "0": "Störendes Verhalten wird nicht toleriert. Wiederholte Beschwerden können zum Ausschluss vom Festival ohne Rückerstattung führen.",
+          "1": "In schwerwiegenden Fällen behält sich das Festival das Recht vor, die Strafverfolgungsbehörden einzuschalten."
+        }
+      },
+      "contact": {
+        "title": "Kontakt und Hilfe",
+        "items": {
+          "0": "Wenn du Belästigung erfährst oder jemand anderen in Not siehst, kontaktiere sofort einen Organisator.",
+          "1": "Unser Team ist hier, um deine Sicherheit und dein Wohlbefinden während des gesamten Festivals zu gewährleisten."
+        }
+      }
     }
   }
 }

@@ -5,13 +5,13 @@ function Team() {
     {
       name: "Adalbert",
       role: "Tech & Infrastructure",
-      description: "21 year old tech guy and crazy person that you probably will find running around, solving problems. Let's connect, deeptalk, party and create amazing memories :)",
+      description: "22 year old tech guy and crazy person that you probably will find running around, solving problems. Let's connect, deeptalk, party and create amazing memories :)",
       image: "/images/team/adel.jpg",
     },
     {
       name: "Anja",
       role: "First Aid & Comfort person",
-      description: "I'm a 21 year old dog mom, who loves to travel with my furry friend. Ready to implement your crazy ideas, or have a deep talk at the campfire. Super excited to meet all of you at CoS 24.",
+      description: "I'm a 22 year old dog mom, who loves to travel with my furry friend. Ready to implement your crazy ideas, or have a deep talk at the campfire. Super excited to meet all of you at CoS 24.",
       image: "/images/team/Anja.jpg",
     },
     {
@@ -22,7 +22,7 @@ function Team() {
     },
     {
       name: "Didi",
-      role: "Team management & Artists",
+      role: "Team management & Workshops",
       description: "Rule number one: no one is allowed to leave my house with an empty stomach. So basically I'm a Grandma to all of my friends. Let's find some four-leaf clovers together and share some strawberries. See you soon!!!",
       image: "/images/team/didi.png",
     },
@@ -35,25 +35,28 @@ function Team() {
     {
       name: "Elias",
       role: "Tech & Safety Management",
-      description: "25, a carpenter and an event technician from Germany. Currently living in Wiesbaden.",
+      description: "26, a carpenter and an event technician from Germany. Currently living in Wiesbaden.",
       image: "/images/team/elias.png",
     },
     {
       name: "Freddyi",
       role: "Finance & Legal",
-      description: "21 years old and I'm in my second year of studying nursing. Most of my spare time is used for traveling, exploring new places, or meeting people. I can't wait to get to know more people at and through the Event and create lifelong memories.",
+      description: "22 years old and I'm in my third year of studying nursing. Most of my spare time is used for traveling, exploring new places, or meeting people. I can't wait to get to know more people at and through the Event and create lifelong memories.",
       image: "/images/team/freddyi.png",
     },
     {
       name: "Johar",
       role: "Marketing & Social Media",
-      description: "Idealistic neurodivergent teacher/coach, content creator, musician & budding techie. In my free time... well, I'm asleep. All over Germany. Let's have coffee outside our comfort zones!",
+      description: "Curious, creative connector. Musician & tech tool geek. \n" +
+          "My guiding question: how can I make this moment & this life better for those in front of me? \n" +
+          "When not in motion, I’m probably asleep, meditating, eating everything I find, or deeply listening to you.\n" +
+          "Let’s hug and transform together this summer!",
       image: "/images/team/johar.jpg",
     },
     {
       name: "Luke/Liiav",
       role: "Vibe control & Website Developer",
-      description: "Hi, I'm Luke, Spiritual seeker, Musician, Visionary, UX Designer/Frontend Dev, Event Organizer from Vienna. In COS 23 I felt a calling to unite and nourish a community that chooses love over fear, yeah baby. Im super excited for COS24.",
+      description: "Hi, I'm Luke, Spiritual seeker, Musician, Visionary, UX Designer/Frontend Dev, Event Organizer from Vienna. In COS 1.0 I felt a calling to unite and nourish a community that chooses love over fear, yeah baby. Im super excited for COS25.",
       image: "/images/team/luke.jpg",
     },
     {
