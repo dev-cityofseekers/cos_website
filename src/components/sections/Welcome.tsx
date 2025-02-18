@@ -75,49 +75,40 @@ function Welcome() {
         <div className="relative w-full h-screen overflow-hidden">
             {/* Background Layer */}
             <div className="absolute inset-0 z-8">
-                {isMobile ? (
-                    <img
-                        src="/images/welcome_sun_left_crop.JPG"
-                        alt={t('welcome.heroAlt')}
-                        className="w-full h-full object-cover"
+                <div className="relative w-full h-full">
+                    <div
+                        id="youtube-player"
+                        className="absolute inset-0 w-full h-full"
+                        style={{
+                            position: 'absolute',
+                            top: '50%',
+                            left: '50%',
+                            transform: 'translate(-50%, -50%)',
+                            width: '100%',
+                            height: '100%',
+                            minHeight: '100vh',
+                            minWidth: '177.77vh'
+                        }}
                     />
-                ) : (
-                    <div className="relative w-full h-full">
-                        <div
-                            id="youtube-player"
-                            className="absolute inset-0 w-full h-full"
-                            style={{
-                                position: 'absolute',
-                                top: '50%',
-                                left: '50%',
-                                transform: 'translate(-50%, -50%)',
-                                width: '100%',
-                                height: '100%',
-                                minHeight: '100vh',
-                                minWidth: '177.77vh' // Maintain 16:9 aspect ratio (100 * 16/9)
-                            }}
-                        />
-                    </div>
-                )}
+                </div>
             </div>
 
             {/* Overlay */}
             <div className="absolute inset-0 z-9 bg-black bg-opacity-40 pointer-events-none" />
 
             {/* Sound Control */}
-            {!isMobile && (
-                <button
-                    onClick={toggleSound}
-                    className="absolute bottom-4 right-4 z-20 p-2 rounded-full bg-black bg-opacity-50 hover:bg-opacity-70 transition-all duration-300 text-white"
-                    aria-label={isMuted ? "Unmute video" : "Mute video"}
-                >
-                    {isMuted ? (
-                        <VolumeX className="w-5 h-5" />
-                    ) : (
-                        <Volume2 className="w-5 h-5" />
-                    )}
-                </button>
-            )}
+            <button
+                onClick={toggleSound}
+                className="absolute bottom-4 right-4 z-20 p-2 rounded-full bg-black bg-opacity-50 hover:bg-opacity-70 transition-all duration-300 text-white"
+                aria-label={isMuted ? "Unmute video" : "Mute video"}
+            >
+                {isMuted ? (
+                    <VolumeX className="w-5 h-5" />
+                ) : (
+                    <Volume2 className="w-5 h-5" />
+                )}
+            </button>
+
 
             {/* Content */}
             <div className="relative z-9 h-full flex flex-col items-center justify-center px-4">
@@ -130,7 +121,7 @@ function Welcome() {
                     />
                 </div>
 
-                <div className="mb-6 max-w-2xl">
+                <div className="mt-40 mb-6 max-w-2xl">
                     <div className="text-white font-omnes text-center text-2xl sm:text-3xl lg:text-5xl drop-shadow-lg mb-1">
                         {t('welcome.slogan1')}
                     </div>
