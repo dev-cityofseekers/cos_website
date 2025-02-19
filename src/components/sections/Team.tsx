@@ -33,12 +33,6 @@ function Team() {
       image: "/images/team/ela.jpg",
     },
     {
-      name: "Elias",
-      role: "Tech & Safety Management",
-      description: "26, a carpenter and an event technician from Germany. Currently living in Wiesbaden.",
-      image: "/images/team/elias.png",
-    },
-    {
       name: "Freddyi",
       role: "Finance & Legal",
       description: "22 years old and I'm in my third year of studying nursing. Most of my spare time is used for traveling, exploring new places, or meeting people. I can't wait to get to know more people at and through the Event and create lifelong memories.",

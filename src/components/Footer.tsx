@@ -47,8 +47,8 @@ function Footer() {
         </div>
       </div>
       <div className="text-xs text-center pb-7">
-        <div>6, 7, 8 & 9. June 2024 - Hamelin, Germany</div>
-        <div>@2024 City Of Seekers e.V. All rights reserved.</div>
+        <div>19.-22. June 2025 - Hamelin, Germany</div>
+        <div>@2025 City Of Seekers e.V. All rights reserved.</div>
       </div>
     </div>
   );
