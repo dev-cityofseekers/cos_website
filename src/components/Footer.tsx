@@ -22,12 +22,13 @@ function Footer() {
           </p>
         </div>
         <div className="w-full sm:w-1/3">
-          <div className="pb-5 font-omnes">Location</div>
+          <div className="pb-5 font-omnes">Time and Place of the Event</div>
+          <div>19.-22. June 2025</div>
           <div>Pferdeweg 2, 31787 Hameln, Germany</div>
           <img
-            src="/images/logo_white_transparent.png"
-            alt="logo"
-            className="w-24  sm:mx-auto  pt-6"
+              src="/images/logo_white_transparent.png"
+              alt="logo"
+              className="w-24  sm:mx-auto  pt-6"
           />
         </div>
         <div className="w-full sm:w-1/3">
@@ -47,8 +48,9 @@ function Footer() {
         </div>
       </div>
       <div className="text-xs text-center pb-7">
-        <div>19.-22. June 2025 - Hamelin, Germany</div>
-        <div>@2025 City Of Seekers e.V. All rights reserved.</div>
+        <div>@2025 City Of Seekers e.V.</div>
+        <div>Luxemburger Straße 202, 50937 Köln</div>
+        <div>All rights reserved.</div>
       </div>
     </div>
   );
