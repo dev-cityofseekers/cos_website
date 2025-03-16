@@ -35,7 +35,7 @@ function Team() {
     {
       name: "Freddyi",
       role: "Finance & Legal",
-      description: "22 years old and I'm in my third year of studying nursing. Most of my spare time is used for traveling, exploring new places, or meeting people. I can't wait to get to know more people at and through the Event and create lifelong memories.",
+      description: "Hey, I'm Freddyi, an aspring nurse and travel enthusiast who recently discovered her passion for tattoos with friends. I get caught sleeping at every possible moment and occasionally steal super cute dogs. And I can't wait to meet you at CoS! And yes, you get to meet said dog there.",
       image: "/images/team/freddyi.png",
     },
     {
