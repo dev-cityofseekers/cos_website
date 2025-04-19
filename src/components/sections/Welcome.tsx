@@ -14,7 +14,7 @@ function Welcome() {
     const [isMobile, setIsMobile] = useState(false);
     const [isMuted, setIsMuted] = useState(true);
     const playerRef = useRef<any>(null);
-    const videoId = 'eCMq6S7aIAU';
+    const videoId = 'HEQqeUN11tI';
 
     useEffect(() => {
         const tag = document.createElement('script');

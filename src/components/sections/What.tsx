@@ -96,7 +96,7 @@ const What = () => {
                     </div>
                 </div>
 
-                {/* Call to Action - Card Style Design */}
+                {/* Call to Action - Card Style Design
                 <div className="text-center pb-8">
                     <div className="inline-block">
                         <a href="https://buytickets.at/cityofseekers/1550140">
@@ -106,7 +106,7 @@ const What = () => {
                             </button>
                         </a>
                     </div>
-                </div>
+                </div>*/}
             </div>
         </div>
     );
