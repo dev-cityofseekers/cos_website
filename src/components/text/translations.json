@@ -6,7 +6,7 @@
       }
     },
     "welcome": {
-      "eventDate": "June 19-22 2025",
+      "eventDate": "June 11-14 2025",
       "buyTickets": "Buy Tickets",
       "logoAlt": "Logo black",
       "heroAlt": "Hero",
@@ -69,11 +69,11 @@
       },
       "q4": {
         "question": "When is it happening?",
-        "answer": "City of Seekers 25 will happen for the third time from June 19th to 22th of 2025"
+        "answer": "City of Seekers 25 will happen for the third time from June 11th to 14th of 2025"
       },
       "q5": {
         "question": "Arrival & departure",
-        "answer": "More details will be announced closer to the event. Arrival will start in the afternoon of the 6th of June. You can come by car, train, bike or whatever you feel like. We'd ask you to departure around noon on the 9th of June."
+        "answer": "More details will be announced closer to the event. Arrival will start in the afternoon of the 11th of June. You can come by car, train, bike or whatever you feel like. We'd ask you to departure around noon on the 14th of June."
       },
       "q6": {
         "question": "Is there a schedule?",
@@ -355,7 +355,7 @@
       }
     },
     "welcome": {
-      "eventDate": "19.-22. Juni 2025",
+      "eventDate": "11.-14. Juni 2025",
       "buyTickets": "Tickets kaufen",
       "logoAlt": "Logo schwarz",
       "heroAlt": "Titelbild",
@@ -418,11 +418,11 @@
       },
       "q4": {
         "question": "Wann findet es statt?",
-        "answer": "City of Seekers 25 findet zum dritten Mal vom 19. bis 22. Juni 2025 statt"
+        "answer": "City of Seekers 25 findet zum dritten Mal vom 11. bis 14. Juni 2025 statt"
       },
       "q5": {
         "question": "An- und Abreise",
-        "answer": "Weitere Details werden kurz vor der Veranstaltung bekannt gegeben. Die Anreise beginnt am Nachmittag des 6. Juni. Du kannst mit dem Auto, Zug, Fahrrad oder wie auch immer du möchtest anreisen. Wir bitten um Abreise gegen Mittag am 9. Juni."
+        "answer": "Weitere Details werden kurz vor der Veranstaltung bekannt gegeben. Die Anreise beginnt am Nachmittag des 11. Juni. Du kannst mit dem Auto, Zug, Fahrrad oder wie auch immer du möchtest anreisen. Wir bitten um Abreise gegen Mittag am 14. Juni."
       },
       "q6": {
         "question": "Gibt es einen Zeitplan?",
