@@ -36,10 +36,10 @@ function App() {
             </div>*/}
           <div id="COS?" className=" overflow-hidden snap-center">
             <What/>
-          </div>
+          </div>{/*
           <div className="w-11/12 md:w-3/4 lg:w-1/2 mx-auto">
             <FestivalCountdown/>
-          </div>
+          </div>*/}
           <div id="Gallery" className=" overflow-hidden snap-center">
             <Wallpaper/>
           </div>
@@ -53,10 +53,11 @@ function App() {
           <div id="team" className="  snap-center">
             <Team/>
           </div>
+            {/*
           <Partners/>
           <div id="contact" className="snap-center">
             <Contact/>
-          </div>
+          </div>*/}
           <div className="bg-cos-off-black  snap-end">
             <Footer/>
           </div>
