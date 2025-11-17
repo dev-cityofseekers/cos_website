@@ -9,7 +9,7 @@ import Layout from "./components/layouts/Layout";
 import DataPolicy from "./pages/DataPolicy";
 import Tickets from "./pages/Tickets";
 import CodeOfConduct from "./pages/CodeOfConduct";
-import './i18n.ts';
+import "./i18n.ts";
 
 const container = document.getElementById("root");
 if (!container) {
@@ -41,7 +41,7 @@ root.render(
           path="/code"
           element={
             <Layout>
-              <CodeOfConduct/>
+              <CodeOfConduct />
             </Layout>
           }
         />

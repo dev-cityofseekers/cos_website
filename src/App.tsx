@@ -3,7 +3,7 @@ import "./styles.css";
 import "./font/font.css";
 
 //vercel
-import { SpeedInsights } from '@vercel/speed-insights/react';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 //icons & images
 import FAQ from "./components/sections/FAQ";
@@ -15,35 +15,34 @@ import What from "./components/sections/What";
 import Team from "./components/sections/Team";
 import Wallpaper from "./components/sections/Wallpaper";
 
-
 function App() {
   return (
     <>
       <Header />
       <div className=" h-screen">
         <div className="w-full bg-cos-main-orange">
-          <SpeedInsights/>
+          <SpeedInsights />
           <div id="welcome" className="h-screen snap-start">
-            <Welcome/>
+            <Welcome />
           </div>
           <div id="COS?" className=" overflow-hidden snap-center">
-            <What/>
+            <What />
           </div>
           <div id="Gallery" className=" overflow-hidden snap-center">
-            <Wallpaper/>
+            <Wallpaper />
           </div>
           <div id="where" className=" overflow-hidden snap-center">
-            <Where/>
+            <Where />
           </div>
 
           <div id="FAQ" className=" overflow-hidden snap-center">
-            <FAQ/>
+            <FAQ />
           </div>
           <div id="team" className="  snap-center">
-            <Team/>
+            <Team />
           </div>
           <div className="bg-cos-off-black  snap-end">
-            <Footer/>
+            <Footer />
           </div>
         </div>
       </div>

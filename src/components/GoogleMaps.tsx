@@ -1,4 +1,4 @@
-import { GOOGLE_MAPS_EMBED } from '../config/constants';
+import { GOOGLE_MAPS_EMBED } from "../config/constants";
 
 function GoogleMaps() {
   return (

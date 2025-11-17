@@ -1,10 +1,10 @@
 // src/hooks/useActiveSection.js
 
-import { useEffect, useState } from 'react';
-import { UI } from '../config/constants';
+import { useEffect, useState } from "react";
+import { UI } from "../config/constants";
 
 export function useActiveSection(sections) {
-  const [activeSection, setActiveSection] = useState('');
+  const [activeSection, setActiveSection] = useState("");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,9 +16,9 @@ export function useActiveSection(sections) {
       });
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     handleScroll(); // Call once to set initial state
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, [sections]);
 
   return activeSection;

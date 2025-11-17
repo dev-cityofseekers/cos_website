@@ -3,7 +3,6 @@ import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FESTIVAL, LOCATION, SOCIAL, ORGANIZATION } from "../config/constants";
 
-
 function Footer() {
   return (
     <div className="bg-cos-off-black text-white">
@@ -16,9 +15,9 @@ function Footer() {
         <div className="w-full sm:w-1/3">
           <p className="text-xl pb-5 font-omnes">{FESTIVAL.NAME}</p>
           <p>
-            City of Seekers is a space for people to make new connections and
-            deepen existing ones, all in an open and fun setting where it is
-            easy to get into contact with strangers / new friends.
+            City of Seekers is a space for people to make new connections and deepen existing ones,
+            all in an open and fun setting where it is easy to get into contact with strangers / new
+            friends.
           </p>
         </div>
         <div className="w-full sm:w-1/3">
@@ -26,9 +25,9 @@ function Footer() {
           <div>{FESTIVAL.DATE_DISPLAY}</div>
           <div>{LOCATION.FULL_ADDRESS}</div>
           <img
-              src="/images/logo_white_transparent.png"
-              alt="logo"
-              className="w-24  sm:mx-auto  pt-6"
+            src="/images/logo_white_transparent.png"
+            alt="logo"
+            className="w-24  sm:mx-auto  pt-6"
           />
         </div>
         <div className="w-full sm:w-1/3">
@@ -49,7 +48,9 @@ function Footer() {
         </div>
       </div>
       <div className="text-xs text-center pb-7">
-        <div>@{ORGANIZATION.COPYRIGHT_YEAR} {ORGANIZATION.NAME}</div>
+        <div>
+          @{ORGANIZATION.COPYRIGHT_YEAR} {ORGANIZATION.NAME}
+        </div>
         <div>{ORGANIZATION.REGISTRATION_ADDRESS}</div>
         <div>All rights reserved.</div>
       </div>
