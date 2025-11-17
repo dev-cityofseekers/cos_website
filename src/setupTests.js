@@ -35,3 +35,33 @@ Object.defineProperty(window, "matchMedia", {
     dispatchEvent: jest.fn(),
   })),
 });
+
+// Mock YouTube Player API
+global.YT = {
+  Player: jest.fn().mockImplementation(() => ({
+    playVideo: jest.fn(),
+    pauseVideo: jest.fn(),
+    mute: jest.fn(),
+    unMute: jest.fn(),
+    setVolume: jest.fn(),
+    destroy: jest.fn(),
+    getPlayerState: jest.fn(() => 1),
+  })),
+};
+
+Object.defineProperty(window, "YT", {
+  writable: true,
+  value: global.YT,
+});
+
+// Prevent the YouTube API script from actually loading
+Object.defineProperty(window, "onYouTubeIframeAPIReady", {
+  writable: true,
+  value: undefined,
+});
+
+// Ensure there's at least one script tag in the document for YouTube API injection
+if (document.getElementsByTagName("script").length === 0) {
+  const mockScript = document.createElement("script");
+  document.head.appendChild(mockScript);
+}

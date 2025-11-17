@@ -59,6 +59,14 @@
       "last 1 safari version"
     ]
   },
+  "jest": {
+    "moduleNameMapper": {
+      "^@vercel/speed-insights/react$": "<rootDir>/__mocks__/@vercel/speed-insights/react.js"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/(?!(lucide-react)/)"
+    ]
+  },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@types/react-image-gallery": "^1.2.4",
