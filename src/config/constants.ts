@@ -6,12 +6,12 @@
 // Festival Information
 export const FESTIVAL = {
   NAME: 'City Of Seekers',
-  YEAR: 2025,
-  START_DATE: '2025-06-19',
-  END_DATE: '2025-06-22',
+  YEAR: 2026,
+  START_DATE: '2026-06-11',
+  END_DATE: '2026-06-14',
   // Date string for display purposes (consider using i18n for this)
-  DATE_DISPLAY: '19.-22. June 2025',
-  COUNTDOWN_DATE: '2025-06-19T12:00:00',
+  DATE_DISPLAY: '11.-14. June 2026',
+  COUNTDOWN_DATE: '2026-06-11T12:00:00',
 } as const;
 
 // Location Information
@@ -42,7 +42,7 @@ export const LINKS = {
 export const ORGANIZATION = {
   NAME: 'City Of Seekers e.V.',
   REGISTRATION_ADDRESS: 'Luxemburger Straße 202, 50937 Köln',
-  COPYRIGHT_YEAR: 2025,
+  COPYRIGHT_YEAR: 2026,
 } as const;
 
 // Google Maps Embed Configuration
