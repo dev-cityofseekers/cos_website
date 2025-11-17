@@ -1,10 +1,15 @@
-// src/hooks/useActiveSection.js
+// src/hooks/useActiveSection.ts
 
 import { useEffect, useState } from "react";
 import { UI } from "../config/constants";
 
-export function useActiveSection(sections) {
-  const [activeSection, setActiveSection] = useState("");
+/**
+ * Custom hook to track which section is currently active based on scroll position
+ * @param sections - Array of section IDs to monitor
+ * @returns The ID of the currently active section
+ */
+export function useActiveSection(sections: string[]): string {
+  const [activeSection, setActiveSection] = useState<string>("");
 
   useEffect(() => {
     const handleScroll = () => {

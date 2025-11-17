@@ -23,6 +23,14 @@
       "rules": {
         "@typescript-eslint/explicit-module-boundary-types": "off"
       }
+    },
+    {
+      "files": ["**/*.test.ts", "**/*.test.tsx", "**/*.spec.ts", "**/*.spec.tsx"],
+      "rules": {
+        "testing-library/no-container": "off",
+        "testing-library/no-node-access": "off",
+        "jest/no-conditional-expect": "off"
+      }
     }
   ]
 }

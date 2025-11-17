@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { FaInstagram, FaBars, FaTimes } from "react-icons/fa";
-import { useActiveSection } from "../hooks/findActiveSection";
+import { useActiveSection } from "../hooks/useActiveSection";
 import "../font/font.css";
 import "../styles/gradientAnimation.css";
 import LanguageSwitcher from "./LanguageSwitcher";
