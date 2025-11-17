@@ -1,6 +1,7 @@
 // src/hooks/useActiveSection.js
 
 import { useEffect, useState } from 'react';
+import { UI } from '../config/constants';
 
 export function useActiveSection(sections) {
   const [activeSection, setActiveSection] = useState('');
@@ -9,7 +10,7 @@ export function useActiveSection(sections) {
     const handleScroll = () => {
       sections.forEach((section) => {
         const element = document.getElementById(section);
-        if (element && window.scrollY >= element.offsetTop - 100) {
+        if (element && window.scrollY >= element.offsetTop - UI.SCROLL_OFFSET) {
           setActiveSection(section);
         }
       });

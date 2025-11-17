@@ -1,6 +1,7 @@
 import CookieConsent from "../CookieConsent";
 import GoogleMapComponent  from "../GoogleMaps";
 import React, { useState, useEffect } from 'react';
+import { LINKS } from '../../config/constants';
 
 function Where() {
   const [cookieConsent, setCookieConsent] = useState<string | null>(null);
@@ -13,13 +14,13 @@ function Where() {
   return (
     <div className="w-full">
 
-     
+
 
       <div className="flex flex-col md:flex-row">
         {/* Left Half: Google Maps (iframe) */}
         <div className="md:w-1/2 ">
         {cookieConsent === null && <CookieConsent setConsent={setCookieConsent} />}
-      {cookieConsent === 'accepted' ? <GoogleMapComponent /> : <a href="https://maps.app.goo.gl/Xv5XzfiGpoahynHh9" target="_blank" > <img src="/images/gmaps.png" alt={"google Maps"}/></a>}
+      {cookieConsent === 'accepted' ? <GoogleMapComponent /> : <a href={LINKS.GOOGLE_MAPS} target="_blank" rel="noopener noreferrer"> <img src="/images/gmaps.png" alt={"google Maps"}/></a>}
    
         </div>
 

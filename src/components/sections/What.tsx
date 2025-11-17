@@ -95,18 +95,6 @@ const What = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* Call to Action - Card Style Design
-                <div className="text-center pb-8">
-                    <div className="inline-block">
-                        <a href="https://buytickets.at/cityofseekers/1550140">
-                            <button
-                                className="bg-white text-cos-off-black text-xl font-omnes py-5 px-10 rounded-full hover:bg-primary-dark hover:scale-105 transition duration-300 ease-in-out shadow-white">
-                                {t('what.joinButton')}
-                            </button>
-                        </a>
-                    </div>
-                </div>*/}
             </div>
         </div>
     );

@@ -6,6 +6,7 @@ import "../font/font.css";
 import "../styles/gradientAnimation.css";
 import LanguageSwitcher from "./LanguageSwitcher";
 import {t} from "i18next";
+import { LINKS, SOCIAL } from "../config/constants";
 
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,7 +45,7 @@ function Header() {
                 >
                     {/* Ticket Button */}
                     <a
-                        href="https://www.tickettailor.com/events/cityofseekers/1550140"
+                        href={LINKS.TICKET_URL}
                         className="mr-6 px-4 py-2 bg-cos-orange text-white rounded-full font-omnes font-bold transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
                     >
                         {t('general.header.tickets')}
@@ -83,7 +84,7 @@ function Header() {
                     <div className="flex-1">
                         {/* Ticket Button */}
                         <a
-                            href="https://www.tickettailor.com/events/cityofseekers/1550140"
+                            href={LINKS.TICKET_URL}
                             className="mr-6 px-4 py-2 bg-cos-orange text-white rounded-full font-omnes font-bold transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
                         >
                             {t('general.header.tickets')}
@@ -126,7 +127,7 @@ function Header() {
                     <div className="flex flex-col items-center space-y-6">
                         {/* Ticket Button */}
                         <a
-                            href="https://www.tickettailor.com/events/cityofseekers/1550140"
+                            href={LINKS.TICKET_URL}
                             className="px-4 py-2 bg-cos-orange text-white rounded-full font-omnes font-bold transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
                         >
                             {t('general.header.tickets')}
@@ -151,7 +152,7 @@ function Header() {
                         > Code Of Conduct
                         </a>
                         <a
-                            href="https://instagram.com/cityofseekers"
+                            href={SOCIAL.INSTAGRAM_URL}
                             className="mt-8 p-3 hover:bg-white/10 rounded-full transition-colors duration-200"
                             target="_blank"
                             rel="noopener noreferrer"

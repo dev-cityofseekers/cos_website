@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { FESTIVAL } from '../config/constants';
 
 const FestivalCountdown = () => {
     const { t } = useTranslation();
@@ -12,7 +13,7 @@ const FestivalCountdown = () => {
 
     useEffect(() => {
         const calculateTimeLeft = () => {
-            const festivalDate = new Date('2025-06-19T12:00:00');
+            const festivalDate = new Date(FESTIVAL.COUNTDOWN_DATE);
             const now = new Date();
             const difference = festivalDate.getTime() - now.getTime();
 
