@@ -64,6 +64,16 @@ export const UI = {
 } as const;
 
 // Navigation Menu Items
+export const NAV_SECTIONS = [
+  "welcome",
+  "COS?",
+  "Gallery",
+  "where",
+  "FAQ",
+  "team",
+  "contact",
+] as const;
+
 export const NAV_ITEMS = [
   { key: "welcome", translationKey: "nav.welcome" },
   { key: "what", translationKey: "nav.what" },
@@ -73,6 +83,11 @@ export const NAV_ITEMS = [
   { key: "faq", translationKey: "nav.faq" },
   { key: "contact", translationKey: "nav.contact" },
 ] as const;
+
+// Helper to format section names for display
+export const formatSectionName = (section: string): string => {
+  return section.charAt(0).toUpperCase() + section.slice(1).replace(/&/g, "& ");
+};
 
 // Export all constants as a single object for convenience
 export const CONFIG = {

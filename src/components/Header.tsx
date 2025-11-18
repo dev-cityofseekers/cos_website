@@ -6,13 +6,13 @@ import "../font/font.css";
 import "../styles/gradientAnimation.css";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { t } from "i18next";
-import { LINKS, SOCIAL } from "../config/constants";
+import { LINKS, SOCIAL, NAV_SECTIONS, formatSectionName } from "../config/constants";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const sections = ["welcome", "COS?", "Gallery", "where", "FAQ", "team", "contact"];
-  const activeSection = useActiveSection(sections);
+  const sections = NAV_SECTIONS;
+  const activeSection = useActiveSection([...sections]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -65,7 +65,7 @@ function Header() {
                       : "text-cos-off-black"
                   }`}
                 >
-                  {section.charAt(0).toUpperCase() + section.slice(1).replace(/&/g, "& ")}
+                  {formatSectionName(section)}
                 </Link>
               </li>
             ))}
@@ -96,9 +96,11 @@ function Header() {
           <div className="flex-1 flex justify-end">
             <button
               onClick={handleMenuToggle}
+              aria-label="Open navigation menu"
+              aria-expanded={isMenuOpen}
               className="p-2 hover:bg-white/10 rounded-full transition-colors duration-200"
             >
-              <FaBars className="text-xl text-white" />
+              <FaBars className="text-xl text-white" aria-hidden="true" />
             </button>
           </div>
         </div>
@@ -113,9 +115,10 @@ function Header() {
           <div className="w-full flex justify-end pb-24">
             <button
               onClick={handleMenuClose}
+              aria-label="Close navigation menu"
               className="p-2 hover:bg-white/10 rounded-full transition-colors duration-200"
             >
-              <FaTimes className="text-2xl" />
+              <FaTimes className="text-2xl" aria-hidden="true" />
             </button>
           </div>
 
@@ -137,7 +140,7 @@ function Header() {
                 className="cursor-pointer text-lg hover:text-cos-orange transition-colors duration-200"
                 onClick={handleMenuClose}
               >
-                {section.charAt(0).toUpperCase() + section.slice(1).replace(/&/g, "& ")}
+                {formatSectionName(section)}
               </Link>
             ))}
             <a
@@ -150,11 +153,12 @@ function Header() {
             </a>
             <a
               href={SOCIAL.INSTAGRAM_URL}
+              aria-label="Follow us on Instagram"
               className="mt-8 p-3 hover:bg-white/10 rounded-full transition-colors duration-200"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram className="text-2xl" />
+              <FaInstagram className="text-2xl" aria-hidden="true" />
             </a>
           </div>
         </div>

@@ -17,6 +17,15 @@ export interface GalleryImage {
   description?: string;
 }
 
+export interface WallpaperImage {
+  url: string;
+  alt: string;
+  photographer: {
+    name: string;
+    instagram: string;
+  };
+}
+
 // FAQ types
 export interface FAQItem {
   question: string;

@@ -1,89 +1,9 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { wallpaperImages } from "../../data/wallpaperImages";
 
 const GallerySection = () => {
-  const images = [
-    {
-      url: "/wallpapers/Martin01.JPG",
-      alt: "Festival Moment 1",
-      photographer: {
-        name: "Martin",
-        instagram: "",
-      },
-    },
-    {
-      url: "/wallpapers/Martin04.JPG",
-      alt: "Festival Moment 4",
-      photographer: {
-        name: "Martin",
-        instagram: "",
-      },
-    },
-    {
-      url: "/wallpapers/Martin05.JPG",
-      alt: "Festival Moment 5",
-      photographer: {
-        name: "Martin",
-        instagram: "",
-      },
-    },
-    {
-      url: "/wallpapers/Martin06.JPG",
-      alt: "Festival Moment 6",
-      photographer: {
-        name: "Martin",
-        instagram: "",
-      },
-    },
-    {
-      url: "/wallpapers/Martin08.JPG",
-      alt: "Festival Moment 8",
-      photographer: {
-        name: "Martin",
-        instagram: "",
-      },
-    },
-    {
-      url: "/wallpapers/Martin09.JPG",
-      alt: "Festival Moment 9",
-      photographer: {
-        name: "Martin",
-        instagram: "",
-      },
-    },
-    {
-      url: "/wallpapers/Martin10.JPG",
-      alt: "Festival Moment 10",
-      photographer: {
-        name: "Martin",
-        instagram: "",
-      },
-    },
-    {
-      url: "/wallpapers/Martin11.JPG",
-      alt: "Festival Moment 11",
-      photographer: {
-        name: "Martin",
-        instagram: "",
-      },
-    },
-    {
-      url: "/wallpapers/Martin13.JPG",
-      alt: "Festival Moment 13",
-      photographer: {
-        name: "Martin",
-        instagram: "",
-      },
-    },
-    {
-      url: "/wallpapers/Martin14.JPG",
-      alt: "Festival Moment 14",
-      photographer: {
-        name: "Martin",
-        instagram: "",
-      },
-    },
-  ];
+  const images = useMemo(() => wallpaperImages, []);
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loadedImages, setLoadedImages] = useState<number[]>([0]);
@@ -167,20 +87,22 @@ const GallerySection = () => {
         <button
           onClick={prevSlide}
           disabled={isTransitioning}
+          aria-label="Previous image"
           className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50
                         text-cos-off-black p-2 rounded-full backdrop-blur-sm
                         transition-all duration-200 disabled:opacity-30"
         >
-          <ChevronLeft className="w-6 h-6" />
+          <ChevronLeft className="w-6 h-6" aria-hidden="true" />
         </button>
         <button
           onClick={nextSlide}
           disabled={isTransitioning}
+          aria-label="Next image"
           className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50
                         text-cos-off-black p-2 rounded-full backdrop-blur-sm
                         transition-all duration-200 disabled:opacity-30"
         >
-          <ChevronRight className="w-6 h-6" />
+          <ChevronRight className="w-6 h-6" aria-hidden="true" />
         </button>
 
         <div className="absolute bottom-0 left-0 w-full h-1 bg-white/30">
