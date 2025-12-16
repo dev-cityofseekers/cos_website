@@ -1,13 +1,12 @@
 body {
   margin: 0;
-  
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .image-gallery-icon {
@@ -26,6 +25,6 @@ code {
 
 @media (max-width: 600px) {
   .responsive-iframe {
-      height: 800px; /* Increase height for smaller screens */
+    height: 800px; /* Increase height for smaller screens */
   }
 }

@@ -1,5 +1,5 @@
-import React from 'react';
-import TicketItem from '../TicketItem';
+import React from "react";
+import TicketItem from "../TicketItem";
 
 function TicketsSection() {
   return (
@@ -10,36 +10,20 @@ function TicketsSection() {
         {/* Single Day Tickets */}
         <div className="mb-8 flex flex-wrap sm:space-x-6 lg:space-x-6 justify-center">
           <h3 className="text-xl font-omnes font-semibold mb-4 w-full">Single Day Tickets</h3>
-          <TicketItem
-            title="Single Day: Thursday | Sunday"
-            price="25€"
-            date="06.or 09.06.2024"
-          />
-          <TicketItem
-             title="Single Day: Friday | Saturday"
-             price="40€"
-             date="07.or 08.06.2024"
-          />
+          <TicketItem title="Single Day: Thursday | Sunday" price="25€" date="06.or 09.06.2024" />
+          <TicketItem title="Single Day: Friday | Saturday" price="40€" date="07.or 08.06.2024" />
         </div>
 
         {/* Two Day Tickets */}
         <div className="mb-8 flex flex-wrap sm:space-x-6 lg:space-x-6 justify-center">
           <h3 className="text-xl font-omnes font-semibold mb-4 w-full">Two Day Ticket</h3>
-          <TicketItem
-            title="Two Day Adventure"
-            price="70€"
-            date="You can choose when you arrive"
-          />
+          <TicketItem title="Two Day Adventure" price="70€" date="You can choose when you arrive" />
         </div>
 
         {/* Full Tickets */}
         <div className="mb-8 flex flex-wrap sm:space-x-6 lg:space-x-6 justify-center">
           <h3 className="text-xl font-omnes font-semibold mb-4 w-full">Full Tickets</h3>
-          <TicketItem
-            title="4 days | Become a Friend Ticket"
-            price="120€"
-            date="06.-09.06.2024"
-          />
+          <TicketItem title="4 days | Become a Friend Ticket" price="120€" date="06.-09.06.2024" />
           <TicketItem
             title="3 Days | Become a Friend Ticket"
             price="110€"
@@ -63,7 +47,7 @@ function TicketsSection() {
 
         {/* Buy Tickets Button */}
         <div className="text-center">
-        <a href="/tickets" className="flex justify-center items-center pt-3">
+          <a href="/tickets" className="flex justify-center items-center pt-3">
             <div className="font-omnes bg-gradient-background-image-vertical-short text-cos-off-black text-xl font-bold py-5 px-10 rounded-full hover:bg-primary-dark hover:scale-105 transition duration-300 ease-in-out shadow-white">
               Buy Tickets
             </div>

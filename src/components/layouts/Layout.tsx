@@ -1,17 +1,9 @@
 // components/Layout.tsx
 import React from "react";
-
-interface LayoutProps {
-  children: React.ReactNode;
-}
+import { LayoutProps } from "../../types";
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
-  return (
-    <div>
-      {/*<Header /> */}
-      {children}
-    </div>
-  );
+  return <div>{children}</div>;
 };
 
 export default Layout;
