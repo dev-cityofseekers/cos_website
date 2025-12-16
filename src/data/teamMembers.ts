@@ -5,7 +5,7 @@ export const teamMembers: TeamMember[] = [
     name: "Adalbert",
     role: "Tech & Infrastructure",
     description:
-      "22 year old tech guy and crazy person that you probably will find running around, solving problems. Let's connect, deeptalk, party and create amazing memories :)",
+      "23 year old tech guy and crazy person that you probably will find running around, solving problems. Let's connect, deeptalk, party and create amazing memories :)",
     image: "/images/team/adel.jpg",
   },
   {
