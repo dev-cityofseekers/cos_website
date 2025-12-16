@@ -49,7 +49,7 @@ function Footer() {
       </div>
       <div className="text-xs text-center pb-7">
         <div>
-          @{ORGANIZATION.COPYRIGHT_YEAR} {ORGANIZATION.NAME}
+          ©{ORGANIZATION.COPYRIGHT_YEAR} {ORGANIZATION.NAME}
         </div>
         <div>{ORGANIZATION.REGISTRATION_ADDRESS}</div>
         <div>All rights reserved.</div>

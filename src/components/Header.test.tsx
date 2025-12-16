@@ -1,7 +1,6 @@
 import React from "react";
 import { render, screen, fireEvent } from "../test-utils";
 import Header from "./Header";
-import { LINKS, SOCIAL } from "../config/constants";
 
 describe("Header Component", () => {
   test("renders without crashing", () => {
@@ -11,16 +10,19 @@ describe("Header Component", () => {
     expect(nav.length).toBeGreaterThan(0);
   });
 
-  test("renders ticket buttons with correct URL", () => {
+  test("renders disabled ticket buttons", () => {
     render(<Header />);
 
-    const ticketLinks = screen.getAllByRole("link").filter((link) => {
-      return (link as HTMLAnchorElement).href.includes(LINKS.TICKET_URL);
-    });
+    // Find all disabled ticket buttons
+    const ticketButtons = screen.getAllByLabelText("Tickets not yet available");
 
-    expect(ticketLinks.length).toBeGreaterThan(0);
-    ticketLinks.forEach((link) => {
-      expect((link as HTMLAnchorElement).href).toContain(LINKS.TICKET_URL);
+    // Should have at least one ticket button (desktop + mobile navbars)
+    expect(ticketButtons.length).toBeGreaterThan(0);
+
+    // All ticket buttons should be disabled
+    ticketButtons.forEach((button) => {
+      expect(button).toBeDisabled();
+      expect(button).toHaveClass("cursor-not-allowed");
     });
   });
 
