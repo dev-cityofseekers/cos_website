@@ -1,6 +1,6 @@
 // index.tsx
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import App from "./App";
 import "./index.css";
@@ -9,9 +9,15 @@ import Layout from "./components/layouts/Layout";
 import DataPolicy from "./pages/DataPolicy";
 import Tickets from "./pages/Tickets";
 import CodeOfConduct from "./pages/CodeOfConduct";
-import './i18n.ts';
+import "./i18n.ts";
 
-ReactDOM.render(
+const container = document.getElementById("root");
+if (!container) {
+  throw new Error("Root element not found");
+}
+
+const root = createRoot(container);
+root.render(
   <React.StrictMode>
     <Router>
       <Routes>
@@ -35,7 +41,7 @@ ReactDOM.render(
           path="/code"
           element={
             <Layout>
-              <CodeOfConduct/>
+              <CodeOfConduct />
             </Layout>
           }
         />
@@ -57,6 +63,5 @@ ReactDOM.render(
         />
       </Routes>
     </Router>
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );

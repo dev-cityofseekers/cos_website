@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "City of Seekers",
+  "name": "City of Seekers Festival 2026",
+  "description": "Join us for an unforgettable transformational festival experience in June 2026",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#f9d598",
+  "background_color": "#f9d598"
 }

@@ -27,12 +27,7 @@ module.exports = {
       'back-button-image': "url('./components/images/back_button.png')",
     }, 
     boxShadow: {
-      white: '0 0 10px rgba(255, 255, 255, 0.5)', 
+      white: '0 0 10px rgba(255, 255, 255, 0.5)',
     },
   },
 }
-
-/*
-
-      'what-cos-is': "url('../public/wallpapers/what_img.JPG')",
-*/
