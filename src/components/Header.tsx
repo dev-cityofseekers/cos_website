@@ -42,12 +42,18 @@ function Header() {
           }`}
         >
           {/* Ticket Button */}
-          <a
-            href={LINKS.TICKET_URL}
-            className="mr-6 px-4 py-2 bg-cos-orange text-white rounded-full font-omnes font-bold transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
-          >
-            {t("general.header.tickets")}
-          </a>
+          <div className="relative mr-6 group">
+            <button
+              disabled
+              className="px-4 py-2 bg-gray-400 text-gray-200 rounded-full font-omnes font-bold cursor-not-allowed shadow-lg opacity-60"
+              aria-label="Tickets not yet available"
+            >
+              {t("general.header.tickets")}
+            </button>
+            <div className="absolute hidden group-hover:block bg-cos-off-black text-white text-sm px-3 py-2 rounded-lg whitespace-nowrap -bottom-12 left-1/2 -translate-x-1/2 shadow-lg z-50">
+              Tickets will be available soon
+            </div>
+          </div>
 
           {/* Navigation Items */}
           <ul className="flex space-x-4">
@@ -81,12 +87,18 @@ function Header() {
         <div className="flex items-center justify-between">
           <div className="flex-1">
             {/* Ticket Button */}
-            <a
-              href={LINKS.TICKET_URL}
-              className="mr-6 px-4 py-2 bg-cos-orange text-white rounded-full font-omnes font-bold transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
-            >
-              {t("general.header.tickets")}
-            </a>
+            <div className="relative group">
+              <button
+                disabled
+                className="mr-6 px-4 py-2 bg-gray-400 text-gray-200 rounded-full font-omnes font-bold cursor-not-allowed shadow-lg opacity-60"
+                aria-label="Tickets not yet available"
+              >
+                {t("general.header.tickets")}
+              </button>
+              <div className="absolute hidden group-hover:block bg-cos-off-black text-white text-xs px-2 py-1 rounded whitespace-nowrap -bottom-10 left-0 shadow-lg z-50">
+                Tickets will be available soon
+              </div>
+            </div>
           </div>
 
           <div className="flex-1 flex justify-center">
@@ -124,12 +136,18 @@ function Header() {
 
           <div className="flex flex-col items-center space-y-6">
             {/* Ticket Button */}
-            <a
-              href={LINKS.TICKET_URL}
-              className="px-4 py-2 bg-cos-orange text-white rounded-full font-omnes font-bold transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
-            >
-              {t("general.header.tickets")}
-            </a>
+            <div className="relative group">
+              <button
+                disabled
+                className="px-4 py-2 bg-gray-400 text-gray-200 rounded-full font-omnes font-bold cursor-not-allowed shadow-lg opacity-60"
+                aria-label="Tickets not yet available"
+              >
+                {t("general.header.tickets")}
+              </button>
+              <div className="absolute hidden group-hover:block bg-cos-off-black text-white text-sm px-3 py-2 rounded-lg whitespace-nowrap -bottom-12 left-1/2 -translate-x-1/2 shadow-lg z-50">
+                Tickets will be available soon
+              </div>
+            </div>
             {sections.map((section) => (
               <Link
                 key={section}

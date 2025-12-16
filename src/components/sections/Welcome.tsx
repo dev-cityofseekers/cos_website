@@ -129,12 +129,18 @@ function Welcome() {
           {t("welcome.eventDate")}
         </div>
 
-        <a
-          href="https://buytickets.at/cityofseekers/1550140"
-          className="bg-cos-main-orange text-cos-off-black text-base sm:text-lg lg:text-xl font-omnes py-3 sm:py-4 px-6 sm:px-8 rounded-full hover:bg-primary-dark hover:scale-105 transition duration-300 ease-in-out shadow-lg"
-        >
-          {t("welcome.buyTickets")}
-        </a>
+        <div className="relative group">
+          <button
+            disabled
+            className="bg-gray-400 text-gray-200 text-base sm:text-lg lg:text-xl font-omnes py-3 sm:py-4 px-6 sm:px-8 rounded-full cursor-not-allowed shadow-lg opacity-60"
+            aria-label="Tickets not yet available"
+          >
+            {t("welcome.buyTickets")}
+          </button>
+          <div className="absolute hidden group-hover:block bg-cos-off-black text-white text-sm sm:text-base px-3 py-2 rounded-lg whitespace-nowrap -bottom-12 left-1/2 -translate-x-1/2 shadow-xl z-50">
+            Tickets will be available soon
+          </div>
+        </div>
       </div>
     </div>
   );
