@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link as ScrollLink } from "react-scroll";
+import { Link as ScrollLink, scroller } from "react-scroll";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 import { FaInstagram, FaBars, FaTimes } from "react-icons/fa";
 import { useActiveSection } from "../hooks/useActiveSection";
@@ -15,6 +15,20 @@ function Header() {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
   const activeSection = useActiveSection([...NAV_SECTIONS]);
+
+  // Handle scroll to section when navigating from another page
+  useEffect(() => {
+    if (isHomePage && location.hash) {
+      const sectionId = location.hash.replace("#", "");
+      // Small delay to ensure DOM is ready
+      setTimeout(() => {
+        scroller.scrollTo(sectionId, {
+          duration: 500,
+          smooth: true,
+        });
+      }, 100);
+    }
+  }, [isHomePage, location.hash]);
 
   useEffect(() => {
     const handleScroll = () => {
