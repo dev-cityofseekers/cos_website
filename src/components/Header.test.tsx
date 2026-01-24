@@ -26,19 +26,26 @@ describe("Header Component", () => {
     });
   });
 
-  test("renders desktop navigation with all sections", () => {
+  test("renders desktop navigation with all items", () => {
     render(<Header />);
 
-    // Check for section links (these will be rendered as anchors by the mocked Link component)
-    const sections = ["welcome", "COS?", "Gallery", "where", "FAQ", "team", "contact"];
+    // Check for scroll section links (rendered as anchors with hash)
+    const scrollSections = ["welcome", "COS?", "Gallery", "FAQ", "Contact"];
 
-    sections.forEach((section) => {
+    scrollSections.forEach((section) => {
       const links = screen.getAllByRole("link").filter((link) => {
         const href = (link as HTMLAnchorElement).href;
         return href.includes(`#${section}`);
       });
       expect(links.length).toBeGreaterThan(0);
     });
+
+    // Check for route links (Team and Location pages)
+    const routeLinks = screen.getAllByRole("link").filter((link) => {
+      const href = (link as HTMLAnchorElement).href;
+      return href.includes("/team") || href.includes("/where");
+    });
+    expect(routeLinks.length).toBeGreaterThan(0);
   });
 
   test("mobile menu opens and closes", () => {

@@ -11,12 +11,10 @@ describe("App Component", () => {
   test("renders main sections", () => {
     const { container } = render(<App />);
 
-    // Check that key sections exist
+    // Check that key sections exist (Team and Where are now separate pages)
     expect(container.querySelector("#welcome")).toBeInTheDocument();
     expect(container.querySelector("#COS\\?")).toBeInTheDocument();
     expect(container.querySelector("#Gallery")).toBeInTheDocument();
-    expect(container.querySelector("#where")).toBeInTheDocument();
     expect(container.querySelector("#FAQ")).toBeInTheDocument();
-    expect(container.querySelector("#team")).toBeInTheDocument();
   });
 });

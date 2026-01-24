@@ -1,18 +1,20 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink, useLocation } from "react-router-dom";
 import { FaInstagram, FaBars, FaTimes } from "react-icons/fa";
 import { useActiveSection } from "../hooks/useActiveSection";
 import "../font/font.css";
 import "../styles/gradientAnimation.css";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { t } from "i18next";
-import { LINKS, SOCIAL, NAV_SECTIONS, formatSectionName } from "../config/constants";
+import { SOCIAL, NAV_SCROLL_ITEMS, NAV_PAGE_ITEMS, NAV_SECTIONS } from "../config/constants";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const sections = NAV_SECTIONS;
-  const activeSection = useActiveSection([...sections]);
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
+  const activeSection = useActiveSection([...NAV_SECTIONS]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -55,27 +57,58 @@ function Header() {
             </div>
           </div>
 
-          {/* Navigation Items */}
+          {/* Scroll Navigation Items */}
           <ul className="flex space-x-4">
-            {sections.map((section) => (
-              <li key={section}>
-                <Link
-                  activeClass="active"
-                  to={section}
-                  spy={true}
-                  smooth={true}
-                  duration={500}
+            {NAV_SCROLL_ITEMS.map((item) => (
+              <li key={item.key}>
+                {isHomePage ? (
+                  <ScrollLink
+                    activeClass="active"
+                    to={item.key}
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className={`cursor-pointer font-omnes hover:text-white transition-colors duration-200 ${
+                      activeSection === item.key
+                        ? "border-b-2 border-cos-orange text-white"
+                        : "text-cos-off-black"
+                    }`}
+                  >
+                    {item.label}
+                  </ScrollLink>
+                ) : (
+                  <RouterLink
+                    to={`/#${item.key}`}
+                    className="cursor-pointer font-omnes hover:text-white transition-colors duration-200 text-cos-off-black"
+                  >
+                    {item.label}
+                  </RouterLink>
+                )}
+              </li>
+            ))}
+          </ul>
+
+          {/* Divider */}
+          <div className="h-6 w-px bg-cos-off-black/30 mx-4" />
+
+          {/* Page Navigation Items */}
+          <ul className="flex space-x-4">
+            {NAV_PAGE_ITEMS.map((item) => (
+              <li key={item.key}>
+                <RouterLink
+                  to={item.path}
                   className={`cursor-pointer font-omnes hover:text-white transition-colors duration-200 ${
-                    activeSection === section
+                    location.pathname === item.path
                       ? "border-b-2 border-cos-orange text-white"
                       : "text-cos-off-black"
                   }`}
                 >
-                  {formatSectionName(section)}
-                </Link>
+                  {item.label}
+                </RouterLink>
               </li>
             ))}
           </ul>
+
           <div className="pl-4 border-l ml-4 border-cos-off-black/20">
             <LanguageSwitcher />
           </div>
@@ -148,18 +181,47 @@ function Header() {
                 Tickets will be available soon
               </div>
             </div>
-            {sections.map((section) => (
-              <Link
-                key={section}
-                to={section}
-                spy={true}
-                smooth={true}
-                duration={500}
-                className="cursor-pointer text-lg hover:text-cos-orange transition-colors duration-200"
+            {/* Scroll sections */}
+            {NAV_SCROLL_ITEMS.map((item) =>
+              isHomePage ? (
+                <ScrollLink
+                  key={item.key}
+                  to={item.key}
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  className="cursor-pointer text-lg hover:text-cos-orange transition-colors duration-200"
+                  onClick={handleMenuClose}
+                >
+                  {item.label}
+                </ScrollLink>
+              ) : (
+                <RouterLink
+                  key={item.key}
+                  to={`/#${item.key}`}
+                  className="cursor-pointer text-lg hover:text-cos-orange transition-colors duration-200"
+                  onClick={handleMenuClose}
+                >
+                  {item.label}
+                </RouterLink>
+              )
+            )}
+
+            {/* Divider */}
+            <div className="w-16 h-px bg-white/30 my-2" />
+
+            {/* Page links */}
+            {NAV_PAGE_ITEMS.map((item) => (
+              <RouterLink
+                key={item.key}
+                to={item.path}
+                className={`cursor-pointer text-lg hover:text-cos-orange transition-colors duration-200 ${
+                  location.pathname === item.path ? "text-cos-orange" : ""
+                }`}
                 onClick={handleMenuClose}
               >
-                {formatSectionName(section)}
-              </Link>
+                {item.label}
+              </RouterLink>
             ))}
             <a
               href={"/code"}

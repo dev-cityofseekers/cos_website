@@ -25,9 +25,9 @@ describe("Footer Component", () => {
   test("displays organization information", () => {
     render(<Footer />);
 
-    // Check copyright
+    // Check copyright (using © symbol)
     expect(
-      screen.getByText(`@${ORGANIZATION.COPYRIGHT_YEAR} ${ORGANIZATION.NAME}`)
+      screen.getByText(`©${ORGANIZATION.COPYRIGHT_YEAR} ${ORGANIZATION.NAME}`)
     ).toBeInTheDocument();
 
     // Check registration address

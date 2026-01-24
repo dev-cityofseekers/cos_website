@@ -279,6 +279,31 @@
     "sponsors": {
       "thankYou": "Thank you to our supporting Partners:"
     },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "We are a passionate group of individuals who came together to make this dream a reality."
+    },
+    "where": {
+      "title": "Location",
+      "subtitle": "Join us in Hameln, Germany",
+      "address": "Address",
+      "date": "Date",
+      "directions": {
+        "title": "How to Get There",
+        "byTrain": "By Train",
+        "byTrainText": "Take the train to Hameln station, then a short taxi or bus ride to the venue.",
+        "byCar": "By Car",
+        "byCarText": "Easy access via the A2 motorway. Free parking available on site."
+      },
+      "mapConsent": {
+        "accepted": "Map loaded",
+        "rejected": "Click the image to open Google Maps"
+      }
+    },
+    "nav": {
+      "team": "Team",
+      "where": "Location"
+    },
     "code": {
       "title": "Code of Conduct",
       "kindness": {
@@ -627,6 +652,31 @@
     },
     "sponsors": {
       "thankYou": "Wir danken unseren Förderpartnern:"
+    },
+    "team": {
+      "title": "Unser Team",
+      "subtitle": "Wir sind eine leidenschaftliche Gruppe von Menschen, die zusammengekommen sind, um diesen Traum Wirklichkeit werden zu lassen."
+    },
+    "where": {
+      "title": "Veranstaltungsort",
+      "subtitle": "Besuche uns in Hameln, Deutschland",
+      "address": "Adresse",
+      "date": "Datum",
+      "directions": {
+        "title": "Anfahrt",
+        "byTrain": "Mit der Bahn",
+        "byTrainText": "Nimm den Zug zum Bahnhof Hameln, dann eine kurze Taxi- oder Busfahrt zum Veranstaltungsort.",
+        "byCar": "Mit dem Auto",
+        "byCarText": "Einfacher Zugang über die A2. Kostenlose Parkplätze vor Ort verfügbar."
+      },
+      "mapConsent": {
+        "accepted": "Karte geladen",
+        "rejected": "Klicke auf das Bild, um Google Maps zu öffnen"
+      }
+    },
+    "nav": {
+      "team": "Team",
+      "where": "Veranstaltungsort"
     },
     "code": {
       "title": "Verhaltenskodex",
