@@ -14,6 +14,7 @@ import What from "./components/sections/What";
 import Wallpaper from "./components/sections/Wallpaper";
 import ErrorBoundary from "./components/ErrorBoundary";
 import Contact from "./components/sections/Contact";
+import Partners from "./components/sections/Partners";
 
 function App() {
   return (
@@ -47,7 +48,8 @@ function App() {
               <Contact />
             </div>
           </ErrorBoundary>
-          <div className="bg-cos-off-black  snap-end">
+          <Partners />
+          <div className="bg-cos-off-black snap-end">
             <Footer />
           </div>
         </div>
