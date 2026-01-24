@@ -11,7 +11,7 @@ declare global {
 
 function Welcome() {
   const { t } = useTranslation();
-  const [isMobile, setIsMobile] = useState(false);
+  const [_isMobile, setIsMobile] = useState(false);
   const [isMuted, setIsMuted] = useState(true);
   const playerRef = useRef<any>(null);
   const videoId = "HEQqeUN11tI";
