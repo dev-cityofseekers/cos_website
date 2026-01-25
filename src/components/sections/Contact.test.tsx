@@ -1,14 +1,15 @@
 import React from "react";
+import { vi } from "vitest";
 import { render, screen } from "../../test-utils";
 import Contact from "./Contact";
 import { SOCIAL } from "../../config/constants";
 
 // Mock WelcomeComponent
-jest.mock("../WelcomeComponent", () => {
-  return function MockWelcomeComponent() {
+vi.mock("../WelcomeComponent", () => ({
+  default: function MockWelcomeComponent() {
     return <div data-testid="welcome-component">Welcome Component</div>;
-  };
-});
+  },
+}));
 
 describe("Contact Section", () => {
   test("renders without crashing", () => {

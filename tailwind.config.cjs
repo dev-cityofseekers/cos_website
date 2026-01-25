@@ -19,12 +19,11 @@ module.exports = {
       omnes: ['Omnes', 'sans-serif'],
     },
     backgroundImage: {
-      'gradient-background-image': "url('./components/images/gradient.png')",
-      'gradient-background-image-vertical': "url('./components/images/gradient_vert.png')",
-      'gradient-background-image-vertical-short': "url('./components/images/gradient_vert_short.png')",
-
-      'gradient-background-image-vertical-svg': "url('./components/images/gradient_vert.svg')",
-      'back-button-image': "url('./components/images/back_button.png')",
+      'gradient-background-image': "url('/images/gradient.png')",
+      'gradient-background-image-vertical': "url('/images/gradient_vert.png')",
+      'gradient-background-image-vertical-short': "url('/images/gradient_vert_short.png')",
+      'gradient-background-image-vertical-svg': "url('/images/gradient_vert.svg')",
+      'back-button-image': "url('/images/back_button.png')",
     }, 
     boxShadow: {
       white: '0 0 10px rgba(255, 255, 255, 0.5)',
