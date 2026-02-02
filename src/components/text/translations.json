@@ -66,62 +66,240 @@
       }
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "q1": {
-        "question": "Who is running City Of Seekers?",
-        "answer": "City Of Seekers is run by a young, motivated team united through the global YesFam community, originally inspired by the YouTube channel Yes Theory. This community believes in challenging comfort zones to fully experience life. While our event is not directly connected to the YesFam community or Yes Theory, we share the same vision: to create connections and learn new things by seeking discomfort."
-      },
-      "q2": {
-        "question": "Who is it for?",
-        "answer": "City of Seekers is an event to welcome people of all ages, genders, races & religions. A place to create new friendships, constructively seek discomfort and challenge yourself among a group of like-minded people."
-      },
-      "q3": {
-        "question": "Do we have Rules?",
-        "answer": "Yes, we have a Ruleset or Code of Conduct to clarify how we want to treat each other, find it <1>here</1> or under <3>cityofseekers.eu/code</3>."
-      },
-      "q4": {
-        "question": "When is it happening?",
-        "answer": "City of Seekers 26 will happen for the fourth time from June 11th to 14th of 2026"
-      },
-      "q5": {
-        "question": "Arrival & departure",
-        "answer": "More details will be announced closer to the event. Arrival will start in the afternoon of the 11th of June. You can come by car, train, bike or whatever you feel like. We'd ask you to departure around noon on the 14th of June."
-      },
-      "q6": {
-        "question": "Is there a schedule?",
-        "answer": "The detailed schedule will be released closer to the event date. Keep an eye on our Instagram for the latest updates."
-      },
-      "q7": {
-        "question": "Will there be food and drinks?",
-        "answer": "We will sell a selection of snacks like chips, sweets or nuts as well as water, sodas and beers. We will have a BYOF BBQ (bring your own food) and a pizza night on one evening each. Please bring your own food for the rest of the days. More details will follow."
-      },
-      "q8": {
-        "question": "What does the ticket price cover?",
-        "answer": "The ticket price includes entry, access to all infrastructure and workshops, and free evening programs. It does not cover food, drinks, and transportation. The ticket price is set to cover our expenses for COS without taking profit."
-      },
-      "q9": {
-        "question": "What about food?",
-        "answer": "Please bring your own cooking supplies for meal preparation. A campfire will be available for BBQ. Last year, we also organized a pizza night with orders from a local restaurant."
-      },
-      "q10": {
-        "question": "Do we need volunteers?",
-        "answer": "We don't specifically require volunteers. However, if you're interested in helping or hosting a workshop, feel free to reach out to us. If we need volunteers we will communicate that over our instagram/website."
-      },
-      "q11": {
-        "question": "Animals",
-        "answer": "While animals are not typically suited for such environments, we leave the decision to bring them to your discretion. Please be mindful of your responsibility for their well-being. If your Animal puts other guests/animals at risk you will have to leash it."
-      },
-      "q12": {
-        "question": "Cancellation Policy",
-        "answer": "Paid tickets are non-refundable. If you need to transfer your ticket to someone else, please inform us with their details for validation. If you're unable to attend and can't find a replacement, contact us. We may assist if there's a waiting list."
-      },
-      "q13": {
-        "question": "Liability and Theft",
-        "answer": "City of Seekers is not liable for damage or theft of personal belongings. We strive for a safe environment but cannot guarantee the security of personal items. Please take care of your belongings."
-      },
-      "q14": {
-        "question": "Nature",
-        "answer": "With our event, we try to burden the environment as little as possible. For this, we need your help. Please respect nature and the environment on the campsite and in the surrounding area. That means: Please throw rubbish (bottles, cigarettes, etc.) in the trashcan and not in nature. Cigarettes and glass in particular are not only pollution, but they also increase the risk of forest fires."
+      "title": "Questions & Answers",
+      "categories": {
+        "general": {
+          "title": "General / About the Event",
+          "questions": [
+            {
+              "question": "What is City of Seekers?",
+              "answer": "City of Seekers is a four-day, non-profit camping event designed to connect its participants. During the day, guests are invited to join free workshops on a wide range of topics. The evening program includes campfires, a silent disco, and other fun activities such as an open stage where participants can showcase their talents.\n\nThere are different tents and areas on site:\n• Big Party Tent: A space to dance, make music, and host larger workshops.\n• Smaller \"Shoes-Off\" Tent: A cozy area with seating to unwind, connect, and chat.\n• Musician Tent: A small space dedicated to jamming with others.\n• Campfires: Spots to gather and connect.\n• Community Cooking Area: A shared space for preparing and enjoying meals together."
+            },
+            {
+              "question": "Who can join?",
+              "answer": "Everyone is welcome. We do not tolerate discrimination or harassment of any kind, including based on race, gender, sexuality, religion, ability, or background. Violence, aggressive behavior, drugs, or disrespect towards nature, the campsite, or other participants are strictly prohibited. Our goal is to create a safe, inclusive, and positive environment where everyone can connect, learn, and have fun."
+            },
+            {
+              "question": "How long does it last?",
+              "answer": "Arrival is on Thursday from 2:00 PM. The event ends on Sunday afternoon."
+            },
+            {
+              "question": "Where is it held?",
+              "answer": "The event takes place at Alpha One Campground in Hameln. Alpha One is a large youth and group campground on the edge of Hameln (district Halvestorf) designed mainly for youth camps and big group events, with large meadows and basic infrastructure like WC, hot showers, drinkable water, electricity, and quick access to an outdoor pool."
+            },
+            {
+              "question": "Do I need to be part of a community to join?",
+              "answer": "No. You do not need to be part of any community to join. Just come by and see for yourself if you like it. You are more than welcome to stay and connect with us and our community."
+            },
+            {
+              "question": "How many people usually attend?",
+              "answer": "In the past, we had around 100 participants. We cannot guarantee that it will stay that way, but we expect a similar number of participants in 2026."
+            }
+          ]
+        },
+        "tickets": {
+          "title": "Tickets & Registration",
+          "questions": [
+            {
+              "question": "How do I buy a ticket?",
+              "answer": "At the top of this page, there is a Tickets button that will take you to our online shop. There, you can purchase tickets using a variety of online payment methods."
+            },
+            {
+              "question": "Can I join spontaneously without a ticket?",
+              "answer": "Yes! Absolutely. Feel free to show up with your camping gear. You can purchase your ticket and pay on site."
+            },
+            {
+              "question": "Are there early bird tickets?",
+              "answer": "We have a limited number of early bird tickets. Once they are sold out, only regular-priced tickets will be available."
+            },
+            {
+              "question": "Can I get a refund?",
+              "answer": "Paid tickets are non-refundable. If you are unable to attend and cannot find a replacement yourself, please contact us. We may be able to help if there is a waiting list."
+            },
+            {
+              "question": "Can I transfer my ticket to someone else?",
+              "answer": "Yes. If you need to transfer your ticket, please inform us and provide the new participant's details for validation."
+            },
+            {
+              "question": "Do I need to register for workshops in advance?",
+              "answer": "No. You can sign up for workshops during the event. If you would like to host a workshop, feel free to reach out."
+            },
+            {
+              "question": "What is included in the ticket price?",
+              "answer": "The ticket includes entry, access to all infrastructure, all workshops, and the evening program. Food, drinks, and transportation are not included. The ticket price is calculated to cover our expenses only — we do not take any profit."
+            }
+          ]
+        },
+        "camping": {
+          "title": "Camping",
+          "questions": [
+            {
+              "question": "Do I have to camp?",
+              "answer": "Technically, no. You may also stay in nearby accommodation. However, we strongly encourage camping on the campground, as it helps you connect and fully experience the event. If you don't have camping gear, we can help connect you with someone who is willing to share."
+            },
+            {
+              "question": "Is there electricity and water at the campsite?",
+              "answer": "There are warm single shower cabins and flushable toilets on the campground. We cannot provide electricity to personal tents or campers. There will be a communal cooking area with electricity and a phone charging station.\n\n⚠️ Unfortunately, the campsite showers and toilets are not fully accessible for wheelchairs or similar, since they are raised above ground level. If you let us know in advance, we'll search for a suitable ramp or other solutions."
+            },
+            {
+              "question": "Can I sleep in a car or van?",
+              "answer": "Yes. There is plenty of space on the campground for cars and campers."
+            },
+            {
+              "question": "Is the campsite barrier-free?",
+              "answer": "The Alpha One campground offers basic accessibility, but not all areas are fully barrier-free. If you have specific needs, please reach out to us in advance and we will do our best to support you."
+            },
+            {
+              "question": "Are there quiet hours at night?",
+              "answer": "We aim to respect both night owls and early sleepers. Louder activities will be concentrated in specific areas, while quieter zones remain available throughout the night."
+            },
+            {
+              "question": "Do you have lockers?",
+              "answer": "No. We do not provide lockers for valuables."
+            }
+          ]
+        },
+        "food": {
+          "title": "Food & Drinks",
+          "questions": [
+            {
+              "question": "Can I bring my own food?",
+              "answer": "Yes. You can and should bring your own food. On Thursday evening, we will provide a barbecue where you can grill your own food."
+            },
+            {
+              "question": "What about drinks?",
+              "answer": "Cooled drinks can be purchased on the campground at reasonable prices."
+            },
+            {
+              "question": "Can I buy food on-site?",
+              "answer": "We will organize one communal dinner on Saturday evening, which you can order and pay for on site. Apart from that, we do not provide additional meals."
+            },
+            {
+              "question": "Is there access to clean drinking water?",
+              "answer": "Yes. There is free drinkable water available to refill your water bottle."
+            }
+          ]
+        },
+        "workshops": {
+          "title": "Workshops & Program",
+          "questions": [
+            {
+              "question": "What kind of workshops are offered?",
+              "answer": "All workshops are hosted by guests or the team. In previous years, workshops included soldering, portrait drawing, breathwork, anger work, salsa, hip hop, yoga, poker, shout, handstands, improv theatre, parkour, self-love workshops, and many more. The workshops change every year depending on what participants want to offer. The final program will be shared during the event."
+            },
+            {
+              "question": "Do I need experience to join a workshop?",
+              "answer": "No. All workshops are beginner-friendly and can be joined without prior experience."
+            },
+            {
+              "question": "In which language are workshops held?",
+              "answer": "Workshops may be held in English."
+            },
+            {
+              "question": "Can I join more than one workshop?",
+              "answer": "Yes, you can join as many workshops as you like. A small tip from us: don't fear missing out — it's also okay to rest."
+            },
+            {
+              "question": "Are workshops included in the ticket price?",
+              "answer": "Yes, all workshops are included."
+            },
+            {
+              "question": "Is there a schedule?",
+              "answer": "The final schedule will be shared shortly before the event, as it is shaped by our guests and comes together in the weeks and days leading up to the event. Some recurring elements are: karaoke on Thursday evening, speed-friending on Friday, the open stage and communal dinner on Saturday evening, and a communal breakfast with a goodbye ceremony on Sunday before noon."
+            },
+            {
+              "question": "Can I propose a workshop myself?",
+              "answer": "Yes, please! You can indicate this in the signup form. Not sure yet? No problem — you can reach out at any time, and we'll see if it fits into the schedule."
+            },
+            {
+              "question": "What is an open stage?",
+              "answer": "One evening is dedicated to our open stage. This is a space where you can perform or present anything you feel like sharing — music, poetry, comedy, storytelling, performance, or something entirely different. Feel free to bring your instruments or any other props you might need."
+            }
+          ]
+        },
+        "community": {
+          "title": "Community & Atmosphere",
+          "questions": [
+            {
+              "question": "Can I come alone?",
+              "answer": "Yes, absolutely. Feel free to come on your own — we will welcome you with open arms."
+            },
+            {
+              "question": "Community rules?",
+              "answer": "Feel free to check out our code of conduct below."
+            },
+            {
+              "question": "Can I bring my pet?",
+              "answer": "Animals are generally not well suited for this kind of environment. However, the decision is up to you. Please be fully responsible for your animal's well-being. If your animal puts other guests or animals at risk, it must be leashed."
+            },
+            {
+              "question": "Can I bring my children?",
+              "answer": "Yes, children are welcome at City of Seekers. Please note that the program is not specifically designed for kids, and children cannot be left unattended at any time."
+            },
+            {
+              "question": "What is the overall vibe of the event?",
+              "answer": "City of Seekers is a balance of playful, social, and calm. There are moments to dance, celebrate, and be expressive, as well as plenty of spaces to slow down, rest, and have meaningful conversations. You are free to engage as much or as little as feels right for you."
+            },
+            {
+              "question": "Is City of Seekers LGBTQIA+ friendly?",
+              "answer": "Yes. City of Seekers is an explicitly inclusive and queer-friendly space. We welcome people of all gender identities, sexual orientations, and expressions. A number of our returning community & team members are LGBTQIA+ themselves. Discrimination of any kind is not tolerated."
+            }
+          ]
+        },
+        "travel": {
+          "title": "Travel & Transportation",
+          "questions": [
+            {
+              "question": "How do I get there?",
+              "answer": "Since our community comes from all over Europe (and sometimes beyond!), here are the main ways to get to Halvestorf, Hameln:\n\n✈️ Nearest airport: Hannover-Langenhagen (HAJ)\n🚄 Nearest train station: \"Hameln\" (the German spelling of Hamelin)\n🚙 Driving: Generally does not force you through a low-emission zone (\"Umweltzone\"), but avoid city centres of Ruhrgebiet cities, Frankfurt, Cologne, Düsseldorf, Bonn, Aachen, and Limburg if you don't have a green sticker."
+            },
+            {
+              "question": "Can I carpool with other participants?",
+              "answer": "Yes. We will help connect participants before the event. There will also be a car-sharing document where people can offer or request rides."
+            },
+            {
+              "question": "Is there parking on-site?",
+              "answer": "Yes. You can park your vehicle directly on the campground."
+            },
+            {
+              "question": "Can I get picked up from the station?",
+              "answer": "Most likely, yes. The community is very helpful and active, especially on arrival day. Someone will usually offer to pick you up from the station."
+            }
+          ]
+        },
+        "practical": {
+          "title": "Practical Tips & Gear",
+          "questions": [
+            {
+              "question": "What should I pack?",
+              "answer": "We will send out a detailed packing list via email before the event."
+            },
+            {
+              "question": "Can I charge my phone?",
+              "answer": "Yes. There will be a phone charging station for phones and power banks. Electricity at personal tents is not available."
+            },
+            {
+              "question": "Is Wi-Fi available?",
+              "answer": "No. We do not provide Wi-Fi."
+            },
+            {
+              "question": "Should I bring cash or card?",
+              "answer": "Both are accepted. You can choose to pay by card or cash."
+            },
+            {
+              "question": "Can I rent or borrow gear on-site?",
+              "answer": "We encourage and help you to connect with the community to borrow or share items. We do not rent out equipment ourselves."
+            },
+            {
+              "question": "I do not use WhatsApp, what now?",
+              "answer": "If you don't use WhatsApp but still want to connect with other participants for tent sharing, carpooling, etc., feel free to email us at info@cityofseekers.eu and we'll do our best to help!"
+            },
+            {
+              "question": "Can I connect with other participants before the event?",
+              "answer": "Yes. After purchasing your ticket, you are invited to join the 2026 Guest Only WhatsApp group. If you don't use WhatsApp but still want to connect with other participants for tent sharing, carpooling, etc., feel free to email us and we'll do our best to help."
+            }
+          ]
+        }
       }
     },
     "contact": {
@@ -452,62 +630,240 @@
       }
     },
     "faq": {
-      "title": "Häufig gestellte Fragen",
-      "q1": {
-        "question": "Wer organisiert City Of Seekers?",
-        "answer": "City Of Seekers wird von einem jungen, motivierten Team organisiert, das sich durch die globale YesFam-Community zusammengefunden hat, inspiriert vom YouTube-Kanal Yes Theory. Diese Community glaubt daran, Komfortzonen herauszufordern, um das Leben voll zu erleben. Auch wenn unsere Veranstaltung nicht direkt mit der YesFam-Community oder Yes Theory verbunden ist, teilen wir dieselbe Vision: Verbindungen schaffen und Neues lernen durch das Suchen von Diskomfort."
-      },
-      "q2": {
-        "question": "Für wen ist es gedacht?",
-        "answer": "City of Seekers ist eine Veranstaltung, die Menschen aller Altersgruppen, Geschlechter, Rassen und Religionen willkommen heißt. Ein Ort, um neue Freundschaften zu knüpfen, konstruktiv Diskomfort zu suchen und sich selbst in einer Gruppe Gleichgesinnter herauszufordern."
-      },
-      "q3": {
-        "question": "Gibt es Regeln?",
-        "answer": "Ja, wir haben ein Regelwerk oder einen Verhaltenskodex, der klärt, wie wir miteinander umgehen möchten. Du findest ihn <1>hier</1> oder unter <3>cityofseekers.eu/code</3>."
-      },
-      "q4": {
-        "question": "Wann findet es statt?",
-        "answer": "City of Seekers 26 findet zum vierten Mal vom 11. bis 14. Juni 2026 statt"
-      },
-      "q5": {
-        "question": "An- und Abreise",
-        "answer": "Weitere Details werden kurz vor der Veranstaltung bekannt gegeben. Die Anreise beginnt am Nachmittag des 11. Juni. Du kannst mit dem Auto, Zug, Fahrrad oder wie auch immer du möchtest anreisen. Wir bitten um Abreise gegen Mittag am 14. Juni."
-      },
-      "q6": {
-        "question": "Gibt es einen Zeitplan?",
-        "answer": "Der detaillierte Zeitplan wird kurz vor der Veranstaltung veröffentlicht. Verfolge unseren Instagram-Account für die neuesten Updates."
-      },
-      "q7": {
-        "question": "Wird es Essen und Getränke geben?",
-        "answer": "Wir verkaufen eine Auswahl an Snacks wie Chips, Süßigkeiten oder Nüsse sowie Wasser, Softdrinks und Bier. Wir werden einen BYOF BBQ (Bring dein eigenes Essen) und einen Pizzaabend an je einem Abend haben. Bitte bring dein eigenes Essen für die restlichen Tage mit. Weitere Details folgen."
-      },
-      "q8": {
-        "question": "Was ist im Ticketpreis enthalten?",
-        "answer": "Der Ticketpreis beinhaltet den Eintritt, Zugang zu allen Einrichtungen und Workshops sowie kostenlose Abendprogramme. Er deckt keine Verpflegung, Getränke und Transport. Der Ticketpreis ist so kalkuliert, dass er unsere Kosten für COS deckt, ohne Gewinn zu machen."
-      },
-      "q9": {
-        "question": "Was ist mit dem Essen?",
-        "answer": "Bitte bring deine eigenen Kochutensilien zur Essenszubereitung mit. Ein Lagerfeuer wird für Grillen zur Verfügung stehen. Letztes Jahr haben wir auch einen Pizzaabend mit Bestellungen von einem lokalen Restaurant organisiert."
-      },
-      "q10": {
-        "question": "Brauchen wir Freiwillige?",
-        "answer": "Wir benötigen keine speziellen Freiwilligen. Wenn du jedoch Interesse hast zu helfen oder einen Workshop anzubieten, melde dich gerne bei uns. Falls wir Freiwillige brauchen, werden wir das über unseren Instagram-Account/Website kommunizieren."
-      },
-      "q11": {
-        "question": "Tiere",
-        "answer": "Obwohl Tiere für solche Umgebungen normalerweise nicht geeignet sind, überlassen wir die Entscheidung, sie mitzubringen, deinem Ermessen. Bitte sei dir deiner Verantwortung für ihr Wohlbefinden bewusst. Wenn dein Tier andere Gäste/Tiere gefährdet, musst du es anleinen."
-      },
-      "q12": {
-        "question": "Stornierungsbedingungen",
-        "answer": "Bezahlte Tickets sind nicht erstattungsfähig. Wenn du dein Ticket an jemand anderen übertragen möchtest, informiere uns bitte mit deren Daten zur Validierung. Wenn du nicht teilnehmen kannst und keinen Ersatz findest, kontaktiere uns. Wir können möglicherweise helfen, wenn es eine Warteliste gibt."
-      },
-      "q13": {
-        "question": "Haftung und Diebstahl",
-        "answer": "City of Seekers haftet nicht für Beschädigung oder Diebstahl von persönlichem Eigentum. Wir bemühen uns um eine sichere Umgebung, können aber die Sicherheit persönlicher Gegenstände nicht garantieren. Bitte achte auf deine Sachen."
-      },
-      "q14": {
-        "question": "Natur",
-        "answer": "Mit unserer Veranstaltung versuchen wir, die Umwelt so wenig wie möglich zu belasten. Dafür brauchen wir deine Hilfe. Bitte respektiere die Natur und Umwelt auf dem Campingplatz und in der Umgebung. Das bedeutet: Bitte wirf Müll (Flaschen, Zigaretten etc.) in den Mülleimer und nicht in die Natur. Besonders Zigaretten und Glas sind nicht nur Umweltverschmutzung, sondern erhöhen auch die Waldbrandgefahr."
+      "title": "Fragen & Antworten",
+      "categories": {
+        "general": {
+          "title": "Allgemein / Über das Event",
+          "questions": [
+            {
+              "question": "Was ist City of Seekers?",
+              "answer": "City of Seekers ist ein viertägiges, gemeinnütziges Camping-Event, das darauf ausgelegt ist, seine Teilnehmer zu verbinden. Tagsüber sind Gäste eingeladen, an kostenlosen Workshops zu einer Vielzahl von Themen teilzunehmen. Das Abendprogramm umfasst Lagerfeuer, eine Silent Disco und andere unterhaltsame Aktivitäten wie eine Open Stage.\n\nVor Ort gibt es verschiedene Zelte und Bereiche:\n• Großes Partyzelt: Ein Raum zum Tanzen, Musik machen und für größere Workshops.\n• Kleineres \"Schuhe-aus\"-Zelt: Ein gemütlicher Bereich mit Sitzgelegenheiten zum Entspannen und Unterhalten.\n• Musikerzelt: Ein kleiner Raum zum gemeinsamen Jammen.\n• Lagerfeuer: Treffpunkte zum Verbinden.\n• Gemeinschaftsküche: Ein gemeinsamer Bereich zum Kochen und Essen."
+            },
+            {
+              "question": "Wer kann teilnehmen?",
+              "answer": "Jeder ist willkommen. Wir tolerieren keine Diskriminierung oder Belästigung jeglicher Art. Gewalt, aggressives Verhalten, Drogen oder Respektlosigkeit gegenüber Natur, Campingplatz oder anderen Teilnehmern sind streng verboten. Unser Ziel ist es, eine sichere, inklusive und positive Umgebung zu schaffen."
+            },
+            {
+              "question": "Wie lange dauert es?",
+              "answer": "Anreise ist am Donnerstag ab 14:00 Uhr. Das Event endet am Sonntagnachmittag."
+            },
+            {
+              "question": "Wo findet es statt?",
+              "answer": "Das Event findet auf dem Alpha One Campground in Hameln statt. Alpha One ist ein großer Jugend- und Gruppencampingplatz am Rand von Hameln (Ortsteil Halvestorf) mit großen Wiesen und grundlegender Infrastruktur wie WC, warmen Duschen, Trinkwasser, Strom und schnellem Zugang zu einem Freibad."
+            },
+            {
+              "question": "Muss ich Teil einer Community sein?",
+              "answer": "Nein. Du musst keiner Community angehören. Komm einfach vorbei und schau selbst, ob es dir gefällt. Du bist herzlich willkommen, bei uns zu bleiben und dich mit unserer Community zu verbinden."
+            },
+            {
+              "question": "Wie viele Leute nehmen normalerweise teil?",
+              "answer": "In der Vergangenheit hatten wir etwa 100 Teilnehmer. Wir können nicht garantieren, dass das so bleibt, aber wir erwarten eine ähnliche Anzahl in 2026."
+            }
+          ]
+        },
+        "tickets": {
+          "title": "Tickets & Anmeldung",
+          "questions": [
+            {
+              "question": "Wie kaufe ich ein Ticket?",
+              "answer": "Oben auf dieser Seite gibt es einen Tickets-Button, der dich zu unserem Online-Shop bringt. Dort kannst du Tickets mit verschiedenen Online-Zahlungsmethoden kaufen."
+            },
+            {
+              "question": "Kann ich spontan ohne Ticket kommen?",
+              "answer": "Ja! Auf jeden Fall. Komm gerne mit deiner Campingausrüstung vorbei. Du kannst dein Ticket vor Ort kaufen und bezahlen."
+            },
+            {
+              "question": "Gibt es Early-Bird-Tickets?",
+              "answer": "Wir haben eine begrenzte Anzahl an Early-Bird-Tickets. Wenn diese ausverkauft sind, sind nur noch reguläre Tickets verfügbar."
+            },
+            {
+              "question": "Kann ich eine Rückerstattung bekommen?",
+              "answer": "Bezahlte Tickets werden nicht erstattet. Wenn du nicht teilnehmen kannst und selbst keinen Ersatz findest, kontaktiere uns bitte. Wir können möglicherweise helfen, wenn es eine Warteliste gibt."
+            },
+            {
+              "question": "Kann ich mein Ticket übertragen?",
+              "answer": "Ja. Wenn du dein Ticket übertragen musst, informiere uns bitte und gib die Daten des neuen Teilnehmers zur Validierung an."
+            },
+            {
+              "question": "Muss ich mich vorher für Workshops anmelden?",
+              "answer": "Nein. Du kannst dich während des Events für Workshops anmelden. Wenn du einen Workshop anbieten möchtest, melde dich gerne bei uns."
+            },
+            {
+              "question": "Was ist im Ticketpreis enthalten?",
+              "answer": "Das Ticket beinhaltet den Eintritt, Zugang zu allen Einrichtungen, allen Workshops und dem Abendprogramm. Essen, Getränke und Transport sind nicht enthalten. Der Ticketpreis ist so kalkuliert, dass er nur unsere Kosten deckt – wir machen keinen Gewinn."
+            }
+          ]
+        },
+        "camping": {
+          "title": "Camping",
+          "questions": [
+            {
+              "question": "Muss ich campen?",
+              "answer": "Technisch gesehen nein. Du kannst auch in einer nahen Unterkunft übernachten. Wir empfehlen jedoch dringend, auf dem Campingplatz zu campen, da es dir hilft, dich zu verbinden und das Event voll zu erleben. Wenn du keine Campingausrüstung hast, können wir dich mit jemandem verbinden, der bereit ist zu teilen."
+            },
+            {
+              "question": "Gibt es Strom und Wasser?",
+              "answer": "Es gibt warme Einzelduschen und Toiletten mit Spülung. Wir können keinen Strom für persönliche Zelte oder Wohnmobile bereitstellen. Es wird einen Gemeinschaftskochbereich mit Strom und eine Handy-Ladestation geben.\n\n⚠️ Leider sind die Duschen und Toiletten nicht vollständig rollstuhlgerecht, da sie erhöht sind. Wenn du uns vorher informierst, suchen wir nach einer geeigneten Rampe oder anderen Lösungen."
+            },
+            {
+              "question": "Kann ich im Auto oder Van schlafen?",
+              "answer": "Ja. Es gibt viel Platz auf dem Campingplatz für Autos und Wohnmobile."
+            },
+            {
+              "question": "Ist der Campingplatz barrierefrei?",
+              "answer": "Der Alpha One Campingplatz bietet grundlegende Barrierefreiheit, aber nicht alle Bereiche sind vollständig barrierefrei. Wenn du spezielle Bedürfnisse hast, kontaktiere uns bitte im Voraus und wir werden unser Bestes tun, um dich zu unterstützen."
+            },
+            {
+              "question": "Gibt es Nachtruhe?",
+              "answer": "Wir versuchen, sowohl Nachteulen als auch Frühaufsteher zu respektieren. Lautere Aktivitäten werden auf bestimmte Bereiche konzentriert, während ruhigere Zonen die ganze Nacht verfügbar bleiben."
+            },
+            {
+              "question": "Gibt es Schließfächer?",
+              "answer": "Nein. Wir stellen keine Schließfächer für Wertsachen bereit."
+            }
+          ]
+        },
+        "food": {
+          "title": "Essen & Getränke",
+          "questions": [
+            {
+              "question": "Kann ich eigenes Essen mitbringen?",
+              "answer": "Ja. Du kannst und solltest dein eigenes Essen mitbringen. Am Donnerstagabend stellen wir einen Grill bereit, wo du dein eigenes Essen grillen kannst."
+            },
+            {
+              "question": "Was ist mit Getränken?",
+              "answer": "Gekühlte Getränke können auf dem Campingplatz zu günstigen Preisen gekauft werden."
+            },
+            {
+              "question": "Kann ich vor Ort Essen kaufen?",
+              "answer": "Wir organisieren ein gemeinsames Abendessen am Samstagabend, das du vor Ort bestellen und bezahlen kannst. Darüber hinaus bieten wir keine zusätzlichen Mahlzeiten an."
+            },
+            {
+              "question": "Gibt es Trinkwasser?",
+              "answer": "Ja. Es gibt kostenloses Trinkwasser zum Auffüllen deiner Wasserflasche."
+            }
+          ]
+        },
+        "workshops": {
+          "title": "Workshops & Programm",
+          "questions": [
+            {
+              "question": "Welche Workshops werden angeboten?",
+              "answer": "Alle Workshops werden von Gästen oder dem Team geleitet. In den vergangenen Jahren gab es Workshops wie Löten, Porträtzeichnen, Breathwork, Salsa, Hip Hop, Yoga, Poker, Handstand, Improtheater, Parkour, Selbstliebe-Workshops und viele mehr. Die Workshops ändern sich jedes Jahr. Das finale Programm wird während des Events geteilt."
+            },
+            {
+              "question": "Brauche ich Erfahrung?",
+              "answer": "Nein. Alle Workshops sind anfängerfreundlich und können ohne Vorkenntnisse besucht werden."
+            },
+            {
+              "question": "In welcher Sprache sind die Workshops?",
+              "answer": "Workshops werden in Englisch abgehalten."
+            },
+            {
+              "question": "Kann ich an mehreren Workshops teilnehmen?",
+              "answer": "Ja, du kannst an so vielen Workshops teilnehmen wie du möchtest. Ein kleiner Tipp von uns: Hab keine Angst, etwas zu verpassen – es ist auch okay, sich auszuruhen."
+            },
+            {
+              "question": "Sind Workshops im Ticketpreis enthalten?",
+              "answer": "Ja, alle Workshops sind inklusive."
+            },
+            {
+              "question": "Gibt es einen Zeitplan?",
+              "answer": "Der finale Zeitplan wird kurz vor dem Event geteilt, da er von unseren Gästen gestaltet wird. Einige wiederkehrende Elemente sind: Karaoke am Donnerstagabend, Speed-Friending am Freitag, Open Stage und gemeinsames Abendessen am Samstagabend, und ein gemeinsames Frühstück mit Abschiedszeremonie am Sonntagvormittag."
+            },
+            {
+              "question": "Kann ich selbst einen Workshop vorschlagen?",
+              "answer": "Ja, bitte! Du kannst das im Anmeldeformular angeben. Noch nicht sicher? Kein Problem – du kannst dich jederzeit melden, und wir schauen, ob es in den Zeitplan passt."
+            },
+            {
+              "question": "Was ist eine Open Stage?",
+              "answer": "Ein Abend ist unserer Open Stage gewidmet. Das ist ein Raum, wo du auftreten oder präsentieren kannst, was immer du teilen möchtest – Musik, Poesie, Comedy, Storytelling, Performance oder etwas völlig anderes. Bring gerne deine Instrumente oder andere Requisiten mit."
+            }
+          ]
+        },
+        "community": {
+          "title": "Community & Atmosphäre",
+          "questions": [
+            {
+              "question": "Kann ich alleine kommen?",
+              "answer": "Ja, auf jeden Fall. Komm gerne alleine – wir heißen dich mit offenen Armen willkommen."
+            },
+            {
+              "question": "Community-Regeln?",
+              "answer": "Schau dir gerne unseren Code of Conduct unten an."
+            },
+            {
+              "question": "Kann ich mein Haustier mitbringen?",
+              "answer": "Tiere sind für diese Art von Umgebung generell nicht gut geeignet. Die Entscheidung liegt jedoch bei dir. Bitte sei voll verantwortlich für das Wohlbefinden deines Tieres. Wenn dein Tier andere Gäste oder Tiere gefährdet, muss es angeleint werden."
+            },
+            {
+              "question": "Kann ich meine Kinder mitbringen?",
+              "answer": "Ja, Kinder sind bei City of Seekers willkommen. Bitte beachte, dass das Programm nicht speziell für Kinder konzipiert ist und Kinder zu keiner Zeit unbeaufsichtigt gelassen werden dürfen."
+            },
+            {
+              "question": "Wie ist die allgemeine Stimmung?",
+              "answer": "City of Seekers ist eine Balance aus verspielt, gesellig und ruhig. Es gibt Momente zum Tanzen, Feiern und sich auszudrücken, sowie viele Räume zum Entspannen, Ausruhen und für bedeutungsvolle Gespräche. Du bist frei, so viel oder so wenig mitzumachen, wie es sich für dich richtig anfühlt."
+            },
+            {
+              "question": "Ist City of Seekers LGBTQIA+ freundlich?",
+              "answer": "Ja. City of Seekers ist ein ausdrücklich inklusiver und queer-freundlicher Raum. Wir heißen Menschen aller Geschlechtsidentitäten, sexuellen Orientierungen und Ausdrucksformen willkommen. Einige unserer wiederkehrenden Community- und Teammitglieder sind selbst LGBTQIA+. Diskriminierung jeglicher Art wird nicht toleriert."
+            }
+          ]
+        },
+        "travel": {
+          "title": "Anreise & Transport",
+          "questions": [
+            {
+              "question": "Wie komme ich hin?",
+              "answer": "Da unsere Community aus ganz Europa (und manchmal darüber hinaus!) kommt, hier die wichtigsten Wege nach Halvestorf, Hameln:\n\n✈️ Nächster Flughafen: Hannover-Langenhagen (HAJ)\n🚄 Nächster Bahnhof: \"Hameln\"\n🚙 Mit dem Auto: Generell keine Umweltzone auf dem Weg, aber meide Stadtzentren von Ruhrgebiet-Städten, Frankfurt, Köln, Düsseldorf, Bonn, Aachen und Limburg, wenn du keine grüne Plakette hast."
+            },
+            {
+              "question": "Kann ich mit anderen Teilnehmern Fahrgemeinschaften bilden?",
+              "answer": "Ja. Wir helfen dabei, Teilnehmer vor dem Event zu verbinden. Es wird auch ein Mitfahr-Dokument geben, wo Leute Fahrten anbieten oder suchen können."
+            },
+            {
+              "question": "Gibt es Parkplätze vor Ort?",
+              "answer": "Ja. Du kannst dein Fahrzeug direkt auf dem Campingplatz parken."
+            },
+            {
+              "question": "Kann ich vom Bahnhof abgeholt werden?",
+              "answer": "Sehr wahrscheinlich ja. Die Community ist sehr hilfsbereit und aktiv, besonders am Anreisetag. Normalerweise bietet jemand an, dich vom Bahnhof abzuholen."
+            }
+          ]
+        },
+        "practical": {
+          "title": "Praktische Tipps & Ausrüstung",
+          "questions": [
+            {
+              "question": "Was sollte ich einpacken?",
+              "answer": "Wir werden vor dem Event eine detaillierte Packliste per E-Mail versenden."
+            },
+            {
+              "question": "Kann ich mein Handy aufladen?",
+              "answer": "Ja. Es wird eine Handy-Ladestation für Telefone und Powerbanks geben. Strom an persönlichen Zelten ist nicht verfügbar."
+            },
+            {
+              "question": "Gibt es WLAN?",
+              "answer": "Nein. Wir bieten kein WLAN an."
+            },
+            {
+              "question": "Sollte ich Bargeld oder Karte mitbringen?",
+              "answer": "Beides wird akzeptiert. Du kannst mit Karte oder Bargeld bezahlen."
+            },
+            {
+              "question": "Kann ich Ausrüstung vor Ort mieten oder ausleihen?",
+              "answer": "Wir ermutigen und helfen dir, dich mit der Community zu verbinden, um Dinge zu leihen oder zu teilen. Wir vermieten selbst keine Ausrüstung."
+            },
+            {
+              "question": "Ich nutze kein WhatsApp, was nun?",
+              "answer": "Wenn du kein WhatsApp nutzt, aber dich trotzdem mit anderen Teilnehmern für Zeltteilung, Fahrgemeinschaften etc. verbinden möchtest, schreib uns eine E-Mail an info@cityofseekers.eu und wir helfen gerne!"
+            },
+            {
+              "question": "Kann ich mich vor dem Event mit anderen verbinden?",
+              "answer": "Ja. Nach dem Ticketkauf wirst du eingeladen, der 2026 Guest Only WhatsApp-Gruppe beizutreten. Wenn du kein WhatsApp nutzt, aber dich trotzdem mit anderen verbinden möchtest, schreib uns einfach eine E-Mail."
+            }
+          ]
+        }
       }
     },
     "contact": {
