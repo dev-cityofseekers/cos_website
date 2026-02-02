@@ -26,7 +26,7 @@ export const teamMembers: TeamMember[] = [
     name: "Didi",
     role: "Team management & Workshops",
     description:
-      "Rule number one: no one is allowed to leave my house with an empty stomach. So basically I'm a Grandma to all of my friends. Let's find some four-leaf clovers together and share some strawberries. See you soon!!!",
+      "Spiritual communication enthusiast with a lifelong soundtrack playing in her head. I believe life is all about the people we share it with — so I love bringing the right ones together. Let's find some four-leaf clovers and share some strawberries. See you soon!",
     image: "/images/team/didi.png",
   },
   {
@@ -47,17 +47,14 @@ export const teamMembers: TeamMember[] = [
     name: "Johar",
     role: "Marketing & Social Media",
     description:
-      "Curious, creative connector. Musician & tech tool geek. \n" +
-      "My guiding question: how can I make this moment & this life better for those in front of me? \n" +
-      "When not in motion, I'm probably asleep, meditating, eating everything I find, or deeply listening to you.\n" +
-      "Let's hug and transform together this summer!",
+      "Curious, creative connector. Musician/teacher, NLP coach & sci-fi lover. When not in hyperactivity or hyperfocus, I can be found meditating, snoring, eating everything I find, or checking in on everyone. Let's hug and transform together this year!",
     image: "/images/team/johar.jpg",
   },
   {
     name: "Luke/Liiav",
     role: "Vibe control & Website Developer",
     description:
-      "Hi, I'm Luke, Spiritual seeker, Musician, Visionary, UX Designer/Frontend Dev, Event Organizer from Vienna. In COS 1.0 I felt a calling to unite and nourish a community that chooses love over fear, yeah baby. Im super excited for COS25.",
+      "Hi, I'm Luke, Spiritual seeker, Musician, Visionary, UX Designer/Frontend Dev, Event Organizer from Vienna. In COS 1.0 I felt a calling to unite and nourish a community that chooses love over fear, yeah baby. Im super excited for COS26.",
     image: "/images/team/luke.jpg",
   },
   {
