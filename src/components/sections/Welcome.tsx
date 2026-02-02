@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { Volume2, VolumeX } from "lucide-react";
+import FestivalCountdown from "../FestivalCountdown";
 
 declare global {
   interface Window {
@@ -140,6 +141,11 @@ function Welcome() {
           <div className="absolute hidden group-hover:block bg-cos-off-black text-white text-sm sm:text-base px-3 py-2 rounded-lg whitespace-nowrap -bottom-12 left-1/2 -translate-x-1/2 shadow-xl z-50">
             Tickets will be available soon
           </div>
+        </div>
+
+        {/* Countdown */}
+        <div className="mt-8 w-full max-w-2xl px-4">
+          <FestivalCountdown />
         </div>
       </div>
     </div>

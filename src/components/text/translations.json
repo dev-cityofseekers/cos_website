@@ -21,37 +21,49 @@
       "seconds": "Seconds"
     },
     "what": {
-      "title": "More Than A Festival",
-      "subtitle": "It's where strangers become friends and moments become memories",
+      "title": "City of Seekers in a nutshell",
       "heroImageAlt": "Festival atmosphere",
+      "intro": "City of Seekers was created to bring together lovely strangers for a long weekend away from daily life – to connect, grow, dance, craft and camp in nature. That simple idea has now become a growing & returning community of friends.",
       "card1": {
-        "title": "Dawn to Dusk Magic",
-        "description": "From morning workshops to evening campfires, every moment is crafted for connection"
+        "title": "4 Days Of Magic",
+        "emoji": "✨",
+        "description": "Non-stop opportunities: Participant-hosted workshops range from breathwork to crafts to dance/sport. You can use your time to either simply recharge, continue a conversation, or join others' spontaneous ideas (there are always many!). At sunset, we gather around the fire or at the silent disco. You can join in as much or as little as feels right at all times."
       },
       "card2": {
-        "title": "Rhythm of Connection",
-        "description": "Dance, laugh, and celebrate with live music, DJs, and spontaneous jam sessions"
+        "title": "Come As You Are",
+        "emoji": "🌈",
+        "description": "Our team is always around to care for you. We create a safe space for everyone, regardless of: age, gender, neurotype, ethnicity, ability, etc. As a Europe-wide community, our common language is English. If you have specific needs, please reach out so we can provide for you!"
       },
       "card3": {
-        "title": "Beyond Comfort Zones",
-        "description": "Challenge yourself, try something new, and discover what happens when you say \"yes\""
+        "title": "Not A Camper? Not A Problem!",
+        "emoji": "🤗",
+        "description": "No excuses! Perks of being a community: there's always someone who can pick you up from the station, lend you camping gear, or even help you plan your food. You do not need to be a camping pro to join. We'll connect you with each other prior to the festival so you can figure all this out and, who knows, maybe even drive there together?"
       },
-      "connection": {
-        "title": "It's All About Connection",
+      "whyLove": {
+        "title": "Why You'll Love CoS",
         "item1": {
-          "title": "Be Yourself",
-          "description": "A judgment-free zone where authenticity thrives"
+          "emoji": "🛡️",
+          "title": "Safe Space",
+          "description": "Freedom to join authentically"
         },
         "item2": {
-          "title": "Find Your People",
-          "description": "Connect with souls who get your vibe"
+          "emoji": "🫂",
+          "title": "Genuine Connection",
+          "description": "Shared moments that turn strangers into friends"
         },
         "item3": {
-          "title": "Grow Together",
-          "description": "Share skills, stories, and spontaneous adventures"
+          "emoji": "🌱",
+          "title": "Growth Mindset",
+          "description": "Learn from and find others who share your passions"
         }
       },
-      "joinButton": "Join the Adventure 🌟"
+      "cta": {
+        "title": "What are you waiting for?!",
+        "ticket": "Buy your ticket here!",
+        "chat": "Unsure? Join the group chat.",
+        "instagram": "Follow us on Instagram.",
+        "calendar": "Save the date."
+      }
     },
     "faq": {
       "title": "Frequently Asked Questions",
@@ -395,37 +407,49 @@
       "seconds": "Sekunden"
     },
     "what": {
-      "title": "Mehr als ein Festival",
-      "subtitle": "Hier werden aus Fremden Freunde und aus Momenten Erinnerungen",
+      "title": "City of Seekers kurz erklärt",
       "heroImageAlt": "Festival-Atmosphäre",
+      "intro": "City of Seekers wurde geschaffen, um liebenswerte Fremde für ein langes Wochenende abseits des Alltags zusammenzubringen – um sich zu verbinden, zu wachsen, zu tanzen, zu basteln und in der Natur zu campen. Diese einfache Idee ist mittlerweile zu einer wachsenden & wiederkehrenden Community von Freunden geworden.",
       "card1": {
-        "title": "Magie von Morgens bis Abends",
-        "description": "Von Morgenworkshops bis zu abendlichen Lagerfeuern ist jeder Moment für Verbindung geschaffen"
+        "title": "4 Tage voller Magie",
+        "emoji": "✨",
+        "description": "Endlose Möglichkeiten: Von Teilnehmern gehostete Workshops reichen von Breathwork über Basteln bis zu Tanz/Sport. Du kannst deine Zeit nutzen, um einfach aufzuladen, ein Gespräch fortzusetzen oder bei spontanen Ideen anderer mitzumachen (davon gibt es immer viele!). Bei Sonnenuntergang versammeln wir uns am Lagerfeuer oder bei der Silent Disco. Du kannst jederzeit so viel oder so wenig mitmachen, wie es sich richtig anfühlt."
       },
       "card2": {
-        "title": "Rhythmus der Verbindung",
-        "description": "Tanze, lache und feiere mit Live-Musik, DJs und spontanen Jam-Sessions"
+        "title": "Komm wie du bist",
+        "emoji": "🌈",
+        "description": "Unser Team ist immer da, um für dich zu sorgen. Wir schaffen einen sicheren Raum für alle, unabhängig von: Alter, Geschlecht, Neurotyp, Herkunft, Fähigkeit, etc. Als europaweite Community ist unsere gemeinsame Sprache Englisch. Wenn du besondere Bedürfnisse hast, melde dich bitte, damit wir für dich sorgen können!"
       },
       "card3": {
-        "title": "Jenseits der Komfortzone",
-        "description": "Fordere dich selbst heraus, probiere Neues aus und entdecke, was passiert, wenn du \"Ja\" sagst"
+        "title": "Kein Camper? Kein Problem!",
+        "emoji": "🤗",
+        "description": "Keine Ausreden! Vorteile einer Community: Es gibt immer jemanden, der dich vom Bahnhof abholen, dir Campingausrüstung leihen oder dir sogar bei der Essensplanung helfen kann. Du musst kein Camping-Profi sein, um mitzumachen. Wir verbinden euch vor dem Festival miteinander, damit ihr das alles klären könnt und, wer weiß, vielleicht sogar zusammen hinfahrt?"
       },
-      "connection": {
-        "title": "Es geht um Connection",
+      "whyLove": {
+        "title": "Warum du CoS lieben wirst",
         "item1": {
-          "title": "Sei du selbst",
-          "description": "Ein Ort ohne Vorurteile, wo Authentizität gedeiht"
+          "emoji": "🛡️",
+          "title": "Safe Space",
+          "description": "Freiheit, authentisch dabei zu sein"
         },
         "item2": {
-          "title": "Finde deine Leute",
-          "description": "Verbinde dich mit Menschen, die deine Energie teilen"
+          "emoji": "🫂",
+          "title": "Echte Verbindung",
+          "description": "Gemeinsame Momente, die Fremde zu Freunden machen"
         },
         "item3": {
-          "title": "Wachse gemeinsam",
-          "description": "Teile Fähigkeiten, Geschichten und spontane Abenteuer"
+          "emoji": "🌱",
+          "title": "Growth Mindset",
+          "description": "Lerne von anderen und finde Menschen, die deine Leidenschaften teilen"
         }
       },
-      "joinButton": "Sei dabei 🌟"
+      "cta": {
+        "title": "Worauf wartest du noch?!",
+        "ticket": "Kauf dein Ticket hier!",
+        "chat": "Unsicher? Tritt dem Gruppenchat bei.",
+        "instagram": "Folge uns auf Instagram.",
+        "calendar": "Speichere das Datum."
+      }
     },
     "faq": {
       "title": "Häufig gestellte Fragen",
