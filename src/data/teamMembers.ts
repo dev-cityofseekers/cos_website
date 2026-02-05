@@ -40,8 +40,8 @@ export const teamMembers: TeamMember[] = [
     name: "Freddyi",
     role: "Finance & Legal",
     description:
-      "Hey, I'm Freddyi, an aspring nurse and travel enthusiast who recently discovered her passion for tattoos with friends. I get caught sleeping at every possible moment and occasionally steal super cute dogs. And I can't wait to meet you at CoS! And yes, you get to meet said dog there.",
-    image: "/images/team/freddyi.png",
+      "Hey, I'm Freddyi, nurse in real life but mostly travel enthusiast. I'm happy to connect with people and plan crazy adventures (or do it spontaneously). I'm always interested in learning new skills and expand my horizon. And apparently I'm always open for fun tattoos. See you soon at CoS!",
+    image: "/images/team/freddyi.jpg",
   },
   {
     name: "Johar",
