@@ -17,9 +17,9 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Autumn",
-    role: "Designer",
+    role: "Marketing",
     description:
-      "Just your local Canadian living and working in Germany. Also an avid musician and painter, just trying to make cool things for a living.",
+      "I love creating whether through photo, video, music, or art, and building spaces where people can connect, with coffee brewing, something baking, and people gathered. There's nothing I enjoy more than seeing a space come alive with conversation, creativity, and a little sweetness.",
     image: "/images/team/autumn.jpg",
   },
   {
