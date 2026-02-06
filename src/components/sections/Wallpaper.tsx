@@ -62,9 +62,9 @@ const GallerySection = () => {
   };
 
   return (
-    <div className="w-full bg-cos-main-orange">
-      <div className="relative w-full">
-        <div className="relative aspect-[16/9] w-full overflow-hidden">
+    <div className="w-full bg-cos-off-black">
+      <div className="relative w-full max-w-6xl mx-auto px-4 py-4 sm:py-6 md:py-8">
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl">
           {images.map((image, index) => (
             <div
               key={index}
@@ -88,8 +88,8 @@ const GallerySection = () => {
           onClick={prevSlide}
           disabled={isTransitioning}
           aria-label="Previous image"
-          className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50
-                        text-cos-off-black p-2 rounded-full backdrop-blur-sm
+          className="absolute left-6 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40
+                        text-white p-2 rounded-full backdrop-blur-sm
                         transition-all duration-200 disabled:opacity-30"
         >
           <ChevronLeft className="w-6 h-6" aria-hidden="true" />
@@ -98,8 +98,8 @@ const GallerySection = () => {
           onClick={nextSlide}
           disabled={isTransitioning}
           aria-label="Next image"
-          className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/30 hover:bg-white/50
-                        text-cos-off-black p-2 rounded-full backdrop-blur-sm
+          className="absolute right-6 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40
+                        text-white p-2 rounded-full backdrop-blur-sm
                         transition-all duration-200 disabled:opacity-30"
         >
           <ChevronRight className="w-6 h-6" aria-hidden="true" />
