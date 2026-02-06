@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { FESTIVAL } from "../config/constants";
+
+const pad = (n: number): string => String(n).padStart(2, "0");
 
 const FestivalCountdown = () => {
   const { t } = useTranslation();
@@ -33,37 +35,38 @@ const FestivalCountdown = () => {
     return () => clearInterval(timer);
   }, []);
 
+  const units = [
+    { value: timeLeft.days, label: t("countdown.days") },
+    { value: timeLeft.hours, label: t("countdown.hours") },
+    { value: timeLeft.minutes, label: t("countdown.minutes") },
+    { value: timeLeft.seconds, label: t("countdown.seconds") },
+  ];
+
   return (
-    <div className="bg-gradient-to-r from-cos-sea-blue to-cos-pink p-4  rounded-lg w-full max-w-4xl mx-auto pb-8">
-      <h2 className="text-2xl md:text-3xl font-omnes font-bold text-center mb-4 md:mb-6 text-cos-off-black">
-        {t("countdown.title")}
-      </h2>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4 text-center">
-        <div className="bg-white/80 backdrop-blur-sm p-2 md:p-4 rounded-lg shadow-white bg-white shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-          <div className="text-2xl md:text-4xl font-omnes font-bold text-cos-orange">
-            {timeLeft.days}
+    <div className="flex items-center justify-center gap-3 sm:gap-5 md:gap-8">
+      {units.map((unit, i) => (
+        <div key={unit.label} className="flex items-center gap-3 sm:gap-5 md:gap-8">
+          <div className="flex flex-col items-center">
+            <span
+              className="font-omnes font-bold text-4xl sm:text-5xl md:text-7xl tracking-tight text-cos-orange"
+              style={{ textShadow: "0 0 30px rgba(254,195,96,0.3)" }}
+            >
+              {pad(unit.value)}
+            </span>
+            <span className="text-[10px] sm:text-xs md:text-sm uppercase tracking-[0.2em] text-white/60 mt-1 sm:mt-2">
+              {unit.label}
+            </span>
           </div>
-          <div className="text-sm md:text-base text-cos-off-black">{t("countdown.days")}</div>
+          {i < units.length - 1 && (
+            <span
+              className="text-2xl sm:text-3xl md:text-5xl font-light text-white/20 -mt-4 sm:-mt-5 md:-mt-7 select-none"
+              aria-hidden="true"
+            >
+              :
+            </span>
+          )}
         </div>
-        <div className="bg-white/80 backdrop-blur-sm p-2 md:p-4 rounded-lg shadow-white overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-          <div className="text-2xl md:text-4xl font-omnes font-bold text-cos-orange">
-            {timeLeft.hours}
-          </div>
-          <div className="text-sm md:text-base text-cos-off-black">{t("countdown.hours")}</div>
-        </div>
-        <div className="bg-white/80 backdrop-blur-sm p-2 md:p-4 rounded-lg shadow-white overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-          <div className="text-2xl md:text-4xl font-omnes font-bold text-cos-orange">
-            {timeLeft.minutes}
-          </div>
-          <div className="text-sm md:text-base text-cos-off-black">{t("countdown.minutes")}</div>
-        </div>
-        <div className="bg-white/80 backdrop-blur-sm p-2 md:p-4 rounded-lg shadow-white overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-          <div className="text-2xl md:text-4xl font-omnes font-bold text-cos-orange">
-            {timeLeft.seconds}
-          </div>
-          <div className="text-sm md:text-base text-cos-off-black">{t("countdown.seconds")}</div>
-        </div>
-      </div>
+      ))}
     </div>
   );
 };

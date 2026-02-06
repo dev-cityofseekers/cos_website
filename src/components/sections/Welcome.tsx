@@ -108,7 +108,8 @@ function Welcome() {
 
       {/* Content */}
       <div className="relative z-9 h-full flex flex-col items-center justify-center px-4">
-        <div className="w-32 sm:w-36 lg:w-48 mb-6">
+        {/* Logo */}
+        <div className="w-36 sm:w-44 lg:w-56">
           <img
             src="/images/logo_white_transparent.png"
             className="mx-auto"
@@ -117,7 +118,8 @@ function Welcome() {
           />
         </div>
 
-        <div className="mt-40 mb-6 max-w-2xl">
+        {/* Slogan */}
+        <div className="mt-6 sm:mt-8">
           <div className="text-white font-omnes text-center text-2xl sm:text-3xl lg:text-5xl drop-shadow-lg mb-1">
             {t("welcome.slogan1")}
           </div>
@@ -126,25 +128,24 @@ function Welcome() {
           </div>
         </div>
 
-        <div className="text-white font-omnes text-center text-lg sm:text-xl lg:text-3xl mb-8">
+        {/* Date */}
+        <div className="mt-4 sm:mt-5 text-white/80 font-omnes text-center text-base sm:text-lg lg:text-2xl tracking-wide">
           {t("welcome.eventDate")}
         </div>
 
-        <div className="relative group">
+        {/* Tickets Button */}
+        <div className="relative group mt-6 sm:mt-8">
           <button
             disabled
-            className="bg-gray-400 text-gray-200 text-base sm:text-lg lg:text-xl font-omnes py-3 sm:py-4 px-6 sm:px-8 rounded-full cursor-not-allowed shadow-lg opacity-60"
-            aria-label="Tickets not yet available"
+            className="border border-white/40 text-white/70 text-sm sm:text-base lg:text-lg font-omnes py-2.5 sm:py-3 px-6 sm:px-8 rounded-full cursor-default backdrop-blur-sm transition-colors duration-300 hover:border-white/60 hover:text-white/90"
+            aria-label={t("welcome.ticketsSoon")}
           >
-            {t("welcome.buyTickets")}
+            {t("welcome.ticketsSoon")}
           </button>
-          <div className="absolute hidden group-hover:block bg-cos-off-black text-white text-sm sm:text-base px-3 py-2 rounded-lg whitespace-nowrap -bottom-12 left-1/2 -translate-x-1/2 shadow-xl z-50">
-            Tickets will be available soon
-          </div>
         </div>
 
         {/* Countdown */}
-        <div className="mt-8 w-full max-w-2xl px-4">
+        <div className="mt-8 sm:mt-10 w-full">
           <FestivalCountdown />
         </div>
       </div>
