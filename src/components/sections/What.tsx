@@ -4,8 +4,7 @@ import { SOCIAL } from "../../config/constants";
 const What = () => {
   const { t } = useTranslation();
 
-  const calendarUrl =
-    "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MDkyYTI3ODU0OWU5NGFmYjgzNDljMWUwN2NiNTJiNzAgY2l0eW9mc2Vla2Vyc0Bt&tmsrc=cityofseekers%40gmail.com";
+  const calendarUrl = "/cos2026.ics";
 
   const features = [
     {
@@ -49,23 +48,81 @@ const What = () => {
         </p>
       </div>
 
-      {/* Features */}
-      <div className="max-w-6xl mx-auto px-4 pt-14 sm:pt-20 pb-8">
-        <div className="grid md:grid-cols-3 gap-5 md:gap-6">
-          {features.map((feature) => (
-            <div
-              key={feature.title}
-              className="bg-white/50 backdrop-blur-sm rounded-2xl p-6 sm:p-8"
-            >
-              <div className="text-3xl sm:text-4xl mb-4">{feature.emoji}</div>
-              <h3 className="font-omnes text-xl sm:text-2xl text-cos-off-black mb-3">
-                {feature.title}
+      {/* Features - Story Layout */}
+      <div className="pt-16 sm:pt-24 pb-8">
+        {/* Feature 1 - Image Left */}
+        <div className="max-w-6xl mx-auto px-4 mb-16 sm:mb-24">
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            <div className="w-full md:w-1/2">
+              <div className="rounded-2xl overflow-hidden">
+                <img
+                  src="/wallpapers/Martin06.JPG"
+                  alt="Festival workshops"
+                  className="w-full h-[280px] sm:h-[360px] object-cover"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div className="w-full md:w-1/2">
+              <div className="text-4xl sm:text-5xl mb-4">{features[0].emoji}</div>
+              <h3 className="font-omnes text-2xl sm:text-3xl text-cos-off-black mb-4">
+                {features[0].title}
               </h3>
-              <p className="text-sm sm:text-base text-cos-off-black/70 leading-relaxed">
-                {feature.description}
+              <p className="text-base sm:text-lg text-cos-off-black/70 leading-relaxed">
+                {features[0].description}
               </p>
             </div>
-          ))}
+          </div>
+        </div>
+
+        {/* Feature 2 - Image Right */}
+        <div className="max-w-6xl mx-auto px-4 mb-16 sm:mb-24">
+          <div className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-12">
+            <div className="w-full md:w-1/2">
+              <div className="rounded-2xl overflow-hidden">
+                <img
+                  src="/wallpapers/Martin09.JPG"
+                  alt="Community connection"
+                  className="w-full h-[280px] sm:h-[360px] object-cover"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div className="w-full md:w-1/2">
+              <div className="text-4xl sm:text-5xl mb-4">{features[1].emoji}</div>
+              <h3 className="font-omnes text-2xl sm:text-3xl text-cos-off-black mb-4">
+                {features[1].title}
+              </h3>
+              <p className="text-base sm:text-lg text-cos-off-black/70 leading-relaxed">
+                {features[1].description}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Feature 3 - Image Left */}
+        <div className="max-w-6xl mx-auto px-4 mb-8">
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            <div className="w-full md:w-1/2">
+              <div className="rounded-2xl overflow-hidden">
+                <img
+                  src="/wallpapers/Martin03.JPG"
+                  alt="Camping together"
+                  className="w-full h-[280px] sm:h-[360px] object-cover"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div className="w-full md:w-1/2">
+              <div className="text-4xl sm:text-5xl mb-4">{features[2].emoji}</div>
+              <h3 className="font-omnes text-2xl sm:text-3xl text-cos-off-black mb-4">
+                {features[2].title}
+              </h3>
+              <p className="text-base sm:text-lg text-cos-off-black/70 leading-relaxed">
+                {features[2].description}
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -110,8 +167,7 @@ const What = () => {
 
             <a
               href={calendarUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              download="CityOfSeekers2026.ics"
               className="rounded-xl border border-white/15 py-5 px-4 flex flex-col items-center gap-2 transition-colors duration-300 hover:border-white/40 hover:bg-white/5"
             >
               <span className="text-xl sm:text-2xl">🗓️</span>

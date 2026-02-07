@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//City of Seekers//COS 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20260611T120000
+DTEND:20260614T140000
+SUMMARY:City of Seekers 2026
+DESCRIPTION:Come as a stranger, leave as a friend! 🏕️\n\nFour days of connection, workshops, music, and camping.\n\nhttps://cityofseekers.eu
+LOCATION:Alpha One Campground, Pferdeweg 2, 31787 Hameln, Germany
+URL:https://cityofseekers.eu
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
