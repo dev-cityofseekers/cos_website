@@ -104,16 +104,6 @@ const GallerySection = () => {
         >
           <ChevronRight className="w-6 h-6" aria-hidden="true" />
         </button>
-
-        <div className="absolute bottom-0 left-0 w-full h-1 bg-white/30">
-          <div
-            className="h-full bg-cos-off-black transition-transform duration-[6000ms] ease-linear"
-            style={{
-              transform: `scaleX(${isPaused ? 1 : 0})`,
-              transformOrigin: "left",
-            }}
-          />
-        </div>
       </div>
     </div>
   );
