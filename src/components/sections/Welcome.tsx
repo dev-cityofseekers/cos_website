@@ -12,6 +12,7 @@ declare global {
 function Welcome() {
   const { t } = useTranslation();
   const [_isMobile, setIsMobile] = useState(false);
+  const [isVideoReady, setIsVideoReady] = useState(false);
   const playerRef = useRef<any>(null);
   const videoId = "Ipl0aHlVPAI";
 
@@ -40,6 +41,12 @@ function Welcome() {
           onReady: (event: any) => {
             event.target.playVideo();
           },
+          onStateChange: (event: any) => {
+            // YT.PlayerState.PLAYING === 1
+            if (event.data === 1) {
+              setIsVideoReady(true);
+            }
+          },
         },
       });
     };
@@ -61,24 +68,22 @@ function Welcome() {
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      {/* Background Layer */}
-      <div className="absolute inset-0 z-8">
-        <div className="relative w-full h-full">
-          <div
-            id="youtube-player"
-            className="absolute inset-0 w-full h-full"
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-              width: "100%",
-              height: "100%",
-              minHeight: "100vh",
-              minWidth: "177.77vh",
-            }}
-          />
-        </div>
+      {/* Background Layer - video crops to fill, hidden until playing */}
+      <div
+        className="absolute inset-0 z-8 overflow-hidden transition-opacity duration-700"
+        style={{ opacity: isVideoReady ? 1 : 0 }}
+      >
+        <div
+          id="youtube-player"
+          style={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            width: "max(100%, 177.78vh)", // 16:9 ratio: 100 * 16/9 ≈ 177.78
+            height: "max(100%, 56.25vw)", // 16:9 ratio: 100 * 9/16 = 56.25
+          }}
+        />
       </div>
 
       {/* Overlay */}
