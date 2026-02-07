@@ -39,9 +39,11 @@ function Header() {
       setIsScrolled(currentScrollY > 50);
 
       // Hide header on scroll down, show on scroll up (mobile only)
-      if (currentScrollY > lastScrollY.current && currentScrollY > 100) {
+      // Only hide after scrolling down 250px and moving 10px+ in scroll direction
+      const scrollDelta = currentScrollY - lastScrollY.current;
+      if (scrollDelta > 10 && currentScrollY > 250) {
         setIsHidden(true);
-      } else {
+      } else if (scrollDelta < -5) {
         setIsHidden(false);
       }
 
@@ -190,7 +192,7 @@ function Header() {
           className="fixed inset-0 text-white z-20 p-8 overflow-y-auto"
           style={{
             background:
-              "linear-gradient(180deg, rgba(90, 40, 80, 0.98) 0%, rgba(160, 80, 100, 0.97) 35%, rgba(200, 120, 90, 0.95) 70%, rgba(180, 140, 100, 0.93) 100%)",
+              "linear-gradient(180deg, rgb(90, 40, 80) 0%, rgb(160, 80, 100) 35%, rgb(200, 120, 90) 70%, rgb(180, 140, 100) 100%)",
           }}
           onClick={handleMenuClose}
         >
