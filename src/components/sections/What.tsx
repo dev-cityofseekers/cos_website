@@ -50,7 +50,7 @@ const What = () => {
       </div>
 
       {/* Features */}
-      <div className="max-w-6xl mx-auto px-4 pt-14 sm:pt-20 pb-4">
+      <div className="max-w-6xl mx-auto px-4 pt-14 sm:pt-20 pb-8">
         <div className="grid md:grid-cols-3 gap-5 md:gap-6">
           {features.map((feature) => (
             <div
