@@ -49,45 +49,79 @@ const What = () => {
         </p>
       </div>
 
-      {/* Features - Bento Grid */}
-      <div className="max-w-6xl mx-auto px-4 pt-14 sm:pt-20 pb-8">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-5">
-          {/* Card 1 - Large, spans 7 columns */}
-          <div className="md:col-span-7 bg-gradient-to-br from-cos-sea-blue/20 to-cos-blue/10 backdrop-blur-sm rounded-3xl p-8 sm:p-10 flex flex-col justify-between min-h-[280px] md:min-h-[320px]">
-            <div>
-              <div className="text-4xl sm:text-5xl mb-5">{features[0].emoji}</div>
+      {/* Features - Story Layout */}
+      <div className="pt-16 sm:pt-24 pb-8">
+        {/* Feature 1 - Image Left */}
+        <div className="max-w-6xl mx-auto px-4 mb-16 sm:mb-24">
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            <div className="w-full md:w-1/2">
+              <div className="rounded-2xl overflow-hidden">
+                <img
+                  src="/wallpapers/Martin06.JPG"
+                  alt="Festival workshops"
+                  className="w-full h-[280px] sm:h-[360px] object-cover"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div className="w-full md:w-1/2">
+              <div className="text-4xl sm:text-5xl mb-4">{features[0].emoji}</div>
               <h3 className="font-omnes text-2xl sm:text-3xl text-cos-off-black mb-4">
                 {features[0].title}
               </h3>
+              <p className="text-base sm:text-lg text-cos-off-black/70 leading-relaxed">
+                {features[0].description}
+              </p>
             </div>
-            <p className="text-sm sm:text-base text-cos-off-black/70 leading-relaxed">
-              {features[0].description}
-            </p>
           </div>
+        </div>
 
-          {/* Card 2 - Tall, spans 5 columns */}
-          <div className="md:col-span-5 bg-gradient-to-br from-cos-pink/20 to-cos-red/10 backdrop-blur-sm rounded-3xl p-8 sm:p-10 flex flex-col min-h-[280px] md:min-h-[320px]">
-            <div className="text-4xl sm:text-5xl mb-5">{features[1].emoji}</div>
-            <h3 className="font-omnes text-2xl sm:text-3xl text-cos-off-black mb-4">
-              {features[1].title}
-            </h3>
-            <p className="text-sm sm:text-base text-cos-off-black/70 leading-relaxed mt-auto">
-              {features[1].description}
-            </p>
-          </div>
-
-          {/* Card 3 - Wide, full width */}
-          <div className="md:col-span-12 bg-gradient-to-r from-cos-orange/20 via-cos-yellow/10 to-cos-orange/20 backdrop-blur-sm rounded-3xl p-8 sm:p-10">
-            <div className="max-w-4xl mx-auto flex flex-col md:flex-row md:items-center gap-6">
-              <div className="text-4xl sm:text-5xl">{features[2].emoji}</div>
-              <div className="flex-1">
-                <h3 className="font-omnes text-2xl sm:text-3xl text-cos-off-black mb-3">
-                  {features[2].title}
-                </h3>
-                <p className="text-sm sm:text-base text-cos-off-black/70 leading-relaxed">
-                  {features[2].description}
-                </p>
+        {/* Feature 2 - Image Right */}
+        <div className="max-w-6xl mx-auto px-4 mb-16 sm:mb-24">
+          <div className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-12">
+            <div className="w-full md:w-1/2">
+              <div className="rounded-2xl overflow-hidden">
+                <img
+                  src="/wallpapers/Martin09.JPG"
+                  alt="Community connection"
+                  className="w-full h-[280px] sm:h-[360px] object-cover"
+                  loading="lazy"
+                />
               </div>
+            </div>
+            <div className="w-full md:w-1/2">
+              <div className="text-4xl sm:text-5xl mb-4">{features[1].emoji}</div>
+              <h3 className="font-omnes text-2xl sm:text-3xl text-cos-off-black mb-4">
+                {features[1].title}
+              </h3>
+              <p className="text-base sm:text-lg text-cos-off-black/70 leading-relaxed">
+                {features[1].description}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Feature 3 - Image Left */}
+        <div className="max-w-6xl mx-auto px-4 mb-8">
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            <div className="w-full md:w-1/2">
+              <div className="rounded-2xl overflow-hidden">
+                <img
+                  src="/wallpapers/Martin03.JPG"
+                  alt="Camping together"
+                  className="w-full h-[280px] sm:h-[360px] object-cover"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div className="w-full md:w-1/2">
+              <div className="text-4xl sm:text-5xl mb-4">{features[2].emoji}</div>
+              <h3 className="font-omnes text-2xl sm:text-3xl text-cos-off-black mb-4">
+                {features[2].title}
+              </h3>
+              <p className="text-base sm:text-lg text-cos-off-black/70 leading-relaxed">
+                {features[2].description}
+              </p>
             </div>
           </div>
         </div>
