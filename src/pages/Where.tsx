@@ -31,7 +31,7 @@ function Where() {
       <Header />
 
       {/* Content */}
-      <div className="container mx-auto p-6 pt-28 max-w-5xl">
+      <div className="container mx-auto p-6 pt-36 max-w-5xl">
         {/* Header Section */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold mb-4 font-omnes">{t("where.title")}</h1>

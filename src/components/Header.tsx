@@ -68,7 +68,7 @@ function Header() {
       {/* Desktop Navigation */}
       <div className="w-full flex justify-center">
         <nav
-          className={`fixed top-0 w-auto mt-7 p-4 px-6 z-10 hidden md:flex items-center justify-center rounded-full transition-all duration-300`}
+          className={`fixed top-0 w-auto mt-7 p-4 px-5 z-10 hidden md:flex items-center justify-center rounded-full transition-all duration-300`}
           style={{
             background:
               "linear-gradient(135deg, rgba(90, 40, 80, 0.9) 0%, rgba(160, 80, 110, 0.88) 50%, rgba(200, 130, 100, 0.85) 100%)",
@@ -79,7 +79,7 @@ function Header() {
           }}
         >
           {/* Ticket Button */}
-          <div className="relative mr-6 group">
+          <div className="relative mr-4 group">
             <button
               disabled
               className="px-4 py-2 bg-gray-400 text-gray-200 rounded-full font-omnes font-bold cursor-not-allowed shadow-lg opacity-60"
@@ -93,7 +93,7 @@ function Header() {
           </div>
 
           {/* Scroll Navigation Items */}
-          <ul className="flex space-x-4">
+          <ul className="flex space-x-3">
             {NAV_SCROLL_ITEMS.map((item) => (
               <li key={item.key}>
                 {isHomePage ? (
@@ -124,10 +124,10 @@ function Header() {
           </ul>
 
           {/* Divider */}
-          <div className="h-6 w-px bg-cos-off-black/30 mx-4" />
+          <div className="h-6 w-px bg-cos-off-black/30 mx-3" />
 
           {/* Page Navigation Items */}
-          <ul className="flex space-x-4">
+          <ul className="flex space-x-3">
             {NAV_PAGE_ITEMS.map((item) => (
               <li key={item.key}>
                 <RouterLink
@@ -144,7 +144,7 @@ function Header() {
             ))}
           </ul>
 
-          <div className="pl-4 border-l ml-4 border-cos-off-black/20">
+          <div className="pl-3 border-l ml-3 border-cos-off-black/20">
             <LanguageSwitcher />
           </div>
         </nav>
