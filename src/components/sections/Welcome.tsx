@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import { Volume2, VolumeX } from "lucide-react";
 import FestivalCountdown from "../FestivalCountdown";
 
 declare global {
@@ -13,9 +12,8 @@ declare global {
 function Welcome() {
   const { t } = useTranslation();
   const [_isMobile, setIsMobile] = useState(false);
-  const [isMuted, setIsMuted] = useState(true);
   const playerRef = useRef<any>(null);
-  const videoId = "HEQqeUN11tI";
+  const videoId = "Ipl0aHlVPAI";
 
   useEffect(() => {
     const tag = document.createElement("script");
@@ -61,17 +59,6 @@ function Welcome() {
     };
   }, []);
 
-  const toggleSound = () => {
-    if (playerRef.current) {
-      if (isMuted) {
-        playerRef.current.unMute();
-      } else {
-        playerRef.current.mute();
-      }
-      setIsMuted(!isMuted);
-    }
-  };
-
   return (
     <div className="relative w-full h-screen overflow-hidden">
       {/* Background Layer */}
@@ -96,15 +83,6 @@ function Welcome() {
 
       {/* Overlay */}
       <div className="absolute inset-0 z-9 bg-black bg-opacity-40 pointer-events-none" />
-
-      {/* Sound Control */}
-      <button
-        onClick={toggleSound}
-        className="absolute bottom-4 right-4 z-20 p-2 rounded-full bg-black bg-opacity-50 hover:bg-opacity-70 transition-all duration-300 text-white"
-        aria-label={isMuted ? "Unmute video" : "Mute video"}
-      >
-        {isMuted ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
-      </button>
 
       {/* Content */}
       <div className="relative z-9 h-full flex flex-col items-center justify-center px-4">
