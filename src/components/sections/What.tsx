@@ -4,8 +4,7 @@ import { SOCIAL } from "../../config/constants";
 const What = () => {
   const { t } = useTranslation();
 
-  const calendarUrl =
-    "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MDkyYTI3ODU0OWU5NGFmYjgzNDljMWUwN2NiNTJiNzAgY2l0eW9mc2Vla2Vyc0Bt&tmsrc=cityofseekers%40gmail.com";
+  const calendarUrl = "/cos2026.ics";
 
   const features = [
     {
@@ -168,8 +167,7 @@ const What = () => {
 
             <a
               href={calendarUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              download="CityOfSeekers2026.ics"
               className="rounded-xl border border-white/15 py-5 px-4 flex flex-col items-center gap-2 transition-colors duration-300 hover:border-white/40 hover:bg-white/5"
             >
               <span className="text-xl sm:text-2xl">🗓️</span>
