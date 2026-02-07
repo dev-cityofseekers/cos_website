@@ -80,6 +80,7 @@ export const NAV_SCROLL_ITEMS = [
 export const NAV_PAGE_ITEMS = [
   { key: "where", path: "/where", label: "Location" },
   { key: "team", path: "/team", label: "Team" },
+  { key: "code", path: "/code", label: "Code of Conduct" },
 ] as const;
 
 export type NavScrollItem = (typeof NAV_SCROLL_ITEMS)[number];

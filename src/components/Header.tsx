@@ -41,7 +41,7 @@ function Header() {
       // Hide header on scroll down, show on scroll up (mobile only)
       // Only hide after scrolling down 250px and moving 10px+ in scroll direction
       const scrollDelta = currentScrollY - lastScrollY.current;
-      if (scrollDelta > 10 && currentScrollY > 250) {
+      if (scrollDelta > 30 && currentScrollY > 250) {
         setIsHidden(true);
       } else if (scrollDelta < -5) {
         setIsHidden(false);
@@ -260,14 +260,6 @@ function Header() {
                 {item.label}
               </RouterLink>
             ))}
-            <a
-              href={"/code"}
-              className="cursor-pointer text-lg hover:text-cos-yellow transition-colors duration-200"
-              onClick={handleMenuClose}
-            >
-              Code Of Conduct
-            </a>
-
             {/* Divider */}
             <div className="w-16 h-px bg-white/30 my-1" />
 
