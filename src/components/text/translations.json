@@ -8,6 +8,7 @@
     "welcome": {
       "eventDate": "June 11-14 2026",
       "buyTickets": "Buy Tickets",
+      "ticketsSoon": "Tickets available soon",
       "logoAlt": "Logo black",
       "heroAlt": "Hero",
       "slogan1": "Come as a stranger,",
@@ -127,6 +128,10 @@
             {
               "question": "What is included in the ticket price?",
               "answer": "The ticket includes entry, access to all infrastructure, all workshops, and the evening program. Food, drinks, and transportation are not included. The ticket price is calculated to cover our expenses only — we do not take any profit."
+            },
+            {
+              "question": "Do you sell merchandise?",
+              "answer": "Yes, merchandise is sold as an add-on and is printed in Germany on high-quality, fairly produced organic cotton blanks. It is available for purchase until approximately one month before the event, as production starts afterwards, and there will be no second production run."
             }
           ]
         },
@@ -572,6 +577,7 @@
     "welcome": {
       "eventDate": "11.-14. Juni 2026",
       "buyTickets": "Tickets kaufen",
+      "ticketsSoon": "Tickets bald verfügbar",
       "logoAlt": "Logo schwarz",
       "heroAlt": "Titelbild",
       "slogan1": "Come as a stranger,",
@@ -691,6 +697,10 @@
             {
               "question": "Was ist im Ticketpreis enthalten?",
               "answer": "Das Ticket beinhaltet den Eintritt, Zugang zu allen Einrichtungen, allen Workshops und dem Abendprogramm. Essen, Getränke und Transport sind nicht enthalten. Der Ticketpreis ist so kalkuliert, dass er nur unsere Kosten deckt – wir machen keinen Gewinn."
+            },
+            {
+              "question": "Verkauft ihr Merchandise?",
+              "answer": "Ja, Merchandise wird als Add-on verkauft und in Deutschland auf hochwertigen, fair produzierten Bio-Baumwoll-Rohlingen gedruckt. Der Kauf ist bis etwa einen Monat vor dem Event möglich, da danach die Produktion beginnt und es keine zweite Auflage geben wird."
             }
           ]
         },
