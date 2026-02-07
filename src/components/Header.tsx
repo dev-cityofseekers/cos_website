@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link as ScrollLink, scroller } from "react-scroll";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 import { FaInstagram, FaBars, FaTimes } from "react-icons/fa";
@@ -12,6 +12,8 @@ import { SOCIAL, NAV_SCROLL_ITEMS, NAV_PAGE_ITEMS, NAV_SECTIONS } from "../confi
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isHidden, setIsHidden] = useState(false);
+  const lastScrollY = useRef(0);
   const location = useLocation();
   const isHomePage = location.pathname === "/";
   const activeSection = useActiveSection([...NAV_SECTIONS]);
@@ -32,10 +34,21 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      const currentScrollY = window.scrollY;
+
+      setIsScrolled(currentScrollY > 50);
+
+      // Hide header on scroll down, show on scroll up (mobile only)
+      if (currentScrollY > lastScrollY.current && currentScrollY > 100) {
+        setIsHidden(true);
+      } else {
+        setIsHidden(false);
+      }
+
+      lastScrollY.current = currentScrollY;
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -53,9 +66,15 @@ function Header() {
       {/* Desktop Navigation */}
       <div className="w-full flex justify-center">
         <nav
-          className={`fixed top-0 w-auto mt-7 p-4 px-6 z-10 hidden md:flex items-center justify-center rounded-full transition-all duration-300 ${
-            isScrolled ? "bg-gradient-background-image" : "bg-gradient-background-image"
-          }`}
+          className={`fixed top-0 w-auto mt-7 p-4 px-6 z-10 hidden md:flex items-center justify-center rounded-full transition-all duration-300`}
+          style={{
+            background:
+              "linear-gradient(135deg, rgba(70, 40, 90, 0.92) 0%, rgba(40, 60, 100, 0.92) 50%, rgba(60, 90, 110, 0.88) 100%)",
+            backdropFilter: "blur(12px)",
+            boxShadow: isScrolled
+              ? "0 4px 30px rgba(0, 0, 0, 0.25)"
+              : "0 4px 20px rgba(0, 0, 0, 0.15)",
+          }}
         >
           {/* Ticket Button */}
           <div className="relative mr-6 group">
@@ -130,7 +149,17 @@ function Header() {
       </div>
 
       {/* Mobile Navigation */}
-      <nav className="md:hidden fixed top-0 left-1/2 -translate-x-1/2 w-10/12 mt-7 p-4 z-10 rounded-full bg-gradient-background-image-vertical-short">
+      <nav
+        className={`md:hidden fixed left-1/2 -translate-x-1/2 w-11/12 mt-4 p-4 z-10 rounded-full transition-all duration-300 ease-in-out ${
+          isHidden ? "-top-24 opacity-0" : "top-0 opacity-100"
+        }`}
+        style={{
+          background:
+            "linear-gradient(135deg, rgba(70, 40, 90, 0.95) 0%, rgba(40, 60, 100, 0.95) 50%, rgba(60, 90, 110, 0.9) 100%)",
+          backdropFilter: "blur(12px)",
+          boxShadow: "0 4px 30px rgba(0, 0, 0, 0.3)",
+        }}
+      >
         <div className="flex items-center justify-between">
           <div className="flex-1">
             {/* Ticket Button */}
@@ -168,7 +197,11 @@ function Header() {
       {/* Mobile Menu Overlay */}
       {isMenuOpen && (
         <div
-          className="fixed inset-0 bg-gradient-background-image-vertical text-white z-20 p-8"
+          className="fixed inset-0 text-white z-20 p-8"
+          style={{
+            background:
+              "linear-gradient(180deg, rgba(70, 40, 90, 0.98) 0%, rgba(40, 60, 100, 0.98) 40%, rgba(60, 100, 120, 0.95) 100%)",
+          }}
           onClick={handleMenuClose}
         >
           <div className="w-full flex justify-end pb-24">
