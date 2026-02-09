@@ -593,28 +593,28 @@
     "what": {
       "title": "City of Seekers kurz erklärt",
       "heroImageAlt": "Festival-Atmosphäre",
-      "intro": "City of Seekers wurde geschaffen, um liebenswerte Fremde für ein langes Wochenende abseits des Alltags zusammenzubringen – um sich zu verbinden, zu wachsen, zu tanzen, zu basteln und in der Natur zu campen. Diese einfache Idee ist mittlerweile zu einer wachsenden & wiederkehrenden Community von Freunden geworden.",
+      "intro": "City of Seekers bringt tolle Menschen, die sich noch nicht kennen, für ein langes Wochenende fernab des Alltags zusammen – um neue Verbindungen zu knüpfen, zu wachsen, zu tanzen, kreativ zu werden und in der Natur zu campen. Aus dieser einfachen Idee ist eine stetig wachsende Community von Freunden geworden, die jedes Jahr zurückkommen.",
       "card1": {
         "title": "4 Tage voller Magie",
         "emoji": "✨",
-        "description": "Endlose Möglichkeiten: Von Teilnehmern gehostete Workshops reichen von Breathwork über Basteln bis zu Tanz/Sport. Du kannst deine Zeit nutzen, um einfach aufzuladen, ein Gespräch fortzusetzen oder bei spontanen Ideen anderer mitzumachen (davon gibt es immer viele!). Bei Sonnenuntergang versammeln wir uns am Lagerfeuer oder bei der Silent Disco. Du kannst jederzeit so viel oder so wenig mitmachen, wie es sich richtig anfühlt."
+        "description": "Rund um die Uhr gibt es was zu erleben: Teilnehmer bieten selbst Workshops an – von Breathwork über Basteln bis zu Tanz und Sport. Du kannst deine Zeit nutzen, um neue Energie zu tanken, ein gutes Gespräch weiterzuführen oder bei spontanen Ideen anderer mitzumachen (davon gibt es immer jede Menge!). Abends versammeln wir uns am Lagerfeuer oder bei der Silent Disco. Mach so viel oder so wenig mit, wie es sich für dich richtig anfühlt."
       },
       "card2": {
         "title": "Komm wie du bist",
         "emoji": "🌈",
-        "description": "Unser Team ist immer da, um für dich zu sorgen. Wir schaffen einen sicheren Raum für alle, unabhängig von: Alter, Geschlecht, Neurotyp, Herkunft, Fähigkeit, etc. Als europaweite Community ist unsere gemeinsame Sprache Englisch. Wenn du besondere Bedürfnisse hast, melde dich bitte, damit wir für dich sorgen können!"
+        "description": "Unser Team ist immer für dich da. Wir schaffen einen sicheren Raum für alle – egal ob Alter, Geschlecht, Herkunft, Neurodivergenz oder Beeinträchtigung. Als europaweite Community ist unsere gemeinsame Sprache Englisch. Falls du besondere Bedürfnisse hast, melde dich gern bei uns – wir kümmern uns drum!"
       },
       "card3": {
         "title": "Kein Camper? Kein Problem!",
         "emoji": "🤗",
-        "description": "Keine Ausreden! Vorteile einer Community: Es gibt immer jemanden, der dich vom Bahnhof abholen, dir Campingausrüstung leihen oder dir sogar bei der Essensplanung helfen kann. Du musst kein Camping-Profi sein, um mitzumachen. Wir verbinden euch vor dem Festival miteinander, damit ihr das alles klären könnt und, wer weiß, vielleicht sogar zusammen hinfahrt?"
+        "description": "Keine Ausreden! Das Schöne an unserer Community: Es gibt immer jemanden, der dich vom Bahnhof abholen, dir Campingausrüstung leihen oder bei der Essensplanung helfen kann. Du musst kein Camping-Profi sein, um dabei zu sein. Wir vernetzen euch schon vor dem Festival, damit ihr alles klären könnt – und wer weiß, vielleicht fahrt ihr am Ende sogar zusammen hin?"
       },
       "whyLove": {
         "title": "Warum du CoS lieben wirst",
         "item1": {
           "emoji": "🛡️",
           "title": "Safe Space",
-          "description": "Freiheit, authentisch dabei zu sein"
+          "description": "Sei einfach du selbst"
         },
         "item2": {
           "emoji": "🫂",
@@ -624,7 +624,7 @@
         "item3": {
           "emoji": "🌱",
           "title": "Growth Mindset",
-          "description": "Lerne von anderen und finde Menschen, die deine Leidenschaften teilen"
+          "description": "Lerne von anderen und finde Menschen, die deine Interessen teilen"
         }
       },
       "cta": {
@@ -632,7 +632,7 @@
         "ticket": "Kauf dein Ticket hier!",
         "chat": "Unsicher? Tritt dem Gruppenchat bei.",
         "instagram": "Folge uns auf Instagram.",
-        "calendar": "Speichere das Datum."
+        "calendar": "Merk dir den Termin!"
       }
     },
     "faq": {
@@ -688,7 +688,7 @@
             },
             {
               "question": "Kann ich mein Ticket übertragen?",
-              "answer": "Ja. Wenn du dein Ticket übertragen musst, informiere uns bitte und gib die Daten des neuen Teilnehmers zur Validierung an."
+              "answer": "Ja. Wenn du dein Ticket übertragen musst, informiere uns bitte und gib die Daten des neuen Teilnehmers an, damit wir ihn eintragen können."
             },
             {
               "question": "Muss ich mich vorher für Workshops anmelden?",
@@ -709,7 +709,7 @@
           "questions": [
             {
               "question": "Muss ich campen?",
-              "answer": "Technisch gesehen nein. Du kannst auch in einer nahen Unterkunft übernachten. Wir empfehlen jedoch dringend, auf dem Campingplatz zu campen, da es dir hilft, dich zu verbinden und das Event voll zu erleben. Wenn du keine Campingausrüstung hast, können wir dich mit jemandem verbinden, der bereit ist zu teilen."
+              "answer": "Nicht unbedingt – du kannst auch in einer Unterkunft in der Nähe übernachten. Wir empfehlen aber sehr, auf dem Campingplatz zu zelten, weil du so viel leichter Leute kennenlernst und das Event richtig erleben kannst. Falls du keine Campingausrüstung hast, vernetzen wir dich gerne mit jemandem, der was zum Teilen hat."
             },
             {
               "question": "Gibt es Strom und Wasser?",
@@ -725,7 +725,7 @@
             },
             {
               "question": "Gibt es Nachtruhe?",
-              "answer": "Wir versuchen, sowohl Nachteulen als auch Frühaufsteher zu respektieren. Lautere Aktivitäten werden auf bestimmte Bereiche konzentriert, während ruhigere Zonen die ganze Nacht verfügbar bleiben."
+              "answer": "Wir versuchen, sowohl Nachtschwärmer als auch Leute, die früh schlafen wollen, zu berücksichtigen. Lautere Aktivitäten finden in bestimmten Bereichen statt, und es gibt ruhigere Zonen, in denen du die ganze Nacht in Ruhe schlafen kannst."
             },
             {
               "question": "Gibt es Schließfächer?",
@@ -862,7 +862,7 @@
             },
             {
               "question": "Kann ich Ausrüstung vor Ort mieten oder ausleihen?",
-              "answer": "Wir ermutigen und helfen dir, dich mit der Community zu verbinden, um Dinge zu leihen oder zu teilen. Wir vermieten selbst keine Ausrüstung."
+              "answer": "Wir helfen dir gerne, dich mit der Community zu vernetzen, um Sachen zu leihen oder zu teilen. Eigene Ausrüstung vermieten wir nicht."
             },
             {
               "question": "Ich nutze kein WhatsApp, was nun?",
@@ -878,17 +878,17 @@
     },
     "contact": {
       "title": "Willkommen bei City of Seekers",
-      "intro": "Mach dich bereit für ein außergewöhnliches Erlebnis bei City of Seekers!",
+      "intro": "Freu dich auf City of Seekers!",
       "inGroup": "Tritt unserer WhatsApp-Gruppe bei für:",
       "tentRenting": {
         "emoji": "⛺",
         "title": "Zelte Mieten oder Teilen",
-        "description": "Finde Möglichkeiten zum Zelten oder Zelte zu mieten"
+        "description": "Finde Leute zum Zelt-Teilen oder Ausleihen"
       },
       "carSharing": {
         "emoji": "🚗",
         "title": "Fahrgemeinschaften",
-        "description": "Verbinde dich mit anderen für gemeinsame Anreise"
+        "description": "Finde Mitfahrgelegenheiten für die Anreise"
       },
       "questions": {
         "emoji": "❓",
@@ -897,7 +897,7 @@
         "faqLink": "FAQ-Sektion",
         "askHere": "oder frag in der Gruppe"
       },
-      "joinMessage": "Verpasse keine wichtigen Updates und Verbindungen!",
+      "joinMessage": "Bleib auf dem Laufenden und lerne schon vorab Leute kennen!",
       "joinButton": "WhatsApp-Gruppe Beitreten",
       "qrText": "Oder scanne diesen QR-Code zum Beitreten:",
       "qrAlt": "WhatsApp-Gruppe QR-Code",
@@ -1045,11 +1045,11 @@
     },
     "team": {
       "title": "Unser Team",
-      "subtitle": "Wir sind eine leidenschaftliche Gruppe von Menschen, die zusammengekommen sind, um diesen Traum Wirklichkeit werden zu lassen."
+      "subtitle": "Wir sind ein bunt gemischter Haufen, der sich zusammengetan hat, um diesen Traum wahr werden zu lassen."
     },
     "where": {
       "title": "Veranstaltungsort",
-      "subtitle": "Besuche uns in Hameln, Deutschland",
+      "subtitle": "Komm nach Hameln!",
       "address": "Adresse",
       "date": "Datum",
       "directions": {
@@ -1096,14 +1096,14 @@
         "title": "Privatsphäre und Einwilligung",
         "items": {
           "0": "Die Privatsphäre jeder Person muss respektiert werden. Dies schließt ein, dass keine persönlichen Informationen, Fotos oder Aufnahmen ohne ausdrückliche Zustimmung geteilt werden dürfen.",
-          "1": "Einverständnis ist von höchster Bedeutung. Stelle sicher, dass alle Interaktionen, ob physisch oder digital, im gegenseitigen Einvernehmen erfolgen.",
+          "1": "Gegenseitiges Einverständnis ist das A und O. Achte darauf, dass alle Interaktionen – ob persönlich oder digital – einvernehmlich sind.",
           "2": "Unaufgefordertes Teilen von Informationen oder Medien anderer Personen ist streng verboten."
         }
       },
       "rules": {
         "title": "Gesetze und Regeln",
         "items": {
-          "0": "Die Einhaltung aller geltenden Gesetze und Festivalregeln ist obligatorisch.",
+          "0": "Alle geltenden Gesetze und Festivalregeln müssen eingehalten werden.",
           "1": "Befolge die Anweisungen der Organisatoren, um eine sichere und angenehme Umgebung für alle zu gewährleisten."
         }
       },
