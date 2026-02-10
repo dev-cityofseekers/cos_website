@@ -120,7 +120,7 @@ const FAQ = () => {
           <div className="mt-8 sm:mt-10 text-center">
             <a
               href="/code"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-cos-orange text-cos-off-black rounded-full font-omnes hover:bg-cos-main-orange transition-colors duration-300"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-cos-main-orange text-cos-off-black rounded-full font-omnes hover:bg-cos-orange transition-colors duration-300"
             >
               📜 Code of Conduct
             </a>
