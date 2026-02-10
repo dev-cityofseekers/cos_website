@@ -595,7 +595,7 @@
       "card1": {
         "title": "4 Tage voller Magie",
         "emoji": "✨",
-        "description": "Rund um die Uhr gibt es was zu erleben: Teilnehmer bieten selbst Workshops an – von Breathwork über Basteln bis zu Tanz und Sport. Du kannst deine Zeit nutzen, um neue Energie zu tanken, ein gutes Gespräch weiterzuführen oder bei spontanen Ideen anderer mitzumachen (davon gibt es immer jede Menge!). Abends versammeln wir uns am Lagerfeuer oder bei der Silent Disco. Mach so viel oder so wenig mit, wie es sich für dich richtig anfühlt."
+        "description": "Rund um die Uhr gibt es was zu erleben: Teilnehmende bieten selbst Workshops an – von Breathwork über Basteln bis zu Tanz und Sport. Du kannst deine Zeit nutzen, um neue Energie zu tanken, ein gutes Gespräch weiterzuführen oder bei spontanen Ideen anderer mitzumachen (davon gibt es immer jede Menge!). Abends versammeln wir uns am Lagerfeuer oder bei der Silent Disco. Mach so viel oder so wenig mit, wie es sich für dich richtig anfühlt."
       },
       "card2": {
         "title": "Komm wie du bist",
@@ -641,11 +641,11 @@
           "questions": [
             {
               "question": "Was ist City of Seekers?",
-              "answer": "City of Seekers ist ein viertägiges, gemeinnütziges Camping-Event, das darauf ausgelegt ist, seine Teilnehmer zu verbinden. Tagsüber sind Gäste eingeladen, an kostenlosen Workshops zu einer Vielzahl von Themen teilzunehmen. Das Abendprogramm umfasst Lagerfeuer, eine Silent Disco und andere unterhaltsame Aktivitäten wie eine Open Stage.\n\nVor Ort gibt es verschiedene Zelte und Bereiche:\n• Großes Partyzelt: Ein Raum zum Tanzen, Musik machen und für größere Workshops.\n• Kleineres \"Schuhe-aus\"-Zelt: Ein gemütlicher Bereich mit Sitzgelegenheiten zum Entspannen und Unterhalten.\n• Musikerzelt: Ein kleiner Raum zum gemeinsamen Jammen.\n• Lagerfeuer: Treffpunkte zum Verbinden.\n• Gemeinschaftsküche: Ein gemeinsamer Bereich zum Kochen und Essen."
+              "answer": "City of Seekers ist ein viertägiges, gemeinnütziges Camping-Event, das darauf ausgelegt ist, seine Teilnehmenden zu verbinden. Tagsüber sind Gäste eingeladen, an kostenlosen Workshops zu einer Vielzahl von Themen teilzunehmen. Das Abendprogramm umfasst Lagerfeuer, eine Silent Disco und andere unterhaltsame Aktivitäten wie eine Open Stage.\n\nVor Ort gibt es verschiedene Zelte und Bereiche:\n• Großes Partyzelt: Ein Raum zum Tanzen, Musik machen und für größere Workshops.\n• Kleineres \"Schuhe-aus\"-Zelt: Ein gemütlicher Bereich mit Sitzgelegenheiten zum Entspannen und Unterhalten.\n• Musikzelt: Ein kleiner Raum zum gemeinsamen Jammen.\n• Lagerfeuer: Treffpunkte zum Verbinden.\n• Gemeinschaftsküche: Ein gemeinsamer Bereich zum Kochen und Essen."
             },
             {
               "question": "Wer kann teilnehmen?",
-              "answer": "Jeder ist willkommen. Wir tolerieren keine Diskriminierung oder Belästigung jeglicher Art. Gewalt, aggressives Verhalten, Drogen oder Respektlosigkeit gegenüber Natur, Campingplatz oder anderen Teilnehmern sind streng verboten. Unser Ziel ist es, eine sichere, inklusive und positive Umgebung zu schaffen."
+              "answer": "Alle sind willkommen. Wir tolerieren keine Diskriminierung oder Belästigung jeglicher Art. Gewalt, aggressives Verhalten, Drogen oder Respektlosigkeit gegenüber Natur, Campingplatz oder anderen Teilnehmenden sind streng verboten. Unser Ziel ist es, eine sichere, inklusive und positive Umgebung zu schaffen."
             },
             {
               "question": "Wie lange dauert es?",
@@ -661,7 +661,7 @@
             },
             {
               "question": "Wie viele Leute nehmen normalerweise teil?",
-              "answer": "In der Vergangenheit hatten wir etwa 100 Teilnehmer. Wir können nicht garantieren, dass das so bleibt, aber wir erwarten eine ähnliche Anzahl in 2026."
+              "answer": "In der Vergangenheit hatten wir etwa 100 Teilnehmende. Wir können nicht garantieren, dass das so bleibt, aber wir erwarten eine ähnliche Anzahl in 2026."
             }
           ]
         },
@@ -686,7 +686,7 @@
             },
             {
               "question": "Kann ich mein Ticket übertragen?",
-              "answer": "Ja. Wenn du dein Ticket übertragen musst, informiere uns bitte und gib die Daten des neuen Teilnehmers an, damit wir ihn eintragen können."
+              "answer": "Ja. Wenn du dein Ticket übertragen musst, informiere uns bitte und gib die Daten der neuen Person an, damit wir sie eintragen können."
             },
             {
               "question": "Muss ich mich vorher für Workshops anmelden?",
@@ -723,7 +723,7 @@
             },
             {
               "question": "Gibt es Nachtruhe?",
-              "answer": "Wir versuchen, sowohl Nachtschwärmer als auch Leute, die früh schlafen wollen, zu berücksichtigen. Lautere Aktivitäten finden in bestimmten Bereichen statt, und es gibt ruhigere Zonen, in denen du die ganze Nacht in Ruhe schlafen kannst."
+              "answer": "Wir versuchen, sowohl Nachteulen als auch Leute, die früh schlafen wollen, zu berücksichtigen. Lautere Aktivitäten finden in bestimmten Bereichen statt, und es gibt ruhigere Zonen, in denen du die ganze Nacht in Ruhe schlafen kannst."
             },
             {
               "question": "Gibt es Schließfächer?",
@@ -826,8 +826,8 @@
               "answer": "Da unsere Community aus ganz Europa (und manchmal darüber hinaus!) kommt, hier die wichtigsten Wege nach Halvestorf, Hameln:\n\n✈️ Nächster Flughafen: Hannover-Langenhagen (HAJ)\n🚄 Nächster Bahnhof: \"Hameln\"\n🚙 Mit dem Auto: Generell keine Umweltzone auf dem Weg, aber meide Stadtzentren von Ruhrgebiet-Städten, Frankfurt, Köln, Düsseldorf, Bonn, Aachen und Limburg, wenn du keine grüne Plakette hast."
             },
             {
-              "question": "Kann ich mit anderen Teilnehmern Fahrgemeinschaften bilden?",
-              "answer": "Ja. Wir helfen dabei, Teilnehmer vor dem Event zu verbinden. Es wird auch ein Mitfahr-Dokument geben, wo Leute Fahrten anbieten oder suchen können."
+              "question": "Kann ich mit anderen Teilnehmenden Fahrgemeinschaften bilden?",
+              "answer": "Ja. Wir helfen dabei, Teilnehmende vor dem Event zu verbinden. Es wird auch ein Mitfahr-Dokument geben, wo Leute Fahrten anbieten oder suchen können."
             },
             {
               "question": "Gibt es Parkplätze vor Ort?",
@@ -864,7 +864,7 @@
             },
             {
               "question": "Ich nutze kein WhatsApp, was nun?",
-              "answer": "Wenn du kein WhatsApp nutzt, aber dich trotzdem mit anderen Teilnehmern für Zeltteilung, Fahrgemeinschaften etc. verbinden möchtest, schreib uns eine E-Mail an info@cityofseekers.eu und wir helfen gerne!"
+              "answer": "Wenn du kein WhatsApp nutzt, aber dich trotzdem mit anderen Teilnehmenden für Zeltteilung, Fahrgemeinschaften etc. verbinden möchtest, schreib uns eine E-Mail an info@cityofseekers.eu und wir helfen gerne!"
             },
             {
               "question": "Kann ich mich vor dem Event mit anderen verbinden?",
@@ -919,7 +919,7 @@
         "vat": "USt-ID: DE452621992"
       },
       "representative": {
-        "title": "Vertreter",
+        "title": "Vertretung",
         "name": "Adalbert Köcher"
       },
       "content": {
@@ -1085,7 +1085,7 @@
         "items": {
           "0": "Hass, Rassismus, Sexismus und jede Form von Diskriminierung werden nicht toleriert.",
           "1": "Politischer oder religiöser Extremismus muss vom Festivalgelände ferngehalten werden.",
-          "2": "Alle Ankündigungen der Organisatoren werden auf Englisch gehalten."
+          "2": "Alle Ankündigungen des Orga-Teams werden auf Englisch gehalten."
         }
       },
       "privacy": {
@@ -1100,14 +1100,14 @@
         "title": "Gesetze und Regeln",
         "items": {
           "0": "Alle geltenden Gesetze und Festivalregeln müssen eingehalten werden.",
-          "1": "Befolge die Anweisungen der Organisatoren, um eine sichere und angenehme Umgebung für alle zu gewährleisten."
+          "1": "Befolge die Anweisungen des Orga-Teams, um eine sichere und angenehme Umgebung für alle zu gewährleisten."
         }
       },
       "property": {
         "title": "Diebstahl und Sachbeschädigung",
         "items": {
           "0": "Respektiere das Eigentum anderer. Diebstahl oder vorsätzliche Beschädigung führt zu sofortigen Maßnahmen und möglichen rechtlichen Konsequenzen.",
-          "1": "Melde Sachschäden sofort den Organisatoren."
+          "1": "Melde Sachschäden sofort dem Orga-Team."
         }
       },
       "environment": {
@@ -1127,7 +1127,7 @@
       "contact": {
         "title": "Kontakt und Hilfe",
         "items": {
-          "0": "Wenn du Belästigung erfährst oder jemand anderen in Not siehst, kontaktiere sofort einen Organisator.",
+          "0": "Wenn du Belästigung erfährst oder jemand anderen in Not siehst, kontaktiere sofort das Orga-Team.",
           "1": "Unser Team ist hier, um deine Sicherheit und dein Wohlbefinden während des gesamten Festivals zu gewährleisten."
         }
       }
