@@ -516,11 +516,9 @@
       "equality": {
         "title": "Equality for all",
         "items": {
-          "0": "Racism is forbidden.",
-          "1": "Sexism against a person or group is not allowed.",
-          "2": "Political or religious extremism must be kept off the festival site.",
-          "3": "Other discriminatory behavior will not be tolerated.",
-          "4": "All announcements by the organizers will be held in English."
+          "0": "Hatred, racism, sexism, and any form of discrimination will not be tolerated.",
+          "1": "Political or religious extremism must be kept off the festival site.",
+          "2": "All announcements by the organizers will be held in English."
         }
       },
       "privacy": {
@@ -1085,11 +1083,9 @@
       "equality": {
         "title": "Gleichberechtigung für alle",
         "items": {
-          "0": "Rassismus ist verboten.",
-          "1": "Sexismus gegenüber Personen oder Gruppen ist nicht erlaubt.",
-          "2": "Politischer oder religiöser Extremismus muss vom Festivalgelände ferngehalten werden.",
-          "3": "Andere diskriminierende Verhaltensweisen werden nicht toleriert.",
-          "4": "Alle Ankündigungen der Organisatoren werden auf Englisch gehalten."
+          "0": "Hass, Rassismus, Sexismus und jede Form von Diskriminierung werden nicht toleriert.",
+          "1": "Politischer oder religiöser Extremismus muss vom Festivalgelände ferngehalten werden.",
+          "2": "Alle Ankündigungen der Organisatoren werden auf Englisch gehalten."
         }
       },
       "privacy": {

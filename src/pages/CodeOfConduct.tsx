@@ -12,7 +12,7 @@ function CodeOfConduct() {
 
   const sections = [
     { key: "kindness", count: 7 },
-    { key: "equality", count: 5 },
+    { key: "equality", count: 3 },
     { key: "privacy", count: 3 },
     { key: "rules", count: 2 },
     { key: "property", count: 2 },
