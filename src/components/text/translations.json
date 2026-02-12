@@ -493,6 +493,10 @@
       "mapConsent": {
         "accepted": "Map loaded",
         "rejected": "Click the image to open Google Maps"
+      },
+      "areaMap": {
+        "title": "Area Map",
+        "note": "This is the area map from last year, we will send you a current version shortly before the festival."
       }
     },
     "nav": {
@@ -1060,6 +1064,10 @@
       "mapConsent": {
         "accepted": "Karte geladen",
         "rejected": "Klicke auf das Bild, um Google Maps zu öffnen"
+      },
+      "areaMap": {
+        "title": "Lageplan",
+        "note": "Das ist der Lageplan vom letzten Jahr, wir werden euch kurz vor dem Event eine aktuelle Version zusenden."
       }
     },
     "nav": {

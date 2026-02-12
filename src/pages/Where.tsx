@@ -150,13 +150,19 @@ function Where() {
           </div>
         </div>
 
-        {/* Hero Image */}
-        <div className="rounded-xl overflow-hidden shadow-lg">
-          <img
-            src="/wallpapers/Martin03.JPG"
-            alt="Festival location"
-            className="w-full h-64 md:h-96 object-cover"
-          />
+        {/* Area Map */}
+        <div className="mt-8">
+          <h2 className="text-2xl font-bold font-omnes text-center mb-2">
+            {t("where.areaMap.title")}
+          </h2>
+          <p className="text-gray-600 text-center text-sm mb-4">{t("where.areaMap.note")}</p>
+          <div className="rounded-xl overflow-hidden shadow-lg">
+            <img
+              src="/images/AreaPlan_25.png"
+              alt={t("where.areaMap.title")}
+              className="w-full object-contain"
+            />
+          </div>
         </div>
       </div>
 
