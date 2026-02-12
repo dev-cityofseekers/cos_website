@@ -84,7 +84,7 @@ function Header() {
               href={LINKS.TICKET_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-white/20 text-white rounded-full font-omnes font-bold hover:bg-white/30 transition-colors duration-200"
+              className="px-4 py-2 bg-cos-orange text-cos-off-black rounded-full font-omnes font-bold hover:brightness-110 transition-colors duration-200 shadow-[0_0_12px_rgba(254,195,96,0.4)]"
               aria-label={t("general.header.tickets")}
             >
               {t("general.header.tickets")}
@@ -168,7 +168,7 @@ function Header() {
               href={LINKS.TICKET_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-white/20 text-white rounded-full font-omnes font-bold hover:bg-white/30 transition-colors duration-200 text-sm"
+              className="px-4 py-2 bg-cos-orange text-cos-off-black rounded-full font-omnes font-bold hover:brightness-110 transition-colors duration-200 text-sm shadow-[0_0_12px_rgba(254,195,96,0.4)]"
               aria-label={t("general.header.tickets")}
             >
               {t("general.header.tickets")}
@@ -214,7 +214,7 @@ function Header() {
                 href={LINKS.TICKET_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-2.5 bg-white/20 text-white rounded-full font-omnes font-bold hover:bg-white/30 transition-colors duration-200 text-base"
+                className="px-6 py-2.5 bg-cos-orange text-cos-off-black rounded-full font-omnes font-bold hover:brightness-110 transition-colors duration-200 text-base shadow-[0_0_12px_rgba(254,195,96,0.4)]"
                 aria-label={t("general.header.tickets")}
               >
                 {t("general.header.tickets")}
