@@ -10,19 +10,20 @@ describe("Header Component", () => {
     expect(nav.length).toBeGreaterThan(0);
   });
 
-  test("renders disabled ticket buttons", () => {
+  test("renders ticket links", () => {
     render(<Header />);
 
-    // Find all disabled ticket buttons
-    const ticketButtons = screen.getAllByLabelText("Tickets not yet available");
+    // Find all ticket links
+    const ticketLinks = screen.getAllByLabelText("Tickets");
 
-    // Should have at least one ticket button (desktop + mobile navbars)
-    expect(ticketButtons.length).toBeGreaterThan(0);
+    // Should have at least one ticket link (desktop + mobile navbars)
+    expect(ticketLinks.length).toBeGreaterThan(0);
 
-    // All ticket buttons should be disabled
-    ticketButtons.forEach((button) => {
-      expect(button).toBeDisabled();
-      expect(button).toHaveClass("cursor-not-allowed");
+    // All ticket links should point to the ticket URL and open in new tab
+    ticketLinks.forEach((link) => {
+      expect(link).toHaveAttribute("href", "https://buytickets.at/cityofseekers/2038314");
+      expect(link).toHaveAttribute("target", "_blank");
+      expect(link).toHaveAttribute("rel", "noopener noreferrer");
     });
   });
 

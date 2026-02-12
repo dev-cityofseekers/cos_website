@@ -33,7 +33,7 @@ export const SOCIAL = {
 // External Links
 export const LINKS = {
   GOOGLE_MAPS: "https://maps.app.goo.gl/Xv5XzfiGpoahynHh9",
-  TICKET_URL: "https://buytickets.at/cityofseekers",
+  TICKET_URL: "https://buytickets.at/cityofseekers/2038314",
   // Alternative ticket URL (keeping for reference)
   // TICKET_URL_ALT: 'https://tickettailor.com/events/cityofseekers',
 } as const;

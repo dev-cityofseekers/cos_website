@@ -7,7 +7,7 @@ import "../font/font.css";
 import "../styles/gradientAnimation.css";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { t } from "i18next";
-import { SOCIAL, NAV_SCROLL_ITEMS, NAV_PAGE_ITEMS, NAV_SECTIONS } from "../config/constants";
+import { SOCIAL, LINKS, NAV_SCROLL_ITEMS, NAV_PAGE_ITEMS, NAV_SECTIONS } from "../config/constants";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -71,25 +71,24 @@ function Header() {
           className={`fixed top-0 w-auto mt-7 p-4 px-5 z-10 hidden md:flex items-center justify-center rounded-full transition-all duration-300`}
           style={{
             background:
-              "linear-gradient(135deg, rgba(90, 40, 80, 0.9) 0%, rgba(160, 80, 110, 0.88) 50%, rgba(200, 130, 100, 0.85) 100%)",
+              "linear-gradient(135deg, rgba(120, 60, 90, 0.85) 0%, rgba(150, 85, 105, 0.83) 50%, rgba(175, 115, 100, 0.8) 100%)",
             backdropFilter: "blur(16px)",
             boxShadow: isScrolled
-              ? "0 4px 30px rgba(0, 0, 0, 0.2)"
-              : "0 4px 20px rgba(0, 0, 0, 0.12)",
+              ? "0 4px 30px rgba(0, 0, 0, 0.15)"
+              : "0 4px 20px rgba(0, 0, 0, 0.08)",
           }}
         >
           {/* Ticket Button */}
-          <div className="relative mr-4 group">
-            <button
-              disabled
-              className="px-4 py-2 bg-gray-400 text-gray-200 rounded-full font-omnes font-bold cursor-not-allowed shadow-lg opacity-60"
-              aria-label="Tickets not yet available"
+          <div className="mr-4">
+            <a
+              href={LINKS.TICKET_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-white/20 text-white rounded-full font-omnes font-bold hover:bg-white/30 transition-colors duration-200"
+              aria-label={t("general.header.tickets")}
             >
               {t("general.header.tickets")}
-            </button>
-            <div className="absolute hidden group-hover:block bg-cos-off-black text-white text-sm px-3 py-2 rounded-lg whitespace-nowrap -bottom-12 left-1/2 -translate-x-1/2 shadow-lg z-50">
-              Tickets will be available soon
-            </div>
+            </a>
           </div>
 
           {/* Scroll Navigation Items */}
@@ -105,8 +104,8 @@ function Header() {
                     duration={500}
                     className={`cursor-pointer font-omnes hover:text-white transition-colors duration-200 ${
                       activeSection === item.key
-                        ? "border-b-2 border-cos-orange text-white"
-                        : "text-cos-off-black"
+                        ? "border-b-2 border-white/70 text-white"
+                        : "text-white/75"
                     }`}
                   >
                     {item.label}
@@ -114,7 +113,7 @@ function Header() {
                 ) : (
                   <RouterLink
                     to={`/#${item.key}`}
-                    className="cursor-pointer font-omnes hover:text-white transition-colors duration-200 text-cos-off-black"
+                    className="cursor-pointer font-omnes hover:text-white transition-colors duration-200 text-white/75"
                   >
                     {item.label}
                   </RouterLink>
@@ -124,7 +123,7 @@ function Header() {
           </ul>
 
           {/* Divider */}
-          <div className="h-6 w-px bg-cos-off-black/30 mx-3" />
+          <div className="h-6 w-px bg-white/20 mx-3" />
 
           {/* Page Navigation Items */}
           <ul className="flex space-x-3">
@@ -134,8 +133,8 @@ function Header() {
                   to={item.path}
                   className={`cursor-pointer font-omnes hover:text-white transition-colors duration-200 ${
                     location.pathname === item.path
-                      ? "border-b-2 border-cos-orange text-white"
-                      : "text-cos-off-black"
+                      ? "border-b-2 border-white/70 text-white"
+                      : "text-white/75"
                   }`}
                 >
                   {item.label}
@@ -144,7 +143,7 @@ function Header() {
             ))}
           </ul>
 
-          <div className="pl-3 border-l ml-3 border-cos-off-black/20">
+          <div className="pl-3 border-l ml-3 border-white/15">
             <LanguageSwitcher />
           </div>
         </nav>
@@ -164,14 +163,16 @@ function Header() {
       >
         <div className="flex items-center gap-4">
           {/* Ticket Button */}
-          <div className="relative group">
-            <button
-              disabled
-              className="px-4 py-2 bg-white/20 text-white/80 rounded-full font-omnes font-bold cursor-not-allowed text-sm"
-              aria-label="Tickets not yet available"
+          <div>
+            <a
+              href={LINKS.TICKET_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-white/20 text-white rounded-full font-omnes font-bold hover:bg-white/30 transition-colors duration-200 text-sm"
+              aria-label={t("general.header.tickets")}
             >
               {t("general.header.tickets")}
-            </button>
+            </a>
           </div>
 
           {/* Hamburger Menu */}
@@ -208,14 +209,16 @@ function Header() {
 
           <div className="flex flex-col items-center space-y-5">
             {/* Ticket Button */}
-            <div className="relative group mb-2">
-              <button
-                disabled
-                className="px-6 py-2.5 bg-white/20 text-white/80 rounded-full font-omnes font-bold cursor-not-allowed text-base"
-                aria-label="Tickets not yet available"
+            <div className="mb-2">
+              <a
+                href={LINKS.TICKET_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2.5 bg-white/20 text-white rounded-full font-omnes font-bold hover:bg-white/30 transition-colors duration-200 text-base"
+                aria-label={t("general.header.tickets")}
               >
                 {t("general.header.tickets")}
-              </button>
+              </a>
             </div>
 
             {/* Scroll sections */}

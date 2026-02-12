@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import FestivalCountdown from "../FestivalCountdown";
+import { LINKS } from "../../config/constants";
 
 declare global {
   interface Window {
@@ -117,14 +118,16 @@ function Welcome() {
         </div>
 
         {/* Tickets Button */}
-        <div className="relative group mt-6 sm:mt-8">
-          <button
-            disabled
-            className="border border-white/40 text-white/70 text-sm sm:text-base lg:text-lg font-omnes py-2.5 sm:py-3 px-6 sm:px-8 rounded-full cursor-default backdrop-blur-sm transition-colors duration-300 hover:border-white/60 hover:text-white/90"
-            aria-label={t("welcome.ticketsSoon")}
+        <div className="mt-6 sm:mt-8">
+          <a
+            href={LINKS.TICKET_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-white/60 text-white text-sm sm:text-base lg:text-lg font-omnes py-2.5 sm:py-3 px-6 sm:px-8 rounded-full backdrop-blur-sm transition-colors duration-300 hover:bg-white/15 hover:border-white/80"
+            aria-label={t("welcome.buyTickets")}
           >
-            {t("welcome.ticketsSoon")}
-          </button>
+            {t("welcome.buyTickets")}
+          </a>
         </div>
 
         {/* Countdown */}

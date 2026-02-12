@@ -9,7 +9,7 @@ City of Seekers (COS) is a transformational festival taking place **June 11-14, 
 This website serves as the official hub for:
 
 1. **Festival Information** - What COS is about, dates, location
-2. **Ticketing** - Purchase tickets (currently disabled, coming soon)
+2. **Ticketing** - Purchase tickets via buytickets.at
 3. **Team Profiles** - Meet the organizing team
 4. **FAQs** - Answer common questions
 5. **Community Engagement** - WhatsApp group links, Instagram

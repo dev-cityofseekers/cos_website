@@ -12,7 +12,7 @@ const LanguageSwitcher = () => {
       <button
         onClick={() => changeLanguage("en")}
         className={`px-1 hover:opacity-60 transition-colors ${
-          i18n.language === "en" ? "text-cos-off-black" : "text-cos-off-black/30"
+          i18n.language === "en" ? "text-white" : "text-white/50"
         }`}
       >
         EN
@@ -21,7 +21,7 @@ const LanguageSwitcher = () => {
       <button
         onClick={() => changeLanguage("de")}
         className={`px-1 hover:opacity-60 transition-colors ${
-          i18n.language === "de" ? "text-cos-off-black" : "text-cos-off-black/30"
+          i18n.language === "de" ? "text-white" : "text-white/50"
         }`}
       >
         DE

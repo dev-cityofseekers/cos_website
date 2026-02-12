@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { SOCIAL } from "../../config/constants";
+import { SOCIAL, LINKS } from "../../config/constants";
 
 const What = () => {
   const { t } = useTranslation();
@@ -133,13 +133,18 @@ const What = () => {
             {t("what.cta.title")}
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
-            {/* Ticket - disabled */}
-            <div className="rounded-xl border border-white/15 py-5 px-4 flex flex-col items-center gap-2 opacity-50">
+            {/* Ticket */}
+            <a
+              href={LINKS.TICKET_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-white/15 py-5 px-4 flex flex-col items-center gap-2 transition-colors duration-300 hover:border-white/40 hover:bg-white/5"
+            >
               <span className="text-xl sm:text-2xl">🎟️</span>
               <span className="text-xs sm:text-sm text-white/70 font-omnes">
-                {t("welcome.ticketsSoon")}
+                {t("what.cta.ticket")}
               </span>
-            </div>
+            </a>
 
             <a
               href={SOCIAL.WHATSAPP_WELCOME_URL}
