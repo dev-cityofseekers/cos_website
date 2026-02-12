@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import { Volume2, VolumeX } from "lucide-react";
+import FestivalCountdown from "../FestivalCountdown";
+import { LINKS } from "../../config/constants";
 
 declare global {
   interface Window {
@@ -11,10 +12,10 @@ declare global {
 
 function Welcome() {
   const { t } = useTranslation();
-  const [isMobile, setIsMobile] = useState(false);
-  const [isMuted, setIsMuted] = useState(true);
+  const [_isMobile, setIsMobile] = useState(false);
+  const [isVideoReady, setIsVideoReady] = useState(false);
   const playerRef = useRef<any>(null);
-  const videoId = "HEQqeUN11tI";
+  const videoId = "Ipl0aHlVPAI";
 
   useEffect(() => {
     const tag = document.createElement("script");
@@ -41,6 +42,12 @@ function Welcome() {
           onReady: (event: any) => {
             event.target.playVideo();
           },
+          onStateChange: (event: any) => {
+            // YT.PlayerState.PLAYING === 1
+            if (event.data === 1) {
+              setIsVideoReady(true);
+            }
+          },
         },
       });
     };
@@ -60,54 +67,33 @@ function Welcome() {
     };
   }, []);
 
-  const toggleSound = () => {
-    if (playerRef.current) {
-      if (isMuted) {
-        playerRef.current.unMute();
-      } else {
-        playerRef.current.mute();
-      }
-      setIsMuted(!isMuted);
-    }
-  };
-
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      {/* Background Layer */}
-      <div className="absolute inset-0 z-8">
-        <div className="relative w-full h-full">
-          <div
-            id="youtube-player"
-            className="absolute inset-0 w-full h-full"
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-              width: "100%",
-              height: "100%",
-              minHeight: "100vh",
-              minWidth: "177.77vh",
-            }}
-          />
-        </div>
+      {/* Background Layer - video crops to fill, hidden until playing */}
+      <div
+        className="absolute inset-0 z-8 overflow-hidden transition-opacity duration-700"
+        style={{ opacity: isVideoReady ? 1 : 0 }}
+      >
+        <div
+          id="youtube-player"
+          style={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            width: "max(100%, 177.78vh)", // 16:9 ratio: 100 * 16/9 ≈ 177.78
+            height: "max(100%, 56.25vw)", // 16:9 ratio: 100 * 9/16 = 56.25
+          }}
+        />
       </div>
 
       {/* Overlay */}
       <div className="absolute inset-0 z-9 bg-black bg-opacity-40 pointer-events-none" />
 
-      {/* Sound Control */}
-      <button
-        onClick={toggleSound}
-        className="absolute bottom-4 right-4 z-20 p-2 rounded-full bg-black bg-opacity-50 hover:bg-opacity-70 transition-all duration-300 text-white"
-        aria-label={isMuted ? "Unmute video" : "Mute video"}
-      >
-        {isMuted ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
-      </button>
-
       {/* Content */}
       <div className="relative z-9 h-full flex flex-col items-center justify-center px-4">
-        <div className="w-32 sm:w-36 lg:w-48 mb-6">
+        {/* Logo */}
+        <div className="w-36 sm:w-44 lg:w-56">
           <img
             src="/images/logo_white_transparent.png"
             className="mx-auto"
@@ -116,7 +102,8 @@ function Welcome() {
           />
         </div>
 
-        <div className="mt-40 mb-6 max-w-2xl">
+        {/* Slogan */}
+        <div className="mt-6 sm:mt-8">
           <div className="text-white font-omnes text-center text-2xl sm:text-3xl lg:text-5xl drop-shadow-lg mb-1">
             {t("welcome.slogan1")}
           </div>
@@ -125,21 +112,27 @@ function Welcome() {
           </div>
         </div>
 
-        <div className="text-white font-omnes text-center text-lg sm:text-xl lg:text-3xl mb-8">
+        {/* Date */}
+        <div className="mt-4 sm:mt-5 text-white/80 font-omnes text-center text-base sm:text-lg lg:text-2xl tracking-wide">
           {t("welcome.eventDate")}
         </div>
 
-        <div className="relative group">
-          <button
-            disabled
-            className="bg-gray-400 text-gray-200 text-base sm:text-lg lg:text-xl font-omnes py-3 sm:py-4 px-6 sm:px-8 rounded-full cursor-not-allowed shadow-lg opacity-60"
-            aria-label="Tickets not yet available"
+        {/* Tickets Button */}
+        <div className="mt-6 sm:mt-8">
+          <a
+            href={LINKS.TICKET_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-white/60 text-white text-sm sm:text-base lg:text-lg font-omnes py-2.5 sm:py-3 px-6 sm:px-8 rounded-full backdrop-blur-sm transition-colors duration-300 hover:bg-white/15 hover:border-white/80"
+            aria-label={t("welcome.buyTickets")}
           >
             {t("welcome.buyTickets")}
-          </button>
-          <div className="absolute hidden group-hover:block bg-cos-off-black text-white text-sm sm:text-base px-3 py-2 rounded-lg whitespace-nowrap -bottom-12 left-1/2 -translate-x-1/2 shadow-xl z-50">
-            Tickets will be available soon
-          </div>
+          </a>
+        </div>
+
+        {/* Countdown */}
+        <div className="mt-8 sm:mt-10 w-full">
+          <FestivalCountdown />
         </div>
       </div>
     </div>

@@ -33,7 +33,7 @@ export const SOCIAL = {
 // External Links
 export const LINKS = {
   GOOGLE_MAPS: "https://maps.app.goo.gl/Xv5XzfiGpoahynHh9",
-  TICKET_URL: "https://buytickets.at/cityofseekers",
+  TICKET_URL: "https://buytickets.at/cityofseekers/2038314",
   // Alternative ticket URL (keeping for reference)
   // TICKET_URL_ALT: 'https://tickettailor.com/events/cityofseekers',
 } as const;
@@ -64,25 +64,27 @@ export const UI = {
 } as const;
 
 // Navigation Menu Items
-export const NAV_SECTIONS = [
-  "welcome",
-  "COS?",
-  "Gallery",
-  "where",
-  "FAQ",
-  "team",
-  "contact",
+// Scroll sections for the home page one-pager navigation
+export const NAV_SECTIONS = ["welcome", "COS?", "Gallery", "FAQ", "Contact"] as const;
+
+// Scroll-based navigation items (sections on home page)
+export const NAV_SCROLL_ITEMS = [
+  { key: "welcome", label: "Welcome" },
+  { key: "COS?", label: "COS?" },
+  { key: "Gallery", label: "Gallery" },
+  { key: "FAQ", label: "FAQ" },
+  { key: "Contact", label: "Contact" },
 ] as const;
 
-export const NAV_ITEMS = [
-  { key: "welcome", translationKey: "nav.welcome" },
-  { key: "what", translationKey: "nav.what" },
-  { key: "who", translationKey: "nav.who" },
-  { key: "where", translationKey: "nav.where" },
-  { key: "tickets", translationKey: "nav.tickets" },
-  { key: "faq", translationKey: "nav.faq" },
-  { key: "contact", translationKey: "nav.contact" },
+// Route-based navigation items (separate pages)
+export const NAV_PAGE_ITEMS = [
+  { key: "where", path: "/where", label: "Location" },
+  { key: "team", path: "/team", label: "Team" },
+  { key: "code", path: "/code", label: "Conduct" },
 ] as const;
+
+export type NavScrollItem = (typeof NAV_SCROLL_ITEMS)[number];
+export type NavPageItem = (typeof NAV_PAGE_ITEMS)[number];
 
 // Helper to format section names for display
 export const formatSectionName = (section: string): string => {
@@ -98,7 +100,8 @@ export const CONFIG = {
   ORGANIZATION,
   GOOGLE_MAPS_EMBED,
   UI,
-  NAV_ITEMS,
+  NAV_SCROLL_ITEMS,
+  NAV_PAGE_ITEMS,
 } as const;
 
 export default CONFIG;

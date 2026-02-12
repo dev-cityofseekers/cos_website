@@ -10,35 +10,43 @@ describe("Header Component", () => {
     expect(nav.length).toBeGreaterThan(0);
   });
 
-  test("renders disabled ticket buttons", () => {
+  test("renders ticket links", () => {
     render(<Header />);
 
-    // Find all disabled ticket buttons
-    const ticketButtons = screen.getAllByLabelText("Tickets not yet available");
+    // Find all ticket links
+    const ticketLinks = screen.getAllByLabelText("Tickets");
 
-    // Should have at least one ticket button (desktop + mobile navbars)
-    expect(ticketButtons.length).toBeGreaterThan(0);
+    // Should have at least one ticket link (desktop + mobile navbars)
+    expect(ticketLinks.length).toBeGreaterThan(0);
 
-    // All ticket buttons should be disabled
-    ticketButtons.forEach((button) => {
-      expect(button).toBeDisabled();
-      expect(button).toHaveClass("cursor-not-allowed");
+    // All ticket links should point to the ticket URL and open in new tab
+    ticketLinks.forEach((link) => {
+      expect(link).toHaveAttribute("href", "https://buytickets.at/cityofseekers/2038314");
+      expect(link).toHaveAttribute("target", "_blank");
+      expect(link).toHaveAttribute("rel", "noopener noreferrer");
     });
   });
 
-  test("renders desktop navigation with all sections", () => {
+  test("renders desktop navigation with all items", () => {
     render(<Header />);
 
-    // Check for section links (these will be rendered as anchors by the mocked Link component)
-    const sections = ["welcome", "COS?", "Gallery", "where", "FAQ", "team", "contact"];
+    // Check for scroll section links (rendered as anchors with hash)
+    const scrollSections = ["welcome", "COS?", "Gallery", "FAQ", "Contact"];
 
-    sections.forEach((section) => {
+    scrollSections.forEach((section) => {
       const links = screen.getAllByRole("link").filter((link) => {
         const href = (link as HTMLAnchorElement).href;
         return href.includes(`#${section}`);
       });
       expect(links.length).toBeGreaterThan(0);
     });
+
+    // Check for route links (Team and Location pages)
+    const routeLinks = screen.getAllByRole("link").filter((link) => {
+      const href = (link as HTMLAnchorElement).href;
+      return href.includes("/team") || href.includes("/where");
+    });
+    expect(routeLinks.length).toBeGreaterThan(0);
   });
 
   test("mobile menu opens and closes", () => {

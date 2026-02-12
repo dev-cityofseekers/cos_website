@@ -1,1 +1,10 @@
+#!/usr/bin/env sh
+
+# Load nvm if available (common Node.js version manager)
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# Add common Node.js paths
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+
 npx lint-staged

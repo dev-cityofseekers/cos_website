@@ -9,6 +9,8 @@ import Layout from "./components/layouts/Layout";
 import DataPolicy from "./pages/DataPolicy";
 import Tickets from "./pages/Tickets";
 import CodeOfConduct from "./pages/CodeOfConduct";
+import Team from "./pages/Team";
+import Where from "./pages/Where";
 import "./i18n.ts";
 
 const container = document.getElementById("root");
@@ -50,6 +52,22 @@ root.render(
           element={
             <Layout>
               <Tickets />
+            </Layout>
+          }
+        />
+        <Route
+          path="/team"
+          element={
+            <Layout>
+              <Team />
+            </Layout>
+          }
+        />
+        <Route
+          path="/where"
+          element={
+            <Layout>
+              <Where />
             </Layout>
           }
         />

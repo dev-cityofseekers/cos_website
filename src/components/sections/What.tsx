@@ -1,82 +1,185 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
+import { SOCIAL, LINKS } from "../../config/constants";
 
 const What = () => {
   const { t } = useTranslation();
 
+  const calendarUrl = "/cos2026.ics";
+
+  const features = [
+    {
+      emoji: t("what.card1.emoji"),
+      title: t("what.card1.title"),
+      description: t("what.card1.description"),
+    },
+    {
+      emoji: t("what.card2.emoji"),
+      title: t("what.card2.title"),
+      description: t("what.card2.description"),
+    },
+    {
+      emoji: t("what.card3.emoji"),
+      title: t("what.card3.title"),
+      description: t("what.card3.description"),
+    },
+  ];
+
   return (
-    <div className="w-full bg-gradient-to-b from-cos-main-orange to-white">
-      {/* Diagonal Hero Section */}
-      <div className="relative">
-        <div className="h-[70vh] w-full overflow-hidden transform -skew-y-6 translate-y-[-4rem]">
-          <div className="transform skew-y-6 h-full translate-y-[4rem]">
-            <img
-              src="/wallpapers/Martin02.JPG"
-              alt={t("what.heroImageAlt")}
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-cos-off-black/50 to-transparent">
-              <div className="h-full flex items-center max-w-6xl mx-auto px-4">
-                <div className="text-white max-w-xl transform -translate-y-12">
-                  <h1 className="font-omnes text-6xl mb-6">{t("what.title")}</h1>
-                  <div className="bg-cos-pink/20 backdrop-blur-sm p-6 rounded-2xl">
-                    <p className="text-2xl">{t("what.subtitle")}</p>
-                  </div>
-                </div>
+    <div className="w-full bg-cos-main-orange">
+      {/* Photo */}
+      <div className="max-w-6xl mx-auto px-4 pt-4 sm:pt-4 md:pt-6 lg:pt-10">
+        <div className="rounded-2xl overflow-hidden">
+          <img
+            src="/wallpapers/Martin02.JPG"
+            alt={t("what.heroImageAlt")}
+            className="w-full h-[300px] sm:h-[400px] md:h-[480px] object-cover"
+            loading="lazy"
+          />
+        </div>
+      </div>
+
+      {/* Title & Intro */}
+      <div className="max-w-3xl mx-auto px-6 pt-12 sm:pt-16 text-center">
+        <h2 className="font-omnes text-3xl sm:text-4xl md:text-5xl text-cos-off-black mb-6 sm:mb-8">
+          {t("what.title")}
+        </h2>
+        <p className="text-base sm:text-lg md:text-xl text-cos-off-black/80 leading-relaxed">
+          {t("what.intro")}
+        </p>
+      </div>
+
+      {/* Features - Story Layout */}
+      <div className="pt-16 sm:pt-24 pb-8">
+        {/* Feature 1 - Image Left */}
+        <div className="max-w-6xl mx-auto px-4 mb-16 sm:mb-24">
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            <div className="w-full md:w-1/2">
+              <div className="rounded-2xl overflow-hidden">
+                <img
+                  src="/wallpapers/Martin06.JPG"
+                  alt="Festival workshops"
+                  className="w-full h-[280px] sm:h-[360px] object-cover"
+                  loading="lazy"
+                />
               </div>
+            </div>
+            <div className="w-full md:w-1/2">
+              <div className="text-4xl sm:text-5xl mb-4">{features[0].emoji}</div>
+              <h3 className="font-omnes text-2xl sm:text-3xl text-cos-off-black mb-4">
+                {features[0].title}
+              </h3>
+              <p className="text-base sm:text-lg text-cos-off-black/70 leading-relaxed">
+                {features[0].description}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Feature 2 - Image Right */}
+        <div className="max-w-6xl mx-auto px-4 mb-16 sm:mb-24">
+          <div className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-12">
+            <div className="w-full md:w-1/2">
+              <div className="rounded-2xl overflow-hidden">
+                <img
+                  src="/wallpapers/Martin09.JPG"
+                  alt="Community connection"
+                  className="w-full h-[280px] sm:h-[360px] object-cover"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div className="w-full md:w-1/2">
+              <div className="text-4xl sm:text-5xl mb-4">{features[1].emoji}</div>
+              <h3 className="font-omnes text-2xl sm:text-3xl text-cos-off-black mb-4">
+                {features[1].title}
+              </h3>
+              <p className="text-base sm:text-lg text-cos-off-black/70 leading-relaxed">
+                {features[1].description}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Feature 3 - Image Left */}
+        <div className="max-w-6xl mx-auto px-4 mb-8">
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            <div className="w-full md:w-1/2">
+              <div className="rounded-2xl overflow-hidden">
+                <img
+                  src="/wallpapers/Martin03.JPG"
+                  alt="Camping together"
+                  className="w-full h-[280px] sm:h-[360px] object-cover"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div className="w-full md:w-1/2">
+              <div className="text-4xl sm:text-5xl mb-4">{features[2].emoji}</div>
+              <h3 className="font-omnes text-2xl sm:text-3xl text-cos-off-black mb-4">
+                {features[2].title}
+              </h3>
+              <p className="text-base sm:text-lg text-cos-off-black/70 leading-relaxed">
+                {features[2].description}
+              </p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Main Content */}
-      <div className="max-w-6xl mx-auto px-4 -mt-20 relative z-8">
-        {/* Feature Cards */}
-        <div className="grid md:grid-cols-3 gap-6 mb-16">
-          <div className="bg-white rounded-3xl p-8 shadow-lg transform hover:-translate-y-2 transition-all duration-300">
-            <div className="text-4xl mb-4">🌅</div>
-            <h3 className="font-omnes text-2xl text-cos-blue mb-3">{t("what.card1.title")}</h3>
-            <p className="text-cos-off-black">{t("what.card1.description")}</p>
-          </div>
+      {/* CTA */}
+      <div className="bg-cos-off-black rounded-t-3xl">
+        <div className="max-w-4xl mx-auto px-6 py-14 sm:py-20 text-center">
+          <h3 className="font-omnes text-2xl sm:text-3xl md:text-4xl text-white mb-10 sm:mb-12">
+            {t("what.cta.title")}
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+            {/* Ticket */}
+            <a
+              href={LINKS.TICKET_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-white/15 py-5 px-4 flex flex-col items-center gap-2 transition-colors duration-300 hover:border-white/40 hover:bg-white/5"
+            >
+              <span className="text-xl sm:text-2xl">🎟️</span>
+              <span className="text-xs sm:text-sm text-white/70 font-omnes">
+                {t("what.cta.ticket")}
+              </span>
+            </a>
 
-          <div className="bg-white rounded-3xl p-8 shadow-lg transform hover:-translate-y-2 transition-all duration-300 md:translate-y-8">
-            <div className="text-4xl mb-4">🎵</div>
-            <h3 className="font-omnes text-2xl text-cos-pink mb-3">{t("what.card2.title")}</h3>
-            <p className="text-cos-off-black">{t("what.card2.description")}</p>
-          </div>
+            <a
+              href={SOCIAL.WHATSAPP_WELCOME_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-white/15 py-5 px-4 flex flex-col items-center gap-2 transition-colors duration-300 hover:border-white/40 hover:bg-white/5"
+            >
+              <span className="text-xl sm:text-2xl">💬</span>
+              <span className="text-xs sm:text-sm text-white/70 font-omnes">
+                {t("what.cta.chat")}
+              </span>
+            </a>
 
-          <div className="bg-white rounded-3xl p-8 shadow-lg transform hover:-translate-y-2 transition-all duration-300">
-            <div className="text-4xl mb-4">✨</div>
-            <h3 className="font-omnes text-2xl text-cos-orange mb-3">{t("what.card3.title")}</h3>
-            <p className="text-cos-off-black">{t("what.card3.description")}</p>
-          </div>
-        </div>
+            <a
+              href={SOCIAL.INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-white/15 py-5 px-4 flex flex-col items-center gap-2 transition-colors duration-300 hover:border-white/40 hover:bg-white/5"
+            >
+              <span className="text-xl sm:text-2xl">📸</span>
+              <span className="text-xs sm:text-sm text-white/70 font-omnes">
+                {t("what.cta.instagram")}
+              </span>
+            </a>
 
-        {/* Connection Section */}
-        <div className="relative mb-14 mt-24">
-          <div className="absolute inset-0 bg-cos-sea-blue/10 rounded-[2.5rem] transform rotate-3"></div>
-          <div className="absolute inset-0 bg-cos-orange/10 rounded-[2.5rem] transform -rotate-2"></div>
-          <div className="relative bg-white rounded-[2rem] p-12 text-center">
-            <h2 className="font-omnes text-4xl text-cos-off-black mb-8">
-              {t("what.connection.title")}
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8 text-cos-off-black">
-              <div className="transform hover:scale-105 transition-transform duration-300">
-                <div className="text-3xl mb-4">💫</div>
-                <h4 className="font-omnes text-xl mb-2">{t("what.connection.item1.title")}</h4>
-                <p>{t("what.connection.item1.description")}</p>
-              </div>
-              <div className="transform hover:scale-105 transition-transform duration-300">
-                <div className="text-3xl mb-4">🤝</div>
-                <h4 className="font-omnes text-xl mb-2">{t("what.connection.item2.title")}</h4>
-                <p>{t("what.connection.item2.description")}</p>
-              </div>
-              <div className="transform hover:scale-105 transition-transform duration-300">
-                <div className="text-3xl mb-4">✨</div>
-                <h4 className="font-omnes text-xl mb-2">{t("what.connection.item3.title")}</h4>
-                <p>{t("what.connection.item3.description")}</p>
-              </div>
-            </div>
+            <a
+              href={calendarUrl}
+              download="CityOfSeekers2026.ics"
+              className="rounded-xl border border-white/15 py-5 px-4 flex flex-col items-center gap-2 transition-colors duration-300 hover:border-white/40 hover:bg-white/5"
+            >
+              <span className="text-xl sm:text-2xl">🗓️</span>
+              <span className="text-xs sm:text-sm text-white/70 font-omnes">
+                {t("what.cta.calendar")}
+              </span>
+            </a>
           </div>
         </div>
       </div>

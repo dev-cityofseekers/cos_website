@@ -8,20 +8,20 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <div className="flex items-center space-x-2">
+    <div className="flex items-center">
       <button
         onClick={() => changeLanguage("en")}
-        className={`w-8 h-6 flex items-center justify-center hover:opacity-60 transition-colors ${
-          i18n.language === "en" ? "text-cos-off-black" : "text-cos-off-black/30"
+        className={`px-1 hover:opacity-60 transition-colors ${
+          i18n.language === "en" ? "text-white" : "text-white/50"
         }`}
       >
         EN
       </button>
-      <span className="text-lg text-white/50">|</span>
+      <span className="text-white/50">/</span>
       <button
         onClick={() => changeLanguage("de")}
-        className={`w-8 h-6 flex items-center justify-center hover:opacity-60 transition-colors ${
-          i18n.language === "de" ? "text-cos-off-black" : "text-cos-off-black/30"
+        className={`px-1 hover:opacity-60 transition-colors ${
+          i18n.language === "de" ? "text-white" : "text-white/50"
         }`}
       >
         DE
