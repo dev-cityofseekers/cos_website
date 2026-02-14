@@ -30,7 +30,7 @@ const What = () => {
       <div className="max-w-6xl mx-auto px-4 pt-4 sm:pt-4 md:pt-6 lg:pt-10">
         <div className="rounded-2xl overflow-hidden">
           <img
-            src="/wallpapers/Martin02.JPG"
+            src="/images/what_main.webp"
             alt={t("what.heroImageAlt")}
             className="w-full h-[300px] sm:h-[400px] md:h-[480px] object-cover"
             loading="lazy"
