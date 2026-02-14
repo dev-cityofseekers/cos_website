@@ -32,7 +32,7 @@ const What = () => {
           <img
             src="/images/what_main.webp"
             alt={t("what.heroImageAlt")}
-            className="w-full h-[300px] sm:h-[400px] md:h-[480px] object-cover"
+            className="w-full h-[300px] sm:h-[400px] md:h-[550px] object-cover"
             loading="lazy"
           />
         </div>
