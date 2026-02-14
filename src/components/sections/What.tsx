@@ -30,9 +30,9 @@ const What = () => {
       <div className="max-w-6xl mx-auto px-4 pt-4 sm:pt-4 md:pt-6 lg:pt-10">
         <div className="rounded-2xl overflow-hidden">
           <img
-            src="/wallpapers/Martin02.JPG"
+            src="/images/what_main.webp"
             alt={t("what.heroImageAlt")}
-            className="w-full h-[300px] sm:h-[400px] md:h-[480px] object-cover"
+            className="w-full h-[300px] sm:h-[400px] md:h-[550px] object-cover"
             loading="lazy"
           />
         </div>
@@ -56,7 +56,7 @@ const What = () => {
             <div className="w-full md:w-1/2">
               <div className="rounded-2xl overflow-hidden">
                 <img
-                  src="/wallpapers/Martin06.JPG"
+                  src="/images/4_days_magic.webp"
                   alt="Festival workshops"
                   className="w-full h-[280px] sm:h-[360px] object-cover"
                   loading="lazy"
@@ -81,7 +81,7 @@ const What = () => {
             <div className="w-full md:w-1/2">
               <div className="rounded-2xl overflow-hidden">
                 <img
-                  src="/wallpapers/Martin09.JPG"
+                  src="/images/come_as_you_are.webp"
                   alt="Community connection"
                   className="w-full h-[280px] sm:h-[360px] object-cover"
                   loading="lazy"
@@ -106,7 +106,7 @@ const What = () => {
             <div className="w-full md:w-1/2">
               <div className="rounded-2xl overflow-hidden">
                 <img
-                  src="/wallpapers/Martin03.JPG"
+                  src="/images/no_camper.webp"
                   alt="Camping together"
                   className="w-full h-[280px] sm:h-[360px] object-cover"
                   loading="lazy"
