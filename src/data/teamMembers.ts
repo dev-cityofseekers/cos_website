@@ -64,6 +64,13 @@ export const teamMembers: TeamMember[] = [
       "Hi I'm Ness, a 22 year old seeker, always curious and a farm enthusiast. Making dreams come true is my passion, COS 24 made me realise it's actually possible!!",
     image: "/images/team/Ness.jpg",
   },
+   {
+    name: "Reinhard",
+    role: "Tech assistantce & video ",
+    description:
+      "18 year old student who goes crazy about cameras. Despite always being on the search for the best shot, as an extrovert, I love interacting with people. Might it be talking, enjoying the fierplace or hanging around in a cuddle puddle!",
+    image: "/images/team/reini.webp",
+  },
   {
     name: "Sören",
     role: "Marketing ",
