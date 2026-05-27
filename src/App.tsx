@@ -4,6 +4,7 @@ import "./font/font.css";
 
 //vercel
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 
 //icons & images
 import FAQ from "./components/sections/FAQ";
@@ -23,6 +24,7 @@ function App() {
       <div className=" h-screen">
         <div className="w-full bg-cos-main-orange">
           <SpeedInsights />
+          <Analytics />
           <ErrorBoundary>
             <div id="welcome" className="h-screen snap-start">
               <Welcome />
