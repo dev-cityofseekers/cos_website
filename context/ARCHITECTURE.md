@@ -4,12 +4,12 @@
 React 18 + TypeScript single-page application (SPA) with multi-page routing for the City of Seekers festival website.
 
 ## Tech Stack
-- **Framework:** React 18.2 with TypeScript 4.9
+- **Framework:** React 18.2 with TypeScript 5.3
 - **Routing:** React Router DOM 6.17
 - **Styling:** Tailwind CSS 3.3 with custom theme
 - **i18n:** i18next with react-i18next (English/German)
-- **Build:** Create React App (react-scripts 5.0)
-- **Testing:** Jest + React Testing Library
+- **Build:** Vite 5 (dev server on port 3000, output to `build/`)
+- **Testing:** Vitest + React Testing Library (jsdom environment)
 
 ## Directory Structure
 
@@ -67,7 +67,7 @@ Separate routes with shared Header component:
 ### Navigation System
 The Header component handles hybrid navigation:
 - **Scroll items:** Navigate to sections on home page (uses react-scroll on home, Router links elsewhere)
-- **Route items:** Navigate to separate pages (Location, Team)
+- **Route items:** Navigate to separate pages (Location, Team, Conduct)
 
 Configuration in `config/constants.ts`:
 - `NAV_SCROLL_ITEMS` - Home page sections
@@ -102,7 +102,7 @@ Each major section is wrapped in an ErrorBoundary for isolation.
 
 ## Styling Conventions
 - Tailwind CSS utility classes
-- Custom colors defined in `tailwind.config.js`:
+- Custom colors defined in `tailwind.config.cjs`:
   - `cos-main-orange` - Primary background
   - `cos-orange` - Accent color
   - `cos-off-black` - Dark text/footer

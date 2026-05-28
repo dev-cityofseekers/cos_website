@@ -24,7 +24,7 @@
 
 ### Tailwind CSS
 - Use utility classes directly in JSX
-- Custom colors in `tailwind.config.js`, not hardcoded
+- Custom colors in `tailwind.config.cjs`, not hardcoded
 - Responsive design: mobile-first approach
 - Common breakpoints: `sm:`, `md:`, `lg:`
 
@@ -71,9 +71,11 @@ className="container mx-auto p-6 pt-28 max-w-5xl"
 - Conditional rendering based on state
 
 ### Mocking
-- react-scroll mocked in `setupTests.js`
+- Configured in `src/setupTests.ts` (referenced by `vitest.config.ts`)
+- react-scroll mocked
 - window.matchMedia mocked for responsive tests
-- YouTube API mocked
+- YouTube Player API mocked
+- @vercel/speed-insights mocked
 
 ## Internationalization (i18n)
 
@@ -102,7 +104,7 @@ All magic values should be in constants:
 
 ### Environment Variables
 - Use `.env` files for sensitive data
-- Prefix with `REACT_APP_` for CRA
+- Prefix with `VITE_` for Vite (access via `import.meta.env.VITE_*`)
 
 ## Git Practices
 
@@ -121,7 +123,10 @@ All magic values should be in constants:
 - Lazy load images where possible
 - Use `loading="lazy"` on iframes
 - ErrorBoundaries isolate failures
-- Vercel Speed Insights for monitoring
+- Vercel Speed Insights (`@vercel/speed-insights`) for Core Web Vitals
+- Vercel Web Analytics (`@vercel/analytics`) for page views / usage
+  - Both are mounted once in `src/App.tsx` (added by PR #72)
+  - Analytics must be enabled in the Vercel dashboard for data to flow
 
 ## Accessibility
 

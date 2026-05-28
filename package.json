@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^1.1.0",
     "i18next": "^23.7.16",
     "i18next-browser-languagedetector": "^8.0.2",

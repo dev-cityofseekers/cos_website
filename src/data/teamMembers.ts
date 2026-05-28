@@ -61,10 +61,10 @@ export const teamMembers: TeamMember[] = [
     name: "Ness",
     role: "Financing & Fund Raising",
     description:
-      "Hi I'm Ness, a 22 year old seeker, always curious and a farm enthusiast. Making dreams come true is my passion, COS 24 made me realise it's actually possible!!",
+      "Hi, I’m Ness (they/them)! I came to COS24 as a complete stranger and was able to connect with some people so deeply that it truly changed the way I live and perceive life. It does sound scary at first, but I encourage you to give it a go and see where the magic of connection takes you :)",
     image: "/images/team/Ness.jpg",
   },
-   {
+  {
     name: "Reinhard",
     role: "Tech assistantce & video ",
     description:
