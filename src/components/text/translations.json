@@ -6,8 +6,9 @@
       }
     },
     "welcome": {
-      "eventDate": "June 11-14 2026",
+      "eventDate": "June 17-20 2027",
       "buyTickets": "Buy Tickets",
+      "waitlist": "Join Waitlist",
       "ticketsSoon": "Tickets available soon",
       "logoAlt": "Logo black",
       "heroAlt": "Hero",
@@ -577,8 +578,9 @@
       }
     },
     "welcome": {
-      "eventDate": "11.-14. Juni 2026",
+      "eventDate": "17.-20. Juni 2027",
       "buyTickets": "Tickets kaufen",
+      "waitlist": "Warteliste beitreten",
       "ticketsSoon": "Tickets bald verfügbar",
       "logoAlt": "Logo schwarz",
       "heroAlt": "Titelbild",
