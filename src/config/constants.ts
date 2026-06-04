@@ -11,7 +11,7 @@ export const FESTIVAL = {
   END_DATE: "2026-06-14",
   // Date string for display purposes (consider using i18n for this)
   DATE_DISPLAY: "11.-14. June 2026",
-  COUNTDOWN_DATE: "2026-06-11T12:00:00",
+  COUNTDOWN_DATE: "2026-06-11T14:00:00",
 } as const;
 
 // Location Information
