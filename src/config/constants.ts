@@ -6,12 +6,12 @@
 // Festival Information
 export const FESTIVAL = {
   NAME: "City Of Seekers",
-  YEAR: 2026,
-  START_DATE: "2026-06-11",
-  END_DATE: "2026-06-14",
+  YEAR: 2027,
+  START_DATE: "2027-06-17",
+  END_DATE: "2027-06-20",
   // Date string for display purposes (consider using i18n for this)
-  DATE_DISPLAY: "11.-14. June 2026",
-  COUNTDOWN_DATE: "2026-06-11T14:00:00",
+  DATE_DISPLAY: "17.-20. June 2027",
+  COUNTDOWN_DATE: "2027-06-17T14:00:00",
 } as const;
 
 // Location Information
@@ -33,7 +33,7 @@ export const SOCIAL = {
 // External Links
 export const LINKS = {
   GOOGLE_MAPS: "https://maps.app.goo.gl/Xv5XzfiGpoahynHh9",
-  TICKET_URL: "https://buytickets.at/cityofseekers/2038314",
+  TICKET_URL: "https://buytickets.at/cityofseekers/2250517",
   // Alternative ticket URL (keeping for reference)
   // TICKET_URL_ALT: 'https://tickettailor.com/events/cityofseekers',
 } as const;
