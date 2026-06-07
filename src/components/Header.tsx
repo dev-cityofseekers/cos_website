@@ -170,9 +170,9 @@ function Header() {
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-cos-orange text-cos-off-black rounded-full font-omnes font-bold hover:brightness-110 transition-colors duration-200 text-sm shadow-[0_0_12px_rgba(254,195,96,0.4)]"
-              aria-label={t("general.header.tickets")}
+              aria-label={t("general.header.waitlist")}
             >
-              {t("general.header.tickets")}
+              {t("general.header.waitlist")}
             </a>
           </div>
 
