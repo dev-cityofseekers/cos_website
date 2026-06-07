@@ -6,10 +6,11 @@ import { useActiveSection } from "../hooks/useActiveSection";
 import "../font/font.css";
 import "../styles/gradientAnimation.css";
 import LanguageSwitcher from "./LanguageSwitcher";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 import { SOCIAL, LINKS, NAV_SCROLL_ITEMS, NAV_PAGE_ITEMS, NAV_SECTIONS } from "../config/constants";
 
 function Header() {
+  const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isHidden, setIsHidden] = useState(false);
