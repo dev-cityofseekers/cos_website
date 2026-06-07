@@ -2,7 +2,8 @@
   "en": {
     "general": {
       "header": {
-        "tickets": "Tickets"
+        "tickets": "Tickets",
+        "waitlist": "Waitlist",
       }
     },
     "welcome": {
@@ -574,7 +575,8 @@
   "de": {
     "general": {
       "header": {
-        "tickets": "Tickets"
+        "tickets": "Tickets",
+        "waitlist": "Warteliste"
       }
     },
     "welcome": {
