@@ -158,7 +158,7 @@ function Where() {
           <p className="text-gray-600 text-center text-sm mb-4">{t("where.areaMap.note")}</p>
           <div className="rounded-xl overflow-hidden shadow-lg">
             <img
-              src="/images/AreaPlan_25.png"
+              src="/images/AreaPlan_26.webp"
               alt={t("where.areaMap.title")}
               className="w-full object-contain"
             />
