@@ -6,10 +6,11 @@ import { useActiveSection } from "../hooks/useActiveSection";
 import "../font/font.css";
 import "../styles/gradientAnimation.css";
 import LanguageSwitcher from "./LanguageSwitcher";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 import { SOCIAL, LINKS, NAV_SCROLL_ITEMS, NAV_PAGE_ITEMS, NAV_SECTIONS } from "../config/constants";
 
 function Header() {
+  const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isHidden, setIsHidden] = useState(false);
@@ -85,9 +86,9 @@ function Header() {
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-cos-orange text-cos-off-black rounded-full font-omnes font-bold hover:brightness-110 transition-colors duration-200 shadow-[0_0_12px_rgba(254,195,96,0.4)]"
-              aria-label={t("general.header.tickets")}
+              aria-label={t("general.header.waitlist")}
             >
-              {t("general.header.tickets")}
+              {t("general.header.waitlist")}
             </a>
           </div>
 
@@ -169,9 +170,9 @@ function Header() {
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-cos-orange text-cos-off-black rounded-full font-omnes font-bold hover:brightness-110 transition-colors duration-200 text-sm shadow-[0_0_12px_rgba(254,195,96,0.4)]"
-              aria-label={t("general.header.tickets")}
+              aria-label={t("general.header.waitlist")}
             >
-              {t("general.header.tickets")}
+              {t("general.header.waitlist")}
             </a>
           </div>
 
@@ -215,9 +216,9 @@ function Header() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2.5 bg-cos-orange text-cos-off-black rounded-full font-omnes font-bold hover:brightness-110 transition-colors duration-200 text-base shadow-[0_0_12px_rgba(254,195,96,0.4)]"
-                aria-label={t("general.header.tickets")}
+                aria-label={t("general.header.waitlist")}
               >
-                {t("general.header.tickets")}
+                {t("general.header.waitlist")}
               </a>
             </div>
 

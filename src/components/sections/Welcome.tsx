@@ -124,9 +124,9 @@ function Welcome() {
             target="_blank"
             rel="noopener noreferrer"
             className="border border-white/60 text-white text-sm sm:text-base lg:text-lg font-omnes py-2.5 sm:py-3 px-6 sm:px-8 rounded-full backdrop-blur-sm transition-colors duration-300 hover:bg-white/15 hover:border-white/80"
-            aria-label={t("welcome.buyTickets")}
+            aria-label={t("welcome.waitlist")}
           >
-            {t("welcome.buyTickets")}
+            {t("welcome.waitlist")}
           </a>
         </div>
 
