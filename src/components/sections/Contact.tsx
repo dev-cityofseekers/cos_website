@@ -62,6 +62,24 @@ function Contact() {
               {t("contact.email")}
             </a>
           </p>
+
+          {/* Awareness team — reachable 24/7, year-round */}
+          <div className="mt-8 pt-8 border-t border-cos-off-black/10">
+            <h3 className="font-omnes text-xl text-cos-off-black mb-2">
+              {t("contact.awareness.heading")}
+            </h3>
+            <p className="text-cos-off-black/70 text-base leading-relaxed mb-5">
+              {t("contact.awareness.text")}
+            </p>
+            <a
+              href={SOCIAL.WHATSAPP_AWARENESS_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-8 py-3.5 bg-cos-orange text-cos-off-black rounded-full font-omnes text-lg hover:bg-cos-orange/80 transition-colors duration-300"
+            >
+              {t("contact.awareness.button")}
+            </a>
+          </div>
         </div>
       </div>
     </div>
