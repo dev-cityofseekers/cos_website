@@ -340,7 +340,12 @@
       "joinText": "Join the Whatsapp group, text us on",
       "instagram": "Instagram",
       "emailText": "or send us an email",
-      "email": "info@cityofseekers.eu"
+      "email": "info@cityofseekers.eu",
+      "awareness": {
+        "heading": "Awareness Team",
+        "text": "Our Awareness team is here for you 24/7, all year round — not just during the festival. If you need support, have a concern, or just want to talk, reach out anytime on WhatsApp.",
+        "button": "Message the Awareness Team"
+      }
     },
     "imprint": {
       "title": "Legal Notice",
@@ -913,7 +918,12 @@
       "joinText": "Tritt der WhatsApp-Gruppe bei, schreib uns auf",
       "instagram": "Instagram",
       "emailText": "oder sende uns eine E-Mail an",
-      "email": "info@cityofseekers.eu"
+      "email": "info@cityofseekers.eu",
+      "awareness": {
+        "heading": "Awareness-Team",
+        "text": "Unser Awareness-Team ist rund um die Uhr für dich da, das ganze Jahr über — nicht nur während des Festivals. Wenn du Unterstützung brauchst, ein Anliegen hast oder einfach reden möchtest, melde dich jederzeit über WhatsApp.",
+        "button": "Awareness-Team schreiben"
+      }
     },
     "imprint": {
       "title": "Impressum",

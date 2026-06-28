@@ -28,6 +28,7 @@ export const SOCIAL = {
   INSTAGRAM_URL: "https://instagram.com/cityofseekers",
   EMAIL: "info@cityofseekers.eu",
   WHATSAPP_WELCOME_URL: "http://welcome.cityofseekers.eu/",
+  WHATSAPP_AWARENESS_URL: "https://wa.me/message/67NCAJ7C2ZN3P1",
 } as const;
 
 // External Links
