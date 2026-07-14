@@ -40,11 +40,11 @@ export const LINKS = {
 } as const;
 
 // Donation Information
-// TODO: fill in real bank details before deploying
 export const DONATION = {
-  ACCOUNT_HOLDER: "City Of Seekers e.V.",
-  IBAN: "DE00 0000 0000 0000 0000 00",
-  BIC: "XXXXXXXX",
+  ACCOUNT_HOLDER: "City of Seekers e.V.",
+  IBAN: "DE64 8306 5408 0005 3971 38",
+  BIC: "GENODEF1SLR",
+  BANK: "Deutsche Skatbank",
 } as const;
 
 // Organization Information

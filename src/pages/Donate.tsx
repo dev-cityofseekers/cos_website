@@ -16,6 +16,7 @@ function Donate() {
     { label: t("donate.bank.accountHolder"), value: DONATION.ACCOUNT_HOLDER },
     { label: t("donate.bank.iban"), value: DONATION.IBAN },
     { label: t("donate.bank.bic"), value: DONATION.BIC },
+    { label: t("donate.bank.bankName"), value: DONATION.BANK },
     { label: t("donate.bank.reference"), value: t("donate.bank.referenceValue") },
   ];
 

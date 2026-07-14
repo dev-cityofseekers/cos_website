@@ -356,12 +356,13 @@
       "why": {
         "title": "Why donate?"
       },
-      "intro": "City of Seekers is organized by City Of Seekers e.V., a registered association. The festival is created entirely by volunteers, and ticket sales only just cover our costs. Your donation helps us improve the festival and keep this community growing.",
+      "intro": "City of Seekers is organized by City of Seekers e.V., a registered non-profit association (gemeinnütziger Verein). The festival is created entirely by volunteers, and ticket sales only just cover our costs. Your donation helps us improve the festival and keep this community growing.",
       "bank": {
         "title": "Donate by Bank Transfer",
         "accountHolder": "Account holder",
         "iban": "IBAN",
         "bic": "BIC",
+        "bankName": "Bank",
         "reference": "Reference",
         "referenceValue": "Donation City of Seekers"
       },
@@ -954,12 +955,13 @@
       "why": {
         "title": "Warum spenden?"
       },
-      "intro": "City of Seekers wird vom City Of Seekers e.V. organisiert, einem eingetragenen Verein. Das Festival entsteht komplett durch ehrenamtliche Arbeit, und die Ticketverkäufe decken gerade so unsere Kosten. Deine Spende hilft uns, das Festival zu verbessern und diese Community weiter wachsen zu lassen.",
+      "intro": "City of Seekers wird vom City of Seekers e.V. organisiert, einem gemeinnützigen eingetragenen Verein. Das Festival entsteht komplett durch ehrenamtliche Arbeit, und die Ticketverkäufe decken gerade so unsere Kosten. Deine Spende hilft uns, das Festival zu verbessern und diese Community weiter wachsen zu lassen.",
       "bank": {
         "title": "Spenden per Überweisung",
         "accountHolder": "Kontoinhaber",
         "iban": "IBAN",
         "bic": "BIC",
+        "bankName": "Bank",
         "reference": "Verwendungszweck",
         "referenceValue": "Spende City of Seekers"
       },
