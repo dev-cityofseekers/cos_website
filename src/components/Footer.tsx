@@ -36,6 +36,7 @@ function Footer() {
             <Link to="/imprint">Imprint</Link>,
             <br /> <Link to="/privacy-policy">Privacy-policy</Link>
             <br /> <Link to="/code">Code Of Conduct</Link>
+            <br /> <Link to="/donate">Donate ❤️</Link>
             <a
               href={SOCIAL.INSTAGRAM_URL}
               className="mt-8"

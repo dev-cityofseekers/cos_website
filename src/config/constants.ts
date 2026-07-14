@@ -39,6 +39,14 @@ export const LINKS = {
   // TICKET_URL_ALT: 'https://tickettailor.com/events/cityofseekers',
 } as const;
 
+// Donation Information
+export const DONATION = {
+  ACCOUNT_HOLDER: "City of Seekers e.V.",
+  IBAN: "DE64 8306 5408 0005 3971 38",
+  BIC: "GENODEF1SLR",
+  BANK: "Deutsche Skatbank",
+} as const;
+
 // Organization Information
 export const ORGANIZATION = {
   NAME: "City Of Seekers e.V.",
