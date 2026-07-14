@@ -28,7 +28,8 @@ src/
 │   ├── Imprint.tsx       # /imprint - Legal notice
 │   ├── DataPolicy.tsx    # /privacy-policy
 │   ├── CodeOfConduct.tsx # /code
-│   └── Tickets.tsx       # /tickets
+│   ├── Tickets.tsx       # /tickets
+│   └── Donate.tsx        # /donate - Donation info (bank transfer)
 ├── config/
 │   └── constants.ts      # Centralized configuration
 ├── data/                 # Static data files
@@ -62,7 +63,9 @@ Single-page with scroll-based navigation between sections:
 Separate routes with shared Header component:
 - `/team` - Team member profiles
 - `/where` - Location with Google Maps
-- `/imprint`, `/privacy-policy`, `/code`, `/tickets`
+- `/imprint`, `/privacy-policy`, `/code`, `/tickets`, `/donate`
+
+The donation page (`/donate`) is linked from the Footer and the home page Contact section (not from the Header nav, to keep the ticket CTA primary). Bank details live in `DONATION` in `config/constants.ts`.
 
 ### Navigation System
 The Header component handles hybrid navigation:

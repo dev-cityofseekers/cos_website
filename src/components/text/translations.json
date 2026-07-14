@@ -343,7 +343,29 @@
         "heading": "Awareness Team",
         "text": "Our Awareness team is here for you 24/7, all year round — not just during the festival. If you need support, have a concern, or just want to talk, reach out anytime on WhatsApp.",
         "button": "Message the Awareness Team"
+      },
+      "donate": {
+        "heading": "Support Us",
+        "text": "City of Seekers is organized entirely by volunteers. If you want to help us make the festival even better, we are grateful for every donation.",
+        "button": "Learn how to donate"
       }
+    },
+    "donate": {
+      "title": "Support City of Seekers",
+      "subtitle": "Help us keep the festival alive and growing",
+      "why": {
+        "title": "Why donate?"
+      },
+      "intro": "City of Seekers is organized by City Of Seekers e.V., a registered association. The festival is created entirely by volunteers, and ticket sales only just cover our costs. Your donation helps us improve the festival and keep this community growing.",
+      "bank": {
+        "title": "Donate by Bank Transfer",
+        "accountHolder": "Account holder",
+        "iban": "IBAN",
+        "bic": "BIC",
+        "reference": "Reference",
+        "referenceValue": "Donation City of Seekers"
+      },
+      "thanks": "Every contribution, big or small, makes a difference. Thank you! ❤️"
     },
     "imprint": {
       "title": "Legal Notice",
@@ -919,7 +941,29 @@
         "heading": "Awareness-Team",
         "text": "Unser Awareness-Team ist rund um die Uhr für dich da, das ganze Jahr über — nicht nur während des Festivals. Wenn du Unterstützung brauchst, ein Anliegen hast oder einfach reden möchtest, melde dich jederzeit über WhatsApp.",
         "button": "Awareness-Team schreiben"
+      },
+      "donate": {
+        "heading": "Unterstütze uns",
+        "text": "City of Seekers wird komplett ehrenamtlich organisiert. Wenn du uns helfen möchtest, das Festival noch besser zu machen, freuen wir uns über jede Spende.",
+        "button": "So kannst du spenden"
       }
+    },
+    "donate": {
+      "title": "Unterstütze City of Seekers",
+      "subtitle": "Hilf uns, das Festival am Leben zu halten und wachsen zu lassen",
+      "why": {
+        "title": "Warum spenden?"
+      },
+      "intro": "City of Seekers wird vom City Of Seekers e.V. organisiert, einem eingetragenen Verein. Das Festival entsteht komplett durch ehrenamtliche Arbeit, und die Ticketverkäufe decken gerade so unsere Kosten. Deine Spende hilft uns, das Festival zu verbessern und diese Community weiter wachsen zu lassen.",
+      "bank": {
+        "title": "Spenden per Überweisung",
+        "accountHolder": "Kontoinhaber",
+        "iban": "IBAN",
+        "bic": "BIC",
+        "reference": "Verwendungszweck",
+        "referenceValue": "Spende City of Seekers"
+      },
+      "thanks": "Jeder Beitrag, ob groß oder klein, macht einen Unterschied. Danke! ❤️"
     },
     "imprint": {
       "title": "Impressum",

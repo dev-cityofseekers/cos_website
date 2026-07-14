@@ -39,6 +39,14 @@ export const LINKS = {
   // TICKET_URL_ALT: 'https://tickettailor.com/events/cityofseekers',
 } as const;
 
+// Donation Information
+// TODO: fill in real bank details before deploying
+export const DONATION = {
+  ACCOUNT_HOLDER: "City Of Seekers e.V.",
+  IBAN: "DE00 0000 0000 0000 0000 00",
+  BIC: "XXXXXXXX",
+} as const;
+
 // Organization Information
 export const ORGANIZATION = {
   NAME: "City Of Seekers e.V.",

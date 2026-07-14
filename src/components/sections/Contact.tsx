@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import { SOCIAL } from "../../config/constants";
 
 function Contact() {
@@ -79,6 +80,22 @@ function Contact() {
             >
               {t("contact.awareness.button")}
             </a>
+          </div>
+
+          {/* Donate */}
+          <div className="mt-8 pt-8 border-t border-cos-off-black/10">
+            <h3 className="font-omnes text-xl text-cos-off-black mb-2">
+              {t("contact.donate.heading")}
+            </h3>
+            <p className="text-cos-off-black/70 text-base leading-relaxed mb-5">
+              {t("contact.donate.text")}
+            </p>
+            <Link
+              to="/donate"
+              className="inline-flex items-center gap-2 px-8 py-3.5 bg-cos-orange text-cos-off-black rounded-full font-omnes text-lg hover:bg-cos-orange/80 transition-colors duration-300"
+            >
+              {t("contact.donate.button")}
+            </Link>
           </div>
         </div>
       </div>
