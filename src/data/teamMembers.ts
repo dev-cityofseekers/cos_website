@@ -62,7 +62,7 @@ export const teamMembers: TeamMember[] = [
     role: "Special Media & Marketing",
     description:
       "Hello there, Merlin here! Usually in a good mood, really into philosophy and asking "Why?" about everything. Also love writing songs, making videos and letting people know that I think this life thing is pretty great (Highs & Lows included). Can't wait to meet you!",
-    image: "/images/team/merlin.jpeg",
+    image: "/images/team/merlin.jpg",
   },
   {
     name: "Ness",
