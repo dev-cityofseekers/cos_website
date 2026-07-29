@@ -31,7 +31,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Ela",
-    role: "Workshops & Marketing",
+    role: "Workshops & program",
     description:
       "28 years old who loves to be outside, especially in the mountains, hiking in summer and skiing in winter. Favorite quote: 'If I could choose where I was born I would choose a place that knows no fear But since this change is mine to live it would be nowhere else but here' - Bukahara",
     image: "/images/team/ela.jpg",
@@ -45,7 +45,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Johar",
-    role: "Marketing & Social Media",
+    role: "Activation & Community management",
     description:
       "Curious, creative connector. Musician/teacher, NLP coach & sci-fi lover. When not in hyperactivity or hyperfocus, I can be found meditating, snoring, eating everything I find, or checking in on everyone. Let's hug and transform together this year!",
     image: "/images/team/johar.jpg",
@@ -58,25 +58,18 @@ export const teamMembers: TeamMember[] = [
     image: "/images/team/luke.jpg",
   },
   {
+    name: "Merlin",
+    role: "Special Media & Marketing",
+    description:
+      "Hello there, Merlin here! Usually in a good mood, really into philosophy and asking "Why?" about everything. Also love writing songs, making videos and letting people know that I think this life thing is pretty great (Highs & Lows included). Can't wait to meet you!",
+    image: "/images/team/merlin.jpg",
+  },
+  {
     name: "Ness",
-    role: "Financing & Fund Raising",
+    role: "Finance & Fund Raising",
     description:
-      "Hi, I’m Ness (they/them)! I came to COS24 as a complete stranger and was able to connect with some people so deeply that it truly changed the way I live and perceive life. It does sound scary at first, but I encourage you to give it a go and see where the magic of connection takes you :)",
+      "Hi I'm Ness, a 22 year old seeker, always curious and a farm enthusiast. Making dreams come true is my passion, COS 24 made me realise it's actually possible!!",
     image: "/images/team/Ness.jpg",
-  },
-  {
-    name: "Reinhard",
-    role: "Tech assistantce & video ",
-    description:
-      "18 year old student who goes crazy about cameras. Despite always being on the search for the best shot, as an extrovert, I love interacting with people. Might it be talking, enjoying the fierplace or hanging around in a cuddle puddle!",
-    image: "/images/team/reini.webp",
-  },
-  {
-    name: "Sören",
-    role: "Marketing ",
-    description:
-      "Farmgrown Marketing student, that aspires to do some good and pet some alpacas. I'm making sure to get only the best people on- and in front of the stage.",
-    image: "/images/team/soeren_cut.jpg",
   },
   {
     name: "This could be you!",
