@@ -11,6 +11,7 @@ import Tickets from "./pages/Tickets";
 import CodeOfConduct from "./pages/CodeOfConduct";
 import Team from "./pages/Team";
 import Where from "./pages/Where";
+import Donate from "./pages/Donate";
 import "./i18n.ts";
 
 const container = document.getElementById("root");
@@ -68,6 +69,14 @@ root.render(
           element={
             <Layout>
               <Where />
+            </Layout>
+          }
+        />
+        <Route
+          path="/donate"
+          element={
+            <Layout>
+              <Donate />
             </Layout>
           }
         />

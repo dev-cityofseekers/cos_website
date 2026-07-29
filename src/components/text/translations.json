@@ -340,7 +340,35 @@
       "joinText": "Join the Whatsapp group, text us on",
       "instagram": "Instagram",
       "emailText": "or send us an email",
-      "email": "info@cityofseekers.eu"
+      "email": "info@cityofseekers.eu",
+      "awareness": {
+        "heading": "Awareness Team",
+        "text": "Our Awareness team is here for you 24/7, all year round — not just during the festival. If you need support, have a concern, or just want to talk, reach out anytime on WhatsApp.",
+        "button": "Message the Awareness Team"
+      },
+      "donate": {
+        "heading": "Support Us",
+        "text": "City of Seekers is organized entirely by volunteers. If you want to help us make the festival even better, we are grateful for every donation.",
+        "button": "Learn how to donate"
+      }
+    },
+    "donate": {
+      "title": "Support City of Seekers",
+      "subtitle": "Help us keep the festival alive and growing",
+      "why": {
+        "title": "Why donate?"
+      },
+      "intro": "City of Seekers is organized by City of Seekers e.V., a registered non-profit association (gemeinnütziger Verein). The festival is created entirely by volunteers, and ticket sales only just cover our costs. Your donation helps us improve the festival and keep this community growing.",
+      "bank": {
+        "title": "Donate by Bank Transfer",
+        "accountHolder": "Account holder",
+        "iban": "IBAN",
+        "bic": "BIC",
+        "bankName": "Bank",
+        "reference": "Reference",
+        "referenceValue": "Donation City of Seekers"
+      },
+      "thanks": "Every contribution, big or small, makes a difference. Thank you! ❤️"
     },
     "imprint": {
       "title": "Legal Notice",
@@ -498,7 +526,7 @@
       },
       "areaMap": {
         "title": "Area Map",
-        "note": "This is the area map from last year, we will send you a current version shortly before the festival."
+        "note": "Here is this year's area map—feel free to check it out to see where everything is located!"
       }
     },
     "nav": {
@@ -913,7 +941,35 @@
       "joinText": "Tritt der WhatsApp-Gruppe bei, schreib uns auf",
       "instagram": "Instagram",
       "emailText": "oder sende uns eine E-Mail an",
-      "email": "info@cityofseekers.eu"
+      "email": "info@cityofseekers.eu",
+      "awareness": {
+        "heading": "Awareness-Team",
+        "text": "Unser Awareness-Team ist rund um die Uhr für dich da, das ganze Jahr über — nicht nur während des Festivals. Wenn du Unterstützung brauchst, ein Anliegen hast oder einfach reden möchtest, melde dich jederzeit über WhatsApp.",
+        "button": "Awareness-Team schreiben"
+      },
+      "donate": {
+        "heading": "Unterstütze uns",
+        "text": "City of Seekers wird komplett ehrenamtlich organisiert. Wenn du uns helfen möchtest, das Festival noch besser zu machen, freuen wir uns über jede Spende.",
+        "button": "So kannst du spenden"
+      }
+    },
+    "donate": {
+      "title": "Unterstütze City of Seekers",
+      "subtitle": "Hilf uns, das Festival am Leben zu halten und wachsen zu lassen",
+      "why": {
+        "title": "Warum spenden?"
+      },
+      "intro": "City of Seekers wird vom City of Seekers e.V. organisiert, einem gemeinnützigen eingetragenen Verein. Das Festival entsteht komplett durch ehrenamtliche Arbeit, und die Ticketverkäufe decken gerade so unsere Kosten. Deine Spende hilft uns, das Festival zu verbessern und diese Community weiter wachsen zu lassen.",
+      "bank": {
+        "title": "Spenden per Überweisung",
+        "accountHolder": "Kontoinhaber",
+        "iban": "IBAN",
+        "bic": "BIC",
+        "bankName": "Bank",
+        "reference": "Verwendungszweck",
+        "referenceValue": "Spende City of Seekers"
+      },
+      "thanks": "Jeder Beitrag, ob groß oder klein, macht einen Unterschied. Danke! ❤️"
     },
     "imprint": {
       "title": "Impressum",
@@ -1071,7 +1127,7 @@
       },
       "areaMap": {
         "title": "Lageplan",
-        "note": "Das ist der Lageplan vom letzten Jahr, wir werden euch kurz vor dem Event eine aktuelle Version zusenden."
+        "note": "Hier ist der aktuelle Lageplan für dieses Jahr – schaut ihn euch gerne an, um zu sehen, wo was zu finden ist!"
       }
     },
     "nav": {

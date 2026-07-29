@@ -28,6 +28,7 @@ export const SOCIAL = {
   INSTAGRAM_URL: "https://instagram.com/cityofseekers",
   EMAIL: "info@cityofseekers.eu",
   WHATSAPP_WELCOME_URL: "http://welcome.cityofseekers.eu/",
+  WHATSAPP_AWARENESS_URL: "https://wa.me/message/67NCAJ7C2ZN3P1",
 } as const;
 
 // External Links
@@ -36,6 +37,14 @@ export const LINKS = {
   TICKET_URL: "https://buytickets.at/cityofseekers/2250517",
   // Alternative ticket URL (keeping for reference)
   // TICKET_URL_ALT: 'https://tickettailor.com/events/cityofseekers',
+} as const;
+
+// Donation Information
+export const DONATION = {
+  ACCOUNT_HOLDER: "City of Seekers e.V.",
+  IBAN: "DE64 8306 5408 0005 3971 38",
+  BIC: "GENODEF1SLR",
+  BANK: "Deutsche Skatbank",
 } as const;
 
 // Organization Information
