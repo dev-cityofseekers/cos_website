@@ -24,14 +24,14 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Didi",
-    role: "Team management & Workshops",
+    role: "Workshops & Team management",
     description:
       "Spiritual communication enthusiast with a lifelong soundtrack playing in her head. I believe life is all about the people we share it with — so I love bringing the right ones together. Let's find some four-leaf clovers and share some strawberries. See you soon!",
     image: "/images/team/didi.png",
   },
   {
     name: "Ela",
-    role: "Workshops & Marketing",
+    role: "Workshops & program",
     description:
       "28 years old who loves to be outside, especially in the mountains, hiking in summer and skiing in winter. Favorite quote: 'If I could choose where I was born I would choose a place that knows no fear But since this change is mine to live it would be nowhere else but here' - Bukahara",
     image: "/images/team/ela.jpg",
@@ -45,7 +45,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Johar",
-    role: "Marketing & Social Media",
+    role: "activation & community management",
     description:
       "Curious, creative connector. Musician/teacher, NLP coach & sci-fi lover. When not in hyperactivity or hyperfocus, I can be found meditating, snoring, eating everything I find, or checking in on everyone. Let's hug and transform together this year!",
     image: "/images/team/johar.jpg",
@@ -56,6 +56,13 @@ export const teamMembers: TeamMember[] = [
     description:
       "Hi, I'm Luke, Spiritual seeker, Musician, Visionary, UX Designer/Frontend Dev, Event Organizer from Vienna. In COS 1.0 I felt a calling to unite and nourish a community that chooses love over fear, yeah baby. Im super excited for COS26.",
     image: "/images/team/luke.jpg",
+  },
+  {
+    name: "Merlin",
+    role: "Marketing & social media",
+    description:
+      "Hello there, Merlin here! Usually in a good mood, really into philosophy and asking 'Why?' about everything. Also love writing songs, making videos and letting people know that I think this life thing is pretty great (Highs & Lows included). Can't wait to meet you!",
+    image: "/images/team/merlin.webp",
   },
   {
     name: "Ness",
@@ -70,13 +77,6 @@ export const teamMembers: TeamMember[] = [
     description:
       "18 year old student who goes crazy about cameras. Despite always being on the search for the best shot, as an extrovert, I love interacting with people. Might it be talking, enjoying the fierplace or hanging around in a cuddle puddle!",
     image: "/images/team/reini.webp",
-  },
-  {
-    name: "Sören",
-    role: "Marketing ",
-    description:
-      "Farmgrown Marketing student, that aspires to do some good and pet some alpacas. I'm making sure to get only the best people on- and in front of the stage.",
-    image: "/images/team/soeren_cut.jpg",
   },
   {
     name: "This could be you!",
