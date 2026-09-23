@@ -1,6 +1,7 @@
 import React from "react";
 import { render, screen, fireEvent } from "../test-utils";
 import Header from "./Header";
+import { LINKS } from "../config/constants";
 
 describe("Header Component", () => {
   test("renders without crashing", () => {
@@ -13,15 +14,17 @@ describe("Header Component", () => {
   test("renders ticket links", () => {
     render(<Header />);
 
-    // Find all ticket links
-    const ticketLinks = screen.getAllByLabelText("Tickets");
+    // Find all ticket links (label is "Tickets" or "Waitlist" depending on the season)
+    const ticketLinks = screen
+      .getAllByRole("link")
+      .filter((link) => (link as HTMLAnchorElement).href === LINKS.TICKET_URL);
 
     // Should have at least one ticket link (desktop + mobile navbars)
     expect(ticketLinks.length).toBeGreaterThan(0);
 
     // All ticket links should point to the ticket URL and open in new tab
     ticketLinks.forEach((link) => {
-      expect(link).toHaveAttribute("href", "https://buytickets.at/cityofseekers/2038314");
+      expect(link).toHaveAttribute("href", LINKS.TICKET_URL);
       expect(link).toHaveAttribute("target", "_blank");
       expect(link).toHaveAttribute("rel", "noopener noreferrer");
     });
@@ -119,10 +122,10 @@ describe("Header Component", () => {
     if (hamburgerButton) {
       fireEvent.click(hamburgerButton);
 
-      // Check for Code of Conduct link
-      const cocLink = screen.getByText(/Code Of Conduct/i);
-      expect(cocLink).toBeInTheDocument();
-      expect(cocLink.closest("a")).toHaveAttribute("href", "/code");
+      // Check for Code of Conduct link (labelled "Conduct" in the nav)
+      const cocLinks = screen.getAllByText(/^Conduct$/i);
+      expect(cocLinks.length).toBeGreaterThan(0);
+      cocLinks.forEach((link) => expect(link.closest("a")).toHaveAttribute("href", "/code"));
     }
   });
 });

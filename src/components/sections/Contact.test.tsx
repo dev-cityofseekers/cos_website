@@ -1,20 +1,17 @@
 import React from "react";
-import { vi } from "vitest";
 import { render, screen } from "../../test-utils";
 import Contact from "./Contact";
 import { SOCIAL } from "../../config/constants";
 
-// Mock WelcomeComponent
-vi.mock("../WelcomeComponent", () => ({
-  default: function MockWelcomeComponent() {
-    return <div data-testid="welcome-component">Welcome Component</div>;
-  },
-}));
-
 describe("Contact Section", () => {
-  test("renders without crashing", () => {
+  test("renders WhatsApp welcome link", () => {
     render(<Contact />);
-    expect(screen.getByTestId("welcome-component")).toBeInTheDocument();
+
+    const whatsappLinks = screen
+      .getAllByRole("link")
+      .filter((link) => (link as HTMLAnchorElement).href === SOCIAL.WHATSAPP_WELCOME_URL);
+
+    expect(whatsappLinks.length).toBeGreaterThan(0);
   });
 
   test("renders Instagram link with correct URL and security attributes", () => {
@@ -45,12 +42,5 @@ describe("Contact Section", () => {
     emailLinks.forEach((link) => {
       expect((link as HTMLAnchorElement).href).toBe(`mailto:${SOCIAL.EMAIL}`);
     });
-  });
-
-  test("passes correct whatsapp link to WelcomeComponent", () => {
-    render(<Contact />);
-
-    // The WelcomeComponent mock should be rendered
-    expect(screen.getByTestId("welcome-component")).toBeInTheDocument();
   });
 });
