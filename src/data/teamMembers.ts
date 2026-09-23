@@ -5,14 +5,14 @@ export const teamMembers: TeamMember[] = [
     name: "Adalbert",
     role: "Tech & Infrastructure",
     description:
-      "24 year old tech guy and crazy person that you probably will find running around, solving problems. Let's connect, deeptalk, party and create amazing memories :)",
+      "Tech guy and crazy person that you probably will find running around, solving problems. Let's connect, deeptalk, party and create amazing memories :)",
     image: "/images/team/adel.jpg",
   },
   {
     name: "Anja",
     role: "First Aid & Comfort person",
     description:
-      "I'm a 22 year old dog mom, who loves to travel with my furry friend. Ready to implement your crazy ideas, or have a deep talk at the campfire. Super excited to meet all of you at CoS 24.",
+      "I'm a dog mom who loves to travel with my furry friend. Ready to implement your crazy ideas, or have a deep talk at the campfire. Super excited to meet all of you at CoS 27.",
     image: "/images/team/Anja.jpg",
   },
   {
@@ -33,7 +33,7 @@ export const teamMembers: TeamMember[] = [
     name: "Ela",
     role: "Workshops & program",
     description:
-      "28 years old who loves to be outside, especially in the mountains, hiking in summer and skiing in winter. Favorite quote: 'If I could choose where I was born I would choose a place that knows no fear But since this change is mine to live it would be nowhere else but here' - Bukahara",
+      "Loves to be outside, especially in the mountains, hiking in summer and skiing in winter. Favorite quote: 'If I could choose where I was born I would choose a place that knows no fear But since this change is mine to live it would be nowhere else but here' - Bukahara",
     image: "/images/team/ela.jpg",
   },
   {
@@ -54,7 +54,7 @@ export const teamMembers: TeamMember[] = [
     name: "Luke/Liiav",
     role: "Vibe control & Website Developer",
     description:
-      "Hi, I'm Luke, Spiritual seeker, Musician, Visionary, UX Designer/Frontend Dev, Event Organizer from Vienna. In COS 1.0 I felt a calling to unite and nourish a community that chooses love over fear, yeah baby. Im super excited for COS26.",
+      "Hi, I'm Luke, Spiritual seeker, Musician, Visionary, UX Designer/Frontend Dev, Event Organizer from Vienna. In COS 1.0 I felt a calling to unite and nourish a community that chooses love over fear, yeah baby. Im super excited for COS27.",
     image: "/images/team/luke.jpg",
   },
   {
@@ -75,7 +75,7 @@ export const teamMembers: TeamMember[] = [
     name: "Reinhard",
     role: "Tech assistantce & video ",
     description:
-      "18 year old student who goes crazy about cameras. Despite always being on the search for the best shot, as an extrovert, I love interacting with people. Might it be talking, enjoying the fierplace or hanging around in a cuddle puddle!",
+      "Student who goes crazy about cameras. Despite always being on the search for the best shot, as an extrovert, I love interacting with people. Might it be talking, enjoying the fierplace or hanging around in a cuddle puddle!",
     image: "/images/team/reini.webp",
   },
   {

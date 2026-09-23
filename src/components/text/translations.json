@@ -96,7 +96,7 @@
             },
             {
               "question": "How many people usually attend?",
-              "answer": "In the past, we had around 100 participants. We cannot guarantee that it will stay that way, but we expect a similar number of participants in 2026."
+              "answer": "In the past, we had around 100 participants. We cannot guarantee that it will stay that way, but we expect a similar number of participants in 2027."
             }
           ]
         },
@@ -303,7 +303,7 @@
             },
             {
               "question": "Can I connect with other participants before the event?",
-              "answer": "Yes. After purchasing your ticket, you are invited to join the 2026 Guest Only WhatsApp group. If you don't use WhatsApp but still want to connect with other participants for tent sharing, carpooling, etc., feel free to email us and we'll do our best to help."
+              "answer": "Yes. After purchasing your ticket, you are invited to join the 2027 Guest Only WhatsApp group. If you don't use WhatsApp but still want to connect with other participants for tent sharing, carpooling, etc., feel free to email us and we'll do our best to help."
             }
           ]
         }
@@ -502,7 +502,8 @@
       }
     },
     "sponsors": {
-      "thankYou": "Thank you to our supporting Partners:"
+      "become": "Become a Partner",
+      "previous": "Previous funding partners:"
     },
     "team": {
       "title": "Meet Our Team",
@@ -697,7 +698,7 @@
             },
             {
               "question": "Wie viele Leute nehmen normalerweise teil?",
-              "answer": "In der Vergangenheit hatten wir etwa 100 Teilnehmende. Wir können nicht garantieren, dass das so bleibt, aber wir erwarten eine ähnliche Anzahl in 2026."
+              "answer": "In der Vergangenheit hatten wir etwa 100 Teilnehmende. Wir können nicht garantieren, dass das so bleibt, aber wir erwarten eine ähnliche Anzahl in 2027."
             }
           ]
         },
@@ -904,7 +905,7 @@
             },
             {
               "question": "Kann ich mich vor dem Event mit anderen verbinden?",
-              "answer": "Ja. Nach dem Ticketkauf wirst du eingeladen, der 2026 Guest Only WhatsApp-Gruppe beizutreten. Wenn du kein WhatsApp nutzt, aber dich trotzdem mit anderen verbinden möchtest, schreib uns einfach eine E-Mail."
+              "answer": "Ja. Nach dem Ticketkauf wirst du eingeladen, der 2027 Guest Only WhatsApp-Gruppe beizutreten. Wenn du kein WhatsApp nutzt, aber dich trotzdem mit anderen verbinden möchtest, schreib uns einfach eine E-Mail."
             }
           ]
         }
@@ -1103,7 +1104,8 @@
       }
     },
     "sponsors": {
-      "thankYou": "Wir danken unseren Förderpartnern:"
+      "become": "Partner werden",
+      "previous": "Bisherige Förderpartner:"
     },
     "team": {
       "title": "Unser Team",
