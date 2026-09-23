@@ -502,7 +502,8 @@
       }
     },
     "sponsors": {
-      "thankYou": "Thank you to our supporting Partners:"
+      "thankYou": "Thank you to our supporting Partners:",
+      "previous": "Previous funding partners:"
     },
     "team": {
       "title": "Meet Our Team",
@@ -1103,7 +1104,8 @@
       }
     },
     "sponsors": {
-      "thankYou": "Wir danken unseren Förderpartnern:"
+      "thankYou": "Wir danken unseren Förderpartnern:",
+      "previous": "Bisherige Förderpartner:"
     },
     "team": {
       "title": "Unser Team",
