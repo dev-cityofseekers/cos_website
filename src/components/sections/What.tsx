@@ -1,10 +1,28 @@
 import { useTranslation } from "react-i18next";
-import { SOCIAL, LINKS } from "../../config/constants";
+import { SOCIAL, LINKS, FESTIVAL, LOCATION } from "../../config/constants";
 
 const What = () => {
   const { t } = useTranslation();
 
-  const calendarUrl = "/cos2026.ics";
+  // ponytail: ICS built from FESTIVAL so nobody has to ship a new .ics file every year
+  const ics = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    `PRODID:-//City of Seekers//COS ${FESTIVAL.YEAR}//EN`,
+    "CALSCALE:GREGORIAN",
+    "METHOD:PUBLISH",
+    "BEGIN:VEVENT",
+    `DTSTART:${FESTIVAL.START_DATE.replace(/-/g, "")}T120000`,
+    `DTEND:${FESTIVAL.END_DATE.replace(/-/g, "")}T140000`,
+    `SUMMARY:City of Seekers ${FESTIVAL.YEAR}`,
+    "DESCRIPTION:Come as a stranger, leave as a friend! 🏕️\\n\\nFour days of connection, workshops, music, and camping.\\n\\nhttps://cityofseekers.eu",
+    `LOCATION:Alpha One Campground, ${LOCATION.FULL_ADDRESS}`,
+    "URL:https://cityofseekers.eu",
+    "STATUS:CONFIRMED",
+    "END:VEVENT",
+    "END:VCALENDAR",
+  ].join("\r\n");
+  const calendarUrl = `data:text/calendar;charset=utf-8,${encodeURIComponent(ics)}`;
 
   const features = [
     {
@@ -172,7 +190,7 @@ const What = () => {
 
             <a
               href={calendarUrl}
-              download="CityOfSeekers2026.ics"
+              download={`CityOfSeekers${FESTIVAL.YEAR}.ics`}
               className="rounded-xl border border-white/15 py-5 px-4 flex flex-col items-center gap-2 transition-colors duration-300 hover:border-white/40 hover:bg-white/5"
             >
               <span className="text-xl sm:text-2xl">🗓️</span>
