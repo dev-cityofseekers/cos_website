@@ -58,8 +58,13 @@
           "emoji": "🌱",
           "title": "Growth Mindset",
           "description": "Learn from and find others who share your passions"
-        }
-      },
+         } 
+        },
+      "schedule": {
+  "title": "A Glimpse into the Schedule",
+  "description": "To give you a feel for how our days flow together, here is an example schedule from last year.",
+  "imageAlt": "Example festival schedule from last year"
+},
       "cta": {
         "title": "What are you waiting for?!",
         "ticket": "Buy your ticket here!",
@@ -661,6 +666,12 @@
           "title": "Growth Mindset",
           "description": "Lerne von anderen und finde Menschen, die deine Interessen teilen"
         }
+        },
+        "schedule": {
+  "title": "Einblick in den Ablauf",
+  "description": "Damit du ein Gefühl dafür bekommst, wie sich unsere gemeinsamen Tage füllen: Hier ist ein beispielhafter Zeitplan aus dem letzten Jahr.",
+  "imageAlt": "Beispielhafter Festival-Zeitplan aus dem letzten Jahr"
+
       },
       "cta": {
         "title": "Worauf wartest du noch?!",

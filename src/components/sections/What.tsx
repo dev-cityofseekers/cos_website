@@ -144,6 +144,29 @@ const What = () => {
         </div>
       </div>
 
+            {/* Separater Zeitplan-Bereich */}
+      <div className="max-w-4xl mx-auto px-6 pb-20">
+        <div className="text-center mb-10">
+          <h3 className="font-omnes text-3xl sm:text-4xl text-cos-off-black mb-4">
+            {t("what.schedule.title")}
+          </h3>
+          <p className="text-base sm:text-lg text-cos-off-black/80 max-w-2xl mx-auto leading-relaxed">
+            {t("what.schedule.description")}
+          </p>
+        </div>
+
+        {/* Clean Image Container */}
+        <div className="rounded-2xl overflow-hidden shadow-lg">
+          <img
+            src="/images/schedule_last_year.webp"
+            alt={t("what.schedule.imageAlt")}
+            className="w-full h-auto block"
+            loading="lazy"
+          />
+        </div>
+      </div>
+
+
       {/* CTA */}
       <div className="bg-cos-off-black rounded-t-3xl">
         <div className="max-w-4xl mx-auto px-6 py-14 sm:py-20 text-center">
