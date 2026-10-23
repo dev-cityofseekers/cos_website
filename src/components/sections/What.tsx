@@ -126,7 +126,7 @@ const What = () => {
         </div>
       </div>
 
-      {/* Separater Zeitplan-Bereich */}
+            {/* Separater Zeitplan-Bereich */}
       <div className="max-w-4xl mx-auto px-6 pb-20">
         <div className="text-center mb-10">
           <h3 className="font-omnes text-3xl sm:text-4xl text-cos-off-black mb-4">
@@ -137,15 +137,17 @@ const What = () => {
           </p>
         </div>
 
-        <div className="rounded-2xl overflow-hidden shadow-lg border border-cos-off-black/10 bg-white/40 p-3 sm:p-4">
+        {/* Clean Image Container */}
+        <div className="rounded-2xl overflow-hidden shadow-lg">
           <img
             src="/images/schedule_last_year.webp"
             alt={t("what.schedule.imageAlt")}
-            className="w-full h-auto rounded-xl object-contain"
+            className="w-full h-auto block"
             loading="lazy"
           />
         </div>
       </div>
+
 
       {/* CTA */}
       <div className="bg-cos-off-black rounded-t-3xl">
