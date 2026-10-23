@@ -9,6 +9,13 @@ export const teamMembers: TeamMember[] = [
     image: "/images/team/adel.jpg",
   },
   {
+    name: "Anika",
+    role: "Marketing & social media",
+    description:
+      "Hi! I'm Anika: a childcare professional and hobby cutter and content creator. 2025 was my first year of COS and now I joined the media team to help capture the heart and vision of this amazing festival. See you in june!",
+    image: "/images/team/anika.webp",
+  },
+  {
     name: "Anja",
     role: "First Aid & Comfort person",
     description:
@@ -17,7 +24,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: "Autumn",
-    role: "Marketing",
+    role: "Design & Marketing",
     description:
       "I love creating whether through photo, video, music, or art, and building spaces where people can connect, with coffee brewing, something baking, and people gathered. There's nothing I enjoy more than seeing a space come alive with conversation, creativity, and a little sweetness.",
     image: "/images/team/autumn.jpg",
