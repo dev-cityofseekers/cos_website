@@ -34,19 +34,26 @@ function Team() {
 
         {/* Team Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {teamMembers.map((member, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl shadow-lg"
-            >
-              <img src={member.image} alt={member.name} className="w-full h-56 object-cover" />
-              <div className="p-5">
-                <h3 className="text-xl font-semibold font-omnes">{member.name}</h3>
-                <p className="text-gray-600 text-sm font-medium">{member.role}</p>
-                <p className="text-gray-700 text-sm mt-2 leading-relaxed">{member.description}</p>
+          {teamMembers.map((member) => {
+            const name = member.name ?? t(`team.members.${member.key}.name`);
+            return (
+              <div
+                key={member.key}
+                className="bg-white rounded-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl shadow-lg"
+              >
+                <img src={member.image} alt={name} className="w-full h-56 object-cover" />
+                <div className="p-5">
+                  <h3 className="text-xl font-semibold font-omnes">{name}</h3>
+                  <p className="text-gray-600 text-sm font-medium">
+                    {t(`team.members.${member.key}.role`)}
+                  </p>
+                  <p className="text-gray-700 text-sm mt-2 leading-relaxed">
+                    {t(`team.members.${member.key}.description`)}
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
 

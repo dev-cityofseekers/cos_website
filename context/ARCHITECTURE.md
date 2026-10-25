@@ -33,7 +33,7 @@ src/
 ├── config/
 │   └── constants.ts      # Centralized configuration
 ├── data/                 # Static data files
-│   ├── teamMembers.ts    # Team member profiles
+│   ├── teamMembers.ts    # Team member profiles (key, name, image; role/bio in translations.json → team.members.<key>)
 │   └── wallpaperImages.ts
 ├── hooks/                # Custom React hooks
 │   └── useActiveSection.ts

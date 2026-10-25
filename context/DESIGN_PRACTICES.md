@@ -84,6 +84,10 @@ className="container mx-auto p-6 pt-28 max-w-5xl"
 2. Add under both `en` and `de` sections
 3. Use nested objects for organization
 
+### Writing Style
+- Home page texts (What, FAQ, Contact) use plain language / Einfache Sprache: short sentences, everyday words, active voice, one idea per sentence. Keep new texts in this style in both EN and DE.
+- German team bios use gender-neutral wording unless the person states their gender.
+
 ### Using Translations
 ```tsx
 const { t } = useTranslation();

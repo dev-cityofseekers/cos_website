@@ -1,95 +1,70 @@
 import { TeamMember } from "../types";
 
+// Roles and bios live in translations.json under team.members.<key> (EN/DE)
+
 export const teamMembers: TeamMember[] = [
   {
+    key: "adalbert",
     name: "Adalbert",
-    role: "Tech & Infrastructure",
-    description:
-      "Tech guy and crazy person that you probably will find running around, solving problems. Let's connect, deeptalk, party and create amazing memories :)",
     image: "/images/team/adel.jpg",
   },
   {
+    key: "anika",
     name: "Anika",
-    role: "Marketing & social media",
-    description:
-      "Hi! I'm Anika: a childcare professional and hobby cutter and content creator. 2025 was my first year of COS and now I joined the media team to help capture the heart and vision of this amazing festival. See you in june!",
     image: "/images/team/anika.webp",
   },
   {
+    key: "anja",
     name: "Anja",
-    role: "First Aid & Comfort person",
-    description:
-      "I'm a dog mom who loves to travel with my furry friend. Ready to implement your crazy ideas, or have a deep talk at the campfire. Super excited to meet all of you at CoS 27.",
     image: "/images/team/Anja.jpg",
   },
   {
+    key: "autumn",
     name: "Autumn",
-    role: "Design & Marketing",
-    description:
-      "I love creating whether through photo, video, music, or art, and building spaces where people can connect, with coffee brewing, something baking, and people gathered. There's nothing I enjoy more than seeing a space come alive with conversation, creativity, and a little sweetness.",
     image: "/images/team/autumn.jpg",
   },
   {
+    key: "didi",
     name: "Didi",
-    role: "Workshops & Team management",
-    description:
-      "Spiritual communication enthusiast with a lifelong soundtrack playing in her head. I believe life is all about the people we share it with — so I love bringing the right ones together. Let's find some four-leaf clovers and share some strawberries. See you soon!",
     image: "/images/team/didi.png",
   },
   {
+    key: "ela",
     name: "Ela",
-    role: "Workshops & program",
-    description:
-      "Loves to be outside, especially in the mountains, hiking in summer and skiing in winter. Favorite quote: 'If I could choose where I was born I would choose a place that knows no fear But since this change is mine to live it would be nowhere else but here' - Bukahara",
     image: "/images/team/ela.jpg",
   },
   {
+    key: "freddyi",
     name: "Freddyi",
-    role: "Finance & Legal",
-    description:
-      "Hey, I'm Freddyi, nurse in real life but mostly travel enthusiast. I'm happy to connect with people and plan crazy adventures (or do it spontaneously). I'm always interested in learning new skills and expand my horizon. And apparently I'm always open for fun tattoos. See you soon at CoS!",
     image: "/images/team/freddyi.jpg",
   },
   {
+    key: "johar",
     name: "Johar",
-    role: "activation & community management",
-    description:
-      "Curious, creative connector. Musician/teacher, NLP coach & sci-fi lover. When not in hyperactivity or hyperfocus, I can be found meditating, snoring, eating everything I find, or checking in on everyone. Let's hug and transform together this year!",
     image: "/images/team/johar.jpg",
   },
   {
+    key: "luke",
     name: "Luke/Liiav",
-    role: "Vibe control & Website Developer",
-    description:
-      "Hi, I'm Luke, Spiritual seeker, Musician, Visionary, UX Designer/Frontend Dev, Event Organizer from Vienna. In COS 1.0 I felt a calling to unite and nourish a community that chooses love over fear, yeah baby. Im super excited for COS27.",
     image: "/images/team/luke.jpg",
   },
   {
+    key: "merlin",
     name: "Merlin",
-    role: "Marketing & social media",
-    description:
-      "Hello there, Merlin here! Usually in a good mood, really into philosophy and asking 'Why?' about everything. Also love writing songs, making videos and letting people know that I think this life thing is pretty great (Highs & Lows included). Can't wait to meet you!",
     image: "/images/team/merlin.webp",
   },
   {
+    key: "ness",
     name: "Ness",
-    role: "Financing & Fund Raising",
-    description:
-      "Hi, I’m Ness (they/them)! I came to COS24 as a complete stranger and was able to connect with some people so deeply that it truly changed the way I live and perceive life. It does sound scary at first, but I encourage you to give it a go and see where the magic of connection takes you :)",
     image: "/images/team/Ness.jpg",
   },
   {
+    key: "reinhard",
     name: "Reinhard",
-    role: "Tech assistantce & video ",
-    description:
-      "Student who goes crazy about cameras. Despite always being on the search for the best shot, as an extrovert, I love interacting with people. Might it be talking, enjoying the fierplace or hanging around in a cuddle puddle!",
     image: "/images/team/reini.webp",
   },
   {
-    name: "This could be you!",
-    role: "Your Role Here",
-    description:
-      "Have skills that could enhance the COS experience? Our event wouldn't be be the same without our incredible guests - you're part of what makes it special! We're always happy to welcome passionate helpers or workshop hosts who want to contribute. If you'd like to get involved, reach out and let's create something amazing together!",
+    key: "joinUs",
     image: "/images/team/group.JPG",
   },
 ];
