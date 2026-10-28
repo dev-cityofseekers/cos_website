@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 import { teamMembers } from "../../data/teamMembers";
 
 function Team() {
+  const { t } = useTranslation();
   return (
     <div className="md:w-full lg:w-9/12 mx-auto pb-10">
       <div className="text-center mb-8 mx-8">
@@ -16,16 +18,24 @@ function Team() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mx-8">
-        {teamMembers.map((member, index) => (
+        {teamMembers.map((member) => (
           <div
-            key={index}
+            key={member.key}
             className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
           >
-            <img src={member.image} alt={member.name} className="w-full h-56 object-cover" />
+            <img
+              src={member.image}
+              alt={member.name ?? t(`team.members.${member.key}.name`)}
+              className="w-full h-56 object-cover"
+            />
             <div className="p-4">
-              <h3 className="text-xl font-semibold">{member.name}</h3>
-              <p className="text-gray-600 text-sm">{member.role}</p>
-              <p className="text-gray-700 text-sm mt-2">{member.description}</p>
+              <h3 className="text-xl font-semibold">
+                {member.name ?? t(`team.members.${member.key}.name`)}
+              </h3>
+              <p className="text-gray-600 text-sm">{t(`team.members.${member.key}.role`)}</p>
+              <p className="text-gray-700 text-sm mt-2">
+                {t(`team.members.${member.key}.description`)}
+              </p>
             </div>
           </div>
         ))}

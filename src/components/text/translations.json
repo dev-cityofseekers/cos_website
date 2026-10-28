@@ -4,6 +4,10 @@
       "header": {
         "tickets": "Tickets",
         "waitlist": "Waitlist"
+      },
+      "easyLanguage": {
+        "short": "Easy",
+        "label": "Easy language"
       }
     },
     "welcome": {
@@ -58,13 +62,13 @@
           "emoji": "🌱",
           "title": "Growth Mindset",
           "description": "Learn from and find others who share your passions"
-         } 
-        },
+        }
+      },
       "schedule": {
-  "title": "A Glimpse into the Schedule",
-  "description": "To give you a feel for how our days flow together, here is an example schedule from last year.",
-  "imageAlt": "Example festival schedule from last year"
-},
+        "title": "A Glimpse into the Schedule",
+        "description": "To give you a feel for how our days flow together, here is an example schedule from last year.",
+        "imageAlt": "Example festival schedule from last year"
+      },
       "cta": {
         "title": "What are you waiting for?!",
         "ticket": "Buy your ticket here!",
@@ -512,7 +516,62 @@
     },
     "team": {
       "title": "Meet Our Team",
-      "subtitle": "We are a passionate group of individuals who came together to make this dream a reality."
+      "subtitle": "We are a passionate group of individuals who came together to make this dream a reality.",
+      "members": {
+        "adalbert": {
+          "role": "Tech & Infrastructure",
+          "description": "Tech guy and crazy person that you will probably find running around, solving problems. Let's connect, have deep talks, party and create amazing memories :)"
+        },
+        "anika": {
+          "role": "Marketing & Social Media",
+          "description": "Hi! I'm Anika: a childcare professional, hobby cutter and content creator. 2025 was my first year at COS, and now I've joined the media team to help capture the heart and vision of this amazing festival. See you in June!"
+        },
+        "anja": {
+          "role": "First Aid & Comfort Person",
+          "description": "I'm a dog mom who loves to travel with my furry friend. Ready to make your crazy ideas happen, or to have a deep talk at the campfire. Super excited to meet all of you at CoS 27."
+        },
+        "autumn": {
+          "role": "Design & Marketing",
+          "description": "I love creating, whether through photo, video, music or art, and building spaces where people can connect, with coffee brewing, something baking and people gathered. There's nothing I enjoy more than seeing a space come alive with conversation, creativity and a little sweetness."
+        },
+        "didi": {
+          "role": "Workshops & Team Management",
+          "description": "Spiritual communication enthusiast with a lifelong soundtrack playing in her head. I believe life is all about the people we share it with — so I love bringing the right ones together. Let's find some four-leaf clovers and share some strawberries. See you soon!"
+        },
+        "ela": {
+          "role": "Workshops & Program",
+          "description": "Loves to be outside, especially in the mountains, hiking in summer and skiing in winter. Favorite quote: 'If I could choose where I was born I would choose a place that knows no fear But since this change is mine to live it would be nowhere else but here' - Bukahara"
+        },
+        "freddyi": {
+          "role": "Finance & Legal",
+          "description": "Hey, I'm Freddyi, a nurse in real life but mostly a travel enthusiast. I'm happy to connect with people and plan crazy adventures (or do them spontaneously). I'm always interested in learning new skills and expanding my horizons. And apparently I'm always open to fun tattoos. See you soon at CoS!"
+        },
+        "johar": {
+          "role": "Activation & Community Management",
+          "description": "Curious, creative connector. Musician/teacher, NLP coach & sci-fi lover. When not in hyperactivity or hyperfocus, I can be found meditating, snoring, eating everything I find, or checking in on everyone. Let's hug and transform together this year!"
+        },
+        "luke": {
+          "role": "Vibe Control & Website Developer",
+          "description": "Hi, I'm Luke: spiritual seeker, musician, visionary, UX designer/frontend dev and event organizer from Vienna. At COS 1.0 I felt a calling to unite and nourish a community that chooses love over fear, yeah baby. I'm super excited for COS27."
+        },
+        "merlin": {
+          "role": "Marketing & Social Media",
+          "description": "Hello there, Merlin here! Usually in a good mood, really into philosophy and asking 'Why?' about everything. I also love writing songs, making videos and letting people know that I think this life thing is pretty great (highs & lows included). Can't wait to meet you!"
+        },
+        "ness": {
+          "role": "Financing & Fundraising",
+          "description": "Hi, I'm Ness (they/them)! I came to COS24 as a complete stranger and was able to connect with some people so deeply that it truly changed the way I live and see life. It does sound scary at first, but I encourage you to give it a go and see where the magic of connection takes you :)"
+        },
+        "reinhard": {
+          "role": "Tech Assistance & Video",
+          "description": "Student who goes crazy about cameras. Even though I'm always looking for the best shot, as an extrovert I love interacting with people – whether that's talking, enjoying the fireplace or hanging out in a cuddle puddle!"
+        },
+        "joinUs": {
+          "name": "This could be you!",
+          "role": "Your Role Here",
+          "description": "Do you have skills that could make the COS experience even better? Our event wouldn't be the same without our incredible guests – you're part of what makes it special! We're always happy to welcome passionate helpers or workshop hosts who want to contribute. If you'd like to get involved, reach out and let's create something amazing together!"
+        }
+      }
     },
     "where": {
       "title": "Location",
@@ -611,6 +670,10 @@
       "header": {
         "tickets": "Tickets",
         "waitlist": "Warteliste"
+      },
+      "easyLanguage": {
+        "short": "Einfach",
+        "label": "Einfache Sprache"
       }
     },
     "welcome": {
@@ -666,12 +729,11 @@
           "title": "Growth Mindset",
           "description": "Lerne von anderen und finde Menschen, die deine Interessen teilen"
         }
-        },
-        "schedule": {
-  "title": "Einblick in den Ablauf",
-  "description": "Damit du ein Gefühl dafür bekommst, wie sich unsere gemeinsamen Tage füllen: Hier ist ein beispielhafter Zeitplan aus dem letzten Jahr.",
-  "imageAlt": "Beispielhafter Festival-Zeitplan aus dem letzten Jahr"
-
+      },
+      "schedule": {
+        "title": "Einblick in den Ablauf",
+        "description": "Damit du ein Gefühl dafür bekommst, wie sich unsere gemeinsamen Tage füllen: Hier ist ein beispielhafter Zeitplan aus dem letzten Jahr.",
+        "imageAlt": "Beispielhafter Festival-Zeitplan aus dem letzten Jahr"
       },
       "cta": {
         "title": "Worauf wartest du noch?!",
@@ -1120,7 +1182,62 @@
     },
     "team": {
       "title": "Unser Team",
-      "subtitle": "Wir sind ein bunt gemischter Haufen, der sich zusammengetan hat, um diesen Traum wahr werden zu lassen."
+      "subtitle": "Wir sind ein bunt gemischter Haufen, der sich zusammengetan hat, um diesen Traum wahr werden zu lassen.",
+      "members": {
+        "adalbert": {
+          "role": "Technik & Infrastruktur",
+          "description": "Technik-Typ und verrückter Kerl, den du wahrscheinlich herumrennen und Probleme lösen siehst. Lass uns connecten, tiefe Gespräche führen, feiern und unvergessliche Erinnerungen schaffen :)"
+        },
+        "anika": {
+          "role": "Marketing & Social Media",
+          "description": "Hi! Ich bin Anika: Ich arbeite in der Kinderbetreuung, schneide in meiner Freizeit Videos und mache Content. 2025 war mein erstes Jahr bei COS, und jetzt bin ich im Media-Team, um das Herz und die Vision dieses wunderbaren Festivals einzufangen. Wir sehen uns im Juni!"
+        },
+        "anja": {
+          "role": "Erste Hilfe & Wohlfühl-Person",
+          "description": "Ich bin eine Hundemama und reise am liebsten mit meinem pelzigen Freund. Ich bin bereit, deine verrückten Ideen umzusetzen oder mit dir am Lagerfeuer tiefe Gespräche zu führen. Ich freue mich riesig, euch alle bei CoS 27 kennenzulernen."
+        },
+        "autumn": {
+          "role": "Design & Marketing",
+          "description": "Ich liebe es, kreativ zu sein – ob mit Foto, Video, Musik oder Kunst – und Orte zu schaffen, an denen Menschen zusammenkommen: mit frischem Kaffee, etwas im Ofen und lieben Leuten um mich herum. Nichts macht mich glücklicher, als zu sehen, wie ein Ort durch Gespräche, Kreativität und ein bisschen Süße lebendig wird."
+        },
+        "didi": {
+          "role": "Workshops & Teammanagement",
+          "description": "Begeistert von spiritueller Kommunikation, mit einem lebenslangen Soundtrack im Kopf. Ich glaube, im Leben geht es vor allem um die Menschen, mit denen wir es teilen – deshalb bringe ich so gerne die richtigen zusammen. Lass uns ein paar vierblättrige Kleeblätter suchen und Erdbeeren teilen. Bis bald!"
+        },
+        "ela": {
+          "role": "Workshops & Programm",
+          "description": "Ist am liebsten draußen, vor allem in den Bergen – im Sommer zum Wandern, im Winter zum Skifahren. Lieblingszitat: 'If I could choose where I was born I would choose a place that knows no fear But since this change is mine to live it would be nowhere else but here' - Bukahara"
+        },
+        "freddyi": {
+          "role": "Finanzen & Recht",
+          "description": "Hey, ich bin Freddyi – im echten Leben in der Pflege tätig, aber vor allem reisebegeistert. Ich lerne gerne neue Leute kennen und plane verrückte Abenteuer (oder mache sie spontan). Ich will immer neue Dinge lernen und meinen Horizont erweitern. Und anscheinend bin ich immer offen für lustige Tattoos. Bis bald bei CoS!"
+        },
+        "johar": {
+          "role": "Aktivierung & Community-Management",
+          "description": "Neugierig, kreativ und verbindend. Musik & Unterrichten, NLP-Coaching & Sci-Fi-Liebe. Wenn ich nicht gerade hyperaktiv oder im Hyperfokus bin, findest du mich beim Meditieren, Schnarchen, beim Essen von allem, was ich finde, oder dabei, wie ich bei allen nachfrage, wie es ihnen geht. Lass uns dieses Jahr umarmen und gemeinsam wachsen!"
+        },
+        "luke": {
+          "role": "Vibe Control & Website-Entwicklung",
+          "description": "Hi, ich bin Luke: spirituell suchend, Musik, Visionen, UX-Design/Frontend-Entwicklung und Event-Organisation – aus Wien. Bei COS 1.0 habe ich den Ruf gespürt, eine Community zu vereinen und zu nähren, die Liebe statt Angst wählt, yeah baby. Ich freue mich riesig auf COS27."
+        },
+        "merlin": {
+          "role": "Marketing & Social Media",
+          "description": "Hallo, hier ist Merlin! Meistens gut gelaunt, begeistert von Philosophie und frage bei allem gerne „Warum?“. Ich schreibe außerdem gerne Songs, mache Videos und erzähle Leuten, dass ich dieses ganze Leben ziemlich großartig finde (Höhen & Tiefen inklusive). Ich kann es kaum erwarten, dich kennenzulernen!"
+        },
+        "ness": {
+          "role": "Finanzierung & Fundraising",
+          "description": "Hi, ich bin Ness (they/them)! Ich kam als völlig fremde Person zu COS24 und habe mich mit einigen Menschen so tief verbunden, dass es wirklich verändert hat, wie ich lebe und das Leben sehe. Am Anfang klingt das vielleicht beängstigend, aber ich ermutige dich, es einfach zu versuchen und zu schauen, wohin dich die Magie der Verbindung führt :)"
+        },
+        "reinhard": {
+          "role": "Technik-Assistenz & Video",
+          "description": "Ich studiere und fahre total auf Kameras ab. Auch wenn ich immer auf der Suche nach dem besten Shot bin, liebe ich es als extrovertierter Mensch, mit Leuten in Kontakt zu sein – ob beim Quatschen, am Lagerfeuer oder beim Abhängen in einer Kuschelecke!"
+        },
+        "joinUs": {
+          "name": "Das könntest du sein!",
+          "role": "Deine Rolle",
+          "description": "Hast du Fähigkeiten, die das COS-Erlebnis noch besser machen könnten? Ohne unsere großartigen Gäste wäre unser Event nicht dasselbe – du bist ein Teil von dem, was es so besonders macht! Wir freuen uns immer über engagierte Helfer:innen oder Workshop-Leitende, die etwas beitragen möchten. Wenn du mitmachen willst, melde dich und lass uns gemeinsam etwas Großartiges schaffen!"
+        }
+      }
     },
     "where": {
       "title": "Veranstaltungsort",

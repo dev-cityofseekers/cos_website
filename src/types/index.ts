@@ -4,10 +4,11 @@
 
 // Team Member types
 export interface TeamMember {
-  name: string;
-  role: string;
+  /** Key under team.members in translations.json (holds role, description, optional name) */
+  key: string;
+  /** Display name; falls back to the translated team.members.<key>.name */
+  name?: string;
   image: string;
-  description?: string;
 }
 
 // Gallery/Wallpaper types

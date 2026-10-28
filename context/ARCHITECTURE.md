@@ -33,14 +33,15 @@ src/
 ├── config/
 │   └── constants.ts      # Centralized configuration
 ├── data/                 # Static data files
-│   ├── teamMembers.ts    # Team member profiles
+│   ├── teamMembers.ts    # Team member profiles (key, name, image; role/bio in translations.json → team.members.<key>)
 │   └── wallpaperImages.ts
 ├── hooks/                # Custom React hooks
 │   └── useActiveSection.ts
 ├── types/                # TypeScript interfaces
 │   └── index.ts
 ├── components/text/
-│   └── translations.json # i18n translations (EN/DE)
+│   ├── translations.json      # i18n translations (EN/DE)
+│   └── translations.easy.json # Easy language overrides (EN/DE)
 ├── font/                 # Custom fonts (Omnes)
 ├── styles/               # CSS modules and animations
 ├── i18n.ts               # i18next configuration
@@ -97,6 +98,12 @@ Each major section is wrapped in an ErrorBoundary for isolation.
 - All user-facing text uses `useTranslation()` hook
 - Translation keys in `translations.json` under `en` and `de`
 - Language auto-detected from browser, stored in localStorage
+- **Easy language mode:** language variants `en-x-easy` / `de-x-easy` (BCP 47 private use).
+  Simplified texts live in `components/text/translations.easy.json` and only contain the
+  overridden keys; missing keys fall back to `en` / `de` (see `fallbackLng` in `src/i18n.ts`).
+  Toggled via the "Easy/Einfach" button in `LanguageSwitcher`. Helpers `getBaseLanguage`,
+  `isEasyLanguage`, `toLanguage` in `src/i18n.ts`; use them instead of comparing `i18n.language` directly.
+  Note: FAQ categories are read with `returnObjects`, so an easy FAQ category must be complete.
 
 ## State Management
 - Local component state with useState/useEffect
