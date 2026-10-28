@@ -85,8 +85,22 @@ className="container mx-auto p-6 pt-28 max-w-5xl"
 3. Use nested objects for organization
 
 ### Writing Style
-- Home page texts (What, FAQ, Contact) use plain language / Einfache Sprache: short sentences, everyday words, active voice, one idea per sentence. Keep new texts in this style in both EN and DE.
 - German team bios use gender-neutral wording unless the person states their gender.
+
+### Easy Language (Einfache Sprache)
+Texts in `translations.easy.json` follow plain-language rules based on DIN 8581-1 /
+ISO 24495-1, plus core rules from Leichte Sprache (Netzwerk Leichte Sprache, Inclusion Europe
+"Information for all"). Target: CEFR A2–B1. This is not certified Leichte Sprache (no test group review).
+- Max. ~15 words per sentence, one statement per sentence
+- Everyday words; explain unavoidable terms once (Workshop, Silent Disco, Open Stage, LGBTQIA+ …)
+- Same word for the same thing (e.g. always "Festival", "Campingplatz" / "campsite")
+- Active voice, present tense, address the reader directly (du / you)
+- No idioms, metaphors or irony; avoid negations where possible
+- Numbers as digits ("4 Tage", "14 Uhr"); no abbreviations (z. B., etc.)
+- Lists (`\n• `) instead of long enumerations; most important info first
+- German: no Konjunktiv, avoid Genitiv, hyphenate long compounds (Gemeinschafts-Küche)
+- Keep the facts of the standard text; do not add or drop information
+When changing a standard text on the home page, update its easy version too.
 
 ### Using Translations
 ```tsx

@@ -1,0 +1,606 @@
+{
+  "en": {
+    "what": {
+      "title": "City of Seekers – easy to understand",
+      "intro": "City of Seekers is a festival. People meet there who do not know each other yet. We spend a long weekend together in nature. We camp, talk, dance and learn new things. Many people come back every year. They are friends now.",
+      "card1": {
+        "title": "4 days with lots to do",
+        "description": "Guests offer workshops. A workshop is a small course. For example: breathing exercises, crafts, dance or sport. You can also just rest. Or talk to people. Or join other people's ideas. In the evening, we sit at the campfire. Or we dance at the silent disco. At a silent disco, everyone wears headphones. You decide how much you join in."
+      },
+      "card2": {
+        "title": "Come as you are",
+        "description": "Our team is always there for you. All people are welcome here. It does not matter how old you are. It does not matter what your gender is. It does not matter where you come from. It does not matter how your brain works. People with disabilities are welcome too. Our guests come from all over Europe. So we speak English together. Do you need help? Then please write to us. We will help you."
+      },
+      "card3": {
+        "title": "You have never camped? No problem!",
+        "description": "Other guests can help you. For example: Someone picks you up from the train station. Someone lends you a tent. Someone helps you plan your food. You do not need to know a lot about camping. Before the festival, we put you in contact with other guests. Maybe you can travel there together."
+      },
+      "schedule": {
+        "title": "What a festival day looks like",
+        "description": "This is the plan from last year. It shows what happens at the festival and when.",
+        "imageAlt": "Festival plan from last year"
+      },
+      "cta": {
+        "title": "Do you want to come?",
+        "ticket": "Buy a ticket",
+        "chat": "Not sure yet? Join the group chat.",
+        "instagram": "Follow us on Instagram",
+        "calendar": "Save the date in your calendar"
+      }
+    },
+    "faq": {
+      "title": "Questions and answers",
+      "categories": {
+        "general": {
+          "title": "About the festival",
+          "questions": [
+            {
+              "question": "What is City of Seekers?",
+              "answer": "City of Seekers is a camping festival. It lasts 4 days. We do not want to make money with it. The goal: People get to know each other.\n\nDuring the day, there are free workshops. A workshop is a small course about one topic.\n\nIn the evening, there is:\n• a campfire\n• a silent disco: Everyone dances with headphones.\n• an open stage: Guests show what they can do. For example, music.\n\nThese places are at the festival:\n• Big party tent: for dancing, music and big workshops\n• Small tent without shoes: for sitting, resting and talking\n• Music tent: for making music together\n• Campfires: for sitting together\n• Shared kitchen: for cooking and eating together"
+            },
+            {
+              "question": "Who can come?",
+              "answer": "Everyone is welcome.\n\nThese things are not allowed:\n• treating people badly because of their skin colour, gender, sexuality, religion, disability or background\n• harassing people\n• violence and aggressive behaviour\n• drugs\n• not respecting nature, the campsite or other people\n\nWe want a safe and friendly place for everyone. Here, everyone can meet people, learn and have fun."
+            },
+            {
+              "question": "How long is the festival?",
+              "answer": "You can arrive on Thursday from 2 pm. The festival ends on Sunday in the afternoon."
+            },
+            {
+              "question": "Where is the festival?",
+              "answer": "The festival is at the Alpha One campsite. The campsite is in Halvestorf. Halvestorf is part of the town of Hameln in Germany.\n\nThe campsite is big. It is made for groups. There are:\n• big meadows\n• toilets\n• warm showers\n• drinking water\n• electricity\n\nAn outdoor swimming pool is close by."
+            },
+            {
+              "question": "Do I need to be part of a group to come?",
+              "answer": "No. Everyone can come. Just come and see if you like it. You are welcome to stay with us."
+            },
+            {
+              "question": "How many people come?",
+              "answer": "In the past, about 100 people came. We think about 100 people will come in 2027 too. But we cannot promise that."
+            }
+          ]
+        },
+        "tickets": {
+          "title": "Tickets and sign-up",
+          "questions": [
+            {
+              "question": "How do I buy a ticket?",
+              "answer": "At the top of this page, there is a button. It says: Tickets. Click on it. Then you get to our online shop. There you can buy a ticket. You can pay online in different ways."
+            },
+            {
+              "question": "Can I come without a ticket?",
+              "answer": "Yes. Bring your camping things and come. You can buy the ticket at the festival. You pay there."
+            },
+            {
+              "question": "Are there cheaper tickets if I buy early?",
+              "answer": "Yes. There are a few cheaper tickets. They are called early bird tickets. When they are gone, you pay the normal price."
+            },
+            {
+              "question": "Can I get my money back?",
+              "answer": "No. You do not get money back for a paid ticket. You cannot come? Then look for another person for your ticket. You cannot find anyone? Then write to us. Maybe there is a waiting list. Then we may be able to help."
+            },
+            {
+              "question": "Can I give my ticket to another person?",
+              "answer": "Yes. Please tell us first. Send us the name and details of the new person. We need this to check the ticket."
+            },
+            {
+              "question": "Do I need to sign up for workshops before the festival?",
+              "answer": "No. You can sign up at the festival. Do you want to give a workshop yourself? Then write to us."
+            },
+            {
+              "question": "What is included in the ticket?",
+              "answer": "The ticket includes:\n• entry to the festival\n• using everything at the campsite\n• all workshops\n• the evening program\n\nThe ticket does not include:\n• food\n• drinks\n• travel\n\nThe ticket price only pays for our costs. We do not make money with it."
+            },
+            {
+              "question": "Can I buy festival clothes?",
+              "answer": "Yes. We sell clothes with the festival logo. This is called merchandise. You can buy it together with your ticket. The clothes are made of organic cotton. They are made in a fair way. They are printed in Germany.\n\nYou can order until about 1 month before the festival. Then we have the clothes made. This only happens 1 time. You cannot order later."
+            }
+          ]
+        },
+        "camping": {
+          "title": "Camping",
+          "questions": [
+            {
+              "question": "Do I have to camp?",
+              "answer": "No. You can also sleep in a place nearby. But we recommend: Camp at the festival. Then it is easier to meet people. You have no tent or camping things? We can help you. We put you in contact with someone who shares."
+            },
+            {
+              "question": "Is there electricity and water?",
+              "answer": "There are:\n• warm showers. Each shower is a small room for 1 person.\n• toilets with flush\n• a shared kitchen with electricity\n• a place to charge your phone\n\nThere is no electricity for your tent or camper.\n\n⚠️ The showers and toilets are a bit higher than the ground. That is a problem for wheelchairs and similar. Please tell us before the festival. Then we look for a ramp or another solution."
+            },
+            {
+              "question": "Can I sleep in a car or van?",
+              "answer": "Yes. There is a lot of space for cars and campers."
+            },
+            {
+              "question": "Is the campsite accessible?",
+              "answer": "Only partly. Some places at the campsite are hard to reach. Do you need support? Please write to us before the festival. We will try to help you."
+            },
+            {
+              "question": "Is it quiet at night?",
+              "answer": "Some people like to stay up late. Other people like to sleep early. We want everyone to feel good. So loud things only happen in some places. Other places are quiet all night."
+            },
+            {
+              "question": "Are there lockers?",
+              "answer": "No. There are no lockers for your valuable things."
+            }
+          ]
+        },
+        "food": {
+          "title": "Food and drinks",
+          "questions": [
+            {
+              "question": "Can I bring my own food?",
+              "answer": "Yes. Please bring your own food. On Thursday evening, there is a barbecue. You can grill your food there."
+            },
+            {
+              "question": "Can I buy drinks?",
+              "answer": "Yes. You can buy cold drinks at the campsite. The prices are fair."
+            },
+            {
+              "question": "Can I buy food at the festival?",
+              "answer": "On Saturday evening, we all eat dinner together. You can order and pay for this dinner at the festival. There are no other meals."
+            },
+            {
+              "question": "Is there drinking water?",
+              "answer": "Yes. There is free drinking water. You can fill your water bottle."
+            }
+          ]
+        },
+        "workshops": {
+          "title": "Workshops and program",
+          "questions": [
+            {
+              "question": "What workshops are there?",
+              "answer": "Guests and the team give the workshops. A workshop is a small course about one topic.\n\nIn the past years, there were workshops about:\n• soldering\n• drawing faces\n• breathing exercises\n• dealing with anger\n• salsa and hip hop\n• yoga\n• poker\n• shouting\n• handstands\n• theatre without a script\n• parkour: running and jumping over obstacles\n• loving yourself\n\nThere are new workshops every year. You get the plan at the festival."
+            },
+            {
+              "question": "Do I need to know something already?",
+              "answer": "No. All workshops are for beginners."
+            },
+            {
+              "question": "What language are the workshops in?",
+              "answer": "Workshops can be in English."
+            },
+            {
+              "question": "Can I join more than 1 workshop?",
+              "answer": "Yes. You can join as many workshops as you like. A tip: You do not have to do everything. Resting is okay too."
+            },
+            {
+              "question": "Do workshops cost extra?",
+              "answer": "No. All workshops are included in the ticket."
+            },
+            {
+              "question": "Is there a plan for the festival?",
+              "answer": "Yes. You get the plan shortly before the festival. Our guests help to make the plan. So it is only ready at the end.\n\nThese things happen every year:\n• Thursday evening: karaoke\n• Friday: speed-friending. You meet many people for a short time.\n• Saturday evening: open stage and dinner together\n• Sunday morning: breakfast together and a goodbye circle"
+            },
+            {
+              "question": "Can I give a workshop myself?",
+              "answer": "Yes, please! You can write it in the sign-up form. Not sure yet? You can write to us at any time. Then we check if it fits into the plan."
+            },
+            {
+              "question": "What is an open stage?",
+              "answer": "On one evening, there is an open stage. Here, you can show something to everyone. For example:\n• music\n• poems\n• comedy\n• a story\n• a show\n\nYou can bring your instrument or other things you need."
+            }
+          ]
+        },
+        "community": {
+          "title": "People and atmosphere",
+          "questions": [
+            {
+              "question": "Can I come alone?",
+              "answer": "Yes, of course. You can come alone. We are happy to welcome you."
+            },
+            {
+              "question": "Are there rules?",
+              "answer": "Yes. Our rules are in our code of conduct. You can find the link below."
+            },
+            {
+              "question": "Can I bring my pet?",
+              "answer": "Animals often do not feel good at a festival. But you decide. You are responsible for your animal. Is your animal a danger to other people or animals? Then it must be on a leash."
+            },
+            {
+              "question": "Can I bring my children?",
+              "answer": "Yes. Children are welcome. But the program is not made for children. You must look after your children all the time."
+            },
+            {
+              "question": "What is the atmosphere like?",
+              "answer": "The festival is fun, social and calm. There is time to dance and celebrate. There are also quiet places. There you can rest and have deep talks. You decide how much you join in."
+            },
+            {
+              "question": "Are queer people welcome?",
+              "answer": "Yes. LGBTQIA+ people are very welcome. LGBTQIA+ means for example: lesbian, gay, bisexual, trans or queer people. All genders and all sexual orientations are welcome. Some people in our team are LGBTQIA+ too. Nobody may be treated badly."
+            }
+          ]
+        },
+        "travel": {
+          "title": "Travel",
+          "questions": [
+            {
+              "question": "How do I get there?",
+              "answer": "Our guests come from all over Europe. Some come from even further away. This is how you get to Halvestorf, Hameln:\n\n✈️ Plane: The nearest airport is Hannover (HAJ).\n🚄 Train: The nearest train station is \"Hameln\". In English, the town is called Hamelin.\n🚙 Car: Some German cities have special zones. You need a green sticker on your car for these zones. On the way to the festival, there is usually no such zone. You do not have a green sticker? Then do not drive into the centre of these cities: cities in the Ruhr area, Frankfurt, Cologne, Düsseldorf, Bonn, Aachen and Limburg."
+            },
+            {
+              "question": "Can I travel by car with other guests?",
+              "answer": "Yes. Before the festival, we help you meet other guests. There is also a shared list. In this list, people can offer a ride. Or they can look for a ride."
+            },
+            {
+              "question": "Can I park at the festival?",
+              "answer": "Yes. You can park directly at the campsite."
+            },
+            {
+              "question": "Can someone pick me up from the train station?",
+              "answer": "Very likely, yes. Our guests like to help. Especially on the day you arrive. Usually someone offers to pick you up."
+            }
+          ]
+        },
+        "practical": {
+          "title": "Practical tips",
+          "questions": [
+            {
+              "question": "What should I bring?",
+              "answer": "Before the festival, we send you a packing list by email."
+            },
+            {
+              "question": "Can I charge my phone?",
+              "answer": "Yes. There is a place to charge phones and power banks. There is no electricity at your tent."
+            },
+            {
+              "question": "Is there Wi-Fi?",
+              "answer": "No. There is no Wi-Fi."
+            },
+            {
+              "question": "Can I pay with cash or card?",
+              "answer": "You can pay with cash or card."
+            },
+            {
+              "question": "Can I borrow camping things?",
+              "answer": "We do not rent out camping things. But we help you meet other guests. You can borrow or share things with them."
+            },
+            {
+              "question": "I do not use WhatsApp. What can I do?",
+              "answer": "No problem. Write us an email: info@cityofseekers.eu. We help you find people. For example, to share a tent or a car."
+            },
+            {
+              "question": "Can I meet other guests before the festival?",
+              "answer": "Yes. After you buy a ticket, you can join our WhatsApp group for guests. You do not use WhatsApp? Then write us an email. We help you."
+            }
+          ]
+        }
+      }
+    },
+    "contact": {
+      "heading": "Contact",
+      "intro": "We are looking forward to seeing you at City of Seekers!",
+      "inGroup": "In our WhatsApp group, you can:",
+      "tentRenting": {
+        "description": "find a tent or share one"
+      },
+      "carSharing": {
+        "description": "find people to travel with"
+      },
+      "questions": {
+        "description": "ask",
+        "askHere": "questions"
+      },
+      "joinButton": "Join the WhatsApp group",
+      "qrText": "Or scan this code with your phone:",
+      "farewell": "See you at City of Seekers!",
+      "questionsFeedback": "Do you have a question?",
+      "joinText": "Write to us in the WhatsApp group, on",
+      "emailText": "or by email:",
+      "awareness": {
+        "heading": "Awareness team",
+        "text": "The awareness team helps you if you do not feel good or safe. You can reach the team day and night. All year, not only at the festival. Do you need help? Are you worried? Or do you want to talk? Write to the team on WhatsApp.",
+        "button": "Write to the awareness team"
+      },
+      "donate": {
+        "heading": "Support us",
+        "text": "Volunteers organise City of Seekers. Nobody gets paid for it. Do you want to help us? You can give us money. We are thankful for every donation.",
+        "button": "How to donate"
+      }
+    }
+  },
+  "de": {
+    "what": {
+      "title": "City of Seekers – einfach erklärt",
+      "intro": "City of Seekers ist ein Festival. Dort treffen sich Menschen, die sich noch nicht kennen. Wir verbringen ein langes Wochenende zusammen in der Natur. Wir campen, reden, tanzen und lernen neue Dinge. Viele Menschen kommen jedes Jahr wieder. Sie sind jetzt Freunde.",
+      "card1": {
+        "title": "4 Tage mit viel Programm",
+        "description": "Gäste bieten Workshops an. Ein Workshop ist ein kleiner Kurs. Zum Beispiel: Atem-Übungen, Basteln, Tanzen oder Sport. Du kannst dich auch einfach ausruhen. Oder mit Leuten reden. Oder bei Ideen von anderen mitmachen. Am Abend sitzen wir am Lagerfeuer. Oder wir tanzen bei der Silent Disco. Bei einer Silent Disco tragen alle Kopfhörer. Du entscheidest, wie viel du mitmachst."
+      },
+      "card2": {
+        "title": "Komm, wie du bist",
+        "description": "Unser Team ist immer für dich da. Alle Menschen sind hier willkommen. Egal, wie alt du bist. Egal, welches Geschlecht du hast. Egal, woher du kommst. Egal, wie dein Gehirn funktioniert. Menschen mit Behinderung sind auch willkommen. Unsere Gäste kommen aus ganz Europa. Darum sprechen wir zusammen Englisch. Brauchst du Hilfe? Dann schreib uns bitte. Wir helfen dir."
+      },
+      "card3": {
+        "title": "Du hast noch nie gecampt? Kein Problem!",
+        "description": "Andere Gäste können dir helfen. Zum Beispiel: Jemand holt dich vom Bahnhof ab. Jemand leiht dir ein Zelt. Jemand hilft dir beim Planen vom Essen. Du musst nicht viel über Camping wissen. Vor dem Festival bringen wir dich mit anderen Gästen in Kontakt. Vielleicht könnt ihr zusammen hinfahren."
+      },
+      "schedule": {
+        "title": "So sieht ein Festival-Tag aus",
+        "description": "Das ist der Plan vom letzten Jahr. Er zeigt, was beim Festival passiert und wann.",
+        "imageAlt": "Festival-Plan vom letzten Jahr"
+      },
+      "cta": {
+        "title": "Willst du dabei sein?",
+        "ticket": "Ticket kaufen",
+        "chat": "Noch unsicher? Komm in den Gruppen-Chat.",
+        "instagram": "Folge uns auf Instagram",
+        "calendar": "Datum im Kalender speichern"
+      }
+    },
+    "faq": {
+      "title": "Fragen und Antworten",
+      "categories": {
+        "general": {
+          "title": "Über das Festival",
+          "questions": [
+            {
+              "question": "Was ist City of Seekers?",
+              "answer": "City of Seekers ist ein Camping-Festival. Es dauert 4 Tage. Wir wollen damit kein Geld verdienen. Das Ziel: Menschen lernen sich kennen.\n\nAm Tag gibt es kostenlose Workshops. Ein Workshop ist ein kleiner Kurs zu einem Thema.\n\nAm Abend gibt es:\n• ein Lagerfeuer\n• eine Silent Disco: Alle tanzen mit Kopfhörern.\n• eine Open Stage: Gäste zeigen, was sie können. Zum Beispiel Musik.\n\nDiese Orte gibt es beim Festival:\n• Großes Party-Zelt: zum Tanzen, für Musik und für große Workshops\n• Kleines Zelt ohne Schuhe: zum Sitzen, Ausruhen und Reden\n• Musik-Zelt: zum Musik-Machen mit anderen\n• Lagerfeuer: zum Zusammensitzen\n• Gemeinschafts-Küche: zum Kochen und Essen mit anderen"
+            },
+            {
+              "question": "Wer darf kommen?",
+              "answer": "Alle sind willkommen.\n\nDas ist verboten:\n• andere Menschen schlecht behandeln\n• andere Menschen belästigen\n• Gewalt und aggressives Verhalten\n• Drogen\n• die Natur, den Campingplatz oder andere Menschen nicht respektieren\n\nWir wollen einen sicheren und freundlichen Ort für alle."
+            },
+            {
+              "question": "Wie lange dauert das Festival?",
+              "answer": "Du kannst am Donnerstag ab 14 Uhr anreisen. Das Festival endet am Sonntag am Nachmittag."
+            },
+            {
+              "question": "Wo ist das Festival?",
+              "answer": "Das Festival ist auf dem Campingplatz Alpha One. Der Campingplatz ist in Halvestorf. Halvestorf gehört zur Stadt Hameln.\n\nDer Campingplatz ist groß. Er ist für Gruppen gemacht. Es gibt:\n• große Wiesen\n• Toiletten\n• warme Duschen\n• Trinkwasser\n• Strom\n\nEin Freibad ist ganz in der Nähe."
+            },
+            {
+              "question": "Muss ich zu einer Gruppe gehören?",
+              "answer": "Nein. Alle können kommen. Komm einfach und schau, ob es dir gefällt. Du bist herzlich willkommen, bei uns zu bleiben."
+            },
+            {
+              "question": "Wie viele Menschen kommen?",
+              "answer": "Früher kamen etwa 100 Menschen. Wir glauben: 2027 kommen auch etwa 100 Menschen. Aber das können wir nicht versprechen."
+            }
+          ]
+        },
+        "tickets": {
+          "title": "Tickets und Anmeldung",
+          "questions": [
+            {
+              "question": "Wie kaufe ich ein Ticket?",
+              "answer": "Oben auf dieser Seite ist ein Knopf. Darauf steht: Tickets. Klick darauf. Dann kommst du zu unserem Online-Shop. Dort kannst du ein Ticket kaufen. Du kannst online auf verschiedene Arten bezahlen."
+            },
+            {
+              "question": "Kann ich ohne Ticket kommen?",
+              "answer": "Ja. Bring deine Camping-Sachen mit und komm vorbei. Du kannst das Ticket beim Festival kaufen. Du bezahlst dort."
+            },
+            {
+              "question": "Gibt es günstigere Tickets, wenn ich früh kaufe?",
+              "answer": "Ja. Es gibt ein paar günstigere Tickets. Sie heißen Early-Bird-Tickets. Wenn sie weg sind, zahlst du den normalen Preis."
+            },
+            {
+              "question": "Bekomme ich mein Geld zurück?",
+              "answer": "Nein. Für ein bezahltes Ticket bekommst du kein Geld zurück. Du kannst nicht kommen? Dann such eine andere Person für dein Ticket. Du findest niemanden? Dann schreib uns. Vielleicht gibt es eine Warteliste. Dann können wir vielleicht helfen."
+            },
+            {
+              "question": "Kann ich mein Ticket einer anderen Person geben?",
+              "answer": "Ja. Sag uns bitte vorher Bescheid. Schick uns den Namen und die Daten von der neuen Person. Wir brauchen das, um das Ticket zu prüfen."
+            },
+            {
+              "question": "Muss ich mich vorher für Workshops anmelden?",
+              "answer": "Nein. Du kannst dich beim Festival anmelden. Willst du selbst einen Workshop geben? Dann schreib uns."
+            },
+            {
+              "question": "Was ist im Ticket enthalten?",
+              "answer": "Im Ticket ist enthalten:\n• Eintritt zum Festival\n• alles auf dem Campingplatz benutzen\n• alle Workshops\n• das Programm am Abend\n\nNicht im Ticket enthalten:\n• Essen\n• Getränke\n• Anreise\n\nDer Ticket-Preis bezahlt nur unsere Kosten. Wir verdienen damit kein Geld."
+            },
+            {
+              "question": "Kann ich Festival-Kleidung kaufen?",
+              "answer": "Ja. Wir verkaufen Kleidung mit dem Festival-Logo. Das nennt man Merchandise. Du kannst die Kleidung zusammen mit deinem Ticket kaufen. Die Kleidung ist aus Bio-Baumwolle. Sie wird fair hergestellt. Sie wird in Deutschland bedruckt.\n\nDu kannst bis etwa 1 Monat vor dem Festival bestellen. Dann lassen wir die Kleidung machen. Das passiert nur 1 Mal. Später kannst du nichts mehr bestellen."
+            }
+          ]
+        },
+        "camping": {
+          "title": "Camping",
+          "questions": [
+            {
+              "question": "Muss ich campen?",
+              "answer": "Nein. Du kannst auch in der Nähe übernachten. Aber wir empfehlen: Zelte beim Festival. Dann lernst du leichter Leute kennen. Du hast kein Zelt oder keine Camping-Sachen? Wir helfen dir. Wir bringen dich mit jemandem in Kontakt, der etwas teilt."
+            },
+            {
+              "question": "Gibt es Strom und Wasser?",
+              "answer": "Es gibt:\n• warme Duschen. Jede Dusche ist ein kleiner Raum für 1 Person.\n• Toiletten mit Spülung\n• eine Gemeinschafts-Küche mit Strom\n• einen Platz zum Handy-Laden\n\nFür dein Zelt oder dein Wohnmobil gibt es keinen Strom.\n\n⚠️ Die Duschen und Toiletten sind etwas höher als der Boden. Das ist ein Problem für Rollstühle und Ähnliches. Sag uns bitte vor dem Festival Bescheid. Dann suchen wir eine Rampe oder eine andere Lösung."
+            },
+            {
+              "question": "Kann ich im Auto oder Van schlafen?",
+              "answer": "Ja. Es gibt viel Platz für Autos und Wohnmobile."
+            },
+            {
+              "question": "Ist der Campingplatz barrierefrei?",
+              "answer": "Nur zum Teil. Manche Orte auf dem Campingplatz sind schwer zu erreichen. Brauchst du Unterstützung? Schreib uns bitte vor dem Festival. Wir versuchen, dir zu helfen."
+            },
+            {
+              "question": "Ist es nachts ruhig?",
+              "answer": "Manche Menschen bleiben gern lange wach. Andere Menschen schlafen gern früh. Alle sollen sich wohlfühlen. Darum gibt es laute Sachen nur an bestimmten Orten. An anderen Orten ist es die ganze Nacht ruhig."
+            },
+            {
+              "question": "Gibt es Schließfächer?",
+              "answer": "Nein. Es gibt keine Schließfächer für deine wertvollen Sachen."
+            }
+          ]
+        },
+        "food": {
+          "title": "Essen und Trinken",
+          "questions": [
+            {
+              "question": "Kann ich mein eigenes Essen mitbringen?",
+              "answer": "Ja. Bitte bring dein eigenes Essen mit. Am Donnerstag am Abend gibt es einen Grill. Dort kannst du dein Essen grillen."
+            },
+            {
+              "question": "Kann ich Getränke kaufen?",
+              "answer": "Ja. Du kannst auf dem Campingplatz kalte Getränke kaufen. Die Preise sind günstig."
+            },
+            {
+              "question": "Kann ich beim Festival Essen kaufen?",
+              "answer": "Am Samstag am Abend essen wir alle zusammen. Du kannst dieses Essen beim Festival bestellen und bezahlen. Andere Mahlzeiten gibt es nicht."
+            },
+            {
+              "question": "Gibt es Trinkwasser?",
+              "answer": "Ja. Es gibt kostenloses Trinkwasser. Du kannst deine Wasser-Flasche auffüllen."
+            }
+          ]
+        },
+        "workshops": {
+          "title": "Workshops und Programm",
+          "questions": [
+            {
+              "question": "Welche Workshops gibt es?",
+              "answer": "Gäste und das Team geben die Workshops. Ein Workshop ist ein kleiner Kurs zu einem Thema.\n\nIn den letzten Jahren gab es zum Beispiel diese Workshops:\n• Löten\n• Gesichter zeichnen\n• Atem-Übungen\n• Salsa und Hip Hop\n• Yoga\n• Poker\n• Handstand\n• Theater ohne Text-Buch\n• Parkour: schnell über Hindernisse laufen und springen\n• sich selbst lieben lernen\n\nJedes Jahr gibt es neue Workshops. Den Plan bekommst du beim Festival."
+            },
+            {
+              "question": "Muss ich schon etwas können?",
+              "answer": "Nein. Alle Workshops sind für Anfänger."
+            },
+            {
+              "question": "In welcher Sprache sind die Workshops?",
+              "answer": "Die Workshops sind auf Englisch."
+            },
+            {
+              "question": "Kann ich bei mehr als 1 Workshop mitmachen?",
+              "answer": "Ja. Du kannst bei so vielen Workshops mitmachen, wie du willst. Ein Tipp: Du musst nicht alles machen. Ausruhen ist auch okay."
+            },
+            {
+              "question": "Kosten die Workshops extra?",
+              "answer": "Nein. Alle Workshops sind im Ticket enthalten."
+            },
+            {
+              "question": "Gibt es einen Plan für das Festival?",
+              "answer": "Ja. Den Plan bekommst du kurz vor dem Festival. Unsere Gäste machen den Plan mit. Darum ist er erst spät fertig.\n\nDas gibt es jedes Jahr:\n• Donnerstag am Abend: Karaoke\n• Freitag: Speed-Friending. Du lernst viele Menschen kurz kennen.\n• Samstag am Abend: Open Stage und gemeinsames Abendessen\n• Sonntag am Vormittag: gemeinsames Frühstück und ein Abschieds-Kreis"
+            },
+            {
+              "question": "Kann ich selbst einen Workshop geben?",
+              "answer": "Ja, gerne! Schreib es in das Anmelde-Formular. Du bist noch unsicher? Du kannst uns jederzeit schreiben. Dann schauen wir, ob es in den Plan passt."
+            },
+            {
+              "question": "Was ist eine Open Stage?",
+              "answer": "Open Stage heißt: offene Bühne. An einem Abend kannst du dort allen etwas zeigen. Zum Beispiel:\n• Musik\n• Gedichte\n• Comedy\n• eine Geschichte\n• eine Show\n\nDu kannst dein Instrument oder andere Sachen mitbringen."
+            }
+          ]
+        },
+        "community": {
+          "title": "Menschen und Stimmung",
+          "questions": [
+            {
+              "question": "Kann ich allein kommen?",
+              "answer": "Ja, klar. Du kannst allein kommen. Wir freuen uns auf dich."
+            },
+            {
+              "question": "Gibt es Regeln?",
+              "answer": "Ja. Unsere Regeln stehen im Code of Conduct. Den Link findest du unten."
+            },
+            {
+              "question": "Darf ich mein Haustier mitbringen?",
+              "answer": "Tiere fühlen sich bei einem Festival oft nicht wohl. Aber du entscheidest. Du bist für dein Tier verantwortlich. Ist dein Tier gefährlich für andere Menschen oder Tiere? Dann muss es an die Leine."
+            },
+            {
+              "question": "Darf ich meine Kinder mitbringen?",
+              "answer": "Ja. Kinder sind willkommen. Aber das Programm ist nicht für Kinder gemacht. Du musst immer auf deine Kinder aufpassen."
+            },
+            {
+              "question": "Wie ist die Stimmung?",
+              "answer": "Das Festival ist lustig, gesellig und ruhig. Es gibt Zeit zum Tanzen und Feiern. Es gibt auch ruhige Orte. Dort kannst du dich ausruhen und gute Gespräche führen. Du entscheidest, wie viel du mitmachst."
+            },
+            {
+              "question": "Sind queere Menschen willkommen?",
+              "answer": "Ja. LGBTQIA+ Menschen sind sehr willkommen. LGBTQIA+ heißt zum Beispiel: lesbische, schwule, bisexuelle, trans oder queere Menschen. Alle Geschlechter und alle sexuellen Orientierungen sind willkommen. Einige Menschen aus unserem Team sind selbst LGBTQIA+. Niemand darf schlecht behandelt werden."
+            }
+          ]
+        },
+        "travel": {
+          "title": "Anreise",
+          "questions": [
+            {
+              "question": "Wie komme ich hin?",
+              "answer": "Unsere Gäste kommen aus ganz Europa. Manche kommen von noch weiter weg. So kommst du nach Halvestorf, Hameln:\n\n✈️ Flugzeug: Der nächste Flughafen ist Hannover (HAJ).\n🚄 Zug: Der nächste Bahnhof ist \"Hameln\".\n🚙 Auto: In manchen Städten gibt es Umweltzonen. Dort brauchst du eine grüne Plakette am Auto. Auf dem Weg zum Festival gibt es meistens keine Umweltzone. Du hast keine grüne Plakette? Dann fahr nicht in die Innenstadt von diesen Städten: Städte im Ruhrgebiet, Frankfurt, Köln, Düsseldorf, Bonn, Aachen und Limburg."
+            },
+            {
+              "question": "Kann ich mit anderen Gästen zusammen fahren?",
+              "answer": "Ja. Vor dem Festival helfen wir dir, andere Gäste kennenzulernen. Es gibt auch eine gemeinsame Liste. Dort können Leute eine Mitfahrt anbieten. Oder sie können eine Mitfahrt suchen."
+            },
+            {
+              "question": "Kann ich beim Festival parken?",
+              "answer": "Ja. Du kannst direkt auf dem Campingplatz parken."
+            },
+            {
+              "question": "Holt mich jemand vom Bahnhof ab?",
+              "answer": "Sehr wahrscheinlich ja. Unsere Gäste helfen gern. Vor allem am Tag der Anreise. Meistens bietet jemand an, dich abzuholen."
+            }
+          ]
+        },
+        "practical": {
+          "title": "Praktische Tipps",
+          "questions": [
+            {
+              "question": "Was soll ich einpacken?",
+              "answer": "Vor dem Festival schicken wir dir eine Pack-Liste per E-Mail."
+            },
+            {
+              "question": "Kann ich mein Handy laden?",
+              "answer": "Ja. Es gibt einen Platz zum Laden von Handys und Powerbanks. An deinem Zelt gibt es keinen Strom."
+            },
+            {
+              "question": "Gibt es WLAN?",
+              "answer": "Nein. Es gibt kein WLAN."
+            },
+            {
+              "question": "Kann ich bar oder mit Karte zahlen?",
+              "answer": "Du kannst bar oder mit Karte zahlen."
+            },
+            {
+              "question": "Kann ich mir Camping-Sachen leihen?",
+              "answer": "Wir verleihen keine Camping-Sachen. Aber wir helfen dir, andere Gäste kennenzulernen. Mit ihnen kannst du Sachen leihen oder teilen."
+            },
+            {
+              "question": "Ich nutze kein WhatsApp. Was kann ich tun?",
+              "answer": "Kein Problem. Schreib uns eine E-Mail: info@cityofseekers.eu. Wir helfen dir, Leute zu finden. Zum Beispiel, um ein Zelt oder ein Auto zu teilen."
+            },
+            {
+              "question": "Kann ich andere Gäste vor dem Festival kennenlernen?",
+              "answer": "Ja. Nach dem Ticket-Kauf kannst du in unsere WhatsApp-Gruppe für Gäste kommen. Du nutzt kein WhatsApp? Dann schreib uns eine E-Mail. Wir helfen dir."
+            }
+          ]
+        }
+      }
+    },
+    "contact": {
+      "heading": "Kontakt",
+      "intro": "Wir freuen uns auf dich bei City of Seekers!",
+      "inGroup": "In unserer WhatsApp-Gruppe kannst du:",
+      "tentRenting": {
+        "description": "ein Zelt finden oder teilen"
+      },
+      "carSharing": {
+        "description": "Leute zum Mitfahren finden"
+      },
+      "questions": {
+        "description": "deine",
+        "askHere": "Fragen stellen"
+      },
+      "joinButton": "WhatsApp-Gruppe beitreten",
+      "qrText": "Oder scanne diesen Code mit deinem Handy:",
+      "farewell": "Bis bald bei City of Seekers!",
+      "questionsFeedback": "Hast du eine Frage?",
+      "joinText": "Schreib uns in der WhatsApp-Gruppe, auf",
+      "emailText": "oder per E-Mail:",
+      "awareness": {
+        "heading": "Awareness-Team",
+        "text": "Das Awareness-Team hilft dir, wenn du dich nicht gut oder nicht sicher fühlst. Du kannst das Team Tag und Nacht erreichen. Das ganze Jahr, nicht nur beim Festival. Brauchst du Hilfe? Machst du dir Sorgen? Oder willst du reden? Schreib dem Team auf WhatsApp.",
+        "button": "Dem Awareness-Team schreiben"
+      },
+      "donate": {
+        "heading": "Unterstütze uns",
+        "text": "Freiwillige organisieren City of Seekers. Niemand bekommt Geld dafür. Willst du uns helfen? Du kannst uns Geld spenden. Wir freuen uns über jede Spende.",
+        "button": "So kannst du spenden"
+      }
+    }
+  }
+}
