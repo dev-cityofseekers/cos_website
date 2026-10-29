@@ -97,7 +97,7 @@ Each major section is wrapped in an ErrorBoundary for isolation.
 ### Internationalization
 - All user-facing text uses `useTranslation()` hook
 - Translation keys in `translations.json` under `en` and `de`
-- Language auto-detected from browser, stored in localStorage
+- Language choice (incl. easy mode, e.g. `de-x-easy`) is stored in localStorage (`i18nextLng`) and restored on reload; first visit defaults to English
 - **Easy language mode:** language variants `en-x-easy` / `de-x-easy` (BCP 47 private use).
   Simplified texts live in `components/text/translations.easy.json` and only contain the
   overridden keys; missing keys fall back to `en` / `de` (see `fallbackLng` in `src/i18n.ts`).

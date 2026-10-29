@@ -10,6 +10,8 @@ import easyTranslations from "./components/text/translations.easy.json";
 // It only holds the simplified keys; everything else falls back to the base language.
 const EASY_SUFFIX = "-x-easy";
 
+export const LANGUAGE_STORAGE_KEY = "i18nextLng";
+
 export type BaseLanguage = "en" | "de";
 
 export const isEasyLanguage = (lng: string | undefined): boolean =>
@@ -31,7 +33,7 @@ i18n
       [`en${EASY_SUFFIX}`]: { translation: easyTranslations.en },
       [`de${EASY_SUFFIX}`]: { translation: easyTranslations.de },
     },
-    lng: "en",
+    // No fixed `lng` here: it would override the detector and forget the saved choice
     fallbackLng: {
       [`en${EASY_SUFFIX}`]: ["en"],
       [`de${EASY_SUFFIX}`]: ["de", "en"],
@@ -41,9 +43,12 @@ i18n
     interpolation: {
       escapeValue: false,
     },
+    // Remember language + easy mode (e.g. "de-x-easy") in localStorage.
+    // First visit stays English (fallbackLng), as before.
     detection: {
-      order: ["localStorage", "cookie", "navigator"],
-      caches: ["localStorage", "cookie"],
+      order: ["localStorage"],
+      caches: ["localStorage"],
+      lookupLocalStorage: LANGUAGE_STORAGE_KEY,
     },
   });
 
