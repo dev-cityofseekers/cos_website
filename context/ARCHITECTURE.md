@@ -101,7 +101,8 @@ Each major section is wrapped in an ErrorBoundary for isolation.
 - **Easy language mode:** language variants `en-x-easy` / `de-x-easy` (BCP 47 private use).
   Simplified texts live in `components/text/translations.easy.json` and only contain the
   overridden keys; missing keys fall back to `en` / `de` (see `fallbackLng` in `src/i18n.ts`).
-  Toggled via the "Easy/Einfach" button in `LanguageSwitcher`. Helpers `getBaseLanguage`,
+  Toggled via the "Easy/Einfach" button in `LanguageSwitcher` (with the official BMAS
+  "Leichte Sprache" icon, `components/EasyLanguageIcon.tsx`, colored via `currentColor`). Helpers `getBaseLanguage`,
   `isEasyLanguage`, `toLanguage` in `src/i18n.ts`; use them instead of comparing `i18n.language` directly.
   Note: FAQ categories are read with `returnObjects`, so an easy FAQ category must be complete.
 

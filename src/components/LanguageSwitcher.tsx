@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { BaseLanguage, getBaseLanguage, isEasyLanguage, toLanguage } from "../i18n";
+import EasyLanguageIcon from "./EasyLanguageIcon";
 
 const LanguageSwitcher = () => {
   const { t, i18n } = useTranslation();
@@ -38,10 +39,11 @@ const LanguageSwitcher = () => {
         aria-pressed={easy}
         aria-label={t("general.easyLanguage.label")}
         title={t("general.easyLanguage.label")}
-        className={`ml-2 px-2 rounded-full border text-sm transition-colors hover:opacity-80 ${
+        className={`ml-2 px-2 py-0.5 inline-flex items-center gap-1.5 rounded-full border text-sm transition-colors hover:opacity-80 ${
           easy ? "bg-white text-cos-off-black border-white" : "text-white/75 border-white/40"
         }`}
       >
+        <EasyLanguageIcon className="h-4 w-auto" />
         {t("general.easyLanguage.short")}
       </button>
     </div>
