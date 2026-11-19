@@ -34,6 +34,11 @@ export const teamMembers: TeamMember[] = [
     image: "/images/team/ela.jpg",
   },
   {
+    key: "emily",
+    name: "Emily",
+    image: "/images/team/emily.webp",
+  },
+  {
     key: "freddyi",
     name: "Freddyi",
     image: "/images/team/freddyi.jpg",
