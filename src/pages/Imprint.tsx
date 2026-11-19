@@ -78,14 +78,14 @@ function Imprint() {
                   {section === "representative" ? (
                     /* NEU: Vertretung durch den Vorstand, mit Funktion */
                     <div className="text-cos-off-black">
-                      <p className="mb-1">{t("imprint.representative.intro")}</p>
-                      <ul className="space-y-1">
+                      <p className="mb-3">{t("imprint.representative.intro")}</p>
+                      <ul className="space-y-2">
                         {Array.isArray(representatives) &&
                           representatives.map((person) => (
                             <li key={person.name}>
-                              {person.name}
+                              <span className="block">{person.name}</span>
                               {person.role && (
-                                <span className="text-sm opacity-75"> ({person.role})</span>
+                                <span className="block text-sm text-gray-500">{person.role}</span>
                               )}
                             </li>
                           ))}
