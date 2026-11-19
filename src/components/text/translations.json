@@ -379,43 +379,50 @@
       },
       "thanks": "Every contribution, big or small, makes a difference. Thank you! ❤️"
     },
-    "imprint": {
-      "title": "Legal Notice",
-      "home": "Back to Home",
-      "companyInfo": {
-        "title": "Company Information",
-        "name": "City Of Seekers e.V.",
-        "address": "Address: Erlenweg 2, 27721 Ritterhude",
-        "phone": "Phone",
-        "email": "Email",
-        "vat": "VAT ID: DE452621992"
-      },
-      "representative": {
-        "title": "Representative",
-        "name": "Adalbert Köcher"
-      },
-      "content": {
-        "title": "Responsible for Content",
-        "name": "Luke Ziegler"
-      },
-      "webDev": {
-        "title": "Web Design and Development",
-        "name": "Luke Ziegler"
-      },
-      "disclaimer": {
-        "title": "Disclaimer",
-        "text": "The information provided on this website has been carefully checked and is regularly updated. However, no guarantee can be given that all information is complete, correct, and up-to-date at all times. This applies in particular to all connections (\"links\") to other websites that are referred to directly or indirectly. All information can be added, removed, or changed without prior notice."
-      },
-      "privacy": {
-        "title": "Privacy Policy",
-        "text": "For information on how user data is collected and processed, please refer to our",
-        "link": "privacy policy"
-      },
-      "copyright": {
-        "title": "Copyright",
-        "text": "All rights reserved. Text, images, graphics, sound, animations, and videos on this website are protected by copyright and other protective laws. The content of this website may not be copied, distributed, altered, or made available to third parties for commercial purposes."
-      }
-    },
+   "imprint": {
+  "title": "Legal Notice",
+  "home": "Back to Home",
+  "companyInfo": {
+    "title": "Association Information: Information pursuant to § 5 DDG",
+    "name": "City of Seekers e.V.",
+    "address": "Address: Erlenweg 2, 27721 Ritterhude",
+    "phone": "Phone",
+    "email": "Email",
+    "registerCourt": "Register court: Amtsgericht Walsrode",
+    "registerNumber": "Register number: VR 202144",
+    "vat": "VAT ID: DE452621992"
+  },
+  "representative": {
+    "title": "Representative",
+    "intro": "Represented by the board:",
+    "members": [
+      { "name": "Adalbert Köcher", "role": "Chairman" },
+      { "name": "Dilara Yirlar", "role": "Vice Chair" },
+      { "name": "Frederike Claus", "role": "Treasurer" }
+    ]
+  },
+  "content": {
+    "title": "Responsible for Content",
+    "name": "Luke Ziegler"
+  },
+  "webDev": {
+    "title": "Web Design and Development",
+    "name": "Luke Ziegler"
+  },
+  "disclaimer": {
+    "title": "Disclaimer",
+    "text": "The information provided on this website has been carefully checked and is regularly updated. However, no guarantee can be given that all information is complete, correct, and up-to-date at all times. This applies in particular to all connections (\"links\") to other websites that are referred to directly or indirectly. All information can be added, removed, or changed without prior notice."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "text": "For information on how user data is collected and processed, please refer to our",
+    "link": "privacy policy"
+  },
+  "copyright": {
+    "title": "Copyright",
+    "text": "All rights reserved. Text, images, graphics, sound, animations, and videos on this website are protected by copyright and other protective laws. The content of this website may not be copied, distributed, altered, or made available to third parties for commercial purposes."
+  }
+},
     "datapolicy": {
       "title": "Data Policy",
       "intro": {
@@ -1049,43 +1056,50 @@
       },
       "thanks": "Jeder Beitrag, ob groß oder klein, macht einen Unterschied. Danke! ❤️"
     },
-    "imprint": {
-      "title": "Impressum",
-      "home": "Zurück zur Startseite",
-      "companyInfo": {
-        "title": "Unternehmensinfo",
-        "name": "City Of Seekers e.V.",
-        "address": "Adresse: Erlenweg 2, 27721 Ritterhude",
-        "phone": "Telefon",
-        "email": "E-Mail",
-        "vat": "USt-ID: DE452621992"
-      },
-      "representative": {
-        "title": "Vertretung",
-        "name": "Adalbert Köcher"
-      },
-      "content": {
-        "title": "Inhaltlich Verantwortlicher",
-        "name": "Luke Ziegler"
-      },
-      "webDev": {
-        "title": "Webdesign und Entwicklung",
-        "name": "Luke Ziegler"
-      },
-      "disclaimer": {
-        "title": "Haftungsausschluss",
-        "text": "Die Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Es kann jedoch keine Gewähr dafür übernommen werden, dass alle Angaben zu jeder Zeit vollständig, richtig und aktuell sind. Dies gilt insbesondere für alle Verbindungen (\"Links\") zu anderen Websites, auf die direkt oder indirekt verwiesen wird. Alle Angaben können ohne vorherige Ankündigung ergänzt, entfernt oder geändert werden."
-      },
-      "privacy": {
-        "title": "Datenschutz",
-        "text": "Informationen zur Erhebung und Verarbeitung von Nutzerdaten finden Sie in unserer",
-        "link": "Datenschutzerklärung"
-      },
-      "copyright": {
-        "title": "Urheberrecht",
-        "text": "Alle Rechte vorbehalten. Text, Bilder, Grafiken, Ton, Animationen und Videos auf dieser Website sind urheberrechtlich und durch andere Schutzgesetze geschützt. Der Inhalt dieser Website darf nicht für kommerzielle Zwecke kopiert, verbreitet, verändert oder Dritten zugänglich gemacht werden."
-      }
-    },
+   "imprint": {
+  "title": "Impressum",
+  "home": "Zurück zur Startseite",
+  "companyInfo": {
+    "title": "Vereinsinfo: Angaben gemäß § 5 DDG",
+    "name": "City of Seekers e.V.",
+    "address": "Adresse: Erlenweg 2, 27721 Ritterhude",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "registerCourt": "Registergericht: Amtsgericht Walsrode",
+    "registerNumber": "Registernummer: VR 202144",
+    "vat": "USt-ID: DE452621992"
+  },
+  "representative": {
+    "title": "Vertretung",
+    "intro": "Vertreten durch den Vorstand:",
+    "members": [
+      { "name": "Adalbert Köcher", "role": "1. Vorsitzender" },
+      { "name": "Dilara Yirlar", "role": "2. Vorsitzende" },
+      { "name": "Frederike Claus", "role": "Schatzmeisterin" }
+    ]
+  },
+  "content": {
+    "title": "Inhaltlich Verantwortlicher",
+    "name": "Luke Ziegler"
+  },
+  "webDev": {
+    "title": "Webdesign und Entwicklung",
+    "name": "Luke Ziegler"
+  },
+  "disclaimer": {
+    "title": "Haftungsausschluss",
+    "text": "Die Informationen auf dieser Website wurden sorgfältig geprüft und werden regelmäßig aktualisiert. Es kann jedoch keine Gewähr dafür übernommen werden, dass alle Angaben zu jeder Zeit vollständig, richtig und aktuell sind. Dies gilt insbesondere für alle Verbindungen (\"Links\") zu anderen Websites, auf die direkt oder indirekt verwiesen wird. Alle Angaben können ohne vorherige Ankündigung ergänzt, entfernt oder geändert werden."
+  },
+  "privacy": {
+    "title": "Datenschutz",
+    "text": "Informationen zur Erhebung und Verarbeitung von Nutzerdaten finden Sie in unserer",
+    "link": "Datenschutzerklärung"
+  },
+  "copyright": {
+    "title": "Urheberrecht",
+    "text": "Alle Rechte vorbehalten. Text, Bilder, Grafiken, Ton, Animationen und Videos auf dieser Website sind urheberrechtlich und durch andere Schutzgesetze geschützt. Der Inhalt dieser Website darf nicht für kommerzielle Zwecke kopiert, verbreitet, verändert oder Dritten zugänglich gemacht werden."
+  }
+},
     "datapolicy": {
       "title": "Datenschutzerklärung",
       "intro": {

@@ -10,6 +10,9 @@ function Imprint() {
     window.scrollTo(0, 0);
   }, []);
 
+  // Vertretungsberechtigte Vorstandsmitglieder (aus der Übersetzungsdatei)
+  const representatives = t("imprint.representative.members", { returnObjects: true });
+
   return (
     <div className="min-h-screen bg-cos-main-orange">
       <div className="w-full flex justify-center">
@@ -54,6 +57,9 @@ function Imprint() {
                     info@cityofseekers.eu
                   </a>
                 </p>
+                {/* NEU: Vereinsregister (Pflichtangabe nach § 5 Abs. 1 Nr. 4 DDG) */}
+                <p>{t("imprint.companyInfo.registerCourt")}</p>
+                <p>{t("imprint.companyInfo.registerNumber")}</p>
                 <p>{t("imprint.companyInfo.vat")}</p>
               </div>
             </div>
@@ -68,20 +74,39 @@ function Imprint() {
                   <h2 className="text-xl font-semibold mb-2 text-cos-orange font-omnes">
                     {t(`imprint.${section}.title`)}
                   </h2>
-                  <p className="text-cos-off-black">
-                    {t(`imprint.${section}.name`)}
-                    {section === "webDev" && (
-                      <>
-                        :{" "}
-                        <a
-                          href="mailto:dev@cityofseekers.eu"
-                          className="text-cos-blue hover:underline"
-                        >
-                          dev@cityofseekers.eu
-                        </a>
-                      </>
-                    )}
-                  </p>
+
+                  {section === "representative" ? (
+                    /* NEU: Vertretung durch den Vorstand, mit Funktion */
+                    <div className="text-cos-off-black">
+                      <p className="mb-3">{t("imprint.representative.intro")}</p>
+                      <ul className="space-y-2">
+                        {Array.isArray(representatives) &&
+                          representatives.map((person) => (
+                            <li key={person.name}>
+                              <span className="block">{person.name}</span>
+                              {person.role && (
+                                <span className="block text-sm text-gray-500">{person.role}</span>
+                              )}
+                            </li>
+                          ))}
+                      </ul>
+                    </div>
+                  ) : (
+                    <p className="text-cos-off-black">
+                      {t(`imprint.${section}.name`)}
+                      {section === "webDev" && (
+                        <>
+                          :{" "}
+                          <a
+                            href="mailto:dev@cityofseekers.eu"
+                            className="text-cos-blue hover:underline"
+                          >
+                            dev@cityofseekers.eu
+                          </a>
+                        </>
+                      )}
+                    </p>
+                  )}
                 </div>
               ))}
             </div>
