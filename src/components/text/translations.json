@@ -385,7 +385,7 @@
       "companyInfo": {
         "title": "Company Information",
         "name": "City Of Seekers e.V.",
-        "address": "Address: Luxemburger str. 202, 50937 Köln",
+        "address": "Address: Erlenweg 2, 27721 Ritterhude",
         "phone": "Phone",
         "email": "Email",
         "vat": "VAT ID: DE452621992"
@@ -541,6 +541,10 @@
         "ela": {
           "role": "Workshops & Program",
           "description": "Loves to be outside, especially in the mountains, hiking in summer and skiing in winter. Favorite quote: 'If I could choose where I was born I would choose a place that knows no fear But since this change is mine to live it would be nowhere else but here' - Bukahara"
+        },
+        "emily": {
+          "role": "Project Management & Coordination",
+          "description": "Hi, im Emily and like being creative, cooking, nature, travel, music and more. Making the world a bit more whimsical is a goal of mine so why not do it together? Can't wait to see you at COS '27!"
         },
         "freddyi": {
           "role": "Finance & Legal",
@@ -1051,7 +1055,7 @@
       "companyInfo": {
         "title": "Unternehmensinfo",
         "name": "City Of Seekers e.V.",
-        "address": "Adresse: Luxemburger str. 202, 50937 Köln",
+        "address": "Adresse: Erlenweg 2, 27721 Ritterhude",
         "phone": "Telefon",
         "email": "E-Mail",
         "vat": "USt-ID: DE452621992"
@@ -1186,7 +1190,7 @@
       "members": {
         "adalbert": {
           "role": "Technik & Infrastruktur",
-          "description": "Technik-Typ und verrückter Kerl, den du wahrscheinlich herumrennen und Probleme lösen siehst. Lass uns connecten, tiefe Gespräche führen, feiern und unvergessliche Erinnerungen schaffen :)"
+          "description": "Tech-Nerd und ein bisschen verrückt. Du findest mich wahrscheinlich irgendwo, wie ich rumrenne und Probleme löse. Lass uns connecten, tiefgründige Gespräche führen, feiern und zusammen unvergessliche Erinnerungen schaffen :)"
         },
         "anika": {
           "role": "Marketing & Social Media",
@@ -1207,6 +1211,10 @@
         "ela": {
           "role": "Workshops & Programm",
           "description": "Ist am liebsten draußen, vor allem in den Bergen – im Sommer zum Wandern, im Winter zum Skifahren. Lieblingszitat: 'If I could choose where I was born I would choose a place that knows no fear But since this change is mine to live it would be nowhere else but here' - Bukahara"
+        },
+        "emily": {
+          "role": "Projektmanagement & Koordination",
+          "description": "Hi, ich bin Emily! Ich liebe alles Kreative, Kochen, Natur, Reisen, Musik und noch vieles mehr. Ich will die Welt ein kleines bisschen verspielter und bunter machen, also warum nicht zusammen? Ich freu mich schon riesig, euch bei COS ‘27 zu sehen!"
         },
         "freddyi": {
           "role": "Finanzen & Recht",
