@@ -379,11 +379,11 @@
       },
       "thanks": "Every contribution, big or small, makes a difference. Thank you! ❤️"
     },
-    "imprint": {
+   "imprint": {
   "title": "Legal Notice",
   "home": "Back to Home",
   "companyInfo": {
-    "title": "Company Information: Information pursuant to § 5 DDG",
+    "title": "Association Information: Information pursuant to § 5 DDG",
     "name": "City of Seekers e.V.",
     "address": "Address: Erlenweg 2, 27721 Ritterhude",
     "phone": "Phone",
@@ -394,7 +394,7 @@
   },
   "representative": {
     "title": "Representative",
-    "intro": "Represented by the board (each member individually authorised):",
+    "intro": "Represented by the board:",
     "members": [
       { "name": "Adalbert Köcher", "role": "Chairman" },
       { "name": "Dilara Yirlar", "role": "Vice Chair" },
@@ -1060,7 +1060,7 @@
   "title": "Impressum",
   "home": "Zurück zur Startseite",
   "companyInfo": {
-    "title": "Unternehmensinfo: Angaben gemäß § 5 DDG",
+    "title": "Vereinsinfo: Angaben gemäß § 5 DDG",
     "name": "City of Seekers e.V.",
     "address": "Adresse: Erlenweg 2, 27721 Ritterhude",
     "phone": "Telefon",
@@ -1071,7 +1071,7 @@
   },
   "representative": {
     "title": "Vertretung",
-    "intro": "Vertreten durch den Vorstand (jeweils einzelvertretungsberechtigt):",
+    "intro": "Vertreten durch den Vorstand:",
     "members": [
       { "name": "Adalbert Köcher", "role": "1. Vorsitzender" },
       { "name": "Dilara Yirlar", "role": "2. Vorsitzende" },
