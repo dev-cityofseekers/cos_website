@@ -50,7 +50,7 @@ export const DONATION = {
 // Organization Information
 export const ORGANIZATION = {
   NAME: "City Of Seekers e.V.",
-  REGISTRATION_ADDRESS: "Luxemburger Straße 202, 50937 Köln",
+  REGISTRATION_ADDRESS: "Erlenweg 2, 27721 Ritterhude",
   COPYRIGHT_YEAR: 2026,
 } as const;
 
